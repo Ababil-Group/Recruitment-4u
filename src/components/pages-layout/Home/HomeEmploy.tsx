@@ -63,11 +63,12 @@ const HomeEmploy = () => {
               {t("partner")}
             </h2>
             <p className="text-sm sm:text-base md:text-lg text-black leading-relaxed">
-              We specialize in recruiting and selecting foreign workers from
+              {t("partnerdesc")}
+              {/* We specialize in recruiting and selecting foreign workers from
               various regions, including Asia, the Gulf, North and South
               America, and Africa. Operating from our central offices in Dubai,
               we place workers in countries such as the UK, Croatia, Malta,
-              Bulgaria, Poland, Romania, and other European nations.
+              Bulgaria, Poland, Romania, and other European nations. */}
             </p>
           </motion.div>
         </div>
