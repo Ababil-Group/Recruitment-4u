@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Domov",
+    "forCompanies": "Pre spoločnosti",
+    "solutions": "Riešenia",
+    "whyUs": "Prečo my",
+    "solutionsDropdown": {
+      "immigrationLaws": "Navigácia imigračnými zákonmi",
+      "seasonalWorkers": "Sezónni pracovníci",
+      "constructionWorkers": "Stavební pracovníci",
+      "medicalWorkers": "Zdravotnícki pracovníci"
+    },
+    "behindthebrand": "Za značkou",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Spájame správnych pracovníkov so správnymi zamestnávateľmi.",
+    "subtitle": "Nájdite ideálne spojenie pre vaše podnikanie alebo kariérne ciele s našou platformou.",
+    "buttonText1": "Hľadám kvalifikovaných pracovníkov",
+    "buttonText2": "Hľadám zamestnanie"
+  },
+  "cardhome1": {
+    "title": "Nábor",
+    "description": "Poskytujeme kompletné služby v oblasti náboru a ľudských zdrojov prispôsobené vašim potrebám."
+  },
+  "cardhome2": {
+    "title": "HR poradenstvo",
+    "description": "Pomáhame firmám budovať silnú značku, ktorá vynikne a zlepší ukazovatele náboru."
+  },
+  "cardhome3": {
+    "title": "Outstaffing",
+    "description": "Zabezpečujeme outstaffing pre rýchlo rastúce spoločnosti, čím pomáhame rozširovať tímy a zvyšovať produktivitu."
+  },
+  "homepartner": {
+    "partner": "Váš partner v nábore talentov",
+    "partnerdesc": "Špecializujeme sa na nábor a výber zahraničných pracovníkov z rôznych regiónov vrátane {asia}, {gulf}, {americas} a {africa}. Z našich centrálnych kancelárií v {dubai} zamestnávame pracovníkov v krajinách ako {uk}, {croatia}, {malta}, {bulgaria}, {poland}, {romania} a iných {european} štátoch."
+  }
+}

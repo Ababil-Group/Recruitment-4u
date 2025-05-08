@@ -1,0 +1,210 @@
+# name: Recruitment4U Deployment
+
+# on:
+#   push:
+#     branches: [main]
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v4
+
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: "18"
+#           cache: "npm"
+
+#       - name: Install dependencies
+#         run: |
+#           npm cache clean --force
+#           npm ci --legacy-peer-deps
+#           if [ $? -ne 0 ]; then
+#             echo "Dependency installation failed"
+#             exit 1
+#           fi
+
+#       - name: Build project
+#         run: |
+#           npm run build
+#           if [ $? -ne 0 ]; then
+#             echo "Build failed"
+#             exit 1
+#           fi
+
+#       - name: Upload artifacts
+#         uses: actions/upload-artifact@v4
+#         with:
+#           name: production-files
+#           path: |
+#             .next
+#             public
+#             package.json
+#             package-lock.json
+#             next.config.js
+#             node_modules
+
+#   deploy:
+#     needs: build
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/download-artifact@v4
+#         with:
+#           name: production-files
+#           path: ./deploy
+
+#       - name: Deploy to server
+#         uses: appleboy/ssh-action@v1.0.0
+#         with:
+#           host: ${{ secrets.SSH_HOST }}
+#           username: ${{ secrets.SSH_USER }}
+#           key: ${{ secrets.SSH_PRIVATE_KEY }}
+#           script: |
+#             set -e  # Exit immediately if any command fails
+#             echo "Starting deployment..."
+#             cd /var/www/recruitment4u
+
+#             # Cleanup
+#             echo "Cleaning previous deployment..."
+#             rm -rf .next || true
+#             rm -rf public || true
+
+#             # Copy new files
+#             echo "Copying new files..."
+#             cp -r /home/${{ secrets.SSH_USER }}/deploy/* .
+#             cp -r /home/${{ secrets.SSH_USER }}/deploy/.[^.]* .
+
+#             # Install and start
+#             echo "Installing production dependencies..."
+#             npm ci --production
+
+#             echo "Starting application..."
+#             export NODE_ENV=production
+#             pm2 restart recruitment4u --update-env || pm2 start npm --name "recruitment4u" -- start
+
+#             echo "Deployment successful!"
+
+name: Recruitment4U Deployment
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  APP_DIR: "/var/www/recruitment4u"
+  NODE_ENV: "production"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🏗️ Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: 📦 Install Dependencies
+        run: |
+          npm cache clean --force
+          npm ci --legacy-peer-deps
+          if [ $? -ne 0 ]; then
+            echo "::error::Dependency installation failed!"
+            exit 1
+          fi
+
+      - name: 🔨 Build Next.js App
+        run: npm run build
+        env:
+          NEXT_PUBLIC_VERSION: ${{ github.sha }}
+
+      - name: 🧪 Run Tests (Optional)
+        run: npm test
+
+      - name: 📤 Upload Build Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: next-build
+          path: |
+            .next
+            package.json
+            package-lock.json
+            public
+            next.config.js
+            # Note: .env should be handled via secrets
+          retention-days: 1
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Download Build Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: next-build
+          path: ./deploy
+
+      - name: 🔑 Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H "$SSH_HOST" >> ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+
+      - name: 🚀 Deploy to VPS
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            set -e
+            echo "📂 Preparing deployment..."
+
+            # Create directory if not exists
+            sudo mkdir -p $APP_DIR
+            sudo chown -R $USER:$USER $APP_DIR
+
+            # Backup current deployment
+            echo "📦 Creating backup..."
+            tar -czf /tmp/recruitment4u-backup-$(date +%Y%m%d%H%M%S).tar.gz -C $APP_DIR .
+
+            # Clean deployment directory
+            echo "🧹 Cleaning old files..."
+            rm -rf $APP_DIR/*
+
+            # Copy new files
+            echo "🚚 Moving new files..."
+            cp -r /home/${{ secrets.SSH_USER }}/deploy/* $APP_DIR/
+
+            # Install dependencies
+            echo "📦 Installing dependencies..."
+            cd $APP_DIR
+            npm ci --production
+
+            # Environment setup
+            echo "🔧 Setting up environment..."
+            echo "NODE_ENV=production" > .env
+            echo "VERSION=${{ github.sha }}" >> .env
+
+            # PM2 Process management
+            echo "🔄 Managing application process..."
+            if pm2 describe recruitment4u >/dev/null 2>&1; then
+              pm2 reload recruitment4u --update-env
+            else
+              pm2 start npm --name "recruitment4u" -- start
+            fi
+            pm2 save
+            pm2 startup
+
+            echo "✅ Deployment completed successfully!"
+            echo "Application URL: http://${{ secrets.SSH_HOST }}:3000"

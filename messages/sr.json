@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Početna",
+    "forCompanies": "Za Kompanije",
+    "solutions": "Rešenja",
+    "whyUs": "Zašto Mi",
+    "solutionsDropdown": {
+      "immigrationLaws": "Navigacija kroz imigracione zakone",
+      "seasonalWorkers": "Sezonski radnici",
+      "constructionWorkers": "Građevinski radnici",
+      "medicalWorkers": "Medicinski radnici"
+    },
+    "behindthebrand": "Iza Brenda",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Povezujemo prave radnike sa pravim poslodavcima.",
+    "subtitle": "Pronađite idealan spoj za svoje poslovne potrebe ili ciljeve u karijeri uz našu sveobuhvatnu platformu.",
+    "buttonText1": "Tražim kvalifikovane radnike",
+    "buttonText2": "Tražim zaposlenje"
+  },
+  "cardhome1": {
+    "title": "Zapošljavanje",
+    "description": "Pružamo kompletne usluge zapošljavanja i HR konsaltinga prilagođene poslovnim potrebama."
+  },
+  "cardhome2": {
+    "title": "HR-konsalting",
+    "description": "Pomažemo kompanijama da kreiraju prepoznatljiv brend koji se izdvaja i poboljšava metrike zapošljavanja."
+  },
+  "cardhome3": {
+    "title": "Outstaffing",
+    "description": "Pružamo outstaffing za brzorastuće kompanije kako bi proširile timove i povećale produktivnost."
+  },
+  "homepartner": {
+    "partner": "Vaš partner u regrutaciji talenata",
+    "partnerdesc": "Specijalizovani smo za zapošljavanje stranih radnika iz različitih regiona, uključujući {asia}, {gulf}, {americas} i {africa}. Iz centralne kancelarije u {dubai}, zapošljavamo radnike u {uk}, {croatia}, {malta}, {bulgaria}, {poland}, {romania} i drugim {european} državama."
+  }
+}
