@@ -16,6 +16,7 @@ import Napal from "../../../../public/images/Nepal.webp";
 import Phillipine from "../../../../public/images/Phillipine.webp";
 import Qater from "../../../../public/images/Uae & Qatar.webp";
 import India from "../../../../public/images/India.webp";
+import { useTranslations } from "next-intl";
 
 const MotionDiv = dynamic(
   () => import("framer-motion").then((mod) => mod.motion.div),
@@ -23,66 +24,6 @@ const MotionDiv = dynamic(
     ssr: false,
   }
 );
-
-const centers = [
-  {
-    country: "India",
-    image: India,
-    description:
-      "India is a country with a rich culture and history known among other things as a global leader in metal production. Indian workers are renowned for their excellence in this field as well as in information technology and engineering.",
-  },
-  {
-    country: "Philippines",
-    image: Phillipine,
-    description:
-      "The Philippines is an island nation in Southeast Asia known for its beautiful beaches and exotic tourism. Filipino workers are known for their dedication and professionalism in the tourism industry as well as in healthcare.",
-  },
-  {
-    country: "Nepal",
-    image: Napal,
-    description:
-      "Nepal is known for its high mountains and beautiful landscapes. Since Nepali workers are accustomed to demanding living conditions in high altitudes, they are ideal for jobs in agriculture, manufacturing or warehousing.",
-  },
-  {
-    country: "UAE and Qatar",
-    image: Qater,
-    description:
-      "The UAE and Qatar are developed countries where over 90% of the working population consists of foreign workers, most often from Nepal, India, Bangladesh or the Philippines. They serve as a good filter for qualified labor that gains experience, knowledge, and skills from cutting-edge technologies and practices.",
-  },
-];
-
-// Memoize CarouselSlide component
-const CarouselSlide = memo(({ center }: { center: (typeof centers)[0] }) => (
-  <CarouselItem className="pl-2 md:pl-4 basis-full md:basis-1/2 lg:basis-1/3 cursor-grab active:cursor-grabbing">
-    <Card className="border-none h-full transition-all duration-300 hover:bg-primary group">
-      <CardContent className="p-6">
-        <NoSelector>
-          <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
-            <Image
-              src={center.image}
-              alt={center.country}
-              fill
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              className="object-cover transition-all duration-300 grayscale group-hover:grayscale-0 group-hover:scale-110 pointer-events-none"
-            />
-          </div>
-        </NoSelector>
-        <NoSelector className="mt-6 space-y-3">
-          <h3 className="text-lg sm:text-xl font-semibold text-black transition-colors duration-300 group-hover:text-white">
-            {center.country}
-          </h3>
-          <p className="text-black text-sm leading-relaxed line-clamp-4 transition-colors duration-300 group-hover:text-white/90">
-            {center.description}
-          </p>
-        </NoSelector>
-      </CardContent>
-    </Card>
-  </CarouselItem>
-));
-
-CarouselSlide.displayName = "CarouselSlide";
-
-const AUTO_PLAY_INTERVAL = 5000;
 
 // Use in both components
 const pageVariants = {
@@ -106,6 +47,63 @@ const itemVariants = {
 };
 
 const RecruitmentCenters = () => {
+  const t = useTranslations("recruitmentcenter");
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const centers = [
+    {
+      country: t("center1.country"),
+      image: India,
+      description: t("center1.centerdesc"),
+    },
+    {
+      country: t("center2.country"),
+      image: Phillipine,
+      description: t("center2.centerdesc"),
+    },
+    {
+      country: t("center3.country"),
+      image: Napal,
+      description: t("center3.centerdesc"),
+    },
+    {
+      country: t("center4.country"),
+      image: Qater,
+      description: t("center4.centerdesc"),
+    },
+  ];
+  // Memoize CarouselSlide component
+  const CarouselSlide = memo(({ center }: { center: (typeof centers)[0] }) => (
+    <CarouselItem className="pl-2 md:pl-4 basis-full md:basis-1/2 lg:basis-1/3 cursor-grab active:cursor-grabbing">
+      <Card className="border-none h-full transition-all duration-300 hover:bg-primary group">
+        <CardContent className="p-6">
+          <NoSelector>
+            <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
+              <Image
+                src={center.image}
+                alt={center.country}
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                className="object-cover transition-all duration-300 grayscale group-hover:grayscale-0 group-hover:scale-110 pointer-events-none"
+              />
+            </div>
+          </NoSelector>
+          <NoSelector className="mt-6 space-y-3">
+            <h3 className="text-lg sm:text-xl font-semibold text-black transition-colors duration-300 group-hover:text-white">
+              {center.country}
+            </h3>
+            <p className="text-black text-sm leading-relaxed line-clamp-4 transition-colors duration-300 group-hover:text-white/90">
+              {center.description}
+            </p>
+          </NoSelector>
+        </CardContent>
+      </Card>
+    </CarouselItem>
+  ));
+
+  CarouselSlide.displayName = "CarouselSlide";
+
+  const AUTO_PLAY_INTERVAL = 5000;
+
   const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
@@ -133,7 +131,7 @@ const RecruitmentCenters = () => {
       centers.map((center) => (
         <CarouselSlide key={center.country} center={center} />
       )),
-    []
+    [CarouselSlide, centers]
   );
 
   return (
@@ -150,15 +148,14 @@ const RecruitmentCenters = () => {
               initial="initial"
               animate="animate"
               variants={itemVariants}>
-              Recruitment Centers
+              {t("title")}
             </MotionDiv>
             <MotionDiv
               className="text-black max-w-2xl mx-auto mt-4"
               initial="initial"
               animate="animate"
               variants={itemVariants}>
-              The choice of country depends on the required occupation of
-              workers, working conditions as well as employer preferences.
+              {t("description")}
             </MotionDiv>
           </MotionDiv>
 

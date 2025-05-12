@@ -31,8 +31,115 @@
     "title": "Outstaffing",
     "description": "Pomažemo brzo rastućim tvrtkama da prošire timove i povećaju produktivnost putem outstaffinga."
   },
+
   "homepartner": {
     "partner": "Vaš partner u zapošljavanju talenata",
-    "partnerdesc": "Specijalizirani smo za regrutaciju stranih radnika iz različitih regija, uključujući asia, gulf, americas i africa. Iz naših središnjih ureda u dubai, zapošljavamo radnike u uk, croatia, malta, bulgaria, poland, romania i drugim european zemljama."
+    "partnerdesc": "Specijalizirani smo za zapošljavanje i odabir stranih radnika iz različitih regija, uključujući Aziju, Zaljev, Sjevernu i Južnu Ameriku i Afriku. Djelujući iz naših središnjih ureda u Dubaiju, zapošljavamo radnike u zemljama poput Ujedinjenog Kraljevstva, Hrvatske, Malte, Bugarske, Poljske, Rumunjske i drugih europskih zemalja.",
+    "state1": {
+      "no1": "1",
+      "statetitle": "3000 ZAPOSLENIH RADNIKA",
+      "statedec": "U posljednje dvije godine doveli smo preko 5000 državljana trećih zemalja u europske zemlje. S više od 10% ukupnog tržišta stranih radnika, vodeća smo agencija u posredovanju zapošljavanja stranih radnika."
+    },
+    "state2": {
+      "no2": "2",
+      "statetitle": "450+ ZADOVOLJNIH KLIJENATA",
+      "statedec": "Ponosni smo što smo uspostavili suradnju s brojnim velikim poduzećima, kao i malim i srednjim poduzećima koja su imala najveću potrebu za radnom snagom tijekom trenutne ekonomske ekspanzije."
+    },
+    "state3": {
+      "no3": "3",
+      "statetitle": "15 STRUČNJAKA ZA LJUDSKE RESURSE",
+      "statedec": "Naš tim od 15 stručnjaka stalno je na raspolaganju poslodavcima, pružajući maksimalno kvalitetnu uslugu za svako područje ljudskih resursa."
+    }
+  },
+  "agencysection": {
+    "title": "Moderne metode za vraćanje nekadašnjeg sjaja poslovanja agencije",
+    "accordionItems1": {
+      "accordiontitle": "Pronađite najbolje kandidate.",
+      "contentdec": "Recruitment4u specijaliziran je za pomoć tvrtkama da se oslobode nepotrebnih geografskih ograničenja – tako da možete zaposliti najbolju osobu na svijetu, a ne samo najbolju u blizini."
+    },
+    "accordionItems2": {
+      "accordiontitle": "Automatizirajte poslovne procese.",
+      "contentdec": "Usredotočeni smo na automatizaciju poslovnih operacija kako bismo pojednostavili sve procese: od prikupljanja prijava kandidata, odabira, intervjua, provjere radničke dokumentacije do izrade ugovora i izdavanja dozvola. Svi naši procesi su potpuno automatizirani."
+    },
+    "accordionItems3": {
+      "accordiontitle": "Inovirajte procese odabira.",
+      "contentdec": "Prilikom zapošljavanja stranih radnika važno je uzeti u obzir napore obje uključene strane: i radnika i poslodavca. Kako bismo osigurali da ovaj trud ne bude uzaludan, razvili smo višefazni proces odabira kroz koji kandidati moraju proći kako bi zadovoljili najviše kriterije za rad u zemljama poput Ujedinjenog Kraljevstva, Hrvatske, Malte, Bugarske, Poljske, Rumunjske i drugih europskih zemalja."
+    }
+  },
+
+  "findsolutions": {
+    "title": "Pronađite",
+    "description": "Razvili smo nekoliko poslovnih modela koji su u potpunosti prilagođeni vašim potrebama.",
+    "solution1": {
+      "solutiontitle": "Lizing zaposlenika",
+      "solutiondesc": "Omogućujemo vam punu radnu snagu koju mi upravljamo. Na taj način možete se usredotočiti na svoje poslovne ciljeve bez brige o administrativnim detaljima i pravnim složenostima."
+    },
+    "solution2": {
+      "solutiontitle": "Izvođenje radova",
+      "solutiondesc": "Gotovo savršeno rješenje za hitne slučajeve gdje naši najbolji zaposlenici počinju raditi za vas za samo nekoliko dana. Naš sustav brzog angažmana osigurava minimalne smetnje u vašim operacijama uz održavanje standarda kvalitete."
+    },
+    "solution3": {
+      "solutiontitle": "Posredovanje u zapošljavanju",
+      "solutiondesc": "Vi ste poslodavac, a mi se brinemo o kvalitetnom odabiru zaposlenika. Naš sveobuhvatni proces odabira osigurava da dobijete prave talente dok mi rješavamo sve složenosti zapošljavanja i usklađivanja s propisima."
+    },
+    "solution4": {
+      "solutiontitle": "Privremeno zapošljavanje",
+      "solutiondesc": "Mi pronalazimo, biramo i zapošljavamo radnike i dodjeljujemo ih vašoj tvrtki. Naša rješenja za privremeno zapošljavanje pružaju fleksibilnost uz održavanje visokih standarda kvalitete i pouzdanosti u upravljanju radnom snagom."
+    },
+    "solution5": {
+      "solutiontitle": "Od lizinga do posredovanja",
+      "solutiondesc": "Izbjegnite rizik i uštedite vrijeme tako što će agencija biti vaš poslodavac tijekom probnog roka. Na taj način možete se usredotočiti na svoje poslovne ciljeve bez brige o administrativnim detaljima i pravnim složenostima."
+    }
+  },
+
+  "brand": {
+    "title": "Stekli smo povjerenje brojnih klijenata kvalitetom našeg rada.",
+    "subtitle": "Imate pitanja?",
+    "brandbutton": "Riješimo ih."
+  },
+  "recruitmentcenter": {
+    "title": "Regrutacijski centri",
+    "description": "Odabir zemlje ovisi o traženoj profesiji radnika, uvjetima rada te preferencijama poslodavca.",
+    "center1": {
+      "country": "Indija",
+      "centerdesc": "Indija je zemlja bogate kulture i povijesti, poznata kao globalni lider u proizvodnji metala. Indijski radnici poznati su po svojoj izvrsnosti u ovoj oblasti, kao i u informacijskim tehnologijama i inženjerstvu."
+    },
+    "center2": {
+      "country": "Filipini",
+      "centerdesc": "Filipini su otočna država u jugoistočnoj Aziji poznata po prekrasnim plažama i egzotičnom turizmu. Filipinski radnici poznati su po svojoj predanosti i profesionalizmu u turističkoj industriji, kao i u zdravstvu."
+    },
+    "center3": {
+      "country": "Nepal",
+      "centerdesc": "Nepal je poznat po svojim visokim planinama i prekrasnim krajolicima. Budući da su nepalski radnici naviknuti na zahtjevne životne uvjete na velikim nadmorskim visinama, oni su idealni za poslove u poljoprivredi, proizvodnji ili skladištima."
+    },
+    "center4": {
+      "country": "UAE i Katar",
+      "centerdesc": "UAE i Katar su razvijene zemlje gdje preko 90% radne snage čine strani radnici, najčešće iz Nepala, Indije, Bangladeša ili Filipina. Oni služe kao dobar filter za kvalificiranu radnu snagu koja stječe iskustvo, znanje i vještine iz najsuvremenijih tehnologija i praksi."
+    }
+  },
+
+  "process": {
+    "title": "Proces zapošljavanja stranih radnika",
+    "subtitle": "Sveobuhvatan pristup međunarodnom zapošljavanju",
+    "processsteps1": {
+      "title": "Procjena projekta",
+      "duration": "Nekoliko dana",
+      "processdesc": "Kroz zajedničku komunikaciju precizno određujemo vaše potrebe i procjenjujemo projekt. Nakon završene procjene započinjemo suradnju kroz ispunjenje narudžbe i potpisivanje ugovora."
+    },
+    "processsteps2": {
+      "title": "Zapošljavanje i odabir",
+      "duration": "do 30 dana",
+      "processdesc": "Nakon potpisivanja ugovora pokrećemo postupke zapošljavanja i odabira. Ovaj proces uključuje prikupljanje prijava kandidata, provođenje postupaka odabira, intervjuiranje kandidata, provjeru autentičnosti radničke dokumentacije i provođenje testiranja u zemlji podrijetla radnika."
+    },
+    "processsteps3": {
+      "title": "Izdavanje dozvola",
+      "duration": "do 90 dana",
+      "processdesc": "Nakon što smo precizno definirali vaše potrebe i identificirali prikladne radnike, možemo započeti postupak izdavanja dozvola za rad u UK, Hrvatskoj, Malta, Bugarskoj, Poljskoj, Rumunjskoj i drugim europskim zemljama. Ovaj se postupak provodi u suradnji s relevantnim tijelima, uključujući Hrvatski zavod za zapošljavanje (HZZ), Ministarstvo unutarnjih poslova UK, Jobsplus Malta, Bugarsku agenciju za zapošljavanje, Poljski ured za strance, Rumunjski generalni inspektorat za imigraciju, kao i Ministarstvo unutarnjih poslova, Ministarstvo vanjskih poslova i druge institucije u zemlji podrijetla radnika."
+    },
+    "processsteps4": {
+      "title": "Dolazak radnika",
+      "duration": "u roku od 15 dana",
+      "processdesc": "Završni korak uključuje organizaciju letova za radnike, pripremu smještaja, registraciju boravka, izdavanje boravišnih kartica, otvaranje bankovnih računa, kao i dodatne aktivnosti poput liječničkih pregleda i osposobljavanja za zaštitu na radu."
+    }
   }
 }

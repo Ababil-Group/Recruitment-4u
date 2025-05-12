@@ -2,45 +2,85 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef, useEffect } from "react";
 import { Calendar, Users, FileCheck2, Plane } from "lucide-react";
 import { CardContainer, CardBody } from "@/components/ui/3d-card";
-
-const processSteps = [
-  {
-    icon: Calendar,
-    title: "Project Assessment",
-    duration: "A few days",
-    description:
-      "Through joint communication, we precisely determine your needs and assess the project. After an assessment is completed, we begin cooperation through order fulfillment and contract signing.",
-  },
-  {
-    icon: Users,
-    title: "Recruitment and Selection",
-    duration: "up to 30 days",
-    description:
-      "Upon signing the contract, we initiate recruitment and selection procedures. This process includes collecting candidate applications, conducting selection procedures, interviewing candidates, verifying worker documentation authenticity, and conducting testing in the worker's home country.",
-  },
-  {
-    icon: FileCheck2,
-    title: "Issuing Permits",
-    duration: "up to 90 days",
-    description:
-      "Once we have precisely defined your needs and identified suitable workers, we can begin the process of issuing permits for them to work in the <strong>UK</strong>, <strong>Croatia</strong>, <strong>Malta</strong>, <strong>Bulgaria</strong>, <strong>Poland</strong>, <strong>Romania</strong>, and other <strong>European countries</strong>. This process is carried out in cooperation with relevant authorities, including the <strong>Croatian Employment Service (HZZ)</strong>, the <strong>UK Home Office</strong>, <strong>Jobsplus Malta</strong>, the <strong>Bulgarian Employment Agency</strong>, the <strong>Polish Office for Foreigners</strong>, the <strong>Romanian General Inspectorate for Immigration</strong>, as well as the <strong>Ministry of Interior</strong>, <strong>Ministry of Foreign Affairs</strong>, and other institutions in the worker’s home country.",
-  },
-  {
-    icon: Plane,
-    title: "Worker arrival",
-    duration: "within 15 days",
-    description:
-      "The final step includes flight arrangements for workers, accommodation preparation, residence registration, issuance of residence cards, opening bank accounts, as well as additional activities such as medical examinations and occupational safety training.",
-  },
-];
+import { useTranslations } from "next-intl";
 
 const Process = () => {
+  const t = useTranslations("process");
+  const ProcessCard = ({
+    step,
+  }: {
+    step: (typeof processSteps)[0];
+    index: number;
+  }) => {
+    const Icon = step.icon;
+
+    return (
+      <CardBody
+        className="bg-white rounded-xl p-4 sm:p-5 lg:p-6 shadow-lg flex flex-col h-full 
+        min-h-[300px] lg:min-h-[320px] relative transition-all duration-300 
+        hover:bg-primary group">
+        {/* Duration badge */}
+        <div className="absolute top-3 right-3">
+          <span className="px-2 py-1 bg-primary-secondary text-primary rounded-full text-xs font-medium">
+            {step.duration}
+          </span>
+        </div>
+
+        {/* Icon and Title Container */}
+        <div className="flex flex-col items-start text-left space-y-3">
+          <div
+            className="p-3 bg-primary rounded-xl transform transition-all duration-300 
+            hover:scale-110">
+            <Icon className="w-6 h-6 text-white" />
+          </div>
+          <h3
+            className="font-bold text-lg lg:text-xl text-black
+            group-hover:text-white transition-colors duration-300">
+            {step.title}
+          </h3>
+        </div>
+
+        {/* Description */}
+        <p
+          className="text-black text-sm leading-relaxed mt-3
+          group-hover:text-white/90 transition-colors duration-300">
+          {step.description}
+        </p>
+      </CardBody>
+    );
+  };
   const containerRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ["start start", "end start"],
   });
 
+  const processSteps = [
+    {
+      icon: Calendar,
+      title: t("processsteps1.title"),
+      duration: t("processsteps1.duration"),
+      description: t("processsteps1.processdesc"),
+    },
+    {
+      icon: Users,
+      title: t("processsteps2.title"),
+      duration: t("processsteps2.duration"),
+      description: t("processsteps2.processdesc"),
+    },
+    {
+      icon: FileCheck2,
+      title: t("processsteps3.title"),
+      duration: t("processsteps3.duration"),
+      description: t("processsteps3.processdesc"),
+    },
+    {
+      icon: Plane,
+      title: t("processsteps4.title"),
+      duration: t("processsteps4.duration"),
+      description: t("processsteps4.processdesc"),
+    },
+  ];
   useEffect(() => {
     return () => {
       scrollYProgress.destroy();
@@ -59,11 +99,9 @@ const Process = () => {
       <div className="container mx-auto px-4">
         <div className="text-center">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-primary mb-4">
-            The Process of Hiring Foreign Workers
+            {t("title")}
           </h2>
-          <p className="text-black max-w-2xl mx-auto mt-4">
-            A comprehensive approach to international recruitment
-          </p>
+          <p className="text-black max-w-2xl mx-auto mt-4">{t("subtitle")}</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8 max-w-7xl mx-auto">
           <div className="relative hidden md:block">
@@ -161,49 +199,6 @@ const Process = () => {
         </div>
       </div>
     </section>
-  );
-};
-
-const ProcessCard = ({
-  step,
-}: {
-  step: (typeof processSteps)[0];
-  index: number;
-}) => {
-  const Icon = step.icon;
-
-  return (
-    <CardBody
-      className="bg-white rounded-xl p-4 sm:p-5 lg:p-6 shadow-lg flex flex-col h-full 
-      min-h-[300px] lg:min-h-[320px] relative transition-all duration-300 
-      hover:bg-primary group">
-      {/* Duration badge */}
-      <div className="absolute top-3 right-3">
-        <span className="px-2 py-1 bg-primary-secondary text-primary rounded-full text-xs font-medium">
-          {step.duration}
-        </span>
-      </div>
-
-      {/* Icon and Title Container */}
-      <div className="flex flex-col items-start text-left space-y-3">
-        <div
-          className="p-3 bg-primary rounded-xl transform transition-all duration-300 
-          hover:scale-110">
-          <Icon className="w-6 h-6 text-white" />
-        </div>
-        <h3
-          className="font-bold text-lg lg:text-xl text-black
-          group-hover:text-white transition-colors duration-300">
-          {step.title}
-        </h3>
-      </div>
-
-      {/* Description */}
-      <p
-        className="text-black text-sm leading-relaxed mt-3
-        group-hover:text-white/90 transition-colors duration-300"
-        dangerouslySetInnerHTML={{ __html: step.description }}></p>
-    </CardBody>
   );
 };
 

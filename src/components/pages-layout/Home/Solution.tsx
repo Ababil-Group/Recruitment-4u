@@ -20,45 +20,13 @@ const iconPaths = {
 };
 import NoSelector from "@/components/common/Noselector";
 import { useInView } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 interface Solution {
   icon: string;
   title: string;
   description: string;
 }
-
-const solutions: Solution[] = [
-  {
-    icon: iconPaths.users,
-    title: "Leasing of Employees",
-    description:
-      "We provide you with a full-time workforce that is managed by us. This way, you can focus on your business goals without worrying about administrative details and legal complexities.",
-  },
-  {
-    icon: iconPaths.tools,
-    title: "Execution of Works",
-    description:
-      "A near-perfect solution for emergencies where our best employees come to work for you in just a few days. Our rapid deployment system ensures minimal disruption to your operations while maintaining quality standards.",
-  },
-  {
-    icon: iconPaths.task,
-    title: "Mediation in Employment",
-    description:
-      "You are the employer, and we take care of quality employee selection. Our comprehensive screening process ensures you get the right talent while we handle all the complexities of recruitment and compliance.",
-  },
-  {
-    icon: iconPaths.pending,
-    title: "Temporary Employment",
-    description:
-      "We find, select, and employ workers and assign them to your business entity. Our temporary staffing solutions provide flexibility while maintaining high standards of quality and reliability in workforce management.",
-  },
-  {
-    icon: iconPaths.clock,
-    title: "From Leasing to Mediation",
-    description:
-      "Avoid risk and save valuable time by having the agency become your employer during the probation period. This way you can focus on your business goals without worrying about administrative details and legal complexities.",
-  },
-];
 
 const Solution = () => {
   const [titleIndex, setTitleIndex] = useState<number>(0);
@@ -70,6 +38,36 @@ const Solution = () => {
   const isMouseOver = useRef(false);
   const sectionRef = useRef(null);
   const isInView = useInView(sectionRef, { amount: 0.3 });
+
+  const t = useTranslations("findsolutions");
+
+  const solutions: Solution[] = [
+    {
+      icon: iconPaths.users,
+      title: t("solution1.solutiontitle"),
+      description: t("solution1.solutiondesc"),
+    },
+    {
+      icon: iconPaths.tools,
+      title: t("solution2.solutiontitle"),
+      description: t("solution2.solutiondesc"),
+    },
+    {
+      icon: iconPaths.task,
+      title: t("solution3.solutiontitle"),
+      description: t("solution3.solutiondesc"),
+    },
+    {
+      icon: iconPaths.pending,
+      title: t("solution4.solutiontitle"),
+      description: t("solution4.solutiondesc"),
+    },
+    {
+      icon: iconPaths.clock,
+      title: t("solution5.solutiontitle"),
+      description: t("solution5.solutiondesc"),
+    },
+  ];
 
   // Title animation with optimized RAF
   useEffect(() => {
@@ -186,7 +184,7 @@ const Solution = () => {
         {/* Title with Animation */}
         <div className="text-center space-y-4 mb-8 sm:mb-12 lg:mb-20 relative">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black">
-            Find{" "}
+            {t("title")}{" "}
             <AnimatePresence mode="wait">
               {isInView && (
                 <motion.span
@@ -204,10 +202,7 @@ const Solution = () => {
               )}
             </AnimatePresence>
           </h2>
-          <p className="text-black max-w-2xl mx-auto">
-            We have developed several business models that are fully tailored to
-            your needs.
-          </p>
+          <p className="text-black max-w-2xl mx-auto">{t("description")}</p>
         </div>
 
         {/* Optimized Solutions Carousel */}

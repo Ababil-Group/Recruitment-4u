@@ -31,8 +31,116 @@
     "title": "Outstaffing",
     "description": "Nudimo outstaffing za hitro rastoča podjetja za povečanje timske produktivnosti."
   },
+
   "homepartner": {
     "partner": "Vaš partner pri zaposlovanju talentov",
-    "partnerdesc": "Specializirani smo za zaposlovanje tujih delavcev iz različnih regij, vključno z asia, gulf, americas in africa. Iz naših osrednjih pisarn v dubai zaposlujemo delavce v uk, croatia, malta, bulgaria, poland, romania in drugih european državah."
+    "partnerdesc": "Specializirani smo za zaposlovanje in izbor tujih delavcev iz različnih regij, vključno z Azijo, Zalivom, Severno in Južno Ameriko ter Afriko. Delujemo iz naših centralnih pisarn v Dubaju in zaposlujemo delavce v državah, kot so Združeno kraljestvo, Hrvaška, Malta, Bolgarija, Poljska, Romunija in druge evropske države.",
+    "state1": {
+      "no1": "1",
+      "statetitle": "3000 ZAPOSLENIH DELAVCEV",
+      "statedec": "V zadnjih dveh letih smo v evropske države pripeljali več kot 5000 državljanov tretjih držav. Z več kot 10 % celotnega trga tujih delavcev smo vodilna agencija za posredovanje zaposlitve tujih delavcev."
+    },
+    "state2": {
+      "no2": "2",
+      "statetitle": "450+ ZADOVOLJNIH STRANK",
+      "statedec": "Ponosni smo, da smo vzpostavili sodelovanje s številnimi velikimi podjetji ter malimi in srednje velikimi podjetji, ki so imela največjo potrebo po delovni sili med trenutno gospodarsko ekspanzijo."
+    },
+    "state3": {
+      "no3": "3",
+      "statetitle": "15 STROKOVNJAKOV ZA KADRE",
+      "statedec": "Naša ekipa 15 strokovnjakov je nenehno na voljo delodajalcem in zagotavlja maksimalno kakovostne storitve za vsako področje človeških virov."
+    }
+  },
+
+  "agencysection": {
+    "title": "Moderne metode za obnovitev nekdanjega sijaja agencijskega poslovanja",
+    "accordionItems1": {
+      "accordiontitle": "Poiščite najboljše kandidate.",
+      "contentdec": "Recruitment4u je specializiran za pomoč podjetjem, da se osvobodijo nepotrebnih geografskih omejitev – tako da lahko zaposlite najboljšo osebo na svetu, ne le najboljšo v bližini."
+    },
+    "accordionItems2": {
+      "accordiontitle": "Avtomatizirajte poslovne procese.",
+      "contentdec": "Osredotočamo se na avtomatizacijo poslovnih operacij za poenostavitev vseh procesov: od zbiranja prijav kandidatov, izbire, intervjujev, preverjanja delavske dokumentacije do ustvarjanja pogodb in izdajanja dovoljenj. Vsi naši procesi so popolnoma avtomatizirani."
+    },
+    "accordionItems3": {
+      "accordiontitle": "Inovirajte izbirne procese.",
+      "contentdec": "Pri zaposlovanju tujih delavcev je pomembno upoštevati prizadevanja obeh vključenih strani: tako delavca kot delodajalca. Da zagotovimo, da ta prizadevanja niso zaman, smo razvili večfazni izbirni proces, skozi katerega morajo kandidati opraviti, da izpolnijo najvišje kriterije za delo v državah, kot so Združeno kraljestvo, Hrvaška, Malta, Bolgarija, Poljska, Romunija in druge evropske države."
+    }
+  },
+
+  "findsolutions": {
+    "title": "Poiščite",
+    "description": "Razvili smo več poslovnih modelov, ki so popolnoma prilagojeni vašim potrebam.",
+    "solution1": {
+      "solutiontitle": "Lizing zaposlenih",
+      "solutiondesc": "Vam omogočamo polno delovno silo, ki jo upravljamo mi. Na ta način se lahko osredotočite na svoje poslovne cilje brez skrbi za administrativne podrobnosti in pravne zaplete."
+    },
+    "solution2": {
+      "solutiontitle": "Izvajanje del",
+      "solutiondesc": "Skoraj popolna rešitev za nujne primere, ko naši najboljši zaposleni začnejo delati za vas v nekaj dneh. Naš sistem hitrega vzpostavljanja zagotavlja minimalne motnje v vašem poslovanju ob ohranjanju standardov kakovosti."
+    },
+    "solution3": {
+      "solutiontitle": "Posredovanje pri zaposlovanju",
+      "solutiondesc": "Vi ste delodajalec, mi pa skrbimo za kakovostno izbiro zaposlenih. Naš celovit izbirni proces zagotavlja, da dobite prave talente, medtem ko se mi ukvarjamo z vsemi zapleti zaposlovanja in skladnosti."
+    },
+    "solution4": {
+      "solutiontitle": "Začasno zaposlovanje",
+      "solutiondesc": "Mi poiščemo, izberemo in zaposlimo delavce ter jih dodelimo vašemu podjetju. Naše rešitve za začasno zaposlovanje nudijo fleksibilnost ob ohranjanju visokih standardov kakovosti in zanesljivosti pri upravljanju delovne sile."
+    },
+    "solution5": {
+      "solutiontitle": "Od lizinga do posredovanja",
+      "solutiondesc": "Izognite se tveganju in prihranite dragocen čas tako, da agencija postane vaš delodajalec v preskusnem obdobju. Na ta način se lahko osredotočite na svoje poslovne cilje brez skrbi za administrativne podrobnosti in pravne zaplete."
+    }
+  },
+
+  "brand": {
+    "title": "S svojo kakovostjo dela smo si prislužili zaupanje številnih strank.",
+    "subtitle": "Imate vprašanja?",
+    "brandbutton": "Rešimo jih."
+  },
+  "recruitmentcenter": {
+    "title": "Kadar za zaposlovanje",
+    "description": "Izbira države je odvisna od zahtevane poklicne usmeritve delavcev, delovnih pogojev in preferenc delodajalca.",
+    "center1": {
+      "country": "Indija",
+      "centerdesc": "Indija je država z bogato kulturo in zgodovino, znana kot svetovni vodja v proizvodnji kovin. Indijski delavci so znani po svoji odličnosti na tem področju, pa tudi v informacijski tehnologiji in inženirstvu."
+    },
+    "center2": {
+      "country": "Filipini",
+      "centerdesc": "Filipini so otoška država v jugovzhodni Aziji, znana po čudovitih plažah in eksotičnem turizmu. Filipinski delavci so znani po svoji predanosti in profesionalnosti v turistični industriji ter zdravstvu."
+    },
+    "center3": {
+      "country": "Nepal",
+      "centerdesc": "Nepal je znan po svojih visokih gorah in lepih pokrajinah. Ker so nepalski delavci navajeni na zahtevne življenjske pogoje na visoki nadmorski višini, so idealni za delo v kmetijstvu, proizvodnji ali skladiščih."
+    },
+    "center4": {
+      "country": "Združeni arabski emirati in Katar",
+      "centerdesc": "Združeni arabski emirati in Katar sta razviti državi, kjer več kot 90 % delovne sile sestavljajo tuji delavci, najpogosteje iz Nepala, Indije, Bangladeša ali Filipinov. Služita kot dober filter za kvalificirano delovno silo, ki pridobiva izkušnje, znanje in veščine iz najsodobnejših tehnologij in praks."
+    }
+  },
+
+  "process": {
+    "title": "Postopek zaposlovanja tujih delavcev",
+    "subtitle": "Celovit pristop k mednarodnemu zaposlovanju",
+    "processsteps1": {
+      "title": "Ocena projekta",
+      "duration": "Nekaj dni",
+      "processdesc": "S skupno komunikacijo natančno določimo vaše potrebe in ocenimo projekt. Po končani oceni začnemo sodelovanje z izpolnitvijo naročila in podpisom pogodbe."
+    },
+    "processsteps2": {
+      "title": "Zaposlovanje in izbira",
+      "duration": "do 30 dni",
+      "processdesc": "Po podpisu pogodbe začnemo postopke zaposlovanja in izbire. Ta proces vključuje zbiranje prijav kandidatov, izvajanje izbirnih postopkov, intervjuje s kandidati, preverjanje pristnosti delavčeve dokumentacije in izvajanje testov v delavčevi domovini."
+    },
+    "processsteps3": {
+      "title": "Izdaja dovoljenj",
+      "duration": "do 90 dni",
+      "processdesc": "Ko smo natančno opredelili vaše potrebe in identificirali primerne delavce, lahko začnemo postopek izdaje delovnih dovoljenj za Združeno kraljestvo, Hrvaško, Malto, Bolgarijo, Poljsko, Romunijo in druge evropske države. Ta postopek poteka v sodelovanju z ustreznimi organi, vključno s Hrvaško službo za zaposlovanje (HZZ), Ministrstvom za notranje zadeve Združenega kraljestva, Jobsplus Malta, Bolgarsko agencijo za zaposlovanje, Poljskim uradom za tujce, Romunskim generalnim inšpektoratom za priseljevanje ter Ministrstvom za notranje zadeve, Ministrstvom za zunanje zadeve in drugimi institucijami v delavčevi domovini."
+    },
+    "processsteps4": {
+      "title": "Prihod delavcev",
+      "duration": "v roku 15 dni",
+      "processdesc": "Zadnji korak vključuje organizacijo letov za delavce, pripravo nastanitve, registracijo prebivanja, izdajo prebivalnih dovoljenj, odpiranje bančnih računov ter dodatne dejavnosti, kot so zdravniški pregledi in usposabljanje o varnosti pri delu."
+    }
   }
 }

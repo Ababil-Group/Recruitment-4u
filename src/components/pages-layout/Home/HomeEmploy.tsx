@@ -10,22 +10,19 @@ const HomeEmploy = () => {
 
   const stats = [
     {
-      number: "1",
-      title: "3000 EMPLOYED WORKERS",
-      description:
-        "In the past two years, we have brought over 5000 third-country nationals to  European Countries. With over 10% of the total market for foreign workers, we are a leading agency in mediating the employment of foreign workers.",
+      number: t("state1.no1"),
+      title: t("state1.statetitle"),
+      description: t("state1.statedec"),
     },
     {
-      number: "2",
-      title: "450+ SATISFIED CLIENTS",
-      description:
-        "We take pride in having built cooperation with numerous large enterprises as well as small and medium-sized businesses that have had the greatest need for labor during the current economic expansion.",
+      number: t("state2.no2"),
+      title: t("state2.statetitle"),
+      description: t("state2.statedec"),
     },
     {
-      number: "3",
-      title: "15 HUMAN RESOURCES EXPERTS",
-      description:
-        "Our team of 15 experts is constantly available to employers, providing maximum quality service for each area of human resources.",
+      number: t("state3.no3"),
+      title: t("state3.statetitle"),
+      description: t("state3.statedec"),
     },
   ];
 

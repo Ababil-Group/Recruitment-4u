@@ -31,8 +31,116 @@
     "title": "Outstaffing",
     "description": "Zabezpečujeme outstaffing pre rýchlo rastúce spoločnosti, čím pomáhame rozširovať tímy a zvyšovať produktivitu."
   },
+
   "homepartner": {
-    "partner": "Váš partner v nábore talentov",
-    "partnerdesc": "Špecializujeme sa na nábor a výber zahraničných pracovníkov z rôznych regiónov vrátane asia, gulf, americas a africa. Z našich centrálnych kancelárií v dubai zamestnávame pracovníkov v krajinách ako uk, croatia, malta, bulgaria, poland, romania a iných european štátoch."
+    "partner": "Váš partner pri nábore talentov",
+    "partnerdesc": "Špecializujeme sa na nábor a výber zahraničných pracovníkov z rôznych regiónov, vrátane Ázie, Perzského zálivu, Severnej a Južnej Ameriky a Afriky. Pôsobiac z našich centrálnych kancelárií v Dubaji, umiestňujeme pracovníkov v krajinách ako je Spojené kráľovstvo, Chorvátsko, Malta, Bulharsko, Poľsko, Rumunsko a ďalšie európske krajiny.",
+    "state1": {
+      "no1": "1",
+      "statetitle": "3000 ZAMESTNANÝCH PRACOVNÍKOV",
+      "statedec": "Za posledné dva roky sme priviedli viac ako 5000 občanov tretích krajín do európskych krajín. S viac ako 10% celkového trhu zahraničných pracovníkov sme poprednou agentúrou v zprostredkovaní zamestnávania zahraničných pracovníkov."
+    },
+    "state2": {
+      "no2": "2",
+      "statetitle": "450+ SPOKOJNÝCH KLIENTOV",
+      "statedec": "Sme hrdí na to, že sme vytvorili spoluprácu s mnohými veľkými podnikmi, ako aj malými a strednými podnikmi, ktoré mali najväčšiu potrebu pracovnej sily počas súčasnej hospodárskej expanzie."
+    },
+    "state3": {
+      "no3": "3",
+      "statetitle": "15 ODBORNÍKOV NA ĽUDSKÉ ZDROJE",
+      "statedec": "Náš tím 15 odborníkov je neustále k dispozícii zamestnávateľom, poskytujúc maximálne kvalitné služby pre každú oblasť ľudských zdrojov."
+    }
+  },
+
+  "agencysection": {
+    "title": "Moderné metódy na obnovenie bývalej slávy agentúrneho podnikania",
+    "accordionItems1": {
+      "accordiontitle": "Nájdite najlepších kandidátov.",
+      "contentdec": "Recruitment4u sa špecializuje na pomoc firmám oslobodiť sa od nepotrebných geografických obmedzení – takže môžete zamestnať najlepšiu osobu na svete, nielen najlepšiu v blízkosti."
+    },
+    "accordionItems2": {
+      "accordiontitle": "Automatizujte obchodné procesy.",
+      "contentdec": "Sústreďujeme sa na automatizáciu obchodných operácií, aby sme zjednodušili všetky procesy: od zhromažďovania prihlášok kandidátov, výberu, pohovorov, overovania pracovnej dokumentácie až po vytváranie zmlúv a vydávanie povolení. Všetky naše procesy sú plne automatizované."
+    },
+    "accordionItems3": {
+      "accordiontitle": "Inovujte výberové procesy.",
+      "contentdec": "Pri zamestnávaní zahraničných pracovníkov je dôležité zohľadniť úsilie oboch zúčastnených strán: pracovníka aj zamestnávateľa. Aby sme zaistili, že toto úsilie nebude márne, vyvinuli sme viacfázový výberový proces, ktorým musia kandidáti prejsť, aby splnili najvyššie kritériá pre prácu v krajinách ako Spojené kráľovstvo, Chorvátsko, Malta, Bulharsko, Poľsko, Rumunsko a ďalšie európske krajiny."
+    }
+  },
+
+  "findsolutions": {
+    "title": "Nájdite",
+    "description": "Vyvinuli sme niekoľko obchodných modelov, ktoré sú plne prispôsobené vašim potrebám.",
+    "solution1": {
+      "solutiontitle": "Leasing zamestnancov",
+      "solutiondesc": "Poskytujeme vám plnú pracovnú silu, ktorú spravujeme my. Týmto spôsobom sa môžete sústrediť na svoje obchodné ciele bez obáv z administratívnych detailov a právnych komplikácií."
+    },
+    "solution2": {
+      "solutiontitle": "Vykonávanie prác",
+      "solutiondesc": "Takmer dokonalé riešenie pre núdzové prípady, keď naši najlepší zamestnanci začnú pracovať pre vás už za niekoľko dní. Náš systém rýchleho nasadenia zabezpečuje minimálne narušenie vašich operácií pri zachovaní štandardov kvality."
+    },
+    "solution3": {
+      "solutiontitle": "Zprostredkovanie zamestnania",
+      "solutiondesc": "Vy ste zamestnávateľ a my sa staráme o kvalitný výber zamestnancov. Náš komplexný výberový proces zabezpečuje, že získate správne talenty, zatiaľ čo my sa zaoberáme všetkými zložitosťami náboru a súladu s predpismi."
+    },
+    "solution4": {
+      "solutiontitle": "Dočasné zamestnanie",
+      "solutiondesc": "Nájdeme, vyberieme a zamestnáme pracovníkov a pridelíme ich vašej obchodnej entite. Naše riešenia dočasného zamestnávania poskytujú flexibilitu pri zachovaní vysokých štandardov kvality a spoľahlivosti v riadení pracovnej sily."
+    },
+    "solution5": {
+      "solutiontitle": "Od leasingu k zprostredkovaniu",
+      "solutiondesc": "Vyhnite sa riziku a ušetrite cenný čas tým, že agentúra bude vaším zamestnávateľom počas skúšobnej doby. Týmto spôsobom sa môžete sústrediť na svoje obchodné ciele bez obáv z administratívnych detailov a právnych komplikácií."
+    }
+  },
+
+  "brand": {
+    "title": "Získali sme dôveru mnohých klientov kvalitou našej práce.",
+    "subtitle": "Máte otázky?",
+    "brandbutton": "Poďme ich vyriešiť."
+  },
+  "recruitmentcenter": {
+    "title": "Náborové centrá",
+    "description": "Výber krajiny závisí od požadovaného povolania pracovníkov, pracovných podmienok ako aj preferencií zamestnávateľa.",
+    "center1": {
+      "country": "India",
+      "centerdesc": "India je krajina s bohatou kultúrou a históriou, známa ako svetový lídor v produkcii kovov. Indickí pracovníci sú známi svojou excelentnosťou v tejto oblasti, ako aj v informačných technológiách a inžinierstve."
+    },
+    "center2": {
+      "country": "Filipíny",
+      "centerdesc": "Filipíny sú ostrovný štát v juhovýchodnej Ázii známy svojimi nádhernými plážami a exotickou turistikou. Filipínski pracovníci sú známi svojou oddanosťou a profesionalitou v turistickom priemysle, ako aj v zdravotníctve."
+    },
+    "center3": {
+      "country": "Nepál",
+      "centerdesc": "Nepál je známy svojimi vysokými horami a krásnymi krajinami. Keďže nepálski pracovníci sú zvyknutí na náročné životné podmienky vo vysokých nadmorských výškach, sú ideálni pre prácu v poľnohospodárstve, výrobe alebo skladoch."
+    },
+    "center4": {
+      "country": "Spojené arabské emiráty a Katar",
+      "centerdesc": "Spojené arabské emiráty a Katar sú rozvinuté krajiny, kde viac ako 90 % pracovnej sily tvoria zahraniční pracovníci, najčastejšie z Nepálu, Indie, Bangladéša alebo Filipín. Slúžia ako dobrý filter pre kvalifikovanú pracovnú silu, ktorá získava skúsenosti, vedomosti a zručnosti z najmodernejších technológií a postupov."
+    }
+  },
+
+  "process": {
+    "title": "Proces náboru zahraničných pracovníkov",
+    "subtitle": "Komplexný prístup k medzinárodnému náboru",
+    "processsteps1": {
+      "title": "Vyhodnotenie projektu",
+      "duration": "Niekoľko dní",
+      "processdesc": "Spoločnou komunikáciou presne určíme vaše potreby a vyhodnotíme projekt. Po dokončení hodnotenia začneme spoluprácu splnením objednávky a podpísaním zmluvy."
+    },
+    "processsteps2": {
+      "title": "Nábor a výber",
+      "duration": "do 30 dní",
+      "processdesc": "Po podpísaní zmluvy spustíme náborové a výberové postupy. Tento proces zahŕňa zhromažďovanie prihlášok kandidátov, vykonávanie výberových postupov, pohovory s kandidátmi, overenie pravosti pracovnej dokumentácie a vykonávanie testov v domovskej krajine pracovníka."
+    },
+    "processsteps3": {
+      "title": "Vydávanie povolení",
+      "duration": "do 90 dní",
+      "processdesc": "Potom, čo sme presne definovali vaše potreby a identifikovali vhodných pracovníkov, môžeme začať proces vydávania pracovných povolení do UK, Chorvátska, Malty, Bulharska, Poľska, Rumunska a ďalších európskych krajín. Tento proces sa vykonáva v spolupráci s príslušnými úradmi, vrátane Chorvátskej služby zamestnanosti (HZZ), Ministerstva vnútra UK, Jobsplus Malta, Bulharskej agentúry pre zamestnanosť, Poľského úradu pre cudzincov, Rumunského generálneho inšpektorátu pre imigráciu, ako aj Ministerstva vnútra, Ministerstva zahraničných vecí a iných inštitúcií v domovskej krajine pracovníka."
+    },
+    "processsteps4": {
+      "title": "Príchod pracovníkov",
+      "duration": "do 15 dní",
+      "processdesc": "Posledný krok zahŕňa organizáciu letov pre pracovníkov, prípravu ubytovania, registráciu pobytu, vydávanie pobytových kariet, otváranie bankových účtov, ako aj ďalšie aktivity, ako sú lekárske prehliadky a školenia o bezpečnosti práce."
+    }
   }
 }

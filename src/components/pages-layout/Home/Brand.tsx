@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import ImageSlider from "@/components/common/ImageSlider";
+import { useTranslations } from "next-intl";
 // Import images
 import FemaleImage from "../../../../public/images/brandfemale.jpeg";
 import img1 from "../../../../public/images/brand1.png";
@@ -21,6 +22,7 @@ import img10 from "../../../../public/images/brand10.png";
 const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
 
 const Brand = () => {
+  const t = useTranslations("brand");
   const router = useRouter();
   const handleButtonClick = (path: string) => {
     router.push(path);
@@ -29,8 +31,7 @@ const Brand = () => {
     <section className="bg-white py-12 sm:py-16 md:py-20 lg:py-24 xl:py-32 overflow-hidden">
       <div className="container mb-10 mx-auto text-center">
         <h1 className="text-black text-2xl sm:text-3xl md:text-4xl font-bold mb-6">
-          We have secured the trust of numerous clients with the quality of our
-          work.
+          {t("title")}
         </h1>
       </div>
       {/* Smooth Scrolling Image Slider */}
@@ -45,12 +46,12 @@ const Brand = () => {
         </div>
         <div>
           <h5 className="text-black text-[32px] max-md:text-[32px] font-bold">
-            Got Questions?
+           {t("subtitle")}
           </h5>
           <Button
             onClick={() => handleButtonClick("/contact")}
             className="bg-primary text-[30px] mt-5 px-12 py-8 font-bold">
-            Let’s Solve.
+            {t("brandbutton")}
           </Button>
         </div>
       </div>

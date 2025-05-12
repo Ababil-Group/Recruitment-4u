@@ -31,8 +31,115 @@
     "title": "Outstaffing",
     "description": "Oferim servicii de outstaffing pentru companiile în creștere rapidă, ajutând la extinderea echipelor și creșterea productivității."
   },
+
   "homepartner": {
-    "partner": "Partenerul tău în recrutarea de talente",
-    "partnerdesc": "Suntem specializați în recrutarea și selecția lucrătorilor străini din diverse regiuni, inclusiv asia, gulf, americas și africa. Din birourile noastre centrale din dubai, plasăm lucrători în uk, croatia, malta, bulgaria, poland, romania și alte țări european."
+    "partner": "Partenerul dvs. în recrutarea de talente",
+    "partnerdesc": "Suntem specializați în recrutarea și selecția lucrătorilor străini din diverse regiuni, inclusiv Asia, Golful, America de Nord și de Sud și Africa. Operând din birourile noastre centrale din Dubai, plasăm lucrători în țări precum Marea Britanie, Croația, Malta, Bulgaria, Polonia, România și alte țări europene.",
+    "state1": {
+      "no1": "1",
+      "statetitle": "3000 DE LUCRĂTORI ANGAJAȚI",
+      "statedec": "În ultimii doi ani, am adus peste 5000 de cetățeni din țări terțe în țările europene. Cu peste 10% din piața totală a lucrătorilor străini, suntem o agenție de top în medierea angajării lucrătorilor străini."
+    },
+    "state2": {
+      "no2": "2",
+      "statetitle": "450+ CLIENȚI MULȚUMIȚI",
+      "statedec": "Suntem mândri că am stabilit colaborări cu numeroase întreprinderi mari, precum și întreprinderi mici și mijlocii care au avut cea mai mare nevoie de forță de muncă în timpul actualei expansiuni economice."
+    },
+    "state3": {
+      "no3": "3",
+      "statetitle": "15 EXPERȚI ÎN RESURSE UMANE",
+      "statedec": "Echipa noastră de 15 experți este permanent disponibilă pentru angajatori, oferind servicii de calitate maximă pentru fiecare domeniu al resurselor umane."
+    }
+  },
+
+  "agencysection": {
+    "title": "Metode moderne pentru restaurarea gloriei anterioare a afacerii agenției",
+    "accordionItems1": {
+      "accordiontitle": "Găsiți cei mai buni candidați.",
+      "contentdec": "Recruitment4u este specializată în a ajuta companiile să se elibereze de limitările geografice inutile – astfel încât să puteți angaja cea mai bună persoană din lume, nu doar cea mai bună din apropiere."
+    },
+    "accordionItems2": {
+      "accordiontitle": "Automatizați procesele de afaceri.",
+      "contentdec": "Ne concentrăm pe automatizarea operațiunilor de afaceri pentru a simplifica toate procesele: de la colectarea aplicațiilor candidaților, selecție, interviuri, verificarea documentației lucrătorilor până la crearea contractelor și emiterea permiselor. Toate procesele noastre sunt complet automate."
+    },
+    "accordionItems3": {
+      "accordiontitle": "Inovați procesele de selecție.",
+      "contentdec": "Atunci când angajați lucrători străini, este important să luați în considerare eforturile ambelor părți implicate: atât lucrătorul, cât și angajatorul. Pentru a ne asigura că acest efort nu este în zadar, am dezvoltat un proces de selecție în mai multe faze prin care candidații trebuie să treacă pentru a îndeplini cele mai înalte criterii de muncă în țări precum Marea Britanie, Croația, Malta, Bulgaria, Polonia, România și alte țări europene."
+    }
+  },
+  "findsolutions": {
+    "title": "Găsiți",
+    "description": "Am dezvoltat mai multe modele de afaceri complet adaptate nevoilor dumneavoastră.",
+    "solution1": {
+      "solutiontitle": "Leasing de angajați",
+      "solutiondesc": "Vă oferim o forță de muncă cu normă întreagă care este gestionată de noi. În acest fel, vă puteți concentra pe obiectivele de afaceri fără a vă face griji cu privire la detaliile administrative și complexitățile legale."
+    },
+    "solution2": {
+      "solutiontitle": "Execuția lucrărilor",
+      "solutiondesc": "O soluție aproape perfectă pentru situații de urgență, în care cei mai buni angajați ai noștri încep să lucreze pentru dumneavoastră în doar câteva zile. Sistemul nostru de implementare rapidă asigură o perturbare minimă a operațiunilor dumneavoastră, menținând în același timp standardele de calitate."
+    },
+    "solution3": {
+      "solutiontitle": "Intermediere în angajare",
+      "solutiondesc": "Dumneavoastră sunteți angajatorul, iar noi ne ocupăm de selecția de calitate a angajaților. Procesul nostru cuprinzător de screening asigură că obțineți talentele potrivite, în timp ce noi ne ocupăm de toate complexitățile recrutării și conformității."
+    },
+    "solution4": {
+      "solutiontitle": "Angajare temporară",
+      "solutiondesc": "Noi găsim, selectăm și angajăm muncitori și îi alocăm entității dumneavoastră de afaceri. Soluțiile noastre de personal temporar oferă flexibilitate, menținând în același timp standarde ridicate de calitate și fiabilitate în managementul forței de muncă."
+    },
+    "solution5": {
+      "solutiontitle": "De la leasing la intermediere",
+      "solutiondesc": "Evitați riscul și economisiți timp prețios lăsând agenția să fie angajatorul dumneavoastră în perioada de probă. În acest fel, vă puteți concentra pe obiectivele de afaceri fără a vă face griji cu privire la detaliile administrative și complexitățile legale."
+    }
+  },
+
+  "brand": {
+    "title": "Am câștigat încrederea numeroșilor clienți prin calitatea muncii noastre.",
+    "subtitle": "Aveți întrebări?",
+    "brandbutton": "Hai să le rezolvăm."
+  },
+  "recruitmentcenter": {
+    "title": "Centre de recrutare",
+    "description": "Alegerea țării depinde de profesia necesară a lucrătorilor, condițiile de muncă, precum și preferințele angajatorului.",
+    "center1": {
+      "country": "India",
+      "centerdesc": "India este o țară cu o cultură și istorie bogată, cunoscută printre altele ca lider global în producția de metale. Lucrătorii indieni sunt renumiți pentru excelența lor în acest domeniu, precum și în tehnologia informației și inginerie."
+    },
+    "center2": {
+      "country": "Filipine",
+      "centerdesc": "Filipinele sunt o națiune insulară din Asia de Sud-Est, cunoscută pentru plajele sale frumoase și turismul exotic. Lucrătorii filipinezi sunt cunoscuți pentru dedicarea și profesionalismul lor în industria turistică, precum și în sănătate."
+    },
+    "center3": {
+      "country": "Nepal",
+      "centerdesc": "Nepalul este cunoscut pentru munții săi înalți și peisaje frumoase. Deoarece lucrătorii nepalezi sunt obișnuiți cu condiții de viață exigente la altitudini mari, ei sunt ideali pentru locuri de muncă în agricultură, producție sau depozitare."
+    },
+    "center4": {
+      "country": "UAE și Qatar",
+      "centerdesc": "UAE și Qatar sunt țări dezvoltate în care peste 90% din populația activă este formată din lucrători străini, cel mai adesea din Nepal, India, Bangladesh sau Filipine. Ele servesc ca un bun filtru pentru forța de muncă calificată care dobândește experiență, cunoștințe și abilități din tehnologii și practici de ultimă oră."
+    }
+  },
+
+  "process": {
+    "title": "Procesul de angajare a lucrătorilor străini",
+    "subtitle": "O abordare cuprinzătoare a recrutării internaționale",
+    "processsteps1": {
+      "title": "Evaluarea proiectului",
+      "duration": "Câteva zile",
+      "processdesc": "Prin comunicare comună, determinăm cu precizie nevoile dumneavoastră și evaluăm proiectul. După finalizarea evaluării, începem colaborarea prin îndeplinirea comenzii și semnarea contractului."
+    },
+    "processsteps2": {
+      "title": "Recrutare și selecție",
+      "duration": "până la 30 de zile",
+      "processdesc": "După semnarea contractului, inițiem procedurile de recrutare și selecție. Acest proces include colectarea cererilor candidaților, desfășurarea procedurilor de selecție, interviuri cu candidații, verificarea autenticității documentației lucrătorilor și efectuarea testelor în țara de origine a lucrătorului."
+    },
+    "processsteps3": {
+      "title": "Emiterea permiselor",
+      "duration": "până la 90 de zile",
+      "processdesc": "După ce am definit cu precizie nevoile dumneavoastră și am identificat lucrători potriviti, putem începe procesul de emitere a permiselor pentru a lucra în Marea Britanie, Croația, Malta, Bulgaria, Polonia, România și alte țări europene. Acest proces se desfășoară în colaborare cu autoritățile relevante, inclusiv Serviciul Croat de Ocupare a Forței de Muncă (HZZ), Ministerul de Interne al Marii Britanii, Jobsplus Malta, Agenția Bulgară pentru Ocuparea Forței de Muncă, Biroul Polonez pentru Străini, Inspectoratul General Român pentru Imigrări, precum și Ministerul de Interne, Ministerul Afacerilor Externe și alte instituții din țara de origine a lucrătorului."
+    },
+    "processsteps4": {
+      "title": "Sosirea lucrătorilor",
+      "duration": "în termen de 15 zile",
+      "processdesc": "Ultimul pas include organizarea zborurilor pentru lucrători, pregătirea cazării, înregistrarea șederii, emiterea cardurilor de ședere, deschiderea conturilor bancare, precum și alte activități suplimentare cum ar fi examinări medicale și formare privind siguranța la locul de muncă."
+    }
   }
 }

@@ -4,26 +4,25 @@ import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 
 import { cn } from "@/lib/utils";
+import { useTranslations } from "next-intl";
 // import NoSelector from "@/components/common/Noselector";
 
 export default function AgencySection() {
   const [openItem, setOpenItem] = useState<number>(0);
+  const t = useTranslations("agencysection");
 
   const accordionItems = [
     {
-      title: "Find the best candidates.",
-      content:
-        "Recruitment4u specializes in helping companies break free from unnecessary geographical limitations—so you can hire the best person in the world, not just the best person nearby.",
+      title: t("accordionItems1.accordiontitle"),
+      content: t("accordionItems1.contentdec"),
     },
     {
-      title: "Automate business processes.",
-      content:
-        "We focus on automating business operations to simplify all processes: from collecting candidate applications, selection, interviews, verification of workers' documentation to contract creation and issuing permits. All our processes are fully automated.",
+      title: t("accordionItems2.accordiontitle"),
+      content: t("accordionItems2.contentdec"),
     },
     {
-      title: "Innovate selection processes.",
-      content:
-        "When hiring foreign workers, it is important to consider the efforts of both parties involved: both the worker and the employer. To ensure that this effort is not in vain, we have developed a multi-phase selection process through which candidates must pass to meet the highest criteria for work in such countries as the <strong>UK</strong>, <strong>Croatia</strong>, <strong>Malta</strong>, <strong>Bulgaria</strong>, <strong>Poland</strong>, <strong>Romania</strong>, and other <strong>European Countries</strong>.",
+      title: t("accordionItems3.accordiontitle"),
+      content: t("accordionItems3.contentdec"),
     },
   ];
 
@@ -86,7 +85,7 @@ export default function AgencySection() {
             className="space-y-6 sm:space-y-8 order-2 lg:order-2 mt-6" // Reduced top margin
           >
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-tight text-black">
-              Modern Methods to Restore the Agency Business&apos;s Former Glory
+              {t("title")}
             </h2>
 
             <div className="space-y-3">
