@@ -5,74 +5,28 @@ import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
 import { Plus, Minus } from "lucide-react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function Industries() {
   const [openItem, setOpenItem] = useState<number>(0);
+  const t = useTranslations("forcompanies");
 
   const industriesData = [
     {
-      title: "METAL INDUSTRY AND TECHNICAL FIELDS",
-      content: [
-        "Welders",
-        "Metalworkers",
-        "Pipefitters",
-        "Metal casters",
-        "CNC operators and programmers",
-        "Mechanics and auto painters",
-        "Sandblasting workers",
-        "Auto electricians",
-        "Electricians and electrical installers",
-        "Industrial electricians",
-        "Carpenters",
-        "Heating and air conditioning installers",
-        "Drivers of almost all categories",
-        "Delivery workers",
-        "Developers",
-        "And many other professions",
-      ],
+      title: t("industrie1.title"),
+      content: [t("industrie1.content1")],
     },
     {
-      title: "CONSTRUCTION",
-      content: [
-        "Construction machinery managers",
-        "Crane operators",
-        "Reinforcers",
-        "Farmworkers",
-        "Bricklayers",
-        "Roofers",
-        "Concrete workers",
-        "Tilers",
-        "Painters",
-        "Insulators and waterproofers",
-        "Facade workers",
-      ],
+      title: t("industrie2.title"),
+      content: [t("industrie2.content2")],
     },
     {
-      title: "HOSPITALITY AND RETAIL",
-      content: [
-        "Chefs (including national cuisine chefs)",
-        "Baristas and waiters",
-        "Housekeepers",
-        "Cleaners",
-        "Receptionists",
-        "Pastry chefs",
-        "Bakers",
-        "Caregivers",
-        "Support Staff",
-        "Retail workers",
-        "Warehouse workers",
-        "Forklift operators",
-      ],
+      title: t("industrie3.title"),
+      content: [t("industrie3.content3")],
     },
     {
-      title: "MANUFACTURING AND WOOD INDUSTRY",
-      content: [
-        "Workers in meat processing and food production industries",
-        "Textile industry workers (sewers)",
-        "Sawmill workers",
-        "Furniture and ceramics production workers",
-        "And many others",
-      ],
+      title: t("industrie4.title"),
+      content: [t("industrie4.content4")],
     },
   ];
 
@@ -121,13 +75,9 @@ export default function Industries() {
               className="space-y-8">
               <div className="space-y-4">
                 <h2 className="text-3xl sm:text-4xl font-bold text-black">
-                  We invest capital to gain in-depth knowledge of every
-                  industry.
+                  {t("title")}
                 </h2>
-                <p className="text-black">
-                  With experience in recruitment across numerous industries, we
-                  find workers for all the professions you need.
-                </p>
+                <p className="text-black">{t("desc")}</p>
               </div>
 
               <div className="space-y-4">
@@ -162,7 +112,7 @@ export default function Industries() {
                           className="overflow-hidden">
                           <div className="pb-4 text-black">
                             <p className="leading-relaxed">
-                              {industry.content.join(", ")}.
+                              {industry.content}.
                             </p>
                           </div>
                         </motion.div>

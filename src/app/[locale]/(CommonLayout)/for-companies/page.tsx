@@ -1,6 +1,6 @@
 "use client";
 
-import Banner from "@/components/pages-layout/Company/Banner";
+// import Banner from "@/components/pages-layout/Company/Banner";
 import CompanyForm from "@/components/pages-layout/Company/CompanyForm";
 import Industries from "@/components/pages-layout/Company/Industries";
 import Services from "@/components/pages-layout/Company/Services";
@@ -13,15 +13,15 @@ export default function CompanyPage() {
   return (
     <main className="min-h-screen pt-20">
       <CompanyForm />
-      <Banner
+      {/* <Banner
         text="We invest capital to gain in-depth knowledge of every industry."
         withMargin={true}
-      />
+      /> */}
       <Industries />
-      <Banner
+      {/* <Banner
         text="We carefully craft selection processes for each specific profession."
         withMargin={true}
-      />
+      /> */}
       <Services />
       {/* <CommonBanner
         title="Using innovations, we maximize your potential."
@@ -29,11 +29,11 @@ export default function CompanyPage() {
         onButtonClick={handleCooperate}
       /> */}
       <FAQ />
-      <Banner
+      {/* <Banner
         text="Do you have additional questions?"
         subtitle="Contact us with confidence and we will find a solution. job@Recruitment4u.co"
         withMargin={true}
-      />
+      /> */}
     </main>
   );
 }

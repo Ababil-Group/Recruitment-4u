@@ -141,5 +141,115 @@
       "duration": "în termen de 15 zile",
       "processdesc": "Ultimul pas include organizarea zborurilor pentru lucrători, pregătirea cazării, înregistrarea șederii, emiterea cardurilor de ședere, deschiderea conturilor bancare, precum și alte activități suplimentare cum ar fi examinări medicale și formare privind siguranța la locul de muncă."
     }
+  },
+  "forcompanies": {
+    "title": "Investim capital pentru a dobândi o cunoaștere aprofundată a fiecărei industrii.",
+    "desc": "Cu experiență în recrutare în numeroase industrii, găsim lucrători pentru toate profesiile de care aveți nevoie.",
+    "industrie1": {
+      "title": "INDUSTRIA METALURGICĂ ȘI DOMENII TEHNICE",
+      "content1": "Sudori, lăcătuși, instalatori de țevi, turnători de metal, operatori și programatori CNC, mecanici și vopsitori auto, lucrători la sablare, electricieni auto, electricieni și instalatori electrici, electricieni industriali, tâmplari, instalatori de încălzire și aer condiționat, șoferi pentru aproape toate categoriile, curieri, dezvoltatori și multe alte profesii."
+    },
+    "industrie2": {
+      "title": "CONSTRUCȚII",
+      "content2": "Operatori utilaje de construcții, macaragii, fierari-betoniști, muncitori în agricultură, zidari, acoperitori, betonieri, faianțari, zugravi, izoltori și hidroizolatori, fațadieri."
+    },
+    "industrie3": {
+      "title": "OSPITALITATE ȘI RETAIL",
+      "content3": "Bucătari (inclusiv bucătari de bucătării naționale), barista și ospătari, cameriste, femei de serviciu, recepționeri, cofetari, brutari, îngrijitori, personal de suport, lucrători în retail, lucrători depozit, stivuitoriști."
+    },
+    "industrie4": {
+      "title": "PRODUCȚIE ȘI INDUSTRIA LEMNULUI",
+      "content4": "Lucrători în procesarea cărnii și industria alimentară, muncitori în industria textilă (cusători), muncitori în gater, muncitori în producția de mobilier și ceramică, și multe altele."
+    },
+    "ourservice": {
+      "title": "Serviciile Noastre",
+      "desc": "Abordăm fiecare sector diferit, dezvoltând sisteme de recrutare, selecție și plasare a muncitorilor străini care corespund nevoilor fiecărei ramuri de activitate economică."
+    },
+    "service1": {
+      "title": "RECRUTAREA TALENTELOR IT",
+      "desc": "Piața locală de dezvoltatori nu poate acoperi creșterea sectorului IT. Prin urmare, mulți angajatori aleg să angajeze muncitori străini. Contactați-ne pentru a afla mai multe despre serviciile noastre, inclusiv: Servicii remote, Închiriere de programatori, Mediere în angajare."
+    },
+    "service2": {
+      "title": "SUDARE ȘI PRELUCRARE METAL",
+      "desc": "Recruitment4u este singura agenție din UK care efectuează independent testări în țările de origine și partajează rezultatele cu partenerii interesați. Ca agenție sau contractor, acoperim toate procesele de sudare și calificările lucrătorilor."
+    },
+    "service3": {
+      "title": "Recruitment4u AGRO",
+      "desc": "Recruitment4u Agro este un proiect orientat spre satisfacerea nevoilor sectorului primar al economiei. Recrutăm muncitori pentru agricultori locali în agricultură, zootehnie și industria alimentară."
+    },
+    "service4": {
+      "title": "PROGRAM OSPITALITATE",
+      "desc": "Programul de ospitalitate este un sistem special organizat pentru recrutarea și selecția personalului care lucrează în servicii și turism. Conectăm hotelierii cu muncitori în colaborare cu numeroase asociații de ospitalitate."
+    },
+    "service5": {
+      "title": "Recruitment4u CONSTRUCT",
+      "desc": "Construcțiile sunt un sector cu cea mai mare cerere de lucrători străini, dar reprezintă și cea mai mare provocare în găsirea forței de muncă adecvate. Recruitment4u Construct este un proiect destinat identificării unei forțe de muncă calificate pentru acest sector."
+    },
+    "service6": {
+      "title": "RECRUTARE PERSONALIZATĂ",
+      "desc": "Aveți o solicitare specifică? Contactați-ne și unul dintre reprezentanții noștri de vânzări vă va prelua comanda și va începe procesul de recrutare pentru muncitorii solicitați."
+    },
+    "faq": {
+      "title": "Întrebări frecvente",
+      "faq1": {
+        "qus": "Din ce țări angajați muncitori?",
+        "ans": "Urmând modelele folosite în țările dezvoltate din Orientul Mijlociu, Recruitment4u este specializată în importul muncitorilor din Nepal, Filipine și India."
+      },
+      "faq2": {
+        "qus": "Cât durează procesul de angajare a muncitorilor străini?",
+        "ans": "Procesul durează între 90 și 120 de zile, în funcție de poziția solicitată, centrul de recrutare ales și locația unde este emis permisul de muncă."
+      },
+      "faq3": {
+        "qus": "Trebuie să ofer cazare muncitorilor străini?",
+        "ans": "Muncitorii străini au nevoie de cazare la sosirea în țara de lucru. Aceasta poate fi organizată și de agenție, în acord cu angajatorul."
+      },
+      "faq4": {
+        "qus": "Ce este diferit la angajarea muncitorilor străini?",
+        "ans": "Muncitorii străini au nevoie de permis de ședere și viză de muncă pentru a intra în UK, Croația, Malta, Bulgaria, Polonia, România sau orice altă țară europeană. Procesul de integrare la locul de muncă este mai complex și include organizarea cazării, înregistrarea reședinței, eliberarea cardurilor de ședere (permise de ședere biometrice) și deschiderea conturilor bancare."
+      },
+      "faq5": {
+        "qus": "Cum se înscrie un muncitor străin la pensie și asigurare de sănătate?",
+        "ans": "După înregistrarea reședinței, autoritatea competentă emite un număr național de asigurare pe baza căruia se poate face înregistrarea pentru pensie și asigurare medicală. Înainte de aceasta, angajatorul trebuie să obțină un permis de muncă pentru muncitorul străin."
+      },
+      "faq6": {
+        "qus": "Care sunt condițiile pentru angajarea muncitorilor străini?",
+        "ans": "Trebuie îndeplinite mai multe condiții: compania trebuie să funcționeze de peste șase luni, să fi angajat cel puțin un cetățean britanic în această perioadă și să nu aibă datorii fiscale sau la contribuții. De asemenea, sunt analizate și alte aspecte: performanța financiară a companiei, numărul de angajați și dacă activitatea desfășurată justifică angajarea de lucrători străini."
+      },
+      "faq7": {
+        "qus": "Ce limbă vorbesc muncitorii străini?",
+        "ans": "Pentru a îndeplini criteriile noastre pentru a veni la muncă în Europa, muncitorii trebuie să aibă cunoștințe de bază sau avansate de limba engleză, în funcție de poziția ocupată și cerințele angajatorului."
+      }
+    }
+  },
+
+  "solutionsnavigating": {
+    "title": "Navigarea prin legile imigrației",
+    "description": "Navigarea prin legile imigrației din Europa poate fi o provocare datorită cadrelor juridice variate care guvernează angajarea muncitorilor străini. Aici intervenim noi pentru a simplifica și accelera întregul proces.",
+    "navigatearticale": {
+      "title": "Provocări cu legile imigrației europene",
+      "boldtext": "Una dintre principalele provocări cu care se confruntă companiile în navigarea prin legile imigrației europene este gestionarea cadrului juridic complex și adesea fragmentat, conceput pentru a proteja piețele naționale de muncă, în timp ce abordează nevoile economice mai largi din regiune.",
+      "peragraphs": [
+        "Conformitatea cu legile imigrației în Europa poate fi deosebit de solicitantă pentru companiile care doresc să angajeze talente străine. Angajatorii trebuie să respecte diverse reglementări naționale și la nivelul UE, cum ar fi cerințele pentru permise de muncă și de ședere, obligații fiscale și de asigurări sociale, precum și condiții care pot include demonstrarea angajării unui cetățean local sau al UE pentru o perioadă definită. Procesul implică adesea teste ale pieței muncii, conformitatea documentației și coordonarea cu multiple autorități guvernamentale.",
+        "O agenție specializată în angajarea muncitorilor străini poate fi un partener valoros în acest proces. Astfel de agenții oferă îndrumare expertă prin complexitățile juridice, asistă cu cererile de permise, oferă sfaturi privind documentația necesară și ajută la asigurarea conformității complete cu legile naționale și ale UE privind munca.",
+        "Dacă organizația dumneavoastră se confruntă în prezent cu aceste provocări, serviciul nostru de administrare a angajărilor este aici pentru a vă sprijini cu soluții personalizate și asistență expertă."
+      ]
+    },
+    "navigatedetails": {
+      "title": "Administrarea angajărilor",
+      "desc": "Serviciul de administrare a angajărilor pentru muncitori străini implică gestionarea sarcinilor administrative legate de angajarea cetățenilor străini de către companiile care operează în Europa. Acest serviciu este conceput pentru a ajuta companiile să navigheze prin complexitățile angajării muncitorilor străini, să asigure conformitatea cu reglementările europene privind imigrația și munca și să simplifice procesul administrativ.",
+      "btn": "Citește mai mult"
+    },
+    "content1": {
+      "title": "Acces la talente calificate",
+      "pera": "Obțineți acces la un pool de profesioniști calificați și verificați, pregătiți să vă îndeplinească nevoile de afaceri."
+    },
+    "content2": {
+      "title": "Soluții flexibile de forță de muncă",
+      "pera": "Recunoaștem importanța adaptabilității și oferim soluții de gestionare a forței de muncă adaptate cerințelor operaționale ale dumneavoastră."
+    },
+    "content3": {
+      "title": "Recrutare rapidă și fără stres",
+      "pera": "Accelerați procesul de angajare cu abordarea noastră simplificată de găsire, integrare și gestionare a talentelor."
+    }
   }
 }

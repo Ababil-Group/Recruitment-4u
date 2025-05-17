@@ -142,5 +142,116 @@
       "duration": "у року од 15 дана",
       "processdesc": "Завршни корак укључује организацију летова за раднике, припрему смештаја, регистрацију боравка, издавање боравних карата, отварање банковних рачуна, као и додатне активности попут медицинских прегледа и обуке о безбедности на раду."
     }
+  },
+
+  "forcompanies": {
+    "title": "Ulažemo kapital kako bismo stekli dubinsko znanje o svakoj industriji.",
+    "desc": "Sa iskustvom u regrutaciji u brojnim industrijama, pronalazimo radnike za sve profesije koje su vam potrebne.",
+    "industrie1": {
+      "title": "METALNA INDUSTRIJA I TEHNIČKA ZANIMANJA",
+      "content1": "Zavarivači, Metalostrugari, Cevovodžije, Livci metala, CNC operateri i programeri, Mehaničari i autolakireri, Radnici na peskarenju, Autoelektričari, Električari i elektroinstalateri, Industrijski električari, Stolari, Monteri grejanja i klimatizacije, Vozači svih kategorija, Dostavljači, Programeri i mnoge druge profesije."
+    },
+    "industrie2": {
+      "title": "GRAĐEVINARSTVO",
+      "content2": "Rukovaoci građevinskih mašina, Operateri kranova, Armirači, Radnici u poljoprivredi, Zidari, Krovopokrivači, Betonski radnici, Keramičari, Moleri, Izolateri i hidroizolateri, Fasaderi."
+    },
+    "industrie3": {
+      "title": "UGOSTITELJSTVO I MALOPRODAJA",
+      "content3": "Kuvari (uključujući i kuvare nacionalne kuhinje), Baristi i konobari, Sobarice, Čistači, Recepcioneri, Poslastičari, Pekari, Negovatelji, Pomoćno osoblje, Maloprodajni radnici, Magacioneri, Viljuškaristi."
+    },
+    "industrie4": {
+      "title": "PROIZVODNJA I DRVNA INDUSTRIJA",
+      "content4": "Radnici u preradi mesa i prehrambenoj industriji, Radnici u tekstilnoj industriji (šivači), Radnici u pilanama, Radnici u proizvodnji nameštaja i keramike i mnogi drugi."
+    },
+    "ourservice": {
+      "title": "Naše usluge",
+      "desc": "Svakom sektoru pristupamo drugačije, razvijajući sisteme za regrutaciju, selekciju i postavljanje stranih radnika koji specifično odgovaraju potrebama svake grane privrede."
+    },
+    "service1": {
+      "title": "PRONALAŽENJE IT TALENATA",
+      "desc": "Domaće tržište developera ne može da isprati rast IT sektora. Zato se mnogi poslodavci odlučuju za zapošljavanje stranih radnika. Kontaktirajte nas da saznate više o našim uslugama: Udaljene usluge, Rent a coder, Posredovanje pri zapošljavanju."
+    },
+    "service2": {
+      "title": "ZAVARIVANJE I METALOPRERADA",
+      "desc": "Recruitment4u je jedina agencija u UK koja samostalno sprovodi testiranja u matičnim zemljama i rezultate deli sa zainteresovanim partnerima. Kao agencija ili izvođač, pokrivamo sve procese zavarivanja i kvalifikacije radnika."
+    },
+    "service3": {
+      "title": "Recruitment4u AGRO",
+      "desc": "Recruitment4u Agro je projekat usmeren na zadovoljenje potreba primarnog sektora privrede. Regrutujemo radnike za domaće privrednike u poljoprivredi, stočarstvu i prehrambenoj industriji."
+    },
+    "service4": {
+      "title": "UGOSTITELJSKI PROGRAM",
+      "desc": "Ugostiteljski program je posebno organizovan sistem za regrutaciju i selekciju osoblja za rad u uslužnim delatnostima i turizmu. Povezujemo hotelijere sa radnicima u saradnji sa brojnim ugostiteljskim udruženjima."
+    },
+    "service5": {
+      "title": "Recruitment4u CONSTRUCT",
+      "desc": "Građevinarstvo je sektor sa najvećom potražnjom za stranim radnicima, ali i najvećim izazovima pri pronalaženju adekvatne radne snage. Recruitment4u Construct je projekat usmeren na pronalaženje kvalifikovane radne snage za ovaj sektor."
+    },
+    "service6": {
+      "title": "PRILAGOĐENA REGRUTACIJA",
+      "desc": "Imate poseban zahtev? Kontaktirajte nas i jedan od naših prodajnih predstavnika će preuzeti vaš zahtev i započeti proces regrutacije potrebnih radnika."
+    },
+    "faq": {
+      "title": "Često postavljana pitanja",
+      "faq1": {
+        "qus": "Iz kojih zemalja zapošljavate radnike?",
+        "ans": "Po uzoru na modele razvijenih zemalja Bliskog Istoka, Recruitment4u se specijalizovao za uvoz radne snage iz Nepala, Filipina i Indije."
+      },
+      "faq2": {
+        "qus": "Koliko traje proces zapošljavanja stranih radnika?",
+        "ans": "Proces traje između 90 i 120 dana, u zavisnosti od tražene pozicije, izbora centra za regrutaciju i lokacije izdavanja radne dozvole."
+      },
+      "faq3": {
+        "qus": "Da li moram obezbediti smeštaj za strane radnike?",
+        "ans": "Stranim radnicima je potreban smeštaj po dolasku na radno mesto. To može obezbediti i agencija u dogovoru sa poslodavcem."
+      },
+      "faq4": {
+        "qus": "Po čemu se razlikuje zapošljavanje stranih radnika?",
+        "ans": "Strani radnici moraju imati boravišnu i radnu vizu da bi mogli da rade u UK, Hrvatskoj, Malti, Bugarskoj, Poljskoj, Rumuniji ili drugoj evropskoj zemlji. Takođe, proces njihove integracije je složeniji i uključuje smeštaj, prijavu boravka, izdavanje boravišnih kartica (biometrijskih), otvaranje bankovnih računa itd."
+      },
+      "faq5": {
+        "qus": "Kako strani radnik ostvaruje pravo na penzijsko i zdravstveno osiguranje?",
+        "ans": "Nakon prijave boravišta, nadležna služba izdaje nacionalni osiguravajući broj na osnovu kojeg se radnik može registrovati za penzijsko i zdravstveno osiguranje. Pre toga, poslodavac mora da pribavi radnu dozvolu za stranog radnika."
+      },
+      "faq6": {
+        "qus": "Koji su uslovi za zapošljavanje stranih radnika?",
+        "ans": "Potrebno je ispuniti više uslova: firma mora da postoji najmanje šest meseci, mora da ima zaposlenog bar jednog državljanina UK i ne sme imati poreska dugovanja. Takođe, uzimaju se u obzir finansijsko poslovanje firme, broj zaposlenih i da li firma posluje u oblasti za koju traži strane radnike."
+      },
+      "faq7": {
+        "qus": "Koji jezik govore strani radnici?",
+        "ans": "Da bi ispunili naše kriterijume, radnici moraju imati osnovno ili napredno znanje engleskog jezika, u zavisnosti od pozicije i zahteva poslodavca."
+      }
+    }
+  },
+
+  "solutionsnavigating": {
+    "title": "Навигација кроз имиграционе законе",
+    "description": "Навигација кроз имиграционе законе у Европи може бити изазовна због различитих правних оквира који регулишу запошљавање страних радника. Ту ми улазимо у игру да поједноставимо и убрзамо цео процес.",
+    "navigatearticale": {
+      "title": "Изазови европских имиграционих закона",
+      "boldtext": "Један од главних изазова са којима се компаније суочавају приликом навигације кроз европске имиграционе законе је бављење сложеним и често фрагментираним правним оквиром дизајнираним да заштити национална тржишта рада, док истовремено решава шире економске потребе у региону.",
+      "peragraphs": [
+        "Усклађивање са имиграционим законима у Европи може бити посебно захтевно за компаније које желе да запосле стране таленте. Послодавци морају да се придржавају различитих националних и ЕУ прописа, као што су захтеви за радне и боравишне дозволе, пореске и социјалне обавезе, као и услови који могу укључивати доказивање запослења локалног или ЕУ држављанина за одређени период. Процес често укључује тестове тржишта рада, усклађеност документације и координацију са више државних тела.",
+        "Агенција специјализована за запошљавање страних радника може бити вредан партнер у овом процесу. Такве агенције пружају стручно вођство кроз правне сложености, помажу са пријавама за дозволе, саветују о потребној документацији и помажу у осигуравању потпуне усклађености са националним и ЕУ законима о раду.",
+        "Ако се ваша организација тренутно суочава са овим изазовима, наша услуга администрације запошљавања је ту да вас подржи прилагођеним решењима и стручном помоћи."
+      ]
+    },
+    "navigatedetails": {
+      "title": "Администрација запошљавања",
+      "desc": "Услуга администрације запошљавања страних радника укључује управљање административним задацима везаним за запошљавање страних држављана од стране компанија које послују у Европи. Ова услуга је дизајнирана да помогне компанијама да се снађу у сложеностима запошљавања страних радника, осигурају усклађеност са европским имиграционим и радним прописима и поједноставе административни процес.",
+      "btn": "Прочитај више"
+    },
+    "content1": {
+      "title": "Приступ квалификованим талентима",
+      "pera": "Добијте приступ базе квалификованих, проверених професионалаца спремних да испуне ваше пословне потребе."
+    },
+    "content2": {
+      "title": "Флексибилна решења за радну снагу",
+      "pera": "Препознајемо важност флексибилности и нудимо решења за управљање радном снагом прилагођена вашим оперативним захтевима."
+    },
+    "content3": {
+      "title": "Брз и безбрижан процес запошљавања",
+      "pera": "Убрзајте свој процес запошљавања са нашим поједностављеним приступом проналажењу, увођењу и управљању талентима."
+    }
   }
 }

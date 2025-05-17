@@ -142,5 +142,116 @@
       "duration": "v roku 15 dni",
       "processdesc": "Zadnji korak vključuje organizacijo letov za delavce, pripravo nastanitve, registracijo prebivanja, izdajo prebivalnih dovoljenj, odpiranje bančnih računov ter dodatne dejavnosti, kot so zdravniški pregledi in usposabljanje o varnosti pri delu."
     }
+  },
+
+  "forcompanies": {
+    "title": "Vlagamo kapital, da pridobimo poglobljeno znanje o vsaki industriji.",
+    "desc": "Z izkušnjami pri zaposlovanju v številnih panogah najdemo delavce za vse poklice, ki jih potrebujete.",
+    "industrie1": {
+      "title": "KOVINSKA INDUSTRIJA IN TEHNIČNA PODROČJA",
+      "content1": "Varilci, kovinarji, cevovodarji, livarji kovin, CNC operaterji in programerji, mehaniki in avtoličarji, peskalci, avtoelektričarji, električarji in elektroinštalaterji, industrijski električarji, tesarji, monterji ogrevanja in klimatskih naprav, vozniki skoraj vseh kategorij, dostavljavci, razvijalci in številni drugi poklici."
+    },
+    "industrie2": {
+      "title": "GRADBENIŠTVO",
+      "content2": "Upravljavci gradbene mehanizacije, žerjavisti, železokrivci, delavci v kmetijstvu, zidarji, krovci, betonerji, keramičarji, pleskarji, izolaterji in tesnilci, fasaderji."
+    },
+    "industrie3": {
+      "title": "GOSTINSTVO IN MALOPRODAJA",
+      "content3": "Kuharji (tudi kuharji nacionalne kuhinje), baristi in natakarji, sobarice, čistilci, receptorji, slaščičarji, peki, negovalci, pomožno osebje, trgovski delavci, skladiščniki, viličaristi."
+    },
+    "industrie4": {
+      "title": "PROIZVODNJA IN LESNA INDUSTRIJA",
+      "content4": "Delavci v mesno-predelovalni in živilski industriji, delavci v tekstilni industriji (šivilje), delavci v žagah, delavci v proizvodnji pohištva in keramike ter številni drugi."
+    },
+    "ourservice": {
+      "title": "Naše storitve",
+      "desc": "Vsakemu sektorju se posvetimo individualno in razvijemo sistem za zaposlovanje, izbiro in nameščanje tujih delavcev, ki ustreza potrebam vsake gospodarske panoge."
+    },
+    "service1": {
+      "title": "ISKANJE IT TALENTOV",
+      "desc": "Domači trg razvijalcev ne more zadovoljiti rasti IT sektorja. Zato se veliko delodajalcev odloča za zaposlovanje tujih delavcev. Kontaktirajte nas in izvedite več o naših storitvah: oddaljene storitve, najem programerja, posredovanje pri zaposlovanju."
+    },
+    "service2": {
+      "title": "VARJENJE IN OBDELAVA KOVIN",
+      "desc": "Recruitment4u je edina agencija v Združenem kraljestvu, ki samostojno izvaja testiranja v matičnih državah in rezultate deli z zainteresiranimi partnerji. Kot agencija ali izvajalec pokrivamo vse varilne procese in kvalifikacije delavcev."
+    },
+    "service3": {
+      "title": "Recruitment4u AGRO",
+      "desc": "Recruitment4u Agro je projekt usmerjen v zadovoljevanje potreb primarnega gospodarskega sektorja. Zaposlujemo delavce za domače kmetovalce v kmetijstvu, živinoreji in živilski industriji."
+    },
+    "service4": {
+      "title": "PROGRAM ZA GOSTINSTVO",
+      "desc": "Gostinski program je posebej organiziran sistem za zaposlovanje in izbiro osebja za delo v storitvenih dejavnostih in turizmu. Hotelirje povezujemo z delavci v sodelovanju s številnimi gostinskimi združenji."
+    },
+    "service5": {
+      "title": "Recruitment4u CONSTRUCT",
+      "desc": "Gradbeništvo je sektor z največjim povpraševanjem po tujih delavcih, hkrati pa predstavlja tudi največji izziv pri iskanju ustrezne delovne sile. Recruitment4u Construct je projekt, namenjen iskanju kvalificirane delovne sile za ta sektor."
+    },
+    "service6": {
+      "title": "PRILAGOJENO ZAPOSLOVANJE",
+      "desc": "Imate posebno zahtevo? Kontaktirajte nas, naš prodajni predstavnik bo sprejel vaše naročilo in začel postopek zaposlovanja zahtevanih delavcev."
+    },
+    "faq": {
+      "title": "Pogosto zastavljena vprašanja",
+      "faq1": {
+        "qus": "Iz katerih držav zaposlujete delavce?",
+        "ans": "Po vzoru razvitih držav Bližnjega vzhoda se Recruitment4u specializira za uvoz delavcev iz Nepala, Filipinov in Indije."
+      },
+      "faq2": {
+        "qus": "Kako dolgo traja postopek zaposlovanja tujih delavcev?",
+        "ans": "Postopek traja od 90 do 120 dni, odvisno od zahtevane delovne pozicije, izbire zaposlitvenega centra in kraja izdaje delovnega dovoljenja."
+      },
+      "faq3": {
+        "qus": "Ali moram urediti nastanitev za tuje delavce?",
+        "ans": "Tujim delavcem je po prihodu na delovno mesto potrebna nastanitev. To lahko uredi tudi agencija v dogovoru z delodajalcem."
+      },
+      "faq4": {
+        "qus": "Kaj je značilno za zaposlovanje tujih delavcev?",
+        "ans": "Tujci potrebujejo dovoljenje za prebivanje in delovni vizum za vstop v Združeno kraljestvo, Hrvaško, Malto, Bolgarijo, Poljsko, Romunijo ali katero koli drugo evropsko državo. Proces njihove integracije je obsežnejši in vključuje nastanitev, prijavo prebivališča, izdajo prebivanjskih kartic (biometričnih) in odprtje bančnih računov."
+      },
+      "faq5": {
+        "qus": "Kako se tuji delavec prijavi za pokojninsko in zdravstveno zavarovanje?",
+        "ans": "Po prijavi prebivališča izda ustrezni urad številko nacionalnega zavarovanja, na podlagi katere se lahko prijavi za pokojninsko in zdravstveno zavarovanje. Pred tem mora delodajalec pridobiti delovno dovoljenje za tujca."
+      },
+      "faq6": {
+        "qus": "Kakšni so pogoji za zaposlovanje tujih delavcev?",
+        "ans": "Izpolnjenih mora biti več pogojev: podjetje mora delovati več kot šest mesecev, v tem času mora biti zaposlen vsaj en britanski državljan in podjetje ne sme imeti dolgov do davčnih organov. Poleg tega se upoštevajo tudi drugi dejavniki: finančna uspešnost podjetja, število zaposlenih in ali podjetje opravlja dejavnosti, za katere zaposluje tujce."
+      },
+      "faq7": {
+        "qus": "Kateri jezik govorijo tuji delavci?",
+        "ans": "Za izpolnjevanje naših meril morajo delavci imeti osnovno ali napredno znanje angleškega jezika, odvisno od delovnega mesta in zahtev delodajalca."
+      }
+    }
+  },
+
+  "solutionsnavigating": {
+    "title": "Navigacija po priseljevalskih zakonih",
+    "description": "Navigacija po priseljevalskih zakonih po Evropi je lahko zahtevna zaradi različnih pravnih okvirov, ki urejajo zaposlovanje tujih delavcev. Tu nastopimo mi, da poenostavimo in pospešimo celoten proces.",
+    "navigatearticale": {
+      "title": "Izzivi evropskih priseljevalskih zakonov",
+      "boldtext": "Eden glavnih izzivov, s katerim se soočajo podjetja pri navigaciji po evropskih priseljevalskih zakonih, je obvladovanje kompleksnega in pogosto fragmentiranega pravnega okvira, oblikovanega za zaščito nacionalnih trgov dela, hkrati pa rešuje širše gospodarske potrebe v regiji.",
+      "peragraphs": [
+        "Skladnost s priseljevalskimi zakoni v Evropi je lahko še posebej zahtevna za podjetja, ki želijo zaposliti tuje talente. Delodajalci morajo upoštevati različne nacionalne in EU predpise, kot so zahteve za delovna in bivalna dovoljenja, davčne in socialne obveze ter pogoji, ki lahko vključujejo dokazovanje zaposlitve lokalnega ali EU državljana za določeno obdobje. Proces pogosto vključuje teste trga dela, skladnost dokumentacije in koordinacijo z več vladnimi organi.",
+        "Agencija, specializirana za zaposlovanje tujih delavcev, je lahko v tem procesu dragocen partner. Takšne agencije nudijo strokovno vodenje skozi pravne zapletenosti, pomagajo pri prijavah za dovoljenja, svetujejo glede potrebne dokumentacije in pomagajo zagotoviti popolno skladnost z nacionalnimi in evropskimi delovnimi zakoni.",
+        "Če se vaša organizacija trenutno sooča s temi izzivi, je naša storitev upravljanja zaposlovanja tu, da vam ponudi podporo s prilagojenimi rešitvami in strokovno pomočjo."
+      ]
+    },
+    "navigatedetails": {
+      "title": "Upravljanje zaposlovanja",
+      "desc": "Storitev upravljanja zaposlovanja tujih delavcev vključuje upravljanje administrativnih nalog, povezanih z zaposlovanjem tujih državljanov s strani podjetij, ki delujejo v Evropi. Ta storitev je namenjena pomoči podjetjem pri obvladovanju zapletenosti zaposlovanja tujih delavcev, zagotavljanju skladnosti z evropskimi priseljevalskimi in delovnimi predpisi ter poenostavitvi administrativnega procesa.",
+      "btn": "Preberi več"
+    },
+    "content1": {
+      "title": "Dostop do usposobljenih talentov",
+      "pera": "Pridobite dostop do zbirke kvalificiranih, preverjenih strokovnjakov, pripravljenih izpolniti vaše poslovne potrebe."
+    },
+    "content2": {
+      "title": "Fleksibilne rešitve za delovno silo",
+      "pera": "Prepoznavamo pomen prilagodljivosti in ponujamo rešitve za upravljanje delovne sile, prilagojene vašim operativnim zahtevam."
+    },
+    "content3": {
+      "title": "Hiter in nežen zaposlitveni proces",
+      "pera": "Pospešite svoj zaposlitveni proces z našim poenostavljenim pristopom k iskanju, uvajanju in upravljanju talentov."
+    }
   }
 }

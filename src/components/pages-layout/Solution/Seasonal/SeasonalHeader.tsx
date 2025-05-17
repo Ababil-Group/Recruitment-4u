@@ -2,17 +2,19 @@
 import React from "react";
 import { useRouter } from "next/navigation";
 import SolutionHeader from "@/components/common/SolutionHeader";
+import { useTranslations } from "next-intl";
 
 export default function SeasonalHeader() {
   const router = useRouter();
+  const t = useTranslations("solutionsseasonal");
   const handleButtonClick = (path: string) => {
     router.push(path);
   };
   return (
     <section className="py-12 container ">
       <SolutionHeader
-        title="Employment of seasonal workers"
-        description="Whether you need a waiter, bartender, cook, kitchen assistant, cleaner, or receptionist – we’re here to help you hire the right talent for any role."
+        title={t("title")}
+        description={t("description")}
         onClick={() => handleButtonClick("/contact")}
       />
     </section>

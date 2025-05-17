@@ -142,5 +142,115 @@
       "duration": "do 15 dní",
       "processdesc": "Posledný krok zahŕňa organizáciu letov pre pracovníkov, prípravu ubytovania, registráciu pobytu, vydávanie pobytových kariet, otváranie bankových účtov, ako aj ďalšie aktivity, ako sú lekárske prehliadky a školenia o bezpečnosti práce."
     }
+  },
+  "forcompanies": {
+    "title": "Investujeme kapitál, aby sme získali hĺbkové znalosti o každom odvetví.",
+    "desc": "S dlhoročnými skúsenosťami s náborom v rôznych odvetviach nachádzame pracovníkov pre všetky profesie, ktoré potrebujete.",
+    "industrie1": {
+      "title": "KOVOPRIEMYSEL A TECHNICKÉ ODVETVIA",
+      "content1": "Zvárači, kovoročníci, potrubári, zlievači kovov, operátori a programátori CNC, mechanici a autolakovníci, pracovníci na pieskovanie, autoelektrikári, elektrikári a elektroinštalatéri, priemyselní elektrikári, stolári, inštalatéri kúrenia a klimatizácie, vodiči takmer všetkých kategórií, doručovatelia, vývojári a mnoho ďalších profesií."
+    },
+    "industrie2": {
+      "title": "STAVEBNÍCTVO",
+      "content2": "Operátori stavebných strojov, žeriavnici, železiari, poľnohospodárski pracovníci, murári, pokrývači, betonári, obkladači, maliari, izoléri a hydroizoléri, pracovníci na fasádach."
+    },
+    "industrie3": {
+      "title": "GASTRONÓMIA A MALOOBCHOD",
+      "content3": "Kuchári (vrátane kuchárov národných kuchýň), baristi a čašníci, chyžné, upratovačky, recepční, cukrári, pekári, opatrovatelia, pomocný personál, pracovníci v maloobchode, skladníci, vodiči vysokozdvižných vozíkov."
+    },
+    "industrie4": {
+      "title": "VÝROBA A DREVÁRSKY PRIEMYSEL",
+      "content4": "Pracovníci v mäsovýrobe a potravinárskom priemysle, pracovníci v textilnom priemysle (šičky), pracovníci v pílniciach, pracovníci pri výrobe nábytku a keramiky a mnoho ďalších."
+    },
+    "ourservice": {
+      "title": "Naše služby",
+      "desc": "Ku každému odvetviu pristupujeme individuálne, vyvíjame systémy náboru, výberu a umiestnenia zahraničných pracovníkov, ktoré zodpovedajú špecifikám každej oblasti hospodárstva."
+    },
+    "service1": {
+      "title": "ZÍSKAVANIE IT TALENTOV",
+      "desc": "Domáci trh vývojárov nedokáže pokryť rast IT sektora. Preto sa mnoho zamestnávateľov rozhoduje pre zahraničných pracovníkov. Kontaktujte nás a dozviete sa viac o našich službách ako sú: Vzdialené služby, prenájom programátorov, sprostredkovanie zamestnania."
+    },
+    "service2": {
+      "title": "ZVÁRANIE A KOVOSPRACOVANIE",
+      "desc": "Recruitment4u je jediná agentúra v Spojenom kráľovstve, ktorá samostatne vykonáva testovanie v domovských krajinách a zdieľa výsledky so zainteresovanými partnermi. Ako agentúra alebo dodávateľ pokrývame všetky procesy zvárania a kvalifikácie pracovníkov."
+    },
+    "service3": {
+      "title": "Recruitment4u AGRO",
+      "desc": "Recruitment4u Agro je projekt zameraný na uspokojenie potrieb primárneho sektora hospodárstva. Regrutujeme pracovníkov pre domácich podnikateľov v poľnohospodárstve, živočíšnej výrobe a potravinárskom priemysle."
+    },
+    "service4": {
+      "title": "PROGRAM PRE GASTRONÓMIU",
+      "desc": "Program pre gastronómiu je špeciálne organizovaný systém na nábor a výber pracovníkov do služieb a cestovného ruchu. Spájame hotelierov s pracovníkmi v spolupráci s rôznymi gastronomickými združeniami."
+    },
+    "service5": {
+      "title": "Recruitment4u CONSTRUCT",
+      "desc": "Stavebníctvo je sektor s najvyšším dopytom po zahraničných pracovníkoch, ale zároveň najnáročnejší na nájdenie vhodnej pracovnej sily. Recruitment4u Construct je projekt zameraný na nábor kvalifikovaných pracovníkov pre tento sektor."
+    },
+    "service6": {
+      "title": "PRISPÔSOBENÝ NÁBOR",
+      "desc": "Máte špecifickú požiadavku? Kontaktujte nás a náš obchodný zástupca prijme vašu objednávku a začne proces náboru požadovaných pracovníkov."
+    },
+    "faq": {
+      "title": "Často kladené otázky",
+      "faq1": {
+        "qus": "Z ktorých krajín prijímate pracovníkov?",
+        "ans": "Podľa modelu používaného v rozvinutých krajinách Blízkeho východu sa Recruitment4u špecializuje na dovoz pracovníkov z Nepálu, Filipín a Indie."
+      },
+      "faq2": {
+        "qus": "Ako dlho trvá proces prijímania zahraničných pracovníkov?",
+        "ans": "Proces trvá 90 až 120 dní v závislosti od požadovanej pozície, výberu náborového centra a miesta vydania pracovného povolenia."
+      },
+      "faq3": {
+        "qus": "Musím zabezpečiť ubytovanie pre zahraničných pracovníkov?",
+        "ans": "Zahraniční pracovníci potrebujú po príchode ubytovanie v mieste výkonu práce. Toto môže zabezpečiť aj agentúra v spolupráci so zamestnávateľom."
+      },
+      "faq4": {
+        "qus": "Čím je špecifické zamestnávanie zahraničných pracovníkov?",
+        "ans": "Zahraniční pracovníci potrebujú povolenie na pobyt a pracovné vízum na vstup do UK, Chorvátska, Malty, Bulharska, Poľska, Rumunska alebo iných európskych krajín. Proces ich integrácie je rozsiahlejší a zahŕňa ubytovanie, registráciu pobytu, vydanie pobytových kariet (biometrických), ako aj otvorenie bankových účtov."
+      },
+      "faq5": {
+        "qus": "Ako si zahraničný pracovník vybaví dôchodkové a zdravotné poistenie?",
+        "ans": "Po registrácii pobytu vydáva príslušný úrad národné poistné číslo, na základe ktorého sa môže zaregistrovať na dôchodkové a zdravotné poistenie. Pred tým musí zamestnávateľ získať pracovné povolenie pre pracovníka."
+      },
+      "faq6": {
+        "qus": "Aké sú podmienky na zamestnávanie zahraničných pracovníkov?",
+        "ans": "Musí byť splnených niekoľko podmienok: spoločnosť musí fungovať viac ako šesť mesiacov, musí mať aspoň jedného britského zamestnanca počas tohto obdobia a nesmie mať daňové nedoplatky. Okrem toho sa posudzujú aj ďalšie faktory: finančný výkon firmy, počet zamestnancov a to, či zamestnávateľ podniká v oblasti, pre ktorú chce zamestnať cudzincov."
+      },
+      "faq7": {
+        "qus": "Akým jazykom hovoria zahraniční pracovníci?",
+        "ans": "Na splnenie našich kritérií musia pracovníci ovládať angličtinu aspoň na základnej alebo pokročilej úrovni, v závislosti od pracovnej pozície a požiadaviek zamestnávateľa."
+      }
+    }
+  },
+
+  "solutionsnavigating": {
+    "title": "Navigácia imigračnými zákonmi",
+    "description": "Navigácia imigračnými zákonmi v Európe môže byť náročná kvôli rôznym právnym rámcom, ktoré upravujú zamestnávanie zahraničných pracovníkov. Tu prichádzame my, aby sme zjednodušili a urýchlili celý proces.",
+    "navigatearticale": {
+      "title": "Výzvy európskych imigračných zákonov",
+      "boldtext": "Jednou z hlavných výziev, ktorým čelia spoločnosti pri navigácii európskymi imigračnými zákonmi, je vysporiadanie sa so zložitým a často fragmentovaným právnym rámcom navrhnutým na ochranu národných trhov práce, pričom súčasne rieši širšie ekonomické potreby v regióne.",
+      "peragraphs": [
+        "Dodržiavanie imigračných zákonov v Európe môže byť obzvlášť náročné pre spoločnosti, ktoré chcú zamestnať zahraničné talenty. Zamestnávatelia musia dodržiavať rôzne národné a európske predpisy, ako sú požiadavky na pracovné a pobytové povolenia, daňové a sociálne povinnosti, ako aj podmienky, ktoré môžu zahŕňať dokázanie zamestnania miestneho alebo európskeho občana na stanovené obdobie. Proces často zahŕňa testy trhu práce, súlad dokumentácie a koordináciu s viacerými vládnymi orgánmi.",
+        "Agentúra špecializujúca sa na zamestnávanie zahraničných pracovníkov môže byť v tomto procese cenným partnerom. Takéto agentúry poskytujú odborné usmernenie cez právne zložitosti, pomáhajú s žiadosťami o povolenia, radia ohľadom potrebnej dokumentácie a pomáhajú zabezpečiť úplnú súladnosť s národnými a európskymi pracovnými zákonmi.",
+        "Ak sa vaša organizácia v súčasnosti potýka s týmito výzvami, naša služba administrácie zamestnávania je tu, aby vás podporila s prispôsobenými riešeniami a odbornou pomocou."
+      ]
+    },
+    "navigatedetails": {
+      "title": "Administrácia zamestnávania",
+      "desc": "Služba administrácie zamestnávania zahraničných pracovníkov zahŕňa správu administratívnych úloh súvisiacich so zamestnávaním zahraničných občanov spoločnosťami pôsobiacimi v Európe. Táto služba je navrhnutá tak, aby pomohla spoločnostiam orientovať sa v zložitostiach zamestnávania zahraničných pracovníkov, zabezpečiť súlad s európskymi imigračnými a pracovnými predpismi a zjednodušiť administratívny proces.",
+      "btn": "Čítať viac"
+    },
+    "content1": {
+      "title": "Prístup ku kvalifikovaným talentom",
+      "pera": "Získajte prístup k fondu kvalifikovaných, overených profesionálov pripravených splniť vaše obchodné potreby."
+    },
+    "content2": {
+      "title": "Flexibilné riešenia pracovnej sily",
+      "pera": "Uznávame dôležitosť prispôsobivosti a ponúkame riešenia na riadenie pracovnej sily prispôsobené vašim prevádzkovým požiadavkám."
+    },
+    "content3": {
+      "title": "Rýchly a bezproblémový nábor",
+      "pera": "Zrýchlite svoj náborový proces s našim zjednodušeným prístupom k hľadaniu, onboardingu a riadeniu talentov."
+    }
   }
 }

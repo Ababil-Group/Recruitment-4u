@@ -2,7 +2,9 @@
 import React from "react";
 import { useRouter } from "next/navigation";
 import SolutionHeader from "@/components/common/SolutionHeader";
+import { useTranslations } from "next-intl";
 export default function NavigatingHeader() {
+  const t = useTranslations("solutionsnavigating");
   const router = useRouter();
   const handleButtonClick = (path: string) => {
     router.push(path);
@@ -10,8 +12,8 @@ export default function NavigatingHeader() {
   return (
     <section className="py-12 container ">
       <SolutionHeader
-        title="Navigating immigration laws"
-        description="Navigating immigration laws across Europe can be challenging due to the varying legal frameworks governing the employment of foreign workers. That’s where we come into simplify and accelerate the entire process."
+        title={t("title")}
+        description={t("description")}
         onClick={() => handleButtonClick("/contact")}
       />
     </section>

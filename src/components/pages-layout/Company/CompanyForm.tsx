@@ -4,9 +4,9 @@ import { toast } from "sonner";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 import { motion } from "framer-motion";
-
 import ForCompaniImg from "../../../../public/images/forcompanis.jpg";
 import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
 
 type FormData = {
   company: string;
@@ -18,6 +18,7 @@ type FormData = {
 };
 
 export default function CompanyForm() {
+  const t = useTranslations("contactform");
   const [formData, setFormData] = useState<FormData>({
     company: "",
     name: "",
@@ -104,25 +105,6 @@ export default function CompanyForm() {
             sizes="100vw"
             className="w-full h-auto"
           />
-          {/* <motion.p
-            className="text-4xl sm:text-[28px] md:text-[20px] font-bold text-center text-white pt-16 sm:pt-20"
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}>
-            Whether You&apos;re considering hiring foreign workers for the first
-            time, or You&apos;d like to do it better this time, we are here to
-            hear You out and offer the unique and fast solution. Share with us a
-            few details and we will come back to You in no time. We will come to
-            You with a quick and solid fix for Your situation, and we will not
-            waste Your valuable time. Meet our team member from Your country by
-            sharing with us the following
-          </motion.p> */}
-          {/* <motion.div
-            className="w-24 sm:w-32 h-1  mx-auto rounded-full mt-4 mb-6 sm:mb-8"
-            initial={{ width: 0, opacity: 0 }}
-            animate={{ width: "8rem", opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-          /> */}
         </motion.div>
       </div>
 
@@ -137,7 +119,7 @@ export default function CompanyForm() {
               <div className="p-6 sm:p-8 lg:p-10">
                 <div className="text-center mb-6 sm:mb-8">
                   <h2 className="text-2xl sm:text-3xl font-bold text-black mb-3">
-                    Consult. Plan. Win.
+                    {t("title")}
                   </h2>
                 </div>
                 <form
@@ -145,12 +127,12 @@ export default function CompanyForm() {
                   className="space-y-4 sm:space-y-6">
                   <div className="space-y-4">
                     {[
-                      { id: "company", label: "Company Name", type: "text" },
-                      { id: "name", label: "Name & SurName", type: "text" },
-                      { id: "email", label: "Email", type: "email" },
+                      { id: "company", label: t("companyname"), type: "text" },
+                      { id: "name", label: t("name&surname"), type: "text" },
+                      { id: "email", label: t("email"), type: "email" },
                       {
                         id: "phone",
-                        label: "Country Code with Phone Number",
+                        label: t("phone"),
                         type: "tel",
                       },
                     ].map((field) => (
@@ -178,7 +160,7 @@ export default function CompanyForm() {
                       <label
                         htmlFor="note"
                         className="block text-sm font-medium text-black mb-1.5 sm:mb-2">
-                        Your Message
+                        {t("message")}
                       </label>
                       <textarea
                         id="note"
@@ -203,8 +185,7 @@ export default function CompanyForm() {
                     <label
                       htmlFor="agreeToContact"
                       className="text-xs mt-1 sm:text-sm leading-relaxed text-black max-w-2xl">
-                      I would like to be contacted by a Recruitment 4U
-                      representative from my country
+                      {t("agre")}
                     </label>
                   </div>
                   <motion.button
@@ -212,7 +193,7 @@ export default function CompanyForm() {
                     className="w-full bg-primary text-white py-3 sm:py-4 px-4 sm:px-6 rounded-lg hover:bg-primary/90 transition-all duration-200 font-semibold text-base sm:text-lg shadow-lg hover:shadow-xl"
                     whileHover={{ scale: 1.01 }}
                     whileTap={{ scale: 0.98 }}>
-                    {isFormSubmitted ? "Submitting..." : "Send"}
+                    {isFormSubmitted ? "Submitting..." : t("send")}
                   </motion.button>
                 </form>
               </div>

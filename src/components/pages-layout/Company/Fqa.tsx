@@ -2,53 +2,20 @@
 
 import { motion } from "framer-motion";
 import { Plus, Minus } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { useState } from "react";
 
-const faqItems = [
-  {
-    question: "From which countries do you hire workers?",
-    answer:
-      "Following models used in developed Middle Eastern countries, Recruitment4u specializes in importing workers from Nepal, the Philippines, and India.",
-  },
-  {
-    question: "How long does the process of hiring foreign workers take?",
-    answer:
-      "The process takes between 90 and 120 days, depending on the requested job position, choice of recruitment center, and location where the work permit is issued.",
-  },
-  {
-    question: "Do I need to arrange accommodation for foreign workers?",
-    answer:
-      "Foreign workers need accommodation upon arrival to work in their destinations. This can also be arranged by the agency in agreement with the employer.",
-  },
-  {
-    question: "What distinguishes hiring foreign workers?",
-    answer:
-      "Foreign workers require a residence permit and work visa to enter the UK, Croatia, Malta, Bulgaria, Poland, Romania, or any other European country. Additionally, the process of integrating them into their workplace is more extensive and includes arranging accommodation, registering residence, issuing residence cards (biometric residence permits), and opening bank accounts",
-  },
-  {
-    question:
-      "How does a foreign worker register for pension and health insurance?",
-    answer:
-      "Upon registering their residence, the Home Office issues a National Insurance Number based on which they can register for pension and health insurance. Before registration, employers must obtain a Work Permit for foreign workers.",
-  },
-  {
-    question: "What are the conditions for hiring foreign workers?",
-    answer:
-      "Several conditions must be met: The company must have been operating for more than six months, must have employed at least one UK citizen over that period, and must not have tax or contribution debts. Additionally, other elements are considered when hiring foreign workers: financial performance of the business entity, number of employees, and whether the employer is engaged in activities for which they are hiring foreigners.",
-  },
-  {
-    question: "What language do foreign workers speak?",
-    answer:
-      "To meet our criteria for coming to work in Europe, workers need basic or advanced knowledge of English, depending on their job position and employer preferences.",
-  },
-];
+type FaqItemType = {
+  question: string;
+  answer: string;
+};
 
 const FaqItem = ({
   item,
   isOpen,
   onToggle,
 }: {
-  item: (typeof faqItems)[0];
+  item: FaqItemType;
   isOpen: boolean;
   onToggle: () => void;
 }) => {
@@ -80,6 +47,38 @@ const FaqItem = ({
 };
 
 const FAQ = () => {
+  const t = useTranslations("forcompanies");
+  const faqItems = [
+    {
+      question: t("faq.faq1.qus"),
+      answer: t("faq.faq1.ans"),
+    },
+    {
+      question: t("faq.faq2.qus"),
+      answer: t("faq.faq2.ans"),
+    },
+    {
+      question: t("faq.faq3.qus"),
+      answer: t("faq.faq3.ans"),
+    },
+    {
+      question: t("faq.faq4.qus"),
+      answer: t("faq.faq4.ans"),
+    },
+    {
+      question: t("faq.faq5.qus"),
+      answer: t("faq.faq5.ans"),
+    },
+    {
+      question: t("faq.faq6.qus"),
+      answer: t("faq.faq6.ans"),
+    },
+    {
+      question: t("faq.faq7.qus"),
+      answer: t("faq.faq7.ans"),
+    },
+  ];
+
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
@@ -91,7 +90,7 @@ const FAQ = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-            Frequently Asked Questions
+            {t("faq.title")}
           </h2>
         </motion.div>
 

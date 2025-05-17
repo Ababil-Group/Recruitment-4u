@@ -10,45 +10,7 @@ import {
   FileQuestion,
 } from "lucide-react";
 import { CardContainer, CardBody } from "@/components/ui/3d-card";
-
-const services = [
-  {
-    title: "IT TALENT ACQUISITION",
-    description:
-      "The domestic developer market cannot cover the growth of the IT sector. Therefore, many employers choose to hire foreign workers. Contact us to learn more about our services, including: Remote services,Rent a coder, Employment mediation",
-    icon: Code2,
-  },
-  {
-    title: "WELDING AND METALWORKING",
-    description:
-      "Recruitment4u is the only agency in the UK that independently conducts testing in home countries and shares results with interested partners. As an agency or contractor, we cover all welding processes and worker qualifications.",
-    icon: Wrench,
-  },
-  {
-    title: "Recruitment4u AGRO",
-    description:
-      "Recruitment4u Agro je projekt usmjeren na zadovoljavanje potreba primarnog sektora gospodarstva. Regrituiramo radnike za domaće gospodarstvenike u poljoprivredi, stočarstvu i prehrambenoj industriji.",
-    icon: Wheat,
-  },
-  {
-    title: "HOSPITALITY PROGRAM",
-    description:
-      "The Hospitality Program is a specially organized system for recruiting and selecting staff for work in service industries and tourism. We connect hoteliers with workers in cooperation with numerous hospitality associations.",
-    icon: UtensilsCrossed,
-  },
-  {
-    title: "Recruitment4u CONSTRUCT",
-    description:
-      "Construction is a sector with the highest demand for foreign workers but also presents the greatest challenge in finding adequate labor. Recruitment4u Construct is a project aimed at finding a qualified workforce for this sector.",
-    icon: Construction,
-  },
-  {
-    title: "CUSTOM RECRUITMENT",
-    description:
-      "Do you have a specific request? Contact us, and one of our sales representatives will take your order and begin the recruitment process for the requested workers.",
-    icon: FileQuestion,
-  },
-];
+import { useTranslations } from "next-intl";
 
 interface Service {
   title: string;
@@ -90,6 +52,40 @@ const ServiceCard = ({ service }: { service: Service }) => (
 );
 
 const Services = () => {
+  const t = useTranslations("forcompanies");
+
+  const services = [
+    {
+      title: t("service1.title"),
+      description: t("service1.desc"),
+      icon: Code2,
+    },
+    {
+      title: t("service2.title"),
+      description: t("service2.desc"),
+      icon: Wrench,
+    },
+    {
+      title: t("service3.title"),
+      description: t("service3.desc"),
+      icon: Wheat,
+    },
+    {
+      title: t("service4.title"),
+      description: t("service4.desc"),
+      icon: UtensilsCrossed,
+    },
+    {
+      title: t("service5.title"),
+      description: t("service5.desc"),
+      icon: Construction,
+    },
+    {
+      title: t("service6.title"),
+      description: t("service6.desc"),
+      icon: FileQuestion,
+    },
+  ];
   const containerRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -117,12 +113,10 @@ const Services = () => {
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-6 md:mb-8">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-3 text-primary">
-            Our Services
+            {t("ourservice.title")}
           </h1>
           <p className="text-base md:text-lg text-black max-w-2xl mx-auto px-4">
-            We approach each sector differently, developing systems for
-            recruiting, selecting, and placing foreign workers that specifically
-            meet the needs of each branch of economic activity.
+            {t("ourservice.desc")}
           </p>
         </motion.div>
 

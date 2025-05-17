@@ -140,5 +140,154 @@
       "duration": "within 15 days",
       "processdesc": "The final step includes flight arrangements for workers, accommodation preparation, residence registration, issuance of residence cards, opening bank accounts, as well as additional activities such as medical examinations and occupational safety training."
     }
+  },
+  "contactform": {
+    "title": "Consult. Plan. Win.",
+    "companyname": "Company Name",
+    "name&surname": "Name & SurName",
+    "email": "Email",
+    "phone": "Country Code with Phone Number",
+    "message": "Your Message",
+    "agre": "I would like to be contacted by a Recruitment 4U representative from my country",
+    "send": "Send"
+  },
+  "forcompanies": {
+    "title": "We invest capital to gain in-depth knowledge of every industry.",
+    "desc": " With experience in recruitment across numerous industries, we find workers for all the professions you need.",
+    "industrie1": {
+      "title": "METAL INDUSTRY AND TECHNICAL FIELDS",
+      "content1": "Welders, Metalworkers, Pipefitters, Metal casters, CNC operators and programmers, Mechanics and auto painters, Sandblasting workers, Auto electricians, Electricians and electrical installers, Industrial electricians, Carpenters, Heating and air conditioning installers, Drivers of almost all categories, Delivery workers, Developers, And many other professions."
+    },
+    "industrie2": {
+      "title": "CONSTRUCTION",
+      "content2": "Construction machinery managers, Crane operators, Reinforcers, Farmworkers, Bricklayers, Roofers, Concrete workers, Tilers, Painters, Insulators and waterproofers, Facade workers."
+    },
+    "industrie3": {
+      "title": "HOSPITALITY AND RETAIL",
+      "content3": "Chefs (including national cuisine chefs), Baristas and waiters, Housekeepers, Cleaners, Receptionists, Pastry chefs, Bakers, Caregivers, Support Staff, Retail workers, Warehouse workers, Forklift operators."
+    },
+    "industrie4": {
+      "title": "MANUFACTURING AND WOOD INDUSTRY",
+      "content4": "Workers in meat processing and food production industries, Textile industry workers (sewers), Sawmill workers, Furniture and ceramics production workers, And many others."
+    },
+    "ourservice": {
+      "title": "Our Services",
+      "desc": " We approach each sector differently, developing systems for recruiting, selecting, and placing foreign workers that specifically meet the needs of each branch of economic activity."
+    },
+    "service1": {
+      "title": "IT TALENT ACQUISITION",
+      "desc": "The domestic developer market cannot cover the growth of the IT sector. Therefore, many employers choose to hire foreign workers. Contact us to learn more about our services, including: Remote services,Rent a coder, Employment mediation"
+    },
+    "service2": {
+      "title": "WELDING AND METALWORKING",
+      "desc": "Recruitment4u is the only agency in the UK that independently conducts testing in home countries and shares results with interested partners. As an agency or contractor, we cover all welding processes and worker qualifications."
+    },
+    "service3": {
+      "title": "Recruitment4u AGRO",
+      "desc": "Recruitment4u Agro je projekt usmjeren na zadovoljavanje potreba primarnog sektora gospodarstva. Regrituiramo radnike za domaće gospodarstvenike u poljoprivredi, stočarstvu i prehrambenoj industriji."
+    },
+    "service4": {
+      "title": "HOSPITALITY PROGRAM",
+      "desc": "The Hospitality Program is a specially organized system for recruiting and selecting staff for work in service industries and tourism. We connect hoteliers with workers in cooperation with numerous hospitality associations."
+    },
+    "service5": {
+      "title": "Recruitment4u CONSTRUCT",
+      "desc": "Construction is a sector with the highest demand for foreign workers but also presents the greatest challenge in finding adequate labor. Recruitment4u Construct is a project aimed at finding a qualified workforce for this sector."
+    },
+    "service6": {
+      "title": "CUSTOM RECRUITMENT",
+      "desc": "Do you have a specific request? Contact us, and one of our sales representatives will take your order and begin the recruitment process for the requested workers."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "faq1": {
+        "qus": "From which countries do you hire workers?",
+        "ans": "Following models used in developed Middle Eastern countries, Recruitment4u specializes in importing workers from Nepal, the Philippines, and India."
+      },
+      "faq2": {
+        "qus": "How long does the process of hiring foreign workers take?",
+        "ans": "The process takes between 90 and 120 days, depending on the requested job position, choice of recruitment center, and location where the work permit is issued."
+      },
+      "faq3": {
+        "qus": "Do I need to arrange accommodation for foreign workers?",
+        "ans": "Foreign workers need accommodation upon arrival to work in their destinations. This can also be arranged by the agency in agreement with the employer."
+      },
+      "faq4": {
+        "qus": "What distinguishes hiring foreign workers?",
+        "ans": "Foreign workers require a residence permit and work visa to enter the UK, Croatia, Malta, Bulgaria, Poland, Romania, or any other European country. Additionally, the process of integrating them into their workplace is more extensive and includes arranging accommodation, registering residence, issuing residence cards (biometric residence permits), and opening bank accounts"
+      },
+      "faq5": {
+        "qus": "How does a foreign worker register for pension and health insurance?",
+        "ans": "Upon registering their residence, the Home Office issues a National Insurance Number based on which they can register for pension and health insurance. Before registration, employers must obtain a Work Permit for foreign workers."
+      },
+      "faq6": {
+        "qus": "What are the conditions for hiring foreign workers?",
+        "ans": "Several conditions must be met: The company must have been operating for more than six months, must have employed at least one UK citizen over that period, and must not have tax or contribution debts. Additionally, other elements are considered when hiring foreign workers: financial performance of the business entity, number of employees, and whether the employer is engaged in activities for which they are hiring foreigners."
+      },
+      "faq7": {
+        "qus": "What language do foreign workers speak?",
+        "ans": "To meet our criteria for coming to work in Europe, workers need basic or advanced knowledge of English, depending on their job position and employer preferences."
+      }
+    }
+  },
+  "solutionsnavigating": {
+    "title": "Navigating immigration laws",
+    "description": "Navigating immigration laws across Europe can be challenging due to the varying legal frameworks governing the employment of foreign workers. That’s where we come into simplify and accelerate the entire process.",
+    "navigatearticale": {
+      "title": "Challenges with European Immigration Laws",
+      "boldtext": "One of the main challenges companies face in navigating European immigration laws is dealing with the complex and often fragmented legal framework designed to protect national labor markets while also addressing broader economic needs across the region.",
+      "peragraphs": [
+        "Complying with immigration laws in Europe can be particularly demanding for companies seeking to employ foreign talent. Employers must adhere to various national and EU-level regulations, such as work and residence permit requirements, tax and social security obligations, and conditions that may include proving the employment of a local or EU citizen for a defined period. The process often involves labor market tests, documentation compliance, and coordination with multiple government bodies.",
+        "An agency specializing in the employment of foreign workers can be a valuable partner in this process. Such agencies provide expert guidance through the legal complexities, assist with permit applications, advise on required documentation, and help ensure full compliance with national and EU labor laws.",
+        "If your organization is currently navigating these challenges, our employment administration service is here to support you with tailored solutions and expert assistance."
+      ]
+    },
+    "navigatedetails": {
+      "title": "Employment Administration",
+      "desc": "The employment administration service for foreign workers involves managing administrative tasks related to the employment of foreign nationals by companies operating in Europe. This service is designed to help companies navigate the complexities of hiring foreign workers, ensure compliance with European immigration and labor regulations, and streamline the administrative process.",
+      "btn": "Read More"
+    },
+    "content1": {
+      "title": "Access to Skilled Talent",
+      "pera": "Gain access to a pool of qualified, vetted professionals ready to meet your business needs."
+    },
+    "content2": {
+      "title": "Flexible Workforce Solutions",
+      "pera": "We recognize the importance of adaptability and offer workforce management solutions tailored to your operational demands."
+    },
+    "content3": {
+      "title": "Fast & Hassle-Free Recruitment",
+      "pera": "Accelerate your hiring process with our streamlined approach to sourcing, onboarding, and managing talent."
+    }
+  },
+  "solutionsseasonal": {
+    "title": "Employment of seasonal workers",
+    "description": "Whether you need a waiter, bartender, cook, kitchen assistant, cleaner, or receptionist – we’re here to help you hire the right talent for any role.",
+    "seasonalarticle": {
+      "title": "Challenges in finding seasonal workers",
+      "boldtext": "The problem of finding seasonal workers in Croatia, especially in industries such as tourism, catering, agriculture and construction, is multifaceted and often represents a significant challenge for employers.",
+      "peragraphs": [
+        "The hospitality industry, in particular, is now more affected by seasonal fluctuations than perhaps any other sector. Most of our clients struggle to accurately forecast their need for external or foreign workers during the high season, especially in the early months of the year.",
+        "As a result, many resorts, hotels, and restaurants make last-minute hiring decisions, which leads to a sudden surge in demand for workers. Unfortunately, the market often cannot respond to this demand immediately. From the moment an agreement is signed with a recruitment agency, it may take one to two months for foreign workers to arrive at their job sites. This timeline includes sourcing candidates, assessing qualifications, conducting interviews, processing paperwork, and other essential steps.",
+        "To address this, we offer a reliable solution that reduces the risks associated with delays and long waiting periods: labor outsourcing."
+      ]
+    },
+    "seasonaldetails": {
+      "title": "Assignment of workers",
+      "desc": "The employment administration service for foreign workers involves managing administrative tasks related to the employment of foreign nationals by companies operating in Europe. This service is designed to help companies navigate the complexities of hiring foreign workers, ensure compliance with European immigration and labor regulations, and streamline the administrative process.",
+      "btn": "Read More"
+    },
+    "content1": {
+      "title": "Access to Skilled Talent",
+      "pera": "Gain access to a pool of qualified, vetted professionals ready to meet your business needs."
+    },
+    "content2": {
+      "title": "Flexible Workforce Solutions",
+      "pera": "We recognize the importance of adaptability and offer workforce management solutions tailored to your operational demands."
+    },
+    "content3": {
+      "title": "Fast & Hassle-Free Recruitment",
+      "pera": "Accelerate your hiring process with our streamlined approach to sourcing, onboarding, and managing talent."
+    }
   }
 }
