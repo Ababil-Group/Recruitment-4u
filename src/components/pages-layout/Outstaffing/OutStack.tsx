@@ -7,60 +7,55 @@ import Stack1 from "../../../../public/images/OutStack1.jpg";
 import Stack2 from "../../../../public/images/OutStack2.jpg";
 import Stack3 from "../../../../public/images/OutStack3.jpg";
 import Stack4 from "../../../../public/images/OutStack4.jpg";
-
-const data = [
-  {
-    title: "Back end development",
-    image: Stack1,
-    description:
-      "We specialize in robust backend development using Node.js, Python, Go, and more.",
-  },
-  {
-    title: "Front end & design",
-    image: Stack2,
-    description:
-      "Clean and interactive interfaces using React, TypeScript, and modern UI frameworks.",
-  },
-  {
-    title: "Mobile development",
-    image: Stack3,
-    description:
-      "Cross-platform mobile apps developed in Swift, Kotlin, Dart, and React Native.",
-  },
-  {
-    title: "Game development",
-    image: Stack4,
-    description:
-      "Immersive 3D game experiences using Unity and Unreal Engine technologies.",
-  },
-  {
-    title: "Data Science & Big Data",
-    description:
-      "Data scientist, Machine Learning, Quantitative Researcher, AI Researcher, Data Analyst",
-  },
-  {
-    title: "Management & Analysis",
-    description:
-      "CTO, IT Project Manager, Product Manager, Business analyst, Team Lead",
-  },
-  {
-    title: "Marketing & HR",
-    description:
-      "CMO, Content Creator, PPC, Email Marketer, Traffic manager, HR Business Partner, Recruiter, HRD, Copywriter",
-  },
-  {
-    title: "QA, Infrastructure& support",
-    description: "QA Automation, QA Manual,DevOps, Engineer Support Engineer",
-  },
-];
+import { useTranslations } from "next-intl";
 
 export default function OutStack() {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
+  const t = useTranslations("outstaffing");
+
+  const data = [
+    {
+      title: t("outstack.box1.title"),
+      image: Stack1,
+      description: t("outstack.box1.desc"),
+    },
+    {
+      title: t("outstack.box2.title"),
+      image: Stack2,
+      description: t("outstack.box2.desc"),
+    },
+    {
+      title: t("outstack.box3.title"),
+      image: Stack3,
+      description: t("outstack.box3.desc"),
+    },
+    {
+      title: t("outstack.box4.title"),
+      image: Stack4,
+      description: t("outstack.box4.desc"),
+    },
+    {
+      title: t("outstack.box5.title"),
+      description: t("outstack.box5.desc"),
+    },
+    {
+      title: t("outstack.box6.title"),
+      description: t("outstack.box6.desc"),
+    },
+    {
+      title: t("outstack.box7.title"),
+      description: t("outstack.box7.desc"),
+    },
+    {
+      title: t("outstack.box8.title"),
+      description: t("outstack.box8.desc"),
+    },
+  ];
 
   return (
     <div className="p-6">
-      <h2 className="text-2xl font-bold text-center mb-6">
-        Stack / Specialization
+      <h2 className="text-4xl font-bold text-center text-black mb-12">
+        {t("outstack.title")}
       </h2>
 
       <div className="flex space-x-4 overflow-x-auto pb-4 max-w-full">

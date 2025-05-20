@@ -6,46 +6,45 @@ import Benefits3 from "../../../../public/images/benefits3.jpg";
 import Benefits4 from "../../../../public/images/benefits4.jpg";
 import Benefits5 from "../../../../public/images/benefits5.jpg";
 import Benefits6 from "../../../../public/images/benefits6.jpg";
+import { useTranslations } from "next-intl";
 
 export default function Benefits() {
+  const t = useTranslations("recruitmentcard");
   const benefits = [
     {
       id: 1,
-      title: "Access to Top Talent",
-      description:
-        "Over 130,000 candidates in our database, featuring diverse skill sets.",
+      title: t("benefits.benefit1.title"),
+      description: t("benefits.benefit1.desc"),
       image: Benefits1,
     },
     {
       id: 2,
-      title: "Expertise You Can Trust",
-      description:
-        "Proprietary screening methodology and 30+ recruitment channels.",
+      title: t("benefits.benefit2.title"),
+      description: t("benefits.benefit2.desc"),
       image: Benefits2,
     },
     {
       id: 3,
-      title: "Transparent Process",
-      description: "Real-time CRM access to monitor the recruitment funnel.",
+      title: t("benefits.benefit3.title"),
+      description: t("benefits.benefit3.desc"),
       image: Benefits3,
     },
     {
       id: 4,
-      title: "In-Depth Insights",
-      description: "Thorough technical interviews with detailed summaries.",
+      title: t("benefits.benefit4.title"),
+      description: t("benefits.benefit4.desc"),
       image: Benefits4,
     },
     {
       id: 5,
-      title: "Flexible Payment Options",
-      description:
-        "Various tariff plans and payment methods, including cryptocurrencies.",
+      title: t("benefits.benefit5.title"),
+      description: t("benefits.benefit5.desc"),
       image: Benefits5,
     },
     {
       id: 6,
-      title: "Personalized Support",
-      description: "Dedicated manager and recruiter for each client.",
+      title: t("benefits.benefit6.title"),
+      description: t("benefits.benefit6.desc"),
       image: Benefits6,
     },
   ];
@@ -53,7 +52,7 @@ export default function Benefits() {
   return (
     <section className="py-12 container mx-auto px-4">
       <h1 className="text-[40px] font-bold text-center text-black mb-12">
-        Benefits
+        {t("benefits.title")}
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

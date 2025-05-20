@@ -2,8 +2,10 @@
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { useTranslations } from "next-intl";
 
 export default function ContactHeader() {
+  const t = useTranslations("contactus");
   const HandleScrollToSection = () => {
     const section = document.getElementById("offices");
     if (section) {
@@ -33,15 +35,14 @@ export default function ContactHeader() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}>
-            CONTACT
+            {t("text")}
           </motion.h4>
           <motion.h1
             className="text-[50px] max-md:[30px] max-sm:text-[20px] font-extrabold text-black mb-8"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}>
-            Recruitment4u is here for you and all your questions — both for
-            companies and job seekers.
+            {t("title")}
           </motion.h1>
           <motion.div
             className=""
@@ -51,7 +52,7 @@ export default function ContactHeader() {
             <Button
               onClick={HandleScrollToSection}
               className="bg-primary rounded-full text-white font-bold text-[25px] py-8 px-20">
-              Offices
+              {t("btnText")}
             </Button>
           </motion.div>
         </div>

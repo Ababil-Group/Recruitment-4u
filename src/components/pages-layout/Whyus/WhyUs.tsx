@@ -3,33 +3,30 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import whyUsBanner from "../../../../public/images/why-us-banner.jpg";
-
-const benefits = [
-  {
-    title: "A simpler and quicker way to get qualified candidates",
-    description:
-      "We offer clients several options of providing employees (e.g. temporary recruitment), giving them a faster and more flexible way of hiring.",
-  },
-  {
-    title: "A way to save time and money",
-    description:
-      "DEKRA assumes all administrative, legal and financial duties, saving time for you and your employees.",
-  },
-  {
-    title: "Huge database of candidates",
-    description:
-      "We can quickly fulfil your employee requirements thanks to our wide variety of candidates with different profiles and skillsets.",
-  },
-  {
-    title: "Experience and established processes",
-    description:
-      "As a result of years of agency work, we have well-defined processes, experience in hiring local and foreign workers, office all across Croatia, and visibility across the region.",
-  },
-];
+import { useTranslations } from "next-intl";
 
 const navbarHeight = 80; // adjust to match your navbar
 
 const WhyUs = () => {
+  const t = useTranslations("whyus");
+  const benefits = [
+    {
+      title: t("article1.title"),
+      description: t("article1.pera"),
+    },
+    {
+      title: t("article2.title"),
+      description: t("article2.pera"),
+    },
+    {
+      title: t("article3.title"),
+      description: t("article3.pera"),
+    },
+    {
+      title: t("article4.title"),
+      description: t("article4.pera"),
+    },
+  ];
   return (
     <section className="bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
@@ -67,12 +64,9 @@ const WhyUs = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}>
               <h1 className="text-[52px] md:text-[52px] font-bold text-black mb-6">
-                Why Us
+                {t("title")}
               </h1>
-              <p className="text-lg text-black">
-                We are a recruitment agency that specializes in connecting
-                companies with the right talent.
-              </p>
+              <p className="text-lg text-black">{t("description")}</p>
             </motion.div>
 
             <div className="space-y-8">

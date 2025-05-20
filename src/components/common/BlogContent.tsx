@@ -18,17 +18,16 @@ type HtmlParagraph = {
   content: string;
 };
 
-type ParagraphItem = TextParagraph | ImageParagraph | HtmlParagraph;
+export type ParagraphItem = TextParagraph | ImageParagraph | HtmlParagraph;
 
 interface BlogContentProps {
-  content: {
-    paragraphs: ParagraphItem[];
-  };
+  paragraphs: ParagraphItem[];
 }
-export function BlogContent({ content }: BlogContentProps): JSX.Element {
+
+export function BlogContent({ paragraphs }: BlogContentProps): JSX.Element {
   return (
     <div className="max-w-3xl mt-10 mx-auto space-y-6">
-      {content.paragraphs.map((item, index) => {
+      {paragraphs.map((item, index) => {
         if (item.type === "text") {
           return (
             <p
@@ -38,6 +37,7 @@ export function BlogContent({ content }: BlogContentProps): JSX.Element {
             />
           );
         }
+
         if (item.type === "image") {
           return (
             <div key={index} className="my-8">
@@ -48,7 +48,7 @@ export function BlogContent({ content }: BlogContentProps): JSX.Element {
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 768px"
-                  priority={index === 0} // Optional: prioritize first image load
+                  priority={index === 0}
                 />
               </div>
               {item.caption && (
@@ -59,16 +59,14 @@ export function BlogContent({ content }: BlogContentProps): JSX.Element {
             </div>
           );
         }
+
         if (item.type === "html") {
           return (
-            <ul key={index} className="space-y-2 my-4">
-              <li key={index} className="flex items-start">
-                <span
-                  className="text-lg text-primary"
-                  dangerouslySetInnerHTML={{ __html: item.content }}
-                />
-              </li>
-            </ul>
+            <div
+              key={index}
+              className="space-y-2 my-4 text-lg text-primary"
+              dangerouslySetInnerHTML={{ __html: item.content }}
+            />
           );
         }
 

@@ -13,25 +13,24 @@ import img7 from "../../../../public/images/brand7.png";
 import img8 from "../../../../public/images/brand8.png";
 import img9 from "../../../../public/images/brand9.png";
 import img10 from "../../../../public/images/brand10.png";
+import { useTranslations } from "next-intl";
 
 const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
 export default function OutHero() {
+  const t = useTranslations("outstaffing");
   return (
     <section>
       <div className="min-h-[600px] flex items-center px-5">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Left content */}
           <div className="text-black">
-            <h1 className="text-[52px] font-bold mb-6">Outstaffing</h1>
-            <p className="text-[25px] mb-6 max-w-lg">
-              We offer outstaffing solutions for rapidly growing businesses,
-              enabling team expansion and boosting productivity.
-            </p>
+            <h1 className="text-[52px] font-bold mb-6">{t("title")}</h1>
+            <p className="text-[25px] mb-6 max-w-lg">{t("desc")}</p>
             <a
               className="bg-primary text-[25px] font-bold mt-5 text-white px-8 py-4 rounded-md hover:text-slate-700 transition-all"
               href="https://calendly.com/recruitment4u-head-office"
               target="_blank">
-              Book a call
+              {t("buttonText")}
             </a>
           </div>
           {/* Right image */}
@@ -49,7 +48,7 @@ export default function OutHero() {
         <div className="container mx-auto">
           <div className="flex justify-center items-center gap-5">
             <h5 className="text-black text-[22px] md:text-[24px] font-bold mb-6">
-              Trusted by top brands
+              {t("ads")}
             </h5>
             <ImageSlider images={images} height="h-8" speed={50} />
           </div>
@@ -66,12 +65,10 @@ export default function OutHero() {
                 <DollarSign height={60} width={70} className="text-primary" />
                 <div className="mt-10">
                   <h4 className="text-black text-[30px] font-bold">
-                    Zero Upfront Costs
+                    {t("card1.title")}
                   </h4>
                   <p className="text-[20px] text-black font-normal">
-                    Start hiring with no upfront costs. Our process is
-                    efficient, fast, and hassle-free. We handle payroll and
-                    taxes so you can focus on your business.
+                    {t("card1.desc")}
                   </p>
                 </div>
               </div>
@@ -83,12 +80,10 @@ export default function OutHero() {
                 <ThumbsUp height={60} width={70} className="text-primary" />
                 <div className="mt-10">
                   <h4 className="text-black text-[30px] font-bold">
-                    Flexible Workforce Management
+                    {t("card2.title")}
                   </h4>
                   <p className="text-[20px] text-black font-normal">
-                    Whether you need temporary staff for short-term projects or
-                    long-term hires, we adapt to your needs. Scale your
-                    workforce up or down with ease.
+                    {t("card2.desc")}
                   </p>
                 </div>
               </div>
@@ -99,11 +94,10 @@ export default function OutHero() {
                 <Users height={60} width={70} className="text-primary" />
                 <div className="mt-10">
                   <h4 className="text-black text-[30px] font-bold">
-                    Long-Term Partnerships
+                    {t("card3.title")}
                   </h4>
                   <p className="text-[20px] text-black font-normal">
-                    We prioritize long-term relationships by providing remote
-                    workers who seamlessly integrate into your company culture.
+                    {t("card3.desc")}
                   </p>
                 </div>
               </div>

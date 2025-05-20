@@ -1,8 +1,10 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 export default function BehindHero() {
+  const t = useTranslations("behindthebrand");
   return (
     <section className="relative bg-primary ml-[-10vw] w-screen overflow-hidden">
       {/* Background images container */}
@@ -25,17 +27,16 @@ export default function BehindHero() {
             transition={{ duration: 0.8 }}
             className="max-w-2xl bg-white/90 backdrop-blur-sm p-8 md:p-12 rounded-lg shadow-xl">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-              Global tech recruitment & staffing for fast-growing companies
+              {t("title")}
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mb-6">
-              We supply our clients with exclusive recruitment services helping
-              businesses scale and prosper
+              {t("description")}
             </p>
             <a
               className="bg-primary text-[25px] font-bold mt-5 text-white px-8 py-4 rounded-md hover:text-slate-700 transition-all"
               href="https://calendly.com/recruitment4u-head-office"
               target="_blank">
-              Book a call
+              {t("btn")}
             </a>
           </motion.div>
         </div>

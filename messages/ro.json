@@ -142,6 +142,17 @@
       "processdesc": "Ultimul pas include organizarea zborurilor pentru lucrători, pregătirea cazării, înregistrarea șederii, emiterea cardurilor de ședere, deschiderea conturilor bancare, precum și alte activități suplimentare cum ar fi examinări medicale și formare privind siguranța la locul de muncă."
     }
   },
+  "contactform": {
+    "title": "Consultanță. Planificare. Câștig.",
+    "companyname": "Numele companiei",
+    "name&surname": "Nume și prenume",
+    "email": "Email",
+    "phone": "Codul țării cu numărul de telefon",
+    "country": "Numele țării",
+    "message": "Mesajul dumneavoastră",
+    "agre": "Aș dori să fiu contactat de un reprezentant Recruitment 4U din țara mea",
+    "send": "Trimite"
+  },
   "forcompanies": {
     "title": "Investim capital pentru a dobândi o cunoaștere aprofundată a fiecărei industrii.",
     "desc": "Cu experiență în recrutare în numeroase industrii, găsim lucrători pentru toate profesiile de care aveți nevoie.",
@@ -251,5 +262,843 @@
       "title": "Recrutare rapidă și fără stres",
       "pera": "Accelerați procesul de angajare cu abordarea noastră simplificată de găsire, integrare și gestionare a talentelor."
     }
+  },
+  "solutionsseasonal": {
+    "title": "Angajarea muncitorilor sezonieri",
+    "description": "Indiferent dacă aveți nevoie de un chelner, barman, bucătar, asistent de bucătărie, curățenie sau recepționer – suntem aici pentru a vă ajuta să angajați talentul potrivit pentru orice rol.",
+    "seasonalarticle": {
+      "title": "Provocări în găsirea muncitorilor sezonieri",
+      "boldtext": "Problema găsirii muncitorilor sezonieri în Croația, în special în industrii precum turismul, cateringul, agricultura și construcțiile, este complexă și reprezintă adesea o provocare semnificativă pentru angajatori.",
+      "peragraphs": [
+        "Industria de ospitalitate este, în special, afectată în prezent de fluctuațiile sezoniere mai mult decât orice alt sector. Majoritatea clienților noștri se confruntă cu dificultăți în a prognoza cu exactitate nevoia de muncitori externi sau străini în timpul sezonului înalt, în special în primele luni ale anului.",
+        "Ca urmare, multe stațiuni, hoteluri și restaurante iau decizii de angajare în ultimul moment, ceea ce duce la o creștere bruscă a cererii de muncitori. Din păcate, piața nu poate răspunde adesea imediat acestei cereri. Din momentul semnării unui acord cu o agenție de recrutare, poate dura una până la două luni până când muncitorii străini ajung la locurile lor de muncă. Acest termen include găsirea candidaților, evaluarea calificărilor, desfășurarea interviurilor, procesarea documentației și alți pași esențiali.",
+        "Pentru a aborda această problemă, oferim o soluție fiabilă care reduce riscurile asociate cu întârzierile și perioadele lungi de așteptare: externalizarea forței de muncă."
+      ]
+    },
+    "seasonaldetails": {
+      "title": "Detașarea muncitorilor",
+      "desc": "Noi permitem angajarea rapidă și ușoară a forței de muncă pentru proiecte sezoniere sau misiuni cu termen fix. Puteți beneficia de un pool existent de muncitori din întreaga Europa, accelerând semnificativ procesul de recrutare. Ne ocupăm de încheierea contractelor de detașare și asumăm întreaga responsabilitate pentru plata salariilor și toate sarcinile administrative conexe. Acest serviciu oferă o soluție practică pentru nevoile urgente de forță de muncă, asigurând flexibilitate și eficiență în gestionarea personalului pentru diverse proiecte și cerințe sezoniere.",
+      "btn": "Citește mai mult"
+    },
+    "content1": {
+      "title": "Acces la talente calificate",
+      "pera": "Obțineți acces la un pool de profesioniști calificați și verificați, pregătiți să răspundă nevoilor afacerii dumneavoastră."
+    },
+    "content2": {
+      "title": "Soluții flexibile de forță de muncă",
+      "pera": "Recunoaștem importanța adaptabilității și oferim soluții de gestionare a forței de muncă adaptate cerințelor operaționale ale dumneavoastră."
+    },
+    "content3": {
+      "title": "Recrutare rapidă și fără probleme",
+      "pera": "Accelerați procesul de angajare cu abordarea noastră simplificată de găsire, onboarding și gestionare a talentelor."
+    }
+  },
+  "solutionconstruction": {
+    "title": "Angajarea muncitorilor din construcții",
+    "description": "Oferim o gamă largă de profesioniști calificați, inclusiv armatori, tâmplari, zidari, montatori de structuri metalice, acoperișuri și operatori de utilaje de construcții.",
+    "constructionarticle": {
+      "title": "Provocări în găsirea muncitorilor din construcții",
+      "boldtext": "Problema actuală din industria construcțiilor privind lipsa muncitorilor provine dintr-o deficiență semnificativă de forță de muncă. Această lipsă afectează productivitatea, prelungește termenele limită ale proiectelor și creează provocări în satisfacerea cererii de muncitori calificați din construcții.",
+      "peragraphs": [
+        "Piața europeană are o nevoie similară de muncitori din construcții, așa cum se reflectă în numeroasele anunțuri pentru posturi disponibile în construcții. Companiile de pe tot continentul se confruntă adesea cu dificultăți în găsirea muncitorilor dedicați și calificați pentru a satisface această cerere, ceea ce poate duce la provocări de angajare și potențiale întârzieri în finalizarea proiectelor.",
+        "Ca agenție de recrutare a muncitorilor străini, oferim mai multe modalități de a vă ajuta. În primul rând, ne folosim rețeaua extinsă de muncitori străini calificați care sunt dornici să lucreze în întreaga Europă. Prin conectarea acestor muncitori cu companiile care au nevoie de ei, ajutăm la reducerea decalajului dintre cerere și ofertă de forță de muncă. În plus, oferim sprijin în navigarea cerințelor legale pentru angajarea muncitorilor străini, asigurând un proces de angajare fără probleme și conform atât pentru companii, cât și pentru muncitori.",
+        "Soluția noastră pentru abordarea acestor provocări este medierea angajării."
+      ]
+    },
+    "constructiondetails": {
+      "title": "Medierea angajării",
+      "desc": "Prin oferirea unui serviciu de mediere a angajării, ajutăm companiile să aibă acces la un fond de muncitori calificați, abordând provocările cu care vă confruntați în găsirea unei forțe de muncă calificate. Prin facilitarea angajării muncitorilor străini și furnizarea unor servicii complete de angajare, jucăm un rol crucial în satisfacerea nevoilor de forță de muncă ale industriei construcțiilor din întreaga Europă.",
+      "btn": "Citește mai mult"
+    },
+    "content1": {
+      "title": "Acces la talente calificate",
+      "pera": "Obțineți acces la un fond de profesioniști calificați și verificați, pregătiți să răspundă nevoilor afacerii dumneavoastră."
+    },
+    "content2": {
+      "title": "Soluții flexibile de forță de muncă",
+      "pera": "Recunoaștem importanța adaptabilității și oferim soluții de gestionare a forței de muncă adaptate cerințelor operaționale ale dumneavoastră."
+    },
+    "content3": {
+      "title": "Recrutare rapidă și fără probleme",
+      "pera": "Accelerați procesul de angajare cu abordarea noastră simplificată de găsire, onboarding și gestionare a talentelor."
+    }
+  },
+
+  "solutionmedical": {
+    "title": "Angajarea lucrătorilor medicali",
+    "description": "Medici, asistente, tehnicieni medicali, farmaciști și alți profesioniști din domeniul sănătății – suntem aici pentru a vă sprijini în recrutarea pentru toate posturile medicale.",
+    "medicalarticle": {
+      "title": "Provocări în găsirea lucrătorilor medicali",
+      "boldtext": "Provocarea de a găsi personal medical calificat, în special în domeniile specializate ale sănătății, este o problemă complexă cu care se confruntă multe unități medicale din Europa.",
+      "peragraphs": [
+        "În Europa, sectorul medical se confruntă cu provocări similare altor regiuni în ceea ce privește atragerea și menținerea personalului calificat. Cererea de profesioniști în sănătate, inclusiv medici, asistente, farmaciști și tehnicieni, este în creștere din cauza îmbătrânirii populației, a progreselor în tratamente și a nevoilor medicale în continuă evoluție.",
+        "Cererea de specialiști medicali continuă să crească, alimentată de factori precum creșterea populației, îmbătrânirea demografică și dezvoltarea tehnologiei medicale.",
+        "Sistemul medical european se bazează pe instituții publice și private, fiecare cu cerințe unice. Deși forța de muncă este bine pregătită, există lipsuri în anumite specialități sau regiuni, ceea ce duce la suprasolicitarea personalului existent.",
+        "Unitățile medicale se confruntă și cu dificultăți în estimarea necesarului de personal, ceea ce poate duce la lipsuri în perioadele critice și poate afecta calitatea îngrijirii pacienților."
+      ]
+    },
+    "medicaldetails": {
+      "title": "Intermediere în angajare",
+      "desc": "Unitățile medicale din Europa întâmpină dificultăți în prognozarea necesarului de personal, ceea ce duce la lipsuri în momente critice. Această imprevizibilitate poate afecta îngrijirea pacienților și poate crește presiunea asupra personalului existent.",
+      "btn": "Citește mai mult"
+    },
+    "content1": {
+      "title": "Acces la talente calificate",
+      "pera": "Obțineți acces la o bază de profesioniști calificați și verificați, gata să răspundă nevoilor afacerii dvs."
+    },
+    "content2": {
+      "title": "Soluții flexibile pentru forța de muncă",
+      "pera": "Înțelegem nevoia de adaptabilitate și oferim soluții personalizate pentru gestionarea resurselor umane."
+    },
+    "content3": {
+      "title": "Recrutare rapidă și fără complicații",
+      "pera": "Accelerați procesul de angajare cu soluția noastră eficientă de recrutare, integrare și gestionare a personalului."
+    }
+  },
+  "whyus": {
+    "title": "De ce noi",
+    "description": "Suntem o agenție de recrutare specializată în conectarea companiilor cu talentele potrivite.",
+    "article1": {
+      "title": "O modalitate mai simplă și rapidă de a găsi candidați calificați",
+      "pera": "Oferim clienților mai multe opțiuni de furnizare a angajaților (de exemplu, recrutare temporară), oferindu-le o modalitate mai rapidă și mai flexibilă de angajare."
+    },
+    "article2": {
+      "title": "O modalitate de a economisi timp și bani",
+      "pera": "recruitment4U preia toate sarcinile administrative, legale și financiare, economisind timp pentru dvs. și angajații dvs."
+    },
+    "article3": {
+      "title": "Bază de date vastă cu candidați",
+      "pera": "Putem îndeplini rapid cerințele dvs. de angajare datorită varietății noastre largi de candidați cu diferite profiluri și competențe."
+    },
+    "article4": {
+      "title": "Experiență și procese stabilite",
+      "pera": "Ca rezultat al anilor de activitate în agenție, avem procese bine definite, experiență în angajarea lucrătorilor locali și străini, birouri în toată Croația și vizibilitate în regiune."
+    }
+  },
+  "behindthebrand": {
+    "title": "Recrutare și staffing IT global pentru companii în creștere rapidă",
+    "description": "Oferim clienților noștri servicii exclusive de recrutare care ajută companiile să se extindă și să prospere",
+    "btn": " Programează un apel",
+    "content1": {
+      "title": "Misiunea noastră",
+      "pera": "Să conectăm companii grozave cu talente și mai grozave."
+    },
+    "content2": {
+      "title": "Viziunea noastră",
+      "pera": "Să fim partenerul principal cu care clienții și candidații aleg mereu să se conecteze."
+    },
+    "content3": {
+      "title": "Abordarea noastră",
+      "pera1": "Suntem o echipă orientată pe obiective, unde cultura este mai importantă decât procesele formale.",
+      "pera2": "Suntem o echipă orientată pe obiective, unde cultura este mai importantă decât procesele formale.",
+      "pera3": "Am construit un mediu de lucru care sprijină creșterea și adevăratul spirit de echipă. Nu există nimic mai satisfăcător decât să învățăm și să sărbătorim succesele împreună!"
+    },
+    "teamsction": {
+      "title": "Ești gata pentru următorul nivel? Alătură-te nouă",
+      "team1": {
+        "name": "Director de vânzări",
+        "position": "CSO",
+        "description": "Condu creșterea. Condu succesul."
+      },
+      "team2": {
+        "name": "Director executiv",
+        "position": "CEO",
+        "description": "Condu creșterea. Condu succesul."
+      },
+      "team3": {
+        "name": "Director tehnologic",
+        "position": "CTO",
+        "description": "Condu creșterea. Condu succesul."
+      },
+      "team4": {
+        "name": "Director de marketing",
+        "position": "CMO",
+        "description": "Condu creșterea. Condu succesul."
+      },
+      "team5": {
+        "name": "Director operațional",
+        "position": "COO",
+        "description": "Condu creșterea. Condu succesul."
+      },
+      "team6": {
+        "name": "Director financiar",
+        "position": "CFO",
+        "description": "Condu creșterea. Condu succesul."
+      },
+      "team7": {
+        "name": "Director de resurse umane",
+        "position": "CPO",
+        "description": "Condu creșterea. Condu succesul."
+      },
+      "team8": {
+        "name": "Director juridic",
+        "position": "CLO",
+        "description": "Condu creșterea. Condu succesul."
+      },
+      "team9": {
+        "name": "Director de resurse umane",
+        "position": "CHR",
+        "description": "Condu creșterea. Condu succesul."
+      },
+      "team10": {
+        "name": "Director de date",
+        "position": "CDO",
+        "description": "Condu creșterea. Condu succesul."
+      }
+    },
+
+    "articlesection": {
+      "title": "Lecturi despre recrutare. Reîmprospătat. Rafinat.",
+      "value1": {
+        "title": "Ce naționalitate ar trebui să preferați când vă gândiți în afara Europei?"
+      },
+      "value2": {
+        "title": "Ar trebui să vă bazați pe o agenție care percepe sume mari? Aspecte de luat în considerare înainte de a alege un partener de recrutare pentru a construi o echipă grozavă în Europa."
+      },
+      "value3": {
+        "title": "Cât de repede poate aduce Recruitment-4u muncitori străini în Europa? Și cât de mult putem influența cu adevărat termenul de aprobare a vizei?"
+      }
+    }
+  },
+
+  "recruitmentcard": {
+    "title": "Recrutare",
+    "desc1": "Optimizați-vă timpul și resursele cu soluțiile noastre complete de recrutare.",
+    "desc2": "Găsiți talentele de care aveți nevoie pentru a stimula creșterea afacerii.",
+    "buttonText": "Rezervă un apel",
+    "ads": "client",
+    "whatsdo": {
+      "title": "Ce facem",
+      "card1": {
+        "title": "Recrutare orientată pe rezultate",
+        "desc1": "Gestionăm procesul de recrutare de la început până la sfârșit.",
+        "desc2": "Urmăm un model „plătește la angajare” unde plătiți doar pentru plasări reușite."
+      },
+      "card2": {
+        "title": "Soluții bazate pe abonament",
+        "desc1": "Bucurați-vă de servicii complete de recrutare cu planuri de abonament flexibile.",
+        "desc2": "Personalizăm lucrătorii pentru dumneavoastră la nivel global în funcție de nevoile dumneavoastră."
+      },
+      "card3": {
+        "title": "Externalizarea procesului de recrutare (RPO)",
+        "desc1": "Externalizați o parte sau întregul proces de recrutare pentru a simplifica operațiunile de angajare."
+      }
+    },
+    "benefits": {
+      "title": "Beneficii",
+      "benefit1": {
+        "title": "Acces la cele mai bune talente",
+        "desc": "Peste 130.000 de candidați în baza noastră de date, cu abilități diverse."
+      },
+      "benefit2": {
+        "title": "Expertiză de încredere",
+        "desc": "Metodologie proprie de screening și peste 30 de canale de recrutare."
+      },
+      "benefit3": {
+        "title": "Proces transparent",
+        "desc": "Acces în timp real la CRM pentru monitorizarea procesului de recrutare."
+      },
+      "benefit4": {
+        "title": "Analize aprofundate",
+        "desc": "Interviuri tehnice amănunțite cu rezumate detaliate."
+      },
+      "benefit5": {
+        "title": "Opțiuni flexibile de plată",
+        "desc": "Diverse planuri tarifare și metode de plată, inclusiv criptomonede."
+      },
+      "benefit6": {
+        "title": "Suport personalizat",
+        "desc": "Manager și recrutor dedicat pentru fiecare client."
+      }
+    },
+    "ourprocess": {
+      "title": "Procesul nostru",
+      "desc": "Reduceți timpul de angajare. Vă vom furniza primii candidați în 3-5 zile.",
+      "card1": {
+        "title": "Pasul 1: Trimiteți cerințele dumneavoastră",
+        "time": "(1-3 zile)",
+        "desc": "Furnizați-ne descrierea postului și cerințele.",
+        "task": [
+          "Prezentare generală a companiei",
+          "Detalii despre post",
+          "Semnarea contractului"
+        ]
+      },
+      "card2": {
+        "title": "Recrutare pe întreg ciclul",
+        "time": "(1-4 săptămâni)",
+        "desc": "Vom selecta candidații pe baza cerințelor dumneavoastră.",
+        "task": [
+          "Căutare",
+          "Preselectare, Interviuri",
+          "Actualizări săptămânale"
+        ]
+      },
+      "card3": {
+        "title": "Finalizarea angajării",
+        "time": "(4-6 săptămâni)",
+        "desc": "Vom selecta cei mai buni candidați pe baza cerințelor dumneavoastră.",
+        "task": [
+          "Negocierea ofertei",
+          "Semnarea NDA cu candidatul",
+          "Prezentarea rezultatelor"
+        ]
+      }
+    },
+    "industries": {
+      "title": "Industrii în care lucrăm"
+    }
+  },
+  "hrconsulting": {
+    "title": "Consultanță HR",
+    "desc1": "Ajutăm companiile să construiască o reputație deosebită care sporește vizibilitatea pe piață și îmbunătățește rezultatele angajării.",
+    "buttonText": "Rezervă un apel",
+    "ads": "Încredințat de marci de top",
+    "whatsdo": {
+      "title": "Ce Facem",
+      "card1": {
+        "title": "Recrutare orientată pe rezultate",
+        "desc1": "Creăm o imagine convingătoare a organizației dumneavoastră pentru viitorii angajați și pentru cei actuali.",
+        "desc2": "permițându-vă să atrageți și să păstrați talentele de top."
+      },
+      "card2": {
+        "title": "Experiența angajatului",
+        "desc1": "Am colaborat cu peste 70 de organizații pentru optimizarea operațiunilor HR, atingerea obiectivelor și creșterea profitabilității."
+      }
+    },
+    "benefits": {
+      "title": "Beneficii",
+      "desc": "Am colaborat cu peste 70 de organizații pentru optimizarea operațiunilor HR, atingerea obiectivelor și creșterea profitabilității.",
+      "benefit1": {
+        "title": "Audit HR",
+        "desc": "Analizăm practicile dumneavoastră de management al personalului pentru a identifica zonele de îmbunătățire."
+      },
+      "benefit2": {
+        "title": "Insights",
+        "desc": "Identificați punctele forte și slabe ale cadrului dumneavoastră HR, rămânând la curent cu tendințele din industrie."
+      },
+      "benefit3": {
+        "title": "Soluții",
+        "desc": "Dezvoltați rapid o strategie HR robustă, adaptată pentru rezultate optime."
+      },
+      "benefit4": {
+        "title": "Experiență",
+        "desc": "Planificați strategic employer branding pentru a atrage și păstra cele mai bune talente."
+      },
+      "benefit5": {
+        "title": "Plăți flexibile",
+        "desc": "Alegeți dintre diverse planuri de prețuri și opțiuni de plată, inclusiv transferuri bancare și criptomonede."
+      },
+      "benefit6": {
+        "title": "Recrutare eficientă",
+        "desc": "Îmbunătățiți strategiile de recrutare și sprijiniți eforturile de angajare pentru rezultate superioare."
+      }
+    },
+    "ourprocess": {
+      "title": "Procesul nostru",
+      "desc": "Accelerarea termenelor de angajare – vom livra profilurile inițiale ale candidaților în 3-5 zile.",
+      "card1": {
+        "title": "Spuneți-ne despre dumneavoastră",
+        "task": [
+          "Prezentare generală a companiei",
+          "Analiza brandului angajatorului și a experienței",
+          "Propunere de valoare unică (UVP) pentru angajați"
+        ]
+      },
+      "card2": {
+        "title": "Conducem transformarea",
+        "task": [
+          "Identificarea punctelor de contact cu angajații",
+          "Maparea etapelor ciclului de viață al angajatului",
+          "Stabilirea proceselor simplificate"
+        ]
+      },
+      "card3": {
+        "title": "Livrăm rezultate",
+        "task": [
+          "Implementarea tehnologiei de ultimă oră",
+          "Desfășurarea sesiunilor de formare pentru lideri",
+          "Prezentarea eficientă a rezultatelor"
+        ]
+      }
+    },
+    "industries": {
+      "title": "Industrii în care lucrăm"
+    }
+  },
+  "outstaffing": {
+    "title": "Outstaffing",
+    "desc": "Oferim soluții de outstaffing pentru afaceri în creștere rapidă, permițând extinderea echipei și creșterea productivității.",
+    "buttonText": "Programează un apel",
+    "ads": "De încredere pentru marci de top",
+    "card1": {
+      "title": "Fără costuri inițiale",
+      "desc": "Începeți angajarea fără costuri inițiale. Procesul nostru este eficient, rapid și fără probleme. Ne ocupăm de salarii și taxe, astfel încât să vă puteți concentra pe afacerea dvs."
+    },
+    "card2": {
+      "title": "Management flexibil al forței de muncă",
+      "desc": "Indiferent dacă aveți nevoie de personal temporar pentru proiecte pe termen scurt sau angajați pe termen lung, ne adaptăm la nevoile dvs. Scalați cu ușurință forța de muncă."
+    },
+    "card3": {
+      "title": "Parteneriate pe termen lung",
+      "desc": "Prioritizăm relațiile pe termen lung, oferind lucrători la distanță care se integrează perfect în cultura companiei dvs."
+    },
+    "whatsdo": {
+      "title": "Ce facem",
+      "description": "Ajutăm companiile să se extindă rapid, să îmbunătățească operațiunile, să atingă obiectivele și să crească profitabilitatea.",
+      "card1": {
+        "title": "Mărirea echipei IT",
+        "desc": "Obțineți profesioniști calificați pentru a vă consolida echipa și a umple rapid roluri critice."
+      },
+      "card2": {
+        "title": "Outstaffing bazat pe proiecte",
+        "desc": "Primiți o echipă dedicată pentru a gestiona proiectele de la început până la finalizare eficientă."
+      },
+      "card3": {
+        "title": "Dezvoltarea centrului de cercetare și dezvoltare",
+        "desc": "Folosiți-vă de expertiza noastră în stabilirea centrelor de cercetare și dezvoltare cu talente de top adaptate nevoilor dvs."
+      },
+      "card4": {
+        "title": "Construirea echipei QA",
+        "desc": "Angajați specialiști QA individuali sau creați o echipă completă de profesioniști experimentați pentru asigurarea calității."
+      },
+      "card5": {
+        "title": "Configurarea centrului de suport tehnic",
+        "desc": "Lăsați-ne să vă ajutăm să construiți sau să îmbunătățiți departamentul dvs. de suport tehnic cu personal calificat."
+      }
+    },
+    "industries": {
+      "title": "Industrii în care lucrăm"
+    },
+    "outstack": {
+      "title": "Stack / Specializare",
+      "box1": {
+        "title": "Dezvoltare back end",
+        "desc": "Suntem specializați în dezvoltare robustă de back-end folosind Node.js, Python, Go și altele."
+      },
+      "box2": {
+        "title": "Front end & design",
+        "desc": "Interfețe curate și interactive folosind React, TypeScript și cadre UI moderne."
+      },
+      "box3": {
+        "title": "Dezvoltare mobilă",
+        "desc": "Suntem specializați în dezvoltarea mobilă cross-platform folosind Flutter, React Native și altele."
+      },
+      "box4": {
+        "title": "Dezvoltare de jocuri",
+        "desc": "Suntem specializați în crearea de experiențe immersive 3D folosind tehnologii Unity și Unreal Engine."
+      },
+      "box5": {
+        "title": "Data Science & Big Data",
+        "desc": "Data scientist, Machine Learning, Quantitative Researcher, AI Researcher, Data Analyst"
+      },
+      "box6": {
+        "title": "Management & Analiză",
+        "desc": "Suntem specializați în roluri de management precum CTO, IT Project Manager, Product Manager, Business Analyst și Team Lead."
+      },
+      "box7": {
+        "title": "Marketing & HR",
+        "desc": "Suntem specializați în roluri de Marketing & HR precum CMO, Content Creator, PPC Specialist, Email Marketer, Traffic Manager, HR Business Partner, Recruiter, HR Director și Copywriter."
+      },
+      "box8": {
+        "title": "QA, Infrastructură & Suport",
+        "desc": "QA Automation, QA Manual, DevOps, Engineer Support Engineer."
+      }
+    },
+    "benefits": {
+      "title": "Beneficii",
+      "desc": "Ajutăm peste 70 de companii să îmbunătățească procesele HR, să atingă obiectivele și să obțină profit.",
+      "benefit1": {
+        "title": "Audit HR",
+        "desc": "Examinați procesele din domeniul managementului de personal, determinați ce îmbunătățiri sunt necesare"
+      },
+      "benefit2": {
+        "title": "Perspective",
+        "desc": "Evidențiați punctele forte și punctele slabe ale departamentului dvs. HR, aflați despre cele mai recente tendințe"
+      },
+      "benefit3": {
+        "title": "Soluții",
+        "desc": "Construiți strategia HR a companiei în cel mai scurt timp și cu rezultatul perfect"
+      },
+      "benefit4": {
+        "title": "Experiență",
+        "desc": "Creăm profesional o strategie de brand angajator pentru atragerea talentelor și reținerea angajaților."
+      },
+      "benefit5": {
+        "title": "Plăți flexibile",
+        "desc": "Diferite planuri tarifare din care să alegeți și o varietate de metode de plată de la transfer bancar la transferuri crypto."
+      },
+      "benefit6": {
+        "title": "Recrutare eficientă",
+        "desc": "Vă putem ajuta în domeniul recrutării prin optimizarea strategiei de recrutare, precum și prin asistență în procesul de angajare"
+      }
+    }
+  },
+
+  "blogone": {
+    "category": "Recrutare",
+    "title": "Ce Naționalitate Să Preferi Când Gândești în Afara Europei?",
+    "date": "2 Iulie 2023",
+    "blog": {
+      "paragraphs": [
+        {
+          "type": "text",
+          "content": "Când îți extinzi căutarea de talente dincolo de Europa, angajatorii se confruntă adesea cu o varietate copleșitoare de opțiuni globale. Dar nu toate deciziile de angajare internațională oferă aceeași valoare. Anumite naționalități se evidențiază constant prin profesionalism, adaptabilitate, competențe tehnice și aliniere culturală."
+        },
+        {
+          "type": "text",
+          "content": "Acești profesioniști nu au doar calificările potrivite; ei vin cu o mentalitate globală, etică de muncă și abilități de comunicare esențiale în lumea afacerilor de azi, digitală și dinamică."
+        },
+        {
+          "type": "text",
+          "content": "Totuși, în ciuda dimensiunii mari a rezervorului global de talente, provocările persistă. Problema reală nu este găsirea CV-urilor, ci identificarea candidaților pregătiți pentru muncă, cu un echilibru ideal între competențele tehnice și cele interpersonale."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Lucrează inteligent cu Recruitment-4u: Partenerul tău global în recrutare</strong>"
+        },
+        {
+          "type": "text",
+          "content": "Angajarea în afara Europei este o mișcare strategică, dar vine și cu o complexitate crescută. De la verificarea diplomelor la procesele de viză și reglementările de conformitate, nu este o călătorie pe care să o faci singur. Aici intervenim noi – Recruitment-4u."
+        },
+        {
+          "type": "text",
+          "content": "Ne specializăm în conectarea companiilor cu profesioniști performanți din întreaga lume. Fie că angajezi dezvoltatori, specialiști digitali sau cadre medicale, avem rețeaua și expertiza necesară."
+        },
+        {
+          "type": "text",
+          "content": "Cu Recruitment-4u, eviți greșelile comune ale recrutării internaționale, economisești timp, bani și resurse interne, obținând în același timp acces la candidați calificați la nivel global."
+        },
+        {
+          "type": "image",
+          "src": "/images/blog1.jpg",
+          "alt": "Interviu echipă de recrutare"
+        },
+        {
+          "type": "text",
+          "content": "<strong>Cum găsește Recruitment-4u candidații internaționali potriviți</strong>"
+        },
+        {
+          "type": "text",
+          "content": "Folosim o abordare în mai mulți pași pentru a identifica și furniza talente de top. Analizăm bazele de date globale, job board-urile, și folosim analize în timp real pentru a găsi profesioniști potriviți pentru cultura și obiectivele tale."
+        },
+        {
+          "type": "text",
+          "content": "Pentru candidații din afara Europei, verificăm diplomele, competențele lingvistice, certificările și compatibilitatea culturală. Procesul nostru de selecție asigură că fiecare profesionist este pregătit să performeze."
+        },
+        {
+          "type": "text",
+          "content": "De la târguri de locuri de muncă și parteneriate universitare, până la headhunting și teste de competență, oferim soluții adaptate fiecărei industrii."
+        },
+        {
+          "type": "text",
+          "content": "<strong>De ce să lucrezi cu o agenție globală precum Recruitment-4u?</strong>"
+        },
+        {
+          "type": "text",
+          "content": "Angajarea internațională înseamnă mai mult decât ocuparea unei poziții – e despre potrivirea cu valorile companiei. Noi ne ocupăm de asta, oferind soluții complete și personalizate."
+        },
+        {
+          "type": "text",
+          "content": "În piețele actuale rapide, cei mai buni candidați nu caută activ un loc de muncă. Sunt ocupați, de succes și deschiși doar la oportunitățile potrivite. Aici intervenim noi."
+        },
+        {
+          "type": "text",
+          "content": "<strong>De ce clienții din întreaga Europă au încredere în noi:</strong>"
+        },
+        {
+          "type": "html",
+          "content": "<ul class='space-y-2 list-disc my-4'><p class='text-lg mb-10 text-primary leading-relaxed'>De ce clienții din Europa au încredere în noi:</p><li><span class='mr-3'>✅</span><span class='font-black'>Acces la profesioniști vorbitori de limba engleză...</span></li><li><span class='mr-3'>✅</span><span class='font-black'>Suport complet în procesul de recrutare...</span></li><li><span class='mr-3'>✅</span><span class='font-black'>Cunoștințe despre legislația internațională...</span></li><li><span class='mr-3'>✅</span><span class='font-black'>Proces de angajare eficient și economic</span></li></ul>"
+        },
+        {
+          "type": "text",
+          "content": "Indiferent dacă angajezi pentru un singur post sau îți extinzi o echipă globală, oferim soluții flexibile și eficiente adaptate nevoilor tale."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Cum să alegi agenția de recrutare globală potrivită</strong>"
+        },
+        {
+          "type": "text",
+          "content": "Nu toate agențiile sunt la fel. Când alegi un partener global, ține cont de următoarele:"
+        },
+        {
+          "type": "html",
+          "content": "<ul class='space-y-2 list-decimal my-4'><li><strong>Verifică acoperirea internațională</strong> – Are agenția acces la talente din regiuni cheie?</li><li><strong>Evaluează expertiza legală</strong> – Oferă consultanță pentru vize, salarizare sau angajare internațională?</li><li><strong>Verifică comunicarea</strong> – Pot înțelege cultura și valorile echipei tale?</li></ul>"
+        },
+        {
+          "type": "text",
+          "content": "La Recruitment-4u bifăm toate aceste criterii. Avem prezență globală, metode bazate pe date și o abordare personalizată."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Concluzie: Extinde-te global, angajează cu încredere</strong>"
+        },
+        {
+          "type": "text",
+          "content": "Angajarea dincolo de Europa nu trebuie să fie complicată. Cu ghidarea corectă, poți avea acces la profesioniști talentați și motivați, care aduc valoare afacerii tale."
+        },
+        {
+          "type": "text",
+          "content": "La Recruitment-4u conectăm companiile cu talente globale care se potrivesc perfect cu cultura și procesele tale. De la IT la marketing, sănătate și finanțe – avem profesioniștii potriviți."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Gata să-ți extinzi echipa dincolo de granițe?</strong><br />Lasă Recruitment-4u să îți simplifice procesul. Contactează-ne azi și găsește candidatul potrivit mai repede."
+        },
+        {
+          "type": "text",
+          "content": "Încă te gândești? Citește poveștile noastre de succes sau discută cu consultanții noștri și află de ce suntem partenerul de încredere al afacerilor din Europa."
+        }
+      ]
+    }
+  },
+  "blogtwo": {
+    "category": "Recrutare",
+    "title": "Ar trebui să vă bazați pe o agenție care percepe sume mari? Aspecte de luat în considerare înainte de a alege un partener de recrutare pentru a construi o echipă excelentă în Europa",
+    "date": "2 mai 2025",
+    "blog": {
+      "paragraphs": [
+        {
+          "type": "text",
+          "content": "Peisajul global de afaceri este divers și dinamic - de la hub-urile financiare din Dubai și Singapore la ecosistemele tech înfloritoare din Bengaluru, São Paulo și San Francisco. Dar o provocare rămâne constantă în toate regiunile: cum să atragem și să angajăm oamenii potriviți."
+        },
+        {
+          "access": "text",
+          "content": "Pe o piață a forței de muncă tot mai competitivă, multe companii apelează la agențiile de recrutare pentru a construi echipe eficiente, pregătite pentru viitor. Dar când o agenție cere un preț de trei ori mai mare decât alta, este normal să vă întrebați - merită?"
+        },
+        {
+          "type": "text",
+          "content": "Să analizăm pentru ce ar trebui să plătiți cu adevărat și cum să evaluați dacă un partener de recrutare merită investiția."
+        },
+        {
+          "type": "text",
+          "content": "De ce unele agenții din Europa percep taxe mai mari?"
+        },
+        {
+          "type": "text",
+          "content": "Recrutarea astăzi depășește cu mult simpla potrivire a CV-urilor cu descrierile posturilor. Agențiile de top funcționează acum ca parteneri strategici, oferind strategii personalizate de angajare, acces la talente greu de atins, îndrumări privind conformitatea transfrontalieră și perspective valoroase despre potrivirea culturală."
+        },
+        {
+          "type": "html",
+          "content": "<ul class='list-disc ml-6 space-y-2'><li>Găsirea de talente multilingve</li><li>Căutare executivă cu confidențialitate strictă</li><li>Suport transfrontalier (de ex. conformitate GDPR, reglementări locale de angajare)</li><li>Sfaturi privind brandingul angajatorului și cadre de onboarding</li><li>Benchmarking al salariilor de pe piață și cartografierea talentelor</li></ul>"
+        },
+        {
+          "type": "text",
+          "content": "Mai ales atunci când angajați pentru roluri senior sau de nișă în sectoare precum finanțe, științe ale vieții, tehnologie sau energie - agențiile care înțeleg peisajul pieței europene pot face toată diferența."
+        },
+        {
+          "type": "text",
+          "content": "Ce să luați în considerare înainte de a colabora cu o agenție de recrutare"
+        },
+        {
+          "type": "html",
+          "content": "<ol class='list-decimal ml-6 space-y-2'><li>Înțeleg industria dumneavoastră și piața europeană a muncii?</li><li>Pot ajuta cu angajări transfrontaliere?</li><li>Care este strategia lor de găsire a candidaților?</li><li>Sunt transparenți cu privire la costuri și termene?</li><li>Acționează ca un furnizor sau ca un partener?</li></ol>"
+        },
+        {
+          "type": "text",
+          "content": "Când plata unei sume mai mari este de fapt rentabilă"
+        },
+        {
+          "type": "text",
+          "content": "Să fim sinceri, greșelile de recrutare sunt costisitoare. O angajare greșită poate ajunge să coste de până la trei ori salariul anual al angajatului. Acest impact este și mai mare în regiunile cu protecție puternică a muncii și cicluri lungi de angajare, unde înlocuirea unui candidat nepotrivit necesită timp, resurse și adesea proceduri legale."
+        },
+        {
+          "type": "html",
+          "content": "<ul class='list-disc ml-6 space-y-2'><li>Viteză și eficiență, reducând timpul până la angajare</li><li>Candidați de calitate superioară, cu rate mai bune de retenție</li><li>Perspective asupra pieței care ajută la evitarea greșelilor de angajare</li><li>Procese structurate care vă reprezintă marca profesional</li></ul>"
+        },
+        {
+          "type": "text",
+          "content": "Pe piețele foarte competitive ale forței de muncă, unde cultura companiei joacă un rol important, investiția într-o agenție de recrutare de încredere duce adesea la rezultate mai bune pe termen lung."
+        },
+        {
+          "type": "text",
+          "content": "Dar prețul nu este totul..."
+        },
+        {
+          "type": "html",
+          "content": "<ul class='list-disc ml-6 space-y-2'><li>✅ Examinați rata lor de succes în plasare</li><li>✅ Cereți recomandări ale clienților sau studii de caz</li><li>✅ Înțelegeți canalele lor de găsire a candidaților și procesul de verificare</li><li>✅ Clarificați garanțiile lor - ce se întâmplă dacă o angajare nu funcționează?</li></ul>"
+        },
+        {
+          "type": "text",
+          "content": "O taxă mare nu garantează întotdeauna calitatea. Căutați agenții care oferă un echilibru între expertiză, transparență și un track record dovedit."
+        },
+        {
+          "type": "text",
+          "content": "Agenția potrivită poate transforma procesul dumneavoastră de angajare"
+        },
+        {
+          "type": "text",
+          "content": "Uneori, cea mai bună agenție pentru compania dumneavoastră poate fi o firmă boutique cu conexiuni regionale puternice și o abordare personalizată, nu neapărat cea cu cel mai mare nume sau cea mai mare taxă."
+        },
+        {
+          "type": "text",
+          "content": "Gând final: Nu cumpărați doar un serviciu - alegeți un partener strategic de angajare"
+        },
+        {
+          "type": "text",
+          "content": "Angajarea în Europa necesită cunoștințe locale, conștientizare culturală și precizie juridică. Fie că angajați un singur profesionist senior sau construiți o echipă mare, partenerul de recrutare pe care îl alegeți joacă un rol cheie în succesul dumneavoastră."
+        },
+        {
+          "type": "text",
+          "content": "O agenție bună vă economisește timpul. O agenție excelentă vă întărește afacerea."
+        },
+        {
+          "type": "text",
+          "content": "Recruitment-4u – Angajare inteligentă pentru companii inteligente în întreaga Europă"
+        },
+        {
+          "type": "text",
+          "content": "La Recruitment-4u, ajutăm companii din Golf, Asia, America de Nord și de Sud să găsească talente excepționale. Fie că extindeți un startup tech, angajați profesioniști multilingvi sau navigați prin conformitatea angajărilor peste granițe - suntem aici pentru dumneavoastră."
+        },
+        {
+          "type": "html",
+          "content": "<ul class='list-disc ml-6 space-y-2'><li>Cunoștințe regionale aprofundate</li><li>Strategii de recrutare personalizate</li><li>Prețuri transparente și livrare rapidă</li><li>Orientare către parteneriat pe termen lung</li></ul>"
+        },
+        {
+          "type": "text",
+          "content": "Lăsați-ne să vă ajutăm să găsiți oamenii care vă vor muta afacerea înainte."
+        },
+        {
+          "type": "text",
+          "content": "Contactați Recruitment-4u astăzi - pentru că angajarea în Europa nu trebuie să fie dificilă atunci când aveți partenerul potrivit."
+        }
+      ]
+    }
+  },
+
+  "blogthree": {
+    "category": "Recrutare",
+    "title": "Ce naționalitate ar trebui să preferați când vă gândiți în afara Europei?",
+    "date": "2 iulie 2023",
+    "blog": {
+      "paragraphs": [
+        {
+          "type": "text",
+          "content": "Pe măsură ce industriile din Europa se confruntă cu o penurie tot mai mare de talente, companiile apelează la recrutarea internațională pentru a acoperi deficitul. Fie că este vorba despre meserii calificate, sănătate, IT sau inginerie, angajarea de talente din străinătate a devenit esențială. Dar marile întrebări rămân:"
+        },
+        {
+          "type": "text",
+          "content": "„Cât de repede putem aduce lucrători calificați străini în Europa?”<br />„Poate Recruitment-4u să accelereze procesul de obținere a vizei?”<br />Să clarificăm lucrurile."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Realitatea termenelor de angajare internațională</strong>"
+        },
+        {
+          "type": "text",
+          "content": "Angajarea din afara Europei implică mai mult decât trimiterea unei oferte de angajare. De la identificarea candidaților și pregătirea documentației până la navigarea prin sistemele de imigrare, întregul proces durează de obicei între 8 și 16 săptămâni, în funcție de mai mulți factori:"
+        },
+        {
+          "type": "html",
+          "content": "<ul class=\"list-disc ml-6 space-y-2\">\n<li>Țara destinație și procedurile sale de imigrare</li>\n<li>Categoria de viză sau permis de muncă (de ex., EU Blue Card, viza pentru lucrători calificați naționali)</li>\n<li>Documentația și calificările candidaților</li>\n<li>Timpii de procesare ai ambasadei și volumul de muncă al guvernului</li>\n</ul>"
+        },
+        {
+          "type": "text",
+          "content": "Unele țări europene au procese simplificate pentru aducerea lucrătorilor foarte calificați, facilitând obținerea permiselor și începerea rapidă a angajării. Altele necesită pași legali și documentație mai detaliată, dar cu pregătirea și ghidajul potrivit, procesul poate avansa fără probleme și eficient."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Cum accelerează Recruitment-4u procesul</strong>"
+        },
+        {
+          "type": "text",
+          "content": "Deși nu controlăm cozile din ambasadă sau deciziile de imigrare naționale, Recruitment-4u joacă un rol crucial în asigurarea că totul se desfășoară rapid, fără probleme și în conformitate."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Iată cum vă ajutăm să ajungeți mai repede:</strong>"
+        },
+        {
+          "type": "text",
+          "content": "<strong>1. Acces rapid la talente internaționale</strong><br />Menținem o rețea gata pregătită de profesioniști pre-calificați din industriile cu cerere ridicată. Asta înseamnă că puteți sări peste căutarea lungă de candidați și să treceți direct la interviuri cu talente pregătite să se relocheze."
+        },
+        {
+          "type": "text",
+          "content": "<strong>2. Documentație gata pentru viză</strong><br />Majoritatea întârzierilor de viză se întâmplă din cauza unor mici erori în documente. Ne asigurăm că:"
+        },
+        {
+          "type": "html",
+          "content": "<ul class=\"list-disc ml-6 space-y-2\">\n<li>Toate documentele legale sunt corecte și complete</li>\n<li>Salariile și rolurile de muncă îndeplinesc standardele pentru viză</li>\n<li>Cererile sunt aliniate cu legile de imigrare din țara țintă</li>\n</ul>"
+        },
+        {
+          "type": "text",
+          "content": "<strong>3. Expertiză specifică țării</strong><br />Recruitment-4u înțelege reglementările locale din Europa. Fie că angajați în Golful Persic, Asia, America de Nord sau de Sud sau oriunde altundeva în UE, vă ajutăm să:"
+        },
+        {
+          "type": "html",
+          "content": "<ul class=\"list-disc ml-6 space-y-2\">\n<li>Alegeți viză potrivită</li>\n<li>Evitați întârzieri în procesare</li>\n<li>Înțelegeți standardele de conformitate naționale și la nivel UE</li>\n</ul>"
+        },
+        {
+          "type": "text",
+          "content": "<strong>4. Suport de la început până la sfârșit</strong><br />De la onboardingul candidaților și sfaturi de relocare până la coordonarea cu avocații de imigrare, vă ghidăm prin întregul proces. Obțineți un partener de încredere — nu doar un furnizor de CV-uri."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Ce nu controlăm</strong><br />Pentru a fi clar: Recruitment-4u nu poate:"
+        },
+        {
+          "type": "html",
+          "content": "<ul class=\"list-disc ml-6 space-y-2\">\n<li>Accelera deciziile guvernamentale privind vizele</li>\n<li>Anula programările la ambasade</li>\n<li>Influența verificările de securitate la graniță</li>\n</ul>"
+        },
+        {
+          "type": "text",
+          "content": "Dar ceea ce controlăm este totul până la acești pași — și acolo companiile pierd cel mai mult timp. Experiența noastră vă ajută să evitați greșelile costisitoare și să pregătiți dosare care îndeplinesc toate standardele locale de la bun început."
+        },
+        {
+          "type": "text",
+          "content": "<strong>De ce viteza vine din pregătire</strong>"
+        },
+        {
+          "type": "text",
+          "content": "Angajarea mai rapidă nu înseamnă să tai colțuri. Înseamnă să știi ce este necesar, când să trimiți și cum să faci totul corect din prima. Acolo Recruitment-4u aduce valoare reală. Vă ajutăm să:"
+        },
+        {
+          "type": "html",
+          "content": "<ul class=\"list-disc ml-6 space-y-2\">\n<li>Găsiți candidații potriviți</li>\n<li>Pregătiți documentele corecte</li>\n<li>Urmați procesul legal corect</li>\n<li>Stabiliți așteptările potrivite</li>\n</ul>"
+        },
+        {
+          "type": "text",
+          "content": "Cu sprijinul nostru, puteți reduce durata angajării și puteți umple roluri cheie mai rapid — fără a compromite conformitatea sau calitatea."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Să aducem talentul potrivit la dvs. — rapid și cu încredere</strong>"
+        },
+        {
+          "type": "text",
+          "content": "Dacă vă extindeți forța de muncă cu profesioniști internaționali, colaborarea cu Recruitment-4u vă oferă avantajul vitezei, structurii și liniștii sufletești."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Sunteți gata să angajați la nivel global?</strong><br />Să vorbim despre ce este posibil — și cât de repede putem face să se întâmple.<br />Rezervați o consultație gratuită cu un specialist Recruitment-4u astăzi."
+        }
+      ]
+    }
+  },
+
+  "contactus": {
+    "text": "CONTACT",
+    "title": "Recruitment4u este aici pentru tine și pentru toate întrebările tale — atât pentru companii, cât și pentru candidați.",
+    "btnText": "Birouri",
+    "letscontact": "Hai să luăm legătura"
+  },
+  "footer": {
+    "title": "Despre Noi",
+    "desc": "Recruitment4u este înregistrată pentru activități legate de medierea muncii și angajarea temporară a lucrătorilor.",
+    "title2": "Prezența Noastră Globală",
+    "location1": {
+      "title": "România",
+      "desc": "Str. Sg. Constantin Moise 5 D, SECTOR 6, BUCUREȘTI,"
+    },
+    "location2": {
+      "title": "EAU [Dubai]",
+      "desc": "The One Tower, Et.24, DUBAI, EAU"
+    },
+    "location3": {
+      "title": "Qatar",
+      "desc": "Global Business Center, Corniche Road, Doha, Qatar"
+    },
+    "copyright": "Copyright © 2025 Recruitment4u. Toate drepturile rezervate."
   }
 }

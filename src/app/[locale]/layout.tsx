@@ -1,83 +1,23 @@
-import { hasLocale, NextIntlClientProvider } from "next-intl";
-import type { Metadata } from "next";
+import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { notFound } from "next/navigation";
 import { Toaster } from "sonner";
-import "./globals.css";
 import { routing } from "@/i18n/routing";
-import NotFound from "@/components/common/NotFound";
+import "./globals.css";
 
-export const metadata: Metadata = {
-  metadataBase: new URL("https://www.recruitment4u.co/"),
-  title: "Recruitment-4u - Agency for Employment",
-  description: "We connect the right workers with the right employers.",
-  keywords:
-    "job, jobs, work, employment, employer, employee, career, hiring, recruitment, recruitment agency, job hunting, job search, job board, job site, job listing, job application, job vacancy, job opening, job opportunity, job offer ",
-  icons: {
-    icon: [
-      {
-        url: "/logo/Recruitment4u-single2.svg",
-        type: "image/svg+xml",
-        sizes: "48x48",
-      },
-      {
-        url: "/logo/Recruitment4u-single2.svg",
-        type: "image/svg+xml",
-        sizes: "96x96",
-      },
-    ],
-    shortcut: {
-      url: "/logo/Recruitment4u-single2.svg",
-      type: "image/svg+xml",
-      sizes: "196x196",
-    },
-    apple: {
-      url: "/logo/Recruitment4u-single2.svg",
-      type: "image/svg+xml",
-      sizes: "180x180",
-    },
-  },
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: "/",
-    title: "Recruitment-4u - Agency for Employment",
-    description: "We connect the right workers with the right employers.",
-    siteName: "Recruitment-4u",
-    images: [
-      {
-        url: "/logo/Recruitment4u-single2.svg",
-        width: 1920,
-        height: 1080,
-        type: "image/svg+xml",
-        alt: "Consultants Logo",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Recruitment-4u- Agency for Employment",
-    description: "We connect the right workers with the right employers.",
-    images: [
-      {
-        url: "/logo/Recruitment4u-single2.svg",
-        width: 1920,
-        height: 1080,
-        alt: "Logo",
-        type: "image/svg+xml",
-      },
-    ],
-  },
-};
+// Optional: dynamically import messages if you want to pass them manually
+// const messages = (await import(`../../messages/${locale}.json`)).default;
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
   params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
+  params: { locale: string };
 }) {
-  const { locale } = await params;
+  const { locale } = params;
+
   if (!hasLocale(routing.locales, locale)) {
-    NotFound();
+    notFound(); // Correct way to show 404
   }
 
   return (

@@ -143,7 +143,17 @@
       "processdesc": "Завршни корак укључује организацију летова за раднике, припрему смештаја, регистрацију боравка, издавање боравних карата, отварање банковних рачуна, као и додатне активности попут медицинских прегледа и обуке о безбедности на раду."
     }
   },
-
+  "contactform": {
+    "title": "Консултације. Планирање. Победа.",
+    "companyname": "Назив компаније",
+    "name&surname": "Име и презиме",
+    "email": "Имејл",
+    "phone": "Позивни број државе са телефонским бројем",
+    "country": "Назив државе",
+    "message": "Ваша порука",
+    "agre": "Желим да ме контактира представник Recruitment 4U из моје земље",
+    "send": "Пошаљи"
+  },
   "forcompanies": {
     "title": "Ulažemo kapital kako bismo stekli dubinsko znanje o svakoj industriji.",
     "desc": "Sa iskustvom u regrutaciji u brojnim industrijama, pronalazimo radnike za sve profesije koje su vam potrebne.",
@@ -253,5 +263,846 @@
       "title": "Брз и безбрижан процес запошљавања",
       "pera": "Убрзајте свој процес запошљавања са нашим поједностављеним приступом проналажењу, увођењу и управљању талентима."
     }
+  },
+  "solutionsseasonal": {
+    "title": "Zapošljavanje sezonskih radnika",
+    "description": "Било да вам треба конобар, бармен, кувар, кухињски помоћник, чистач или рецепционар – ми смо ту да вам помогнемо да запослите правог кандидата за било коју позицију.",
+    "seasonalarticle": {
+      "title": "Изазови у проналажењу сезонских радника",
+      "boldtext": "Проблем проналажења сезонских радника у Хрватској, посебно у индустријама као што су туризам, угоститељство, пољопривреда и грађевинарство, је вишеструк и често представља значајан изазов за послодавце.",
+      "peragraphs": [
+        "Угоститељска индустрија је тренутно погођена сезонским колебањима можда више од било које друге. Већина наших клијената се бори са прецизним предвиђањем потреба за страним радницима током високе сезоне, посебно у раним месецима године.",
+        "Као резултат тога, многи одмаралишта, хотели и ресторани доносе одлуке о запошљавању у последњем тренутку, што доводи до наглог пораста потражње за радницима. Нажалост, тржиште често не може одмах да одговори на ту потражњу. Од тренутка потписивања уговора са регрутном агенцијом може проћи један до два месеца док страни радници стигну на радно место. Овај рок укључује проналажење кандидата, процену квалификација, спровођење интервјуа, обраду докумената и друге битне кораке.",
+        "Да бисмо решили овај проблем, нудимо поуздано решење које смањује ризике повезане са кашњењима и дугим периодама чекања: аутсорсинг радне снаге."
+      ]
+    },
+    "seasonaldetails": {
+      "title": "Додељивање радника",
+      "desc": "Омогућавамо брзо и једноставно запошљавање радне снаге за сезонске пројекте или послове на одређено време. Можете користити постојећи фонд радника широм Европе, што значајно убрзава процес запошљавања. Ми се бринемо о закључењу уговора о додељивању и преузимамо пуну одговорност за исплату плата и све повезане административне задатке. Ова услуга нуди практично решење за хитне потребе радне снаге, осигуравајући флексибилност и ефикасност у управљању особљем за разне пројекте и сезонске захтеве.",
+      "btn": "Прочитај више"
+    },
+    "content1": {
+      "title": "Приступ квалификованим талентима",
+      "pera": "Добијте приступ бази квалификованих, проверених професионалаца спремних да задовоље потребе вашег пословања."
+    },
+    "content2": {
+      "title": "Флексибилна решења за радну снагу",
+      "pera": "Препознајемо важност прилагодљивости и нудимо решења за управљање радном снагом прилагођена вашим оперативним захтевима."
+    },
+    "content3": {
+      "title": "Брзо и без проблема запошљавање",
+      "pera": "Убрзајте свој процес запошљавања са нашим поједностављеним приступом проналажењу, укључивања и управљања талентима."
+    }
+  },
+
+  "solutionconstruction": {
+    "title": "Zapošljavanje građevinskih radnika",
+    "description": "Nudimo širok spektar kvalifikovanih profesionalaca, uključujući armirače, tesare, zidare, montere metalnih konstrukcija, krovopokrivače i operatere građevinskih mašina.",
+    "constructionarticle": {
+      "title": "Izazovi u pronalaženju građevinskih radnika",
+      "boldtext": "Trenutni problem u građevinskoj industriji u vezi sa nedostatkom radne snage proističe iz značajnog manjka radnika. Ovaj nedostatak utiče na produktivnost, produžava rokove projekata i stvara izazove u ispunjavanju potražnje za kvalifikovanim radnicima u građevini.",
+      "peragraphs": [
+        "Evropsko tržište takođe beleži potrebu za građevinskim radnicima, što se vidi u brojnim oglasima za slobodna radna mesta u građevini. Kompanije širom kontinenta često se suočavaju sa teškoćama u pronalaženju posvećenih i kvalifikovanih radnika, što može dovesti do problema pri zapošljavanju i potencijalnog kašnjenja u završetku projekata.",
+        "Kao agencija za zapošljavanje stranih radnika, nudimo više načina da vam pomognemo. Prvo, koristimo našu široku mrežu kvalifikovanih stranih radnika koji su spremni da rade širom Evrope. Povezujući ove radnike sa kompanijama kojima su potrebni, pomažemo da se premosti jaz između ponude i potražnje radne snage. Takođe pružamo podršku u snalaženju u zakonskim procedurama za zapošljavanje stranih radnika, osiguravajući jednostavan i usklađen proces zapošljavanja za kompanije i radnike.",
+        "Naše rešenje za ove izazove je posredovanje pri zapošljavanju."
+      ]
+    },
+    "constructiondetails": {
+      "title": "Posredovanje pri zapošljavanju",
+      "desc": "Pružanjem usluge posredovanja pri zapošljavanju pomažemo kompanijama da dođu do baze kvalifikovanih radnika, rešavajući izazove sa kojima se suočavate pri pronalaženju stručne radne snage. Posredovanjem u zapošljavanju stranih radnika i pružanjem sveobuhvatnih usluga zapošljavanja igramo ključnu ulogu u zadovoljavanju potreba građevinske industrije širom Evrope.",
+      "btn": "Pročitaj više"
+    },
+    "content1": {
+      "title": "Pristup kvalifikovanim kadrovima",
+      "pera": "Ostvarite pristup bazi proverenih, kvalifikovanih profesionalaca spremnih da ispune potrebe vašeg poslovanja."
+    },
+    "content2": {
+      "title": "Fleksibilna rešenja za radnu snagu",
+      "pera": "Razumemo važnost prilagodljivosti i nudimo rešenja za upravljanje radnom snagom u skladu sa vašim operativnim zahtevima."
+    },
+    "content3": {
+      "title": "Brza i jednostavna regrutacija",
+      "pera": "Ubrzajte proces zapošljavanja uz naš efikasan pristup pronalaženju, uvođenju i upravljanju radnicima."
+    }
+  },
+
+  "solutionmedical": {
+    "title": "Zapošljavanje medicinskih radnika",
+    "description": "Lekari, medicinske sestre, medicinski tehničari, farmaceuti i drugi zdravstveni profesionalci – tu smo da vam pomognemo u zapošljavanju za sve medicinske pozicije.",
+    "medicalarticle": {
+      "title": "Izazovi u pronalaženju medicinskih radnika",
+      "boldtext": "Izazov pronalaska kvalifikovanog medicinskog osoblja, posebno u specijalizovanim oblastima, predstavlja složen problem sa kojim se suočavaju mnoge zdravstvene ustanove širom Evrope.",
+      "peragraphs": [
+        "U Evropi, zdravstveni sektor se suočava sa sličnim izazovima kao i druge regije u pronalaženju i zadržavanju kvalifikovanog medicinskog osoblja. Potražnja za zdravstvenim radnicima, uključujući lekare, medicinske sestre, farmaceute i tehničare, nastavlja da raste zbog starenja populacije, napretka u medicinskim tretmanima i promenljivih zdravstvenih potreba.",
+        "Potražnja za medicinskim profesionalcima i dalje raste, podstaknuta faktorima kao što su rast populacije, starenje stanovništva i napredak medicinske tehnologije.",
+        "Zdravstveni sistem Evrope oslanja se na kombinaciju javnih i privatnih ustanova, od kojih svaka ima svoje specifične potrebe za osobljem. Iako je evropska medicinska radna snaga visoko kvalifikovana, često postoje manjkovi u određenim specijalnostima ili regionima, što dovodi do problema u pružanju adekvatne nege i povećanog opterećenja na postojeće osoblje.",
+        "Zdravstvene ustanove takođe imaju poteškoća u preciznom predviđanju potreba za osobljem, što rezultira nedostatkom radne snage u ključnim periodima. Ova nepredvidivost može poremetiti negu pacijenata i dodatno opteretiti postojeće osoblje."
+      ]
+    },
+    "medicaldetails": {
+      "title": "Posredovanje u zapošljavanju",
+      "desc": "Zdravstvene ustanove širom Evrope često imaju poteškoće u tačnom predviđanju potreba za osobljem, što dovodi do manjkova u kritičnim periodima. Ova nepredvidivost može narušiti negu pacijenata i dodatno opteretiti postojeće osoblje.",
+      "btn": "Pročitaj više"
+    },
+    "content1": {
+      "title": "Pristup kvalifikovanom kadru",
+      "pera": "Obezbedite pristup bazi kvalifikovanih i proverenih stručnjaka spremnih da odgovore na potrebe vašeg poslovanja."
+    },
+    "content2": {
+      "title": "Fleksibilna kadrovska rešenja",
+      "pera": "Razumemo važnost prilagodljivosti i nudimo rešenja za upravljanje radnom snagom prema vašim operativnim zahtevima."
+    },
+    "content3": {
+      "title": "Brza i jednostavna regrutacija",
+      "pera": "Ubrzajte proces zapošljavanja pomoću našeg efikasnog pristupa pronalaženju, uvođenju i upravljanju kadrovima."
+    }
+  },
+  "whyus": {
+    "title": "Zašto mi",
+    "description": "Mi smo agencija za zapošljavanje specijalizovana za povezivanje kompanija sa pravim talentima.",
+    "article1": {
+      "title": "Jednostavniji i brži način da pronađete kvalifikovane kandidate",
+      "pera": "Nudimo klijentima više opcija za obezbeđivanje zaposlenih (npr. privremeno zapošljavanje), pružajući brži i fleksibilniji način zapošljavanja."
+    },
+    "article2": {
+      "title": "Način da uštedite vreme i novac",
+      "pera": "recruitment4U preuzima sve administrativne, pravne i finansijske obaveze, štedeći vreme vama i vašim zaposlenima."
+    },
+    "article3": {
+      "title": "Ogromna baza kandidata",
+      "pera": "Možemo brzo ispuniti vaše zahteve za zaposlenima zahvaljujući velikom broju kandidata sa različitim profilima i veštinama."
+    },
+    "article4": {
+      "title": "Iskustvo i utvrđeni procesi",
+      "pera": "Kao rezultat godina rada u agenciji, imamo dobro definisane procese, iskustvo u zapošljavanju lokalnih i stranih radnika, kancelarije širom Hrvatske i prepoznatljivost u regionu."
+    }
+  },
+
+  "behindthebrand": {
+    "title": "Globalna IT regrutacija i zapošljavanje za kompanije koje brzo rastu",
+    "description": "Pružamo našim klijentima ekskluzivne usluge regrutacije koje pomažu kompanijama da se šire i napreduju",
+    "btn": " Zakazivanje razgovora",
+    "content1": {
+      "title": "Naša misija",
+      "pera": "Povezati odlične kompanije sa još boljim talentima."
+    },
+    "content2": {
+      "title": "Naša vizija",
+      "pera": "Biti vodeći partner s kojim se klijenti i kandidati uvek odlučuju povezati."
+    },
+    "content3": {
+      "title": "Naš pristup",
+      "pera1": "Mi smo tim orijentisan na ciljeve, gde je kultura važnija od formalnih procesa.",
+      "pera2": "Mi smo tim orijentisan na ciljeve, gde je kultura važnija od formalnih procesa.",
+      "pera3": "Izgradili smo radno okruženje koje neguje rast i pravi timski duh. Nema ničeg zadovoljavajućeg od učenja i slavljenja uspeha zajedno!"
+    },
+    "teamsction": {
+      "title": "Spremni za sledeći nivo? Pridružite nam se",
+      "team1": {
+        "name": "Glavni prodajni direktor",
+        "position": "CSO",
+        "description": "Pokrenite rast. Vodite uspeh."
+      },
+      "team2": {
+        "name": "Izvršni direktor",
+        "position": "CEO",
+        "description": "Pokrenite rast. Vodite uspeh."
+      },
+      "team3": {
+        "name": "Glavni tehnološki direktor",
+        "position": "CTO",
+        "description": "Pokrenite rast. Vodite uspeh."
+      },
+      "team4": {
+        "name": "Glavni marketinški direktor",
+        "position": "CMO",
+        "description": "Pokrenite rast. Vodite uspeh."
+      },
+      "team5": {
+        "name": "Glavni operativni direktor",
+        "position": "COO",
+        "description": "Pokrenite rast. Vodite uspeh."
+      },
+      "team6": {
+        "name": "Glavni finansijski direktor",
+        "position": "CFO",
+        "description": "Pokrenite rast. Vodite uspeh."
+      },
+      "team7": {
+        "name": "Glavni direktor ljudskih resursa",
+        "position": "CPO",
+        "description": "Pokrenite rast. Vodite uspeh."
+      },
+      "team8": {
+        "name": "Glavni pravni direktor",
+        "position": "CLO",
+        "description": "Pokrenite rast. Vodite uspeh."
+      },
+      "team9": {
+        "name": "Glavni direktor ljudskih resursa",
+        "position": "CHR",
+        "description": "Pokrenite rast. Vodite uspeh."
+      },
+      "team10": {
+        "name": "Glavni direktor podataka",
+        "position": "CDO",
+        "description": "Pokrenite rast. Vodite uspeh."
+      }
+    },
+    "articlesection": {
+      "title": "Čitanje o regrutaciji. Osveženo. Precizirano.",
+      "value1": {
+        "title": "Koju nacionalnost treba da preferirate kada razmišljate van Evrope?"
+      },
+      "value2": {
+        "title": "Da li treba da se oslonite na agenciju koja naplaćuje visoku cenu? Stvari koje treba uzeti u obzir pre odabira regrutacijskog partnera za izgradnju sjajnog tima u Evropi."
+      },
+      "value3": {
+        "title": "Koliko brzo Recruitment-4u može da dovede strane radnike u Evropu? I koliko zapravo možemo da utičemo na rok odobrenja vize?"
+      }
+    }
+  },
+
+  "recruitmentcard": {
+    "title": "Regrutacija",
+    "desc1": "Optimizirajte svoje vreme i resurse sa našim sveobuhvatnim rešenjima za regrutaciju.",
+    "desc2": "Pronađite talente koji su vam potrebni za pokretanje poslovnog rasta.",
+    "buttonText": "Zakažite poziv",
+    "ads": "klijent",
+    "whatsdo": {
+      "title": "Šta radimo",
+      "card1": {
+        "title": "Regrutacija orijentisana na rezultate",
+        "desc1": "Upravljamo procesom regrutacije od početka do kraja.",
+        "desc2": "Pratimo model „plati po zaposlenju“ gde plaćate samo za uspešna zapošljavanja."
+      },
+      "card2": {
+        "title": "Rešenja bazirana na pretplati",
+        "desc1": "Uživajte u uslugama regrutacije punog ciklusa sa fleksibilnim planovima pretplate.",
+        "desc2": "Mi prilagođavamo radnike za vas globalno prema vašim potrebama."
+      },
+      "card3": {
+        "title": "Outsourcing procesa regrutacije (RPO)",
+        "desc1": "Outsorsujte deo ili ceo svoj proces regrutacije kako biste pojednostavili operacije zapošljavanja."
+      }
+    },
+    "benefits": {
+      "title": "Prednosti",
+      "benefit1": {
+        "title": "Pristup vrhunskim talentima",
+        "desc": "Preko 130.000 kandidata u našoj bazi podataka, sa različitim veštinama."
+      },
+      "benefit2": {
+        "title": "Stručnost kojoj možete verovati",
+        "desc": "Vlasnička metodologija pregleda i preko 30 kanala regrutacije."
+      },
+      "benefit3": {
+        "title": "Transparentan proces",
+        "desc": "Pristup CRM-u u realnom vremenu za praćenje procesa regrutacije."
+      },
+      "benefit4": {
+        "title": "Dubinski uvidi",
+        "desc": "Temeljiti tehnički intervjui sa detaljnim rezimeima."
+      },
+      "benefit5": {
+        "title": "Fleksibilne opcije plaćanja",
+        "desc": "Različiti tarifni planovi i načini plaćanja, uključujući kriptovalute."
+      },
+      "benefit6": {
+        "title": "Personalizirana podrška",
+        "desc": "Dedikovani menadžer i regruter za svakog klijenta."
+      }
+    },
+    "ourprocess": {
+      "title": "Naš proces",
+      "desc": "Smanjite vreme zapošljavanja. Pružićemo vam prve kandidate u roku od 3-5 dana.",
+      "card1": {
+        "title": "Korak 1: Pošaljite svoje zahteve",
+        "time": "(1-3 dana)",
+        "desc": "Dostavite nam opis posla i zahteve.",
+        "task": [
+          "Pregled kompanije",
+          "Detalji o poziciji",
+          "Potpisivanje ugovora"
+        ]
+      },
+      "card2": {
+        "title": "Regrutacija punog ciklusa",
+        "time": "(1-4 nedelje)",
+        "desc": "Pregledaćemo kandidate na osnovu vaših zahteva.",
+        "task": [
+          "Pronalaženje",
+          "Predselekcija, Intervjui",
+          "Nedeljna ažuriranja"
+        ]
+      },
+      "card3": {
+        "title": "Finaliziranje zapošljavanja",
+        "time": "(4-6 nedelja)",
+        "desc": "Odabraćemo najbolje kandidate na osnovu vaših zahteva.",
+        "task": [
+          "Pregovaranje o ponudi",
+          "Potpisivanje NDA sa kandidatom",
+          "Prezentacija rezultata"
+        ]
+      }
+    },
+    "industries": {
+      "title": "Industrije u kojima radimo"
+    }
+  },
+
+  "hrconsulting": {
+    "title": "HR savetovanje",
+    "desc1": "Pomažemo kompanijama da izgrade istaknutu reputaciju koja povećava vidljivost na tržištu i poboljšava rezultate zapošljavanja.",
+    "buttonText": "Zakažite poziv",
+    "ads": "Veruju nam vodeći brendovi",
+    "whatsdo": {
+      "title": "Šta Radimo",
+      "card1": {
+        "title": "Imidž na organizaciji",
+        "desc1": "Kreiramo ubedljivu sliku vaše organizacije za potencijalne zaposlene i trenutne zaposlenike.",
+        "desc2": "što vam omogućava da privučete i zadržite vrhunske talente."
+      },
+      "card2": {
+        "title": "Iskustvo zaposlenih",
+        "desc1": "Sarađivali smo sa preko 70 organizacija na optimizaciji HR operacija, postizanju ciljeva i povećanju profitabilnosti."
+      }
+    },
+    "benefits": {
+      "title": "Prednosti",
+      "desc": "Sarađivali smo sa preko 70 organizacija na optimizaciji HR operacija, postizanju ciljeva i povećanju profitabilnosti.",
+      "benefit1": {
+        "title": "HR revizija",
+        "desc": "Analizirajte svoje prakse upravljanja osobljem kako biste identifikovali oblasti za poboljšanje."
+      },
+      "benefit2": {
+        "title": "Uvidi",
+        "desc": "Identifikujte snage i slabosti unutar vašeg HR okvira dok budete informisani o trendovima u industriji."
+      },
+      "benefit3": {
+        "title": "Rešenja",
+        "desc": "Razvijte snažnu HR strategiju brzo, prilagođenu za optimalne rezultate."
+      },
+      "benefit4": {
+        "title": "Iskustvo",
+        "desc": "Stručno planirajte employer branding kako biste osigurali i zadržali vrhunske talente."
+      },
+      "benefit5": {
+        "title": "Fleksibilna plaćanja",
+        "desc": "Izaberite između različitih cenovnih planova i opcija plaćanja, uključujući bankovne transfere i kriptovalute."
+      },
+      "benefit6": {
+        "title": "Efektivno zapošljavanje",
+        "desc": "Poboljšajte strategije zapošljavanja i podržite napore za zapošljavanje za bolje rezultate."
+      }
+    },
+    "ourprocess": {
+      "title": "Naš proces",
+      "desc": "Ubrzajte rokove zapošljavanja – dostavićemo početne profile kandidata u roku od 3-5 dana.",
+      "card1": {
+        "title": "Recite nam o sebi",
+        "task": [
+          "Pregled kompanije",
+          "Analiza employer branda i iskustva",
+          "Jedinstvena vrednosna ponuda (UVP) za zaposlene"
+        ]
+      },
+      "card2": {
+        "title": "Pokrećemo transformaciju",
+        "task": [
+          "Identifikujte tačke kontakta sa zaposlenima",
+          "Mapirajte faze životnog ciklusa zaposlenog",
+          "Uspostavite pojednostavljene procese"
+        ]
+      },
+      "card3": {
+        "title": "Isporučujemo rezultate",
+        "task": [
+          "Implementirajte najnoviju tehnologiju",
+          "Organizujte treninge za lidere",
+          "Efektivno prezentujte rezultate"
+        ]
+      }
+    },
+    "industries": {
+      "title": "Industrije u kojima radimo"
+    }
+  },
+
+  "outstaffing": {
+    "title": "Аутстафинг",
+    "desc": "Нудимо аутстафинг решења за предузећа која брзо расту, омогућавајући проширење тима и повећање продуктивности.",
+    "buttonText": "Закажите позив",
+    "ads": "Поверени од стране врхунских брендова",
+    "card1": {
+      "title": "Без почетних трошкова",
+      "desc": "Започните запошљавање без почетних трошкова. Наш процес је ефикасан, брз и без проблема. Ми водимо рачуна о платама и порезима како бисте се ви могли фокусирати на своје пословање."
+    },
+    "card2": {
+      "title": "Флексибилно управљање радном снагом",
+      "desc": "Било да вам је потребно привремено особље за краткорочне пројекте или дугорочне запослене, ми се прилагођавамо вашим потребама. Лако скалирајте своју радну снагу."
+    },
+    "card3": {
+      "title": "Дугорочно партнерство",
+      "desc": "Дајемо приоритет дугорочним односима пружањем удаљених радника који се беспрекорно интегришу у културу ваше компаније."
+    },
+    "whatsdo": {
+      "title": "Шта радимо",
+      "description": "Помажемо предузећима да се брзо шире, побољшају операције, остваре циљеве и повећају профитабилност.",
+      "card1": {
+        "title": "Проширење ИТ тима",
+        "desc": "Добијте висококвалификоване професионалце за јачање вашег тима и брзо попуњавање кључних улога."
+      },
+      "card2": {
+        "title": "Аутстафинг заснован на пројектима",
+        "desc": "Добијте посвећени тим за управљање пројектима од почетка до успешног завршетка."
+      },
+      "card3": {
+        "title": "Развој истраживачког и развојног центра",
+        "desc": "Искористите наше искуство у оснивању истраживачких и развојних центара са врхунским талентима прилагођеним вашим потребама."
+      },
+      "card4": {
+        "title": "Изградња QA тима",
+        "desc": "Ангажујте појединачне QA специјалисте или направите цео тим искусних професионалаца за темељно осигурање квалитета."
+      },
+      "card5": {
+        "title": "Подешавање центра за техничку подршку",
+        "desc": "Помозимо вам да изградите или унапредите свој одсек за техничку подршку са квалификованим особљем."
+      }
+    },
+    "industries": {
+      "title": "Индустрије у којима радимо"
+    },
+    "outstack": {
+      "title": "Стек / Специјализација",
+      "box1": {
+        "title": "Back end развој",
+        "desc": "Специјализовани смо за робустан бекенд развој користећи Node.js, Python, Go и друге."
+      },
+      "box2": {
+        "title": "Front end & дизајн",
+        "desc": "Чисти и интерактивни интерфејси користећи React, TypeScript и модерне UI оквире."
+      },
+      "box3": {
+        "title": "Мобилни развој",
+        "desc": "Специјализовани смо за развој мултиплатформних мобилних апликација користећи Flutter, React Native и друге."
+      },
+      "box4": {
+        "title": "Развој игара",
+        "desc": "Специјализовани смо за стварање импресивних 3D игрица користећи технологије Unity и Unreal Engine."
+      },
+      "box5": {
+        "title": "Data Science & Big Data",
+        "desc": "Data scientist, Machine Learning, Quantitative Researcher, AI Researcher, Data Analyst"
+      },
+      "box6": {
+        "title": "Менаџмент & Анализа",
+        "desc": "Специјализовани смо за менаџерске улоге као што су CTO, IT Project Manager, Product Manager, Business Analyst и Team Lead."
+      },
+      "box7": {
+        "title": "Маркетинг & HR",
+        "desc": "Специјализовани смо за улоге у маркетингу и HR-у као што су CMO, Content Creator, PPC Specialist, Email Marketer, Traffic Manager, HR Business Partner, Recruiter, HR Director и Copywriter."
+      },
+      "box8": {
+        "title": "QA, Инфраструктура & Подршка",
+        "desc": "QA Automation, QA Manual, DevOps, Engineer Support Engineer."
+      }
+    },
+    "benefits": {
+      "title": "Предности",
+      "desc": "Помажемо преко 70 компанија да побољшају своје HR процесе, остваре циљеве и остваре профит.",
+      "benefit1": {
+        "title": "HR ревизија",
+        "desc": "Испитивање процеса у области управљања особљем, утврђивање потребних побољшања"
+      },
+      "benefit2": {
+        "title": "Увиди",
+        "desc": "Истицање снага и слабости вашег HR одељења, информисање о најновијим трендовима"
+      },
+      "benefit3": {
+        "title": "Решења",
+        "desc": "Изградите HR стратегију компаније у најкраћем могућем року и са савршеним резултатом"
+      },
+      "benefit4": {
+        "title": "Искуство",
+        "desc": "Професионално креирамо стратегију бренда послодавца за привлачење талената и задржавање запослених."
+      },
+      "benefit5": {
+        "title": "Флексибилна плаћања",
+        "desc": "Различити тарифни планови за избор и разне методе плаћања од банковног трансфера до крипто трансфера."
+      },
+      "benefit6": {
+        "title": "Ефикасно запошљавање",
+        "desc": "Можемо помоћи у области запошљавања оптимизацијом стратегије запошљавања, као и помоћи у процесу запошљавања"
+      }
+    }
+  },
+
+  "blogone": {
+    "category": "Zapošljavanje",
+    "title": "Koju nacionalnost odabrati prilikom zapošljavanja van Evrope?",
+    "date": "2. jul 2023",
+    "blog": {
+      "paragraphs": [
+        {
+          "type": "text",
+          "content": "Kada proširite potragu za talentima van Evrope, poslodavci se često suočavaju sa mnoštvom mogućnosti. Međutim, nisu sve međunarodne odluke o zapošljavanju jednako vredne. Određene nacionalnosti se ističu po profesionalnosti, prilagodljivosti, tehničkim veštinama i kulturnoj kompatibilnosti."
+        },
+        {
+          "type": "text",
+          "content": "Ti stručnjaci ne donose samo kvalifikacije, već i globalni način razmišljanja, radne navike i komunikacione veštine koje su ključne u savremenom poslovnom svetu."
+        },
+        {
+          "type": "text",
+          "content": "Uprkos velikoj globalnoj bazi talenata, pravi izazov nije pronaći CV – već prave radne talente sa pravom kombinacijom tehničkih i mekih veština."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Radite pametno sa Recruitment-4u: Vaš globalni partner u zapošljavanju</strong>"
+        },
+        {
+          "type": "text",
+          "content": "Zapošljavanje van Evrope je strateška odluka koja donosi dodatnu složenost. Verifikacija diploma, vize i pravna usklađenost nisu nešto što biste trebali rešavati sami. Tu nastupamo mi – Recruitment-4u."
+        },
+        {
+          "type": "text",
+          "content": "Specijalizovani smo za povezivanje kompanija sa stručnjacima iz celog sveta. Bilo da tražite developere, digitalne stručnjake ili medicinsko osoblje – imamo potrebne mreže i iskustvo."
+        },
+        {
+          "type": "text",
+          "content": "Sa Recruitment-4u izbegavate uobičajene greške u međunarodnom zapošljavanju, štedite vreme, novac i resurse – a dobijate vrhunske globalne kandidate."
+        },
+        {
+          "type": "image",
+          "src": "/images/blog1.jpg",
+          "alt": "Intervju regrutacionog tima"
+        },
+        {
+          "type": "text",
+          "content": "<strong>Kako Recruitment-4u pronalazi prave međunarodne kandidate</strong>"
+        },
+        {
+          "type": "text",
+          "content": "Koristimo višestepeni pristup za pronalaženje najboljih kandidata. Pretražujemo globalne baze, portale za posao i koristimo real-time analitiku kako bismo pronašli stručnjake koji se uklapaju u vašu kulturu i ciljeve."
+        },
+        {
+          "type": "text",
+          "content": "Za kandidate van Evrope proveravamo diplome, jezičke veštine, sertifikate i kulturnu usklađenost. Naš proces selekcije garantuje spremnost kandidata."
+        },
+        {
+          "type": "text",
+          "content": "Od sajmova zapošljavanja, partnerstava sa univerzitetima do direktnog pristupa – nudimo rešenja prilagođena vašem sektoru."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Zašto izabrati globalnu agenciju kao što je Recruitment-4u?</strong>"
+        },
+        {
+          "type": "text",
+          "content": "Međunarodno zapošljavanje nije samo popunjavanje pozicije – već usklađivanje vrednosti. Mi to činimo celovito, brzo i efikasno."
+        },
+        {
+          "type": "text",
+          "content": "Na današnjem brzom tržištu, najbolji kandidati aktivno ne traže posao – oni su već zaposleni. Otvoreni su samo za prave prilike. Tu nastupamo mi."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Zašto nas firme širom Evrope biraju:</strong>"
+        },
+        {
+          "type": "html",
+          "content": "<ul class='space-y-2 list-disc my-4'><p class='text-lg mb-10 text-primary leading-relaxed'>Zašto nas firme širom Evrope biraju:</p><li><span class='mr-3'>✅</span><span class='font-black'>Pristup stručnjacima koji govore engleski...</span></li><li><span class='mr-3'>✅</span><span class='font-black'>Puna podrška tokom celog procesa zapošljavanja...</span></li><li><span class='mr-3'>✅</span><span class='font-black'>Znanje o međunarodnom pravu...</span></li><li><span class='mr-3'>✅</span><span class='font-black'>Efikasan i isplativ regrutacioni proces</span></li></ul>"
+        },
+        {
+          "type": "text",
+          "content": "Bilo da tražite jednog zaposlenog ili gradite globalni tim, nudimo fleksibilna rešenja u skladu s vašim potrebama."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Kako izabrati pravu globalnu agenciju</strong>"
+        },
+        {
+          "type": "text",
+          "content": "Nisu sve agencije iste. Prilikom izbora obratite pažnju na:"
+        },
+        {
+          "type": "html",
+          "content": "<ul class='space-y-2 list-decimal my-4'><li><strong>Globalnu prisutnost</strong> – Imaju li pristup ključnim regionima?</li><li><strong>Pravno znanje</strong> – Pomažu li kod viza, isplata i pravne usklađenosti?</li><li><strong>Komunikaciju</strong> – Razumeju li vašu kulturu i vrednosti?</li></ul>"
+        },
+        {
+          "type": "text",
+          "content": "Recruitment-4u ispunjava sve kriterijume. Imamo globalni domet, analitički pristup i personalizovanu podršku."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Zaključak: Rasti globalno, zapošljavaj s poverenjem</strong>"
+        },
+        {
+          "type": "text",
+          "content": "Zapošljavanje van Evrope ne mora biti komplikovano. Sa pravim partnerom dolazite do vrhunskih profesionalaca koji zaista doprinose vašoj firmi."
+        },
+        {
+          "type": "text",
+          "content": "Recruitment-4u povezuje kompanije sa globalnim stručnjacima koji se uklapaju u vašu kulturu, vrednosti i ciljeve – od IT sektora do zdravstva i finansija."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Spremni da proširite svoj tim van granica?</strong><br />Dozvolite Recruitment-4u da pojednostavi proces. Kontaktirajte nas već danas i pronađite prave kandidate brže."
+        },
+        {
+          "type": "text",
+          "content": "Još niste sigurni? Pogledajte naše studije slučaja ili se konsultujte s našim timom – otkrijte zašto nas kompanije širom Evrope biraju kao pouzdanog partnera."
+        }
+      ]
+    }
+  },
+  "blogtwo": {
+    "category": "Zapošljavanje",
+    "title": "Da li treba da se oslonite na agenciju koja naplaćuje visoke iznose? Stvari koje treba uzeti u obzir pre odabira partnera za zapošljavanje kako biste izgradili sjajan tim u Evropi",
+    "date": "2. maj 2025.",
+    "blog": {
+      "paragraphs": [
+        {
+          "type": "text",
+          "content": "Globalni poslovni pejzaž je raznovrstan i dinamičan - od finansijskih centara u Dubaiju i Singapuru do cvjetajućih tehnoloških ekosistema u Bengaluruu, São Paulu i San Franciscu. Ali jedan izazov ostaje isti u svim regionima: kako privući i zaposliti prave ljude."
+        },
+        {
+          "access": "text",
+          "content": "Na sve konkurentnijem tržištu rada, mnoge kompanije se okreću agencijama za zapošljavanje kako bi izgradile efikasne timove spremne za budućnost. Ali kada jedna agencija ponudi trostruko veću cenu od druge, prirodno je pitati se - da li se isplati?"
+        },
+        {
+          "type": "text",
+          "content": "Hajde da razložimo za šta biste stvarno trebali da platite i kako da procenite da li partner za zapošljavanje vredi ulaganja."
+        },
+        {
+          "type": "text",
+          "content": "Zašto neke agencije u Evropi naplaćuju više?"
+        },
+        {
+          "type": "text",
+          "content": "Zapošljavanje danas ide daleko od pukog uparivanja CV-jeva sa opisima poslova. Vrhunske agencije sada deluju kao strateški partneri, nudeći prilagođene strategije zapošljavanja, pristup teško dostupnim talentima, smernice za usklađenost preko granica i vredne uvide u kulturno poklapanje."
+        },
+        {
+          "type": "html",
+          "content": "<ul class='list-disc ml-6 space-y-2'><li>Zapošljavanje višejezičnih talenata</li><li>Izvršna pretraga sa strogom poverljivošću</li><li>Podrška preko granica (npr. usklađenost sa GDPR, lokalni propisi o zapošljavanju)</li><li>Saveti o brendiranju poslodavca i okviri za uključivanje</li><li>Upoređivanje tržišnih plata i mapiranje talenata</li></ul>"
+        },
+        {
+          "type": "text",
+          "content": "Naročito kada se zapošljava za više ili nišne pozicije u sektorima kao što su finansije, nauke o životu, tehnologija ili energetika - agencije koje razumeju evropsko tržište mogu napraviti svu razliku."
+        },
+        {
+          "type": "text",
+          "content": "Šta uzeti u obzir pre partnerstva sa agencijom za zapošljavanje"
+        },
+        {
+          "type": "html",
+          "content": "<ol class='list-decimal ml-6 space-y-2'><li>Da li razumeju vašu industriju i evropsko tržište rada?</li><li>Da li mogu pomoći pri prekograničnom zapošljavanju?</li><li>Koja je njihova strategija pronalaženja kandidata?</li><li>Da li su transparentni u vezi troškova i rokova?</li><li>Da li deluju kao dobavljač ili kao partner?</li></ol>"
+        },
+        {
+          "type": "text",
+          "content": "Kada je plaćanje više zapravo isplativo"
+        },
+        {
+          "type": "text",
+          "content": "Priznajmo, greške u zapošljavanju su skupe. Loš zaposleni može koštati do tri puta više od njegove godišnje plate. Ovaj uticaj je još veći u regionima sa jakom zaštitom rada i dugim ciklusima zapošljavanja, gde zamena pogrešnog kandidata oduzima vreme, resurse i često pravne procedure."
+        },
+        {
+          "type": "html",
+          "content": "<ul class='list-disc ml-6 space-y-2'><li>Brzina i efikasnost, smanjujući vreme do zapošljavanja</li><li>Kandidati višeg kvaliteta sa boljim stopama zadržavanja</li><li>Tržišni uvidi koji pomažu u izbegavanju grešaka pri zapošljavanju</li><li>Strukturirani procesi koji profesionalno predstavljaju vaš brend</li></ul>"
+        },
+        {
+          "type": "text",
+          "content": "Na visoko konkurentnim tržištima rada gde korporativna kultura igra veliku ulogu, ulaganje u pouzdanu agenciju za zapošljavanje često dovodi do boljih dugoročnih rezultata."
+        },
+        {
+          "type": "text",
+          "content": "Ali cena nije sve..."
+        },
+        {
+          "type": "html",
+          "content": "<ul class='list-disc ml-6 space-y-2'><li>✅ Pregledajte njihovu stopu uspešnosti zapošljavanja</li><li>✅ Zatražite reference klijenata ili studije slučaja</li><li>✅ Razumite njihove kanale pronalaženja kandidata i proces provere</li><li>✅ Razjasnite njihova jamstva - šta se dešava ako zaposleni ne uspe?</li></ul>"
+        },
+        {
+          "type": "text",
+          "content": "Visoka naknada ne garantuje uvek kvalitet. Tražite agencije koje nude ravnotežu između stručnosti, transparentnosti i dokazanog uspeha."
+        },
+        {
+          "type": "text",
+          "content": "Prava agencija može transformisati vaše procese zapošljavanja"
+        },
+        {
+          "type": "text",
+          "content": "Ponekad najbolja agencija za vašu kompaniju može biti boutique firma sa jakim regionalnim vezama i ličnim pristupom, a ne nužno ona sa najvećim imenom ili najvišom naknadom."
+        },
+        {
+          "type": "text",
+          "content": "Završna misao: Nemojte samo kupiti uslugu - izaberite strateškog partnera za zapošljavanje"
+        },
+        {
+          "type": "text",
+          "content": "Zapošljavanje u Evropi zahteva lokalno znanje, kulturnu svest i pravnu preciznost. Bilo da zapošljavate jednog višeg profesionalca ili gradite veliki tim, partner za zapošljavanje kog izaberete igra ključnu ulogu u vašem uspehu."
+        },
+        {
+          "type": "text",
+          "content": "Dobra agencija vam štedi vreme. Sjajna agencija jača vaš biznis."
+        },
+        {
+          "type": "text",
+          "content": "Recruitment-4u – Pametno zapošljavanje za pametne kompanije širom Evrope"
+        },
+        {
+          "type": "text",
+          "content": "U Recruitment-4u pomažemo kompanijama iz Zaliva, Azije, Severne i Južne Amerike da pronađu izuzetne talente. Bilo da skalirate tehnološki startup, zapošljavate višejezične profesionalce ili se suočavate sa usklađenošću pri zapošljavanju preko granica - mi smo tu za vas."
+        },
+        {
+          "type": "html",
+          "content": "<ul class='list-disc ml-6 space-y-2'><li>Dubinsko regionalno znanje</li><li>Prilagođene strategije zapošljavanja</li><li>Transparentne cene i brza isporuka</li><li>Fokus na dugoročno partnerstvo</li></ul>"
+        },
+        {
+          "type": "text",
+          "content": "Dozvolite nam da vam pomognemo da pronađete ljude koji će pokrenuti vaš biznis napred."
+        },
+        {
+          "type": "text",
+          "content": "Kontaktirajte Recruitment-4u danas - jer zapošljavanje u Evropi ne mora biti teško kada imate pravog partnera."
+        }
+      ]
+    }
+  },
+
+  "blogthree": {
+    "category": "Zapošljavanje",
+    "title": "Koju nacionalnost treba preferirati kada razmišljate izvan Evrope?",
+    "date": "2. jul 2023",
+    "blog": {
+      "paragraphs": [
+        {
+          "type": "text",
+          "content": "Kako se industrije širom Evrope suočavaju sa sve većim nedostatkom talenata, kompanije se okreću međunarodnom zapošljavanju kako bi popunile ovaj jaz. Bilo da je reč o kvalifikovanim zanatima, zdravstvu, IT-u ili inženjeringu, zapošljavanje talenata iz inostranstva postalo je ključno. Ali velika pitanja ostaju:"
+        },
+        {
+          "type": "text",
+          "content": "„Koliko brzo možemo dovesti kvalifikovane strane radnike u Evropu?“<br />„Može li Recruitment-4u ubrzati proces dobijanja vize?“<br />Hajde da razjasnimo stvari."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Stvarnost vremenskih okvira međunarodnog zapošljavanja</strong>"
+        },
+        {
+          "type": "text",
+          "content": "Zapošljavanje izvan Evrope podrazumeva više od slanja ponude za posao. Od pronalaženja kandidata i pripreme dokumentacije do navigacije kroz imigracione sisteme, ceo proces obično traje između 8 i 16 nedelja, u zavisnosti od nekoliko faktora:"
+        },
+        {
+          "type": "html",
+          "content": "<ul class=\"list-disc ml-6 space-y-2\">\n<li>Zemlja destinacija i njeni imigracioni postupci</li>\n<li>Kategorija vize ili radne dozvole (npr. Plava karta EU, nacionalna viza za kvalifikovane radnike)</li>\n<li>Dokumentacija i kvalifikacije kandidata</li>\n<li>Vreme obrade u ambasadama i opterećenje vlade</li>\n</ul>"
+        },
+        {
+          "type": "text",
+          "content": "Neke evropske zemlje imaju pojednostavljene procese za dovođenje visoko kvalifikovanih radnika, što olakšava dobijanje dozvola i brži početak zaposlenja. Druge zahtevaju detaljnije pravne korake i dokumentaciju, ali uz pravilnu pripremu i vođenje, proces može napredovati glatko i efikasno."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Kako Recruitment-4u ubrzava proces</strong>"
+        },
+        {
+          "type": "text",
+          "content": "Iako ne kontrolišemo redove u ambasadama ili nacionalne imigracione odluke, Recruitment-4u igra ključnu ulogu u osiguravanju da sve ostalo ide brzo, glatko i u skladu."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Evo kako vam pomažemo da stignete tamo brže:</strong>"
+        },
+        {
+          "type": "text",
+          "content": "<strong>1. Brz pristup međunarodnim talentima</strong><br />Održavamo mrežu unapred kvalifikovanih profesionalaca u industrijama sa visokom potražnjom. To znači da možete preskočiti dugotrajno traženje kandidata i preći direktno na intervjue sa talentima spremnim za preseljenje."
+        },
+        {
+          "type": "text",
+          "content": "<strong>2. Dokumentacija spremna za vizu</strong><br />Većina kašnjenja viza događa se zbog malih grešaka u dokumentima. Osiguravamo da:"
+        },
+        {
+          "type": "html",
+          "content": "<ul class=\"list-disc ml-6 space-y-2\">\n<li>Svi pravni dokumenti budu tačni i kompletn</li>\n<li>Standardi plata i radne pozicije ispunjavaju zahteve za vizu</li>\n<li>Aplikacije budu u skladu sa imigracionim zakonima ciljne zemlje</li>\n</ul>"
+        },
+        {
+          "type": "text",
+          "content": "<strong>3. Stručnost specifična za zemlju</strong><br />Recruitment-4u razume lokalne propise širom Evrope. Bilo da zapošljavate u Persijskom zalivu, Aziji, Severnoj ili Južnoj Americi ili bilo gde drugde u EU, pomažemo vam da:"
+        },
+        {
+          "type": "html",
+          "content": "<ul class=\"list-disc ml-6 space-y-2\">\n<li>Izaberete pravu vizu</li>\n<li>Izbegnete kašnjenja u obradi</li>\n<li>Razumete nacionalne i standarde EU nivoa</li>\n</ul>"
+        },
+        {
+          "type": "text",
+          "content": "<strong>4. Podrška od početka do kraja</strong><br />Od uvođenja kandidata i saveta o preseljenju do koordinacije sa imigracionim advokatima, vodimo vas kroz ceo proces. Dobijate pouzdanog partnera — ne samo dobavljača CV-jeva."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Šta ne kontrolišemo</strong><br />Da bude jasno: Recruitment-4u ne može:"
+        },
+        {
+          "type": "html",
+          "content": "<ul class=\"list-disc ml-6 space-y-2\">\n<li>Ubrzati vladine odluke o vizama</li>\n<li>Zaobići zakazivanja u ambasadama</li>\n<li>Uticati na granične bezbednosne provere</li>\n</ul>"
+        },
+        {
+          "type": "text",
+          "content": "Ali ono što kontrolišemo je sve pre ovih koraka — i tu kompanije najviše gube vreme. Naše iskustvo vam pomaže da izbegnete skupe greške i pripremite podneske koji ispunjavaju sve lokalne standarde od samog početka."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Zašto brzina dolazi iz pripreme</strong>"
+        },
+        {
+          "type": "text",
+          "content": "Brže zapošljavanje nije u zaobilaženju pravila. Radi se o tome da znate šta je potrebno, kada podneti i kako to uraditi ispravno prvi put. Tu Recruitment-4u donosi stvarnu vrednost. Pomažemo vam da:"
+        },
+        {
+          "type": "html",
+          "content": "<ul class=\"list-disc ml-6 space-y-2\">\n<li>Pronađete prave kandidate</li>\n<li>Pripravite prave dokumente</li>\n<li>Pratite pravilan pravni postupak</li>\n<li>Postavite prava očekivanja</li>\n</ul>"
+        },
+        {
+          "type": "text",
+          "content": "Uz našu podršku, možete skratiti vreme zapošljavanja i brže popuniti ključne uloge — bez ugrožavanja usklađenosti ili kvaliteta."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Dovedimo vam prave talente — brzo i pouzdano</strong>"
+        },
+        {
+          "type": "text",
+          "content": "Ako širite svoju radnu snagu sa međunarodnim profesionalcima, rad sa Recruitment-4u vam daje prednost brzine, strukture i mira."
+        },
+        {
+          "type": "text",
+          "content": "<strong>Spremni ste za globalno zapošljavanje?</strong><br />Razgovarajmo o tome šta je moguće — i koliko brzo to možemo ostvariti.<br />Zakazite besplatnu konsultaciju sa stručnjakom Recruitment-4u već danas."
+        }
+      ]
+    }
+  },
+
+  "contactus": {
+    "text": "KONTAKT",
+    "title": "Recruitment4u je tu za vas i sva vaša pitanja — i za kompanije i za tražioce posla.",
+    "btnText": "Kancelarije",
+    "letscontact": "Hajde da se povežemo"
+  },
+  "footer": {
+    "title": "O Nama",
+    "desc": "Recruitment4u je registrovan za aktivnosti posredovanja pri zapošljavanju i privremenom zapošljavanju radnika.",
+    "title2": "Naše Globalno Prisustvo",
+    "location1": {
+      "title": "Rumunija",
+      "desc": "Str. Sg. Constantin Moise 5 D, SEKTOR 6, BUKUREŠT,"
+    },
+    "location2": {
+      "title": "UAE [Dubai]",
+      "desc": "The One Tower, sprat 24, DUBAI, UAE"
+    },
+    "location3": {
+      "title": "Katar",
+      "desc": "Global Business Center, Corniche Road, Doha, Katar"
+    },
+    "copyright": "Autorska prava © 2025 Recruitment4u. Sva prava zadržana."
   }
 }

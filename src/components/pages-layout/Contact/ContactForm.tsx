@@ -12,7 +12,10 @@ import { motion } from "framer-motion";
 import ContactCard from "@/components/common/ContactCard";
 import { toast } from "sonner";
 import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
 export const ContactForm = () => {
+  const t = useTranslations("contactform");
+  const t1 = useTranslations("contactus");
   const pathname = usePathname(); // e.g. /en/contact
   const [formData, setFormData] = useState({
     company: "",
@@ -23,11 +26,6 @@ export const ContactForm = () => {
     message: "",
   });
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
-
-  // const handleSubmit = async (e: React.FormEvent) => {
-  //   e.preventDefault();
-  //   setIsFormSubmitted(true);
-  // };
 
   const handleSubmit = async (e: React.FormEvent) => {
     const locale = pathname.split("/")[1]; // 'en'
@@ -64,46 +62,6 @@ export const ContactForm = () => {
     }
   };
 
-  // const handleSubmit = async (e: React.FormEvent) => {
-  //   e.preventDefault();
-  //   setIsFormSubmitted(true); // Set form submission state
-  //   try {
-  //     const response = await fetch("/api/contact", {
-  //       method: "POST",
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //       },
-  //       body: JSON.stringify({
-  //         formType: "contact",
-  //         formData: formData,
-  //       }),
-  //     });
-
-  //     const data = await response.json();
-  //     if (!response.ok) {
-  //       setIsFormSubmitted(false); // Reset form submission state on error
-
-  //       throw new Error(data.error || "Failed to submit form");
-  //     }
-
-  //     // Reset form on success
-  //     setFormData({
-  //       company: "",
-  //       name: "",
-  //       email: "",
-  //       phone: "",
-  //       country: "",
-  //       message: "",
-  //     });
-  //     setIsFormSubmitted(false); // Reset form submission state
-  //     toast.success("submitted successfully");
-  //   } catch (error) {
-  //     console.error("Submission error:", error);
-  //     setIsFormSubmitted(false); // Reset form submission state on error
-  //     toast.error("Failed to submit form");
-  //   }
-  // };
-
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -121,26 +79,26 @@ export const ContactForm = () => {
           <div className="col-span-5 max-xl:col-span-12">
             <div className=" border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10 bg-white ">
               <h5 className="text-2xl sm:text-3xl font-bold text-black">
-                Let’s Connect
+                {t1("letscontact")}
               </h5>
               <div className="mt-6 sm:mt-8 space-y-4">
                 <ContactCard
                   label="Mobile"
-                  text="+1 (123) 456-7890"
+                  text="+40 730982342"
                   icon={<Phone className="w-10 h-10 text-primary" />}
                 />
               </div>
               <div className="mt-6 sm:mt-8 space-y-4">
                 <ContactCard
                   label="Office Phone"
-                  text="+1 (123) 456-7890"
+                  text="+40 730982342"
                   icon={<PhoneCall className="w-10 h-10 text-primary" />}
                 />
               </div>
               <div className="mt-6 sm:mt-8 space-y-4">
                 <ContactCard
                   label="Whats App"
-                  text="+1 (123) 456-7890"
+                  text="+40 730982342"
                   icon={
                     <MessageCirclePlus className="w-10 h-10 text-primary" />
                   }
@@ -149,7 +107,7 @@ export const ContactForm = () => {
               <div className="mt-6 sm:mt-8 space-y-4">
                 <ContactCard
                   label="E-mail"
-                  text="mHd8w@example.com"
+                  text="HRhub@Recruitment4u.co"
                   icon={<Mail className="w-10 h-10 text-primary" />}
                 />
               </div>
@@ -171,7 +129,7 @@ export const ContactForm = () => {
               <div className="p-6 sm:p-8 lg:p-10">
                 <div className="text-center mb-6 sm:mb-8">
                   <h2 className="text-2xl sm:text-3xl font-bold text-black mb-3">
-                    Consult. Plan. Win.
+                    {t("title")}
                   </h2>
                 </div>
                 <form
@@ -179,15 +137,15 @@ export const ContactForm = () => {
                   className="space-y-4 sm:space-y-6">
                   <div className="space-y-4">
                     {[
-                      { id: "company", label: "Company Name", type: "text" },
-                      { id: "name", label: "Name & SurName", type: "text" },
-                      { id: "email", label: "Email", type: "email" },
+                      { id: "company", label: t("companyname"), type: "text" },
+                      { id: "name", label: t("name&surname"), type: "text" },
+                      { id: "email", label: t("email"), type: "email" },
                       {
                         id: "phone",
-                        label: "Country Code with Phone Number",
+                        label: t("phone"),
                         type: "text",
                       },
-                      { id: "country", label: "Country Name", type: "text" },
+                      { id: "country", label: t("country"), type: "text" },
                     ].map((field) => (
                       <div key={field.id}>
                         <label
@@ -213,7 +171,7 @@ export const ContactForm = () => {
                       <label
                         htmlFor="message"
                         className="block text-sm font-medium text-black mb-1.5 sm:mb-2">
-                        Your Message
+                        {t("message")}
                       </label>
                       <textarea
                         id="message"
@@ -231,7 +189,7 @@ export const ContactForm = () => {
                     className="w-full bg-primary text-white py-3 sm:py-4 px-4 sm:px-6 rounded-lg hover:bg-primary/90 transition-all duration-200 font-semibold text-base sm:text-lg shadow-lg hover:shadow-xl"
                     whileHover={{ scale: 1.01 }}
                     whileTap={{ scale: 0.98 }}>
-                    {isFormSubmitted ? "Submitting..." : "Send"}
+                    {isFormSubmitted ? "Submitting..." : t("send")}
                   </motion.button>
                 </form>
               </div>

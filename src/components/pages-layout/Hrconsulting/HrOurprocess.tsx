@@ -1,44 +1,31 @@
 import { Check } from "lucide-react";
-
-const steps = [
-  {
-    number: 1,
-    title: "Tell Us About Yourself",
-    items: [
-      "Company overview",
-      "Employer brand and experience analysis",
-      "Unique Value Proposition (UVP) for employees",
-    ],
-  },
-  {
-    number: 2,
-    title: "We Drive Transformation",
-    items: [
-      "Identify employee touchpoints",
-      "Map out employee lifecycle stages",
-      "Establish streamlined processes",
-    ],
-  },
-  {
-    number: 3,
-    title: "We Deliver Results",
-    items: [
-      "Implement cutting-edge technology",
-      "Conduct leadership training sessions",
-      "Present outcomes effectively",
-    ],
-  },
-];
+import { useTranslations } from "next-intl";
 
 export default function HrOurprocess() {
+  const t = useTranslations("hrconsulting");
+  const tasks = t.raw("ourprocess.card1.task") as string[];
+  const steps = [
+    {
+      number: 1,
+      title: "Tell Us About Yourself",
+      items: tasks,
+    },
+    {
+      number: 2,
+      title: "We Drive Transformation",
+      items: tasks,
+    },
+    {
+      number: 3,
+      title: "We Deliver Results",
+      items: tasks,
+    },
+  ];
   return (
     <section className="bg-gray-100 text-black py-16 px-4">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-[52px] font-bold mb-4">Our process</h2>
-        <p className="text-[26px] font-normal mb-12">
-          Accelerate hiring timelines—we’ll deliver initial candidate profiles
-          within 3-5 days.
-        </p>
+        <h2 className="text-[52px] font-bold mb-4">{t("ourprocess.title")}</h2>
+        <p className="text-[26px] font-normal mb-12">{t("ourprocess.desc")}</p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {steps.map((step) => (

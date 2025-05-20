@@ -9,20 +9,22 @@ import {
   Youtube,
 } from "lucide-react";
 import { FaTiktok, FaPinterestP } from "react-icons/fa";
+import { useTranslations } from "next-intl";
 
 const Footer = () => {
+  const t = useTranslations("footer");
   const locations = [
     {
-      country: "Romania",
-      address: "Str. Sg. Constantin Moise 5 D, SECTORUL 6, BUCHAREST",
+      country: t("location1.title"),
+      address: t("location1.desc"),
     },
     {
-      country: "UAE [Dubai]",
-      address: "The One Tower, Fl.24, DUBAI, UAE",
+      country: t("location2.title"),
+      address: t("location2.desc"),
     },
     {
-      country: "Qatar",
-      address: "Global Business Center, Cornish Road, Doha, Qatar",
+      country: t("location3.title"),
+      address: t("location3.desc"),
     },
   ];
 
@@ -75,12 +77,11 @@ const Footer = () => {
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-black mb-4 md:mb-6">
-                  About Us
+                  {t("title")}
                 </h3>
                 <div className="relative">
                   <p className="text-base md:text-lg lg:text-xl text-black leading-relaxed md:leading-relaxed lg:leading-relaxed">
-                    Recruitment4u is registered for activities related to
-                    employment mediation and temporary employment of workers.
+                    {t("desc")}
                   </p>
                   <div className="absolute -left-4 top-0 bottom-0 w-1 bg-primary-secondary rounded-full"></div>
                 </div>
@@ -116,7 +117,7 @@ const Footer = () => {
           {/* Locations Grid */}
           <div className="lg:col-span-8">
             <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-black mb-4 md:mb-6 lg:mb-8">
-              Our Global Presence
+              {t("title2")}
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
               {locations.map((location, index) => (
@@ -140,12 +141,13 @@ const Footer = () => {
 
         {/* Bottom Section */}
         <div className="border-t border-primary/10 mt-12 md:mt-16 pt-6 md:pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+          <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0">
             <div className="text-xs md:text-sm lg:text-base text-black text-center md:text-left">
-              Copyright © {new Date().getFullYear()} Recruitment4u . All rights
-              reserved.
+              {t("copyright")}
+              {/* Copyright © {new Date().getFullYear()} Recruitment4u . All rights
+              reserved. */}
             </div>
-            <div className="flex items-center space-x-6">
+            {/* <div className="flex items-center space-x-6">
               <Link
                 href="/privacy"
                 className="text-black hover:text-primary-secondary transition-colors text-sm">
@@ -157,7 +159,7 @@ const Footer = () => {
                 className="text-black hover:text-primary-secondary transition-colors text-sm">
                 Terms & Conditions
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

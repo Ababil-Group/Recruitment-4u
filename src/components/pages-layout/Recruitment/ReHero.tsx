@@ -11,9 +11,11 @@ import img7 from "../../../../public/images/brand7.png";
 import img8 from "../../../../public/images/brand8.png";
 import img9 from "../../../../public/images/brand9.png";
 import img10 from "../../../../public/images/brand10.png";
+import { useTranslations } from "next-intl";
 
 const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
 export default function Hero() {
+  const t = useTranslations("recruitmentcard");
   return (
     <section className="relative bg-[#E8F5F4] ml-[-10vw]  w-screen overflow-hidden">
       <div className="container mx-auto">
@@ -37,20 +39,19 @@ export default function Hero() {
               transition={{ duration: 0.8 }}
               className="max-w-2xl bg-white/90 backdrop-blur-sm p-8 md:p-12 rounded-lg shadow-xl">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-                Recruitment
+                {t("title")}
               </h1>
               <p className="text-lg md:text-xl text-gray-700 mb-6">
-                Optimize your time and resources with our comprehensive
-                recruitment solutions.
+                {t("desc1")}
               </p>
               <p className="text-lg md:text-xl text-gray-700 mb-6">
-                Find the talent you need to drive business growth.
+                {t("desc2")}
               </p>
               <a
                 className="bg-primary text-[25px] font-bold mt-5 text-white px-8 py-4 rounded-md hover:text-slate-700 transition-all"
                 href="https://calendly.com/recruitment4u-head-office"
                 target="_blank">
-                Book a call
+                {t("buttonText")}
               </a>
             </motion.div>
           </div>
@@ -60,7 +61,7 @@ export default function Hero() {
         <div className="container mx-auto">
           <div className="flex justify-center items-center gap-5">
             <h5 className="text-black text-[22px] md:text-[24px] font-bold">
-              Client:
+              {t("ads")}
             </h5>
             <ImageSlider images={images} height="h-8" speed={50} />
           </div>

@@ -1,11 +1,13 @@
 import React from "react";
 import { UserCheck } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export default function HrWhatDo() {
+  const t = useTranslations("hrconsulting");
   return (
     <section className="bg-[#F8F8F8] mx-auto py-12">
       <h1 className="text-[52px] text-center text-black font-bold">
-        What we do
+        {t("whatsdo.title")}
       </h1>
       <div className="container max-w-[900px] pb-20 mx-auto">
         {/* Use flex for same height and wrap for responsiveness */}
@@ -16,20 +18,19 @@ export default function HrWhatDo() {
               <UserCheck height={60} width={70} className="text-primary" />
               <div className="mt-10">
                 <h4 className="text-black text-[30px] font-bold">
-                  Employer branding
+                  {t("whatsdo.card1.title")}
                 </h4>
                 <p className="text-[20px] text-black font-normal">
-                  We craft a compelling image of your organization for
-                  prospective hires and current employees,
+                  {t("whatsdo.card1.desc1")}
                 </p>
                 <p className="mt-5 text-primary text-[20px] font-normal">
-                  enabling you to attract and retain top-tier talent.
+                  {t("whatsdo.card1.desc2")}
                 </p>
               </div>
             </div>
-            <button className="text-[20px] mt-5 text-primary font-bold underline text-left">
+            {/* <button className="text-[20px] mt-5 text-primary font-bold underline text-left">
               More details
-            </button>
+            </button> */}
           </div>
 
           {/* Box 2 */}
@@ -38,17 +39,16 @@ export default function HrWhatDo() {
               <UserCheck height={60} width={70} className="text-primary" />
               <div className="mt-10">
                 <h4 className="text-black text-[30px] font-bold">
-                  Employee Experience
+                  {t("whatsdo.card2.title")}
                 </h4>
                 <p className="text-[20px] text-black font-normal">
-                  We’ve partnered with over 70 organizations to optimize HR
-                  operations, meet objectives, and drive profitability.
+                  {t("whatsdo.card2.desc1")}
                 </p>
               </div>
             </div>
-            <button className="text-[20px] mt-5 text-primary font-bold underline text-left">
+            {/* <button className="text-[20px] mt-5 text-primary font-bold underline text-left">
               More details
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

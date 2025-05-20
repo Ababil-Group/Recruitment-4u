@@ -7,6 +7,7 @@ import { useTranslations } from "next-intl";
 export default function NavigatingHero() {
   const t = useTranslations("solutionsnavigating");
   const paragraphs = t.raw("navigatearticale.peragraphs") as string[];
+  
   const Content = [
     {
       title: t("content1.title"),

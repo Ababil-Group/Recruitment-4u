@@ -5,38 +5,35 @@ import {
   Headphones,
   GitBranch,
 } from "lucide-react";
+import { useTranslations } from "next-intl";
 import React from "react";
 
 export default function OutWhatDo() {
+  const t = useTranslations("outstaffing");
   const services = [
     {
-      title: "IT Staff Augmentation",
-      description:
-        "Get highly qualified professionals to strengthen your team and fill critical roles swiftly.",
+      title: t("whatsdo.card1.title"),
+      description: t("whatsdo.card1.desc"),
       icon: <Users size={70} className="text-primary" />,
     },
     {
-      title: "Project-based outstaffing",
-      description:
-        "Receive a dedicated team to manage projects from inception to completion efficiently.",
+      title: t("whatsdo.card2.title"),
+      description: t("whatsdo.card2.desc"),
       icon: <GitBranch size={70} className="text-primary" />,
     },
     {
-      title: "R&D Center Development",
-      description:
-        "Leverage our expertise in establishing R&D centers with top-tier talent tailored to your needs.",
+      title: t("whatsdo.card3.title"),
+      description: t("whatsdo.card3.desc"),
       icon: <FlaskConical size={70} className="text-primary" />,
     },
     {
-      title: "QA Team Building",
-      description:
-        "Hire individual QA specialists or create a full team of experienced professionals for thorough quality assurance.",
+      title: t("whatsdo.card4.title"),
+      description: t("whatsdo.card4.desc"),
       icon: <ShieldCheck size={70} className="text-primary" />,
     },
     {
-      title: "Technical Support Center Setup",
-      description:
-        "Let us help you build or enhance your technical support department with skilled staff.",
+      title: t("whatsdo.card5.title"),
+      description: t("whatsdo.card5.desc"),
       icon: <Headphones size={70} className="text-primary" />,
     },
   ];
@@ -44,11 +41,10 @@ export default function OutWhatDo() {
   return (
     <section className="bg-[#F8F8F8] mx-auto py-12">
       <h1 className="text-[52px] font-bold text-center text-black mb-12">
-        What we do
+        {t("whatsdo.title")}
       </h1>
-      <p className=" text-[26px] text-center mb-12 text-primary">
-        We help businesses expand quickly, enhance operations, achieve
-        objectives, and boost profitability.
+      <p className="text-[26px] text-center mb-12 text-primary">
+        {t("whatsdo.description")}
       </p>
       <div className="container pb-20 mx-auto px-4">
         {/* Top row - 3 boxes */}
@@ -95,9 +91,9 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service }) => {
           </p>
         </div>
       </div>
-      <button className="text-lg md:text-[20px] mt-5 text-primary font-bold underline text-left hover:text-primary-dark transition-colors">
+      {/* <button className="text-lg md:text-[20px] mt-5 text-primary font-bold underline text-left hover:text-primary-dark transition-colors">
         More details
-      </button>
+      </button> */}
     </div>
   );
 };

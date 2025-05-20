@@ -19,6 +19,7 @@ type FormData = {
 
 export default function CompanyForm() {
   const t = useTranslations("contactform");
+
   const [formData, setFormData] = useState<FormData>({
     company: "",
     name: "",

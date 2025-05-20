@@ -2,30 +2,29 @@ import React from "react";
 import Image from "next/image";
 import OurLeft from "../../../../public/images/ourleft.jpg";
 import OurRight from "../../../../public/images/ourright.jpg";
+import { useTranslations } from "next-intl";
 
 export default function OurProcess() {
+  const t = useTranslations("recruitmentcard");
+  const tasks = t.raw("ourprocess.card1.task") as string[];
   const processSteps = [
     {
       id: 1,
-      title: "Understanding Your Needs",
-      duration: "(1-3 days)",
-      tasks: ["✔ Company Overview", "✔ Vacancy Details", "✔ Contract Signing"],
+      title: t("ourprocess.card1.title"),
+      duration: t("ourprocess.card1.time"),
+      tasks: { tasks },
     },
     {
       id: 2,
-      title: "Full-Cycle Recruiting",
-      duration: "(1-4 weeks)",
-      tasks: ["✔ Sourcing", "✔ Pre-screening, Interviews", "✔ Weekly Updates"],
+      title: t("ourprocess.card2.title"),
+      duration: t("ourprocess.card2.time"),
+      tasks: { tasks },
     },
     {
       id: 3,
-      title: "Finalizing the Hire",
-      duration: "(4-6 weeks)",
-      tasks: [
-        "✔ Offer negotiations",
-        "✔ Signing NDA with a candidate",
-        "✔ Presenting results",
-      ],
+      title: t("ourprocess.card3.title"),
+      duration: t("ourprocess.card3.time"),
+      tasks: { tasks },
     },
   ];
 
@@ -55,10 +54,11 @@ export default function OurProcess() {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-12">
-          <h1 className="text-[40px] text-white font-bold mb-4">Our Process</h1>
+          <h1 className="text-[40px] text-white font-bold mb-4">
+            {t("ourprocess.title")}
+          </h1>
           <p className="text-white text-lg max-w-2xl mx-auto">
-            Reduce time to hire. We&apos;ll provide you with the first <br />
-            candidates within 3-5 days.
+            {t("ourprocess.desc")}
           </p>
         </div>
 
@@ -79,14 +79,22 @@ export default function OurProcess() {
                 </div>
               </div>
               <ul className="space-y-2">
-                {step.tasks.map((task, i) => (
+                {(step.tasks.tasks as string[]).map(
+                  (task: string, i: number) => (
+                    <li key={i} className="flex items-start">
+                      <span className="mr-2 text-green-500">✔</span>
+                      <span className="text-black">{task}</span>
+                    </li>
+                  )
+                )}
+                {/* {step.tasks.map((task, i) => (
                   <li key={i} className="flex items-start">
                     <span className="mr-2 text-green-500">✔</span>
                     <span className="text-black">
                       {task.replace("✔", "").trim()}
                     </span>
                   </li>
-                ))}
+                ))} */}
               </ul>
             </div>
           ))}

@@ -1,6 +1,7 @@
 import React from "react";
 
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 // Define cardVariants for motion animations
 const cardVariants = {
   hidden: { opacity: 0, scale: 0.8 },
@@ -8,11 +9,12 @@ const cardVariants = {
 };
 
 const Whatsdo = () => {
+  const t = useTranslations("recruitmentcard");
   return (
     <section className="bg-[#009AEE] py-12 w-screen ml-[-10vw]">
       <div className="container mx-auto ">
         <h1 className="text-[40px] text-center text-white font-bold">
-          What we do
+          {t("whatsdo.title")}
         </h1>
         <motion.div className="py-10 flex justify-center items-center max-md:flex-col gap-4 md:gap-8">
           <motion.div
@@ -23,14 +25,13 @@ const Whatsdo = () => {
               <div className="flex flex-col  justify-between h-full">
                 <div>
                   <h2 className="text-[28px] font-bold mb-2">
-                    Results-Driven Recruiting
+                    {t("whatsdo.card1.title")}
                   </h2>
                   <p className="text-[18px] font-normal text-white mt-6">
-                    We manage the recruitment process from start to finish.
+                    {t("whatsdo.card1.desc1")}
                   </p>
                   <p className="text-[18px] font-normal text-white mt-6">
-                    We follow a pay-per-hire model where you only pay for
-                    successful placements.
+                    {t("whatsdo.card1.desc2")}
                   </p>
                 </div>
                 <div className="flex items-center  justify-between">
@@ -53,14 +54,13 @@ const Whatsdo = () => {
               <div className="flex flex-col  justify-between h-full">
                 <div>
                   <h2 className="text-[28px] text-black  font-bold mb-2">
-                    Subscription-Based Solutions
+                    {t("whatsdo.card2.title")}
                   </h2>
                   <p className="text-[18px]  text-black font-normal  mt-6">
-                    Enjoy full-cycle recruitment services with flexible
-                    subscription plans.
+                    {t("whatsdo.card2.desc1")}
                   </p>
                   <p className="text-[18px] font-normal text-black mt-6">
-                    We tailored workers for you Globally as per your need.
+                    {t("whatsdo.card2.desc2")}
                   </p>
                 </div>
                 <div className="flex items-center  justify-between">
@@ -84,11 +84,10 @@ const Whatsdo = () => {
               <div className="flex flex-col  justify-between h-full">
                 <div>
                   <h2 className="text-[28px] text-black  font-bold mb-2">
-                    Recruitment Process Outsourcing (ROP)
+                    {t("whatsdo.card3.title")}
                   </h2>
                   <p className="text-[18px]  text-black font-normal  mt-6">
-                    Outsource part or all of your recruitment process to
-                    streamline hiring operations.
+                    {t("whatsdo.card3.desc1")}
                   </p>
                 </div>
                 <div className="flex items-center  justify-between">

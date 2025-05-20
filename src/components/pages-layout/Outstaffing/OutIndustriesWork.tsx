@@ -11,6 +11,7 @@ import {
   Presentation,
   Cpu,
 } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 const industries = [
   { label: "Web3", icon: <Globe size={18} /> },
@@ -27,10 +28,11 @@ const industries = [
   { label: "MarkTech", icon: <Presentation size={18} /> },
 ];
 export default function OutIndustriesWork() {
+  const t = useTranslations("outstaffing");
   return (
     <section className="py-16 px-4 bg-white text-black">
       <div className="container mx-auto text-center">
-        <h2 className="text-[32px] font-bold mb-10">Industries we work with</h2>
+        <h2 className="text-[32px] font-bold mb-10">{t("industries.title")}</h2>
         <div className="flex flex-wrap justify-center gap-4 gap-y-8">
           {industries.map((industry, i) => (
             <IndustryBadge

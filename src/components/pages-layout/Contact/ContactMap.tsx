@@ -1,10 +1,12 @@
 import ContactMapCard from "@/components/common/ContactMapCard";
+import { useTranslations } from "next-intl";
 export default function ContactMap() {
+  const t = useTranslations("footer");
   return (
     <div id="offices">
       <ContactMapCard
-        title="Romania "
-        address=" Str. Sg. Constantin Moise 5 D, SECTORUL 6, BUCHAREST"
+        title={t("location1.title")}
+        address={t("location1.desc")}
         // phone="+385 1 6064 420"
         // email="info.hr@dekra.com"
         hours="Workdays 08:30 – 16:30"
@@ -12,8 +14,8 @@ export default function ContactMap() {
         mapLink="https://www.google.com/maps/search/Str.+Sg.+Constantin+Moise+5+D+BUCURESTI,+Loc.+SECTORUL+6/@44.4294868,26.0369059,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D" // Optional
       />
       <ContactMapCard
-        title="UAE [Dubai]"
-        address="The One Tower, Fl.24, DUBAI, UAE"
+        title={t("location2.title")}
+        address={t("location2.desc")}
         // phone="+385 1 6064 420"
         // email="info.hr@dekra.com"
         hours="Workdays 08:30 – 16:30"
@@ -21,8 +23,8 @@ export default function ContactMap() {
         mapLink="https://www.google.com/maps/place/The+One+Tower/@25.101272,55.1712551,17z/data=!3m2!4b1!5s0x3e5f6823542b71c7:0x8e9faf5dcfac2cda!4m6!3m5!1s0x3e5f6b717800ddc9:0x80e8763d2c32aea7!8m2!3d25.1012672!4d55.17383!16s%2Fm%2F043sbt6?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D" // Optional
       />
       <ContactMapCard
-        title="Qatar"
-        address=" Global Business Center, Cornish Road, Doha, Qatar"
+        title={t("location3.title")}
+        address={t("location3.desc")}
         // phone="+385 1 6064 420"
         // email="info.hr@dekra.com"
         hours="Workdays 08:30 – 16:30"

@@ -11,8 +11,10 @@ import img7 from "../../../../public/images/brand7.png";
 import img8 from "../../../../public/images/brand8.png";
 import img9 from "../../../../public/images/brand9.png";
 import img10 from "../../../../public/images/brand10.png";
+import { useTranslations } from "next-intl";
 const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
 export default function Hero() {
+  const t = useTranslations("hrconsulting");
   return (
     <section>
       <div
@@ -23,16 +25,13 @@ export default function Hero() {
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Left content */}
           <div className="text-black">
-            <h1 className="text-[52px] font-bold mb-6">HR consulting</h1>
-            <p className="text-[25px] mb-6 max-w-lg">
-              We assist businesses in building a distinguished reputation that
-              enhances visibility in the market and improves hiring outcomes.
-            </p>
+            <h1 className="text-[52px] font-bold mb-6">{t("title")}</h1>
+            <p className="text-[25px] mb-6 max-w-lg">{t("desc1")}</p>
             <a
               className="bg-primary text-[25px] font-bold mt-5 text-white px-8 py-4 rounded-md hover:text-slate-700 transition-all"
               href="https://calendly.com/recruitment4u-head-office"
               target="_blank">
-              Book a call
+              {t("buttonText")}
             </a>
           </div>
           {/* Right image */}
@@ -50,7 +49,7 @@ export default function Hero() {
         <div className="container mx-auto">
           <div className="flex justify-center items-center gap-5">
             <h5 className="text-black text-[22px] md:text-[24px] font-bold mb-6">
-              Trusted by top brands
+              {t("ads")}
             </h5>
             <ImageSlider images={images} height="h-8" speed={50} />
           </div>
