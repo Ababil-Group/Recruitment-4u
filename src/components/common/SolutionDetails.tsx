@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { Button } from "../ui/button";
 type SolutionDetailsProps = {
   imageSrc: string;
   title: string;
@@ -11,7 +10,6 @@ const SolutionDetails: React.FC<SolutionDetailsProps> = ({
   imageSrc,
   title,
   paragraphs,
-  onClick,
 }) => {
   return (
     <div className="grid  grid-cols-1 md:grid-cols-12 mt-52 max-sm:mt-20 gap-10 items-start">
@@ -34,9 +32,9 @@ const SolutionDetails: React.FC<SolutionDetailsProps> = ({
         <p className="text-base md:text-lg text-black font-normal mt-6">
           {paragraphs}
         </p>
-        <Button onClick={onClick} className="mt-6 text-[18px] font-bold">
+        {/* <Button onClick={onClick} className="mt-6 text-[18px] font-bold">
           Read More
-        </Button>
+        </Button> */}
       </div>
     </div>
   );
