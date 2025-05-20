@@ -47,13 +47,10 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      // Calculate opacity based on scroll position
-      // 100% opacity at top (scrollY = 0), 25% opacity when scrolled down (scrollY > 100)
-      const newOpacity = Math.max(0.25, 1 - currentScrollY / 400); // Adjust 400 for faster/slower fade
+      const newOpacity = Math.max(0.25, 1 - currentScrollY / 400);
       setOpacity(newOpacity);
     };
 
-    // Add slight throttling to improve performance
     let timeoutId: NodeJS.Timeout;
     const throttledScroll = () => {
       if (timeoutId) return;
@@ -105,8 +102,7 @@ const Navbar = () => {
       className={cn(
         "fixed w-full top-0 z-50 text-white backdrop-blur-sm shadow-sm transition-all duration-300"
       )}
-      style={{ backgroundColor: `rgba(0, 0, 0, ${opacity})`, zIndex: `100` }}>
-      {/* Rest of your navbar content remains exactly the same */}
+      style={{ backgroundColor: `rgba(0, 0, 0, ${opacity})` }}>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20 relative">
           {/* Logo */}
@@ -194,32 +190,21 @@ const Navbar = () => {
 
           {/* Desktop CTA & Language Switcher */}
           <div className="hidden md:flex items-center gap-4">
-            {/* <Link href="/contact">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className={cn(
-                  "bg-primary-secondary text-primary px-4 lg:px-6 py-2 rounded-md text-sm lg:text-base",
-                  "hover:bg-primary-secondary/90 transition-colors"
-                )}>
-                {t("navButton")}
-              </motion.button>
-            </Link> */}
             <LanguageSwitcher />
           </div>
 
-          {/* Mobile Menu */}
-          <div className="md:hidden absolute  right-0 top-1/2 -translate-y-1/2">
+          {/* Mobile Menu - Fixed with proper z-index */}
+          <div className="md:hidden absolute right-0 top-1/2 -translate-y-1/2 z-[60]">
             <Sheet>
               <SheetTrigger asChild>
                 <Button
                   variant="ghost"
                   size="icon"
-                  className="p-2  hover:bg-white/10">
+                  className="p-2 hover:bg-white/10">
                   <Menu className="h-10 w-10 text-white" />
                 </Button>
               </SheetTrigger>
-              <SheetContent className="flex flex-col h-full w-[280px] sm:w-[350px] bg-primary text-white">
+              <SheetContent className="flex flex-col h-full w-[280px] sm:w-[350px] bg-primary text-white z-[1000]">
                 <VisuallyHidden>
                   <SheetTitle>Navigation Menu</SheetTitle>
                 </VisuallyHidden>
@@ -263,7 +248,7 @@ const Navbar = () => {
                               <ChevronDown className="h-4 w-4" />
                             </motion.button>
                           </DropdownMenuTrigger>
-                          <DropdownMenuContent className="w-[200px] bg-white shadow-lg rounded-md">
+                          <DropdownMenuContent className="w-[200px] bg-white shadow-lg rounded-md z-[1001]">
                             {item.dropdown.map((subItem) => {
                               const isSubActive = isPathActive(
                                 pathname,
