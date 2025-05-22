@@ -1,4 +1,4 @@
-// i18n/types.ts
+
 export type AppLocale = "en" | "bg" | "bs" | "sr" | "hr" | "ro" | "sl" | "sk";
 
 export type CountryCode = keyof typeof countryToLocale;
