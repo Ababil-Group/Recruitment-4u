@@ -395,54 +395,54 @@
     "teamsction": {
       "title": "Ready to level up? Join us",
       "team1": {
-        "name": "Chief Sales Officer",
+        "name": "Sales Manager",
         "position": "CSO",
-        "description": "Drive growth. Lead success."
+        "description": "Drives sales performance by leading the team, managing key accounts directly, and collaborating with recruitment leadership to shape strategic direction."
       },
       "team2": {
-        "name": "Chief Executive Officer",
+        "name": "Senior Recruitment Consultant",
         "position": "CEO",
-        "description": "Drive growth. Lead success."
+        "description": "A seasoned recruitment professional with advanced responsibilities, including mentoring junior team members and managing high-value client accounts."
       },
       "team3": {
-        "name": "Chief Technology Officer",
+        "name": "Sales Representative",
         "position": "CTO",
-        "description": "Drive growth. Lead success."
+        "description": "Finds and secures new clients, promotes services, and negotiates contracts. Targets lead generation and agency growth."
       },
       "team4": {
-        "name": "Chief Marketing Officer",
+        "name": "Operations Manager",
         "position": "CMO",
-        "description": "Drive growth. Lead success."
+        "description": "Handles internal processes, tools, compliance, and workflow efficiency."
       },
       "team5": {
-        "name": "Chief Operating Officer",
+        "name": "Office Manager ",
         "position": "COO",
-        "description": "Drive growth. Lead success."
+        "description": "Manages the day-to-day operations of a specific location. Oversee sales, recruitment, and administration."
       },
       "team6": {
-        "name": "Chief Financial Officer",
+        "name": " Managing Director",
         "position": "CFO",
-        "description": "Drive growth. Lead success."
+        "description": "Sets overall business strategy and vision. Ensures agency profitability."
       },
       "team7": {
-        "name": "Chief People Officer",
+        "name": " Office Administrator",
         "position": "CPO",
-        "description": "Drive growth. Lead success."
+        "description": "Handles documentation, work permit applications submission, and is in charge of aftersales communication with clients."
       },
       "team8": {
-        "name": "Chief Legal Officer",
+        "name": "Marketing Manager",
         "position": "CLO",
-        "description": "Drive growth. Lead success."
+        "description": "Promotes the agency's brand and services through campaigns and social media."
       },
       "team9": {
-        "name": "Chief Human Resources Officer",
+        "name": "HR Manager ",
         "position": "CHR",
-        "description": "Drive growth. Lead success."
+        "description": "Manages internal recruitment, in-house training, and staff development."
       },
       "team10": {
-        "name": "Chief Data Officer",
+        "name": "After Sales Support Officer",
         "position": "CDO",
-        "description": "Drive growth. Lead success."
+        "description": "Works closely with teams in sales and support teams in source countries to ensure smooth arrival of the workers and provide support to the clients."
       }
     },
     "articlesection": {
