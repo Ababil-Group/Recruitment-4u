@@ -12,7 +12,7 @@ export default function BehindArticale() {
   };
   return (
     <section className="py-12 px-4 sm:px-6 bg-white">
-      <h2 className="text-[45px] text-black md:text-4xl font-bold text-center mb-12">
+      <h2 className="text-4xl text-black md:text-4xl sm:text-2xl font-bold text-center mb-12">
         {t("articlesection.title")}
       </h2>
       <div className="grid mt-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 py-10">

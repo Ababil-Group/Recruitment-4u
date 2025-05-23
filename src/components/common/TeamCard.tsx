@@ -6,13 +6,13 @@ interface TeamCardProps {
   description?: string;
   emailLink?: string;
   bgColor?: string;
+  onClick?: () => void;
 }
 
 const TeamCard: FC<TeamCardProps> = ({
   name,
-
+  onClick,
   description,
-  emailLink,
   bgColor = "bg-blue-500",
 }) => {
   return (
@@ -33,8 +33,8 @@ const TeamCard: FC<TeamCardProps> = ({
 
       <div className="mt-3 text-base font-semibold">
         <a
-          href={emailLink ? `mailto:${emailLink}` : "#"}
-          className="inline-flex items-center gap-1 hover:underline">
+          onClick={onClick}
+          className="inline-flex cursor-pointer items-center gap-1 hover:underline">
           Learn more →
         </a>
       </div>
