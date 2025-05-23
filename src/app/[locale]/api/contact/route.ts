@@ -14,20 +14,19 @@ export async function POST(req: Request) {
     }
 
     const transporter = nodemailer.createTransport({
-      service: "gmail",
+      host: "smtp.gmail.com",
       port: 465,
+      secure: true,
       auth: {
-        user: "playergtax6@gmail.com", // Use environment variables
-        pass: "yxzzkyttsckzxxjm",
-        // user: "help.recruitment4u@gmail.com", // Use environment variables
-        // pass: "lgdqxiurexamgogm",
+        user: process.env.NEXT_EMAIL_USER, // Use environment variables
+        pass: process.env.NEXT_EMAIL_PASSWORD,
       },
     });
 
     const mailOptions = {
       from: `Recruitment 4U <${email}>`,
       to: "recruitment4u.hrm@gmail.com",
-      subject: ` ${name}`,
+      subject: `${name}`,
       html: `
       <!DOCTYPE html>
 <html>

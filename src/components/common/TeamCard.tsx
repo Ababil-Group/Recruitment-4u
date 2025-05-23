@@ -17,7 +17,7 @@ const TeamCard: FC<TeamCardProps> = ({
 }) => {
   return (
     <div
-      className={`w-[200px] h-[240px] ${bgColor} text-white rounded-[30px] flex flex-col justify-between  p-5`}>
+      className={`lg:w-[200px] lg:h-[240px] md:w-[220px] md:h-[250px] sm:w-full sm:min-h-[250px] w-full min-h-[250px] ${bgColor} text-white rounded-[30px] flex flex-col justify-between  p-5`}>
       <div>
         <h3 className="text-xl font-bold leading-tight">{name}</h3>
         <p className="text-md mt-1">({title})</p>

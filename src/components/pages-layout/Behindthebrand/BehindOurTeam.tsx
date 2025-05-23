@@ -72,7 +72,6 @@ export default function BehindOurTeam() {
             description={t("teamsction.team10.description")}
             emailLink="sales@company.com"
           />
-
           {/* <TeamCard
             title="Recruitment Consultant"
             name="Luka Jovanović"

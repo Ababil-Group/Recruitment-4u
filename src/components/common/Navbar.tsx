@@ -131,9 +131,9 @@ const Navbar = () => {
                       transition={{ duration: 0.2 }}>
                       <button
                         className={cn(
-                          "relative text-base lg:text-lg font-semibold transition-all duration-200 flex items-center gap-1",
+                          "relative text-base cursor-pointer lg:text-lg font-semibold transition-all duration-200 flex items-center gap-1",
                           isActive
-                            ? "text-primary-secondary"
+                            ? "text-primary-secondary cursor-pointer"
                             : "text-white hover:text-primary-secondary"
                         )}>
                         {item.label}
@@ -153,7 +153,7 @@ const Navbar = () => {
                           <Link
                             href={subItem.href}
                             className={cn(
-                              "block px-4 py-2 w-full",
+                              "block px-4 py-2 cursor-pointer w-full",
                               isSubActive
                                 ? "text-primary-secondary font-semibold"
                                 : "text-primary font-semibold hover:bg-gray-100"
@@ -239,10 +239,10 @@ const Navbar = () => {
                               whileHover={{ scale: 1.05 }}
                               whileTap={{ scale: 0.95 }}
                               className={cn(
-                                "text-base font-semibold transition-all duration-200 flex items-center gap-1",
+                                "text-base font-semibold cursor-pointer transition-all duration-200 flex items-center gap-1",
                                 isActive
                                   ? "text-primary-secondary"
-                                  : "text-white hover:text-primary-secondary"
+                                  : "text-white cursor-pointer hover:text-primary-secondary"
                               )}>
                               {item.label}
                               <ChevronDown className="h-4 w-4" />
@@ -260,10 +260,10 @@ const Navbar = () => {
                                   <Link
                                     href={subItem.href}
                                     className={cn(
-                                      "block px-4 py-2 w-full",
+                                      "block px-4 py-2 cursor-pointer w-full",
                                       isSubActive
-                                        ? "text-primary-secondary font-medium"
-                                        : "text-primary hover:bg-gray-100"
+                                        ? "text-primary-secondary cursor-pointer font-medium"
+                                        : "text-primary cursor-pointer hover:bg-gray-100"
                                     )}>
                                     {subItem.label}
                                   </Link>
@@ -279,11 +279,11 @@ const Navbar = () => {
                           className={cn(
                             "text-base font-semibold transition-all duration-200",
                             "relative w-fit after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-full",
-                            "after:origin-left after:scale-x-0 after:bg-primary-secondary",
+                            "after:origin-left cursor-pointer after:scale-x-0 after:bg-primary-secondary",
                             "after:transition-transform after:duration-300 hover:after:scale-x-100",
                             isActive
-                              ? "text-primary-secondary after:scale-x-100"
-                              : "text-white hover:text-primary-secondary"
+                              ? "text-primary-secondary cursor-pointer after:scale-x-100"
+                              : "text-white cursor-pointer hover:text-primary-secondary"
                           )}>
                           {item.label}
                         </Link>

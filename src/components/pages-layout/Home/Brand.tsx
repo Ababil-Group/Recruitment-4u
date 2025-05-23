@@ -28,7 +28,7 @@ const Brand = () => {
     router.push(path);
   };
   return (
-    <section className="bg-white py-12 sm:py-16 md:py-20 lg:py-24 xl:py-32 overflow-hidden">
+    <section className="bg-white py-12 sm:py-16 md:py-20 lg:py-24 xl:py-32 mx-auto overflow-hidden">
       <div className="container mb-10 mx-auto text-center">
         <h1 className="text-black text-2xl sm:text-3xl md:text-4xl font-bold mb-6">
           {t("title")}
@@ -37,7 +37,7 @@ const Brand = () => {
       {/* Smooth Scrolling Image Slider */}
       <ImageSlider images={images} height="h-8" speed={50} />
       <div className="container py-12 mx-auto flex max-md:flex-col  justify-center items-center text-center mt-8">
-        <div className="max-md:mt-8 max-md:ml-0">
+        <div className="max-md:mt-8 ">
           <Image
             src={FemaleImage}
             alt="brand"
@@ -46,7 +46,7 @@ const Brand = () => {
         </div>
         <div>
           <h5 className="text-black text-[32px] max-md:text-[32px] font-bold">
-           {t("subtitle")}
+            {t("subtitle")}
           </h5>
           <Button
             onClick={() => handleButtonClick("/contact")}

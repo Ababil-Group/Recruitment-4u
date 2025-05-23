@@ -35,8 +35,8 @@ export default function SeasonalHero() {
         title={t("seasonaldetails.title")}
         paragraphs={t("seasonaldetails.desc")}
       />
-      <div className="w-full flex justify-center px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl w-full">
+      <div className="w-full flex items-center justify-center px-4">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {Content.map((item, index) => (
             <div key={index} className={`text-center px-4`}>
               <SolutionContent

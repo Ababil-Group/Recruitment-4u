@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 export default function BehindHero() {
   const t = useTranslations("behindthebrand");
   return (
-    <section className="relative bg-primary ml-[-10vw] w-screen overflow-hidden">
+    <section className="relative bg-primary xl:ml-[-10vw] lg:ml-[-10vw] md:ml-[-10vw] sm:ml-[0vw] ml-0 w-screen overflow-hidden">
       {/* Background images container */}
       <div className="flex h-[70vh] min-h-[500px]">
         {/* Left image */}
