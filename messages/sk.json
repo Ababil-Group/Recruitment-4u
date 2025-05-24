@@ -398,54 +398,70 @@
     "teamsction": {
       "title": "Ste pripravení na ďalšiu úroveň? Pripojte sa k nám",
       "team1": {
-        "name": "Hlavný obchodný riaditeľ",
-        "position": "CSO",
-        "description": "Riadiť rast. Viesť úspech."
+        "name": "Manažér predaja",
+        "description": "Vedie predajný tím, priamo spravuje predaj, úzko spolupracuje s vedením náboru pri tvorbe stratégie.",
+        "btnText": "Urobte prvý krok"
       },
       "team2": {
-        "name": "Výkonný riaditeľ",
-        "position": "CEO",
-        "description": "Riadiť rast. Viesť úspech."
+        "name": "Senior náborový konzultant",
+        "description": "Skúsený náborár s vyššou úrovňou zodpovednosti, vrátane mentorovania juniorov a práce s kľúčovými klientmi.",
+        "btnText": "Ozvite sa svojej novej práci"
       },
       "team3": {
-        "name": "Hlavný technologický riaditeľ",
-        "position": "CTO",
-        "description": "Riadiť rast. Viesť úspech."
+        "name": "Predajný zástupca",
+        "description": "Hľadá a zabezpečuje nových klientov, propaguje služby a vyjednáva zmluvy. Zameriava sa na generovanie potenciálnych zákazníkov a rast agentúry.",
+        "btnText": "Krok do vašej budúcnosti"
       },
       "team4": {
-        "name": "Hlavný marketingový riaditeľ",
-        "position": "CMO",
-        "description": "Riadiť rast. Viesť úspech."
+        "name": "Operačný manažér",
+        "description": "Spravuje interné procesy, nástroje, dodržiavanie predpisov a efektivitu pracovných postupov.",
+        "btnText": "Krok do vašej budúcnosti"
       },
       "team5": {
-        "name": "Hlavný operačný riaditeľ",
-        "position": "COO",
-        "description": "Riadiť rast. Viesť úspech."
+        "name": "Manažér kancelárie",
+        "position": "Riaditeľ operácií",
+        "description": "Riadi každodenné operácie konkrétnej lokality. Dohliada na predaj, nábor a administratívu.",
+        "btnText": "Začnite tu"
       },
       "team6": {
-        "name": "Hlavný finančný riaditeľ",
-        "position": "CFO",
-        "description": "Riadiť rast. Viesť úspech."
+        "name": "Výkonný riaditeľ",
+        "description": "Určuje celkovú obchodnú stratégiu a víziu. Zabezpečuje ziskovosť agentúry.",
+        "btnText": "Pridajte chuť do pracovného života"
       },
       "team7": {
-        "name": "Hlavný riaditeľ ľudských zdrojov",
-        "position": "CPO",
-        "description": "Riadiť rast. Viesť úspech."
+        "name": "Administratívny pracovník",
+        "description": "Spravuje dokumentáciu, podáva žiadosti o pracovné povolenia a stará sa o komunikáciu s klientmi po predaji.",
+        "btnText": "Navrhnite si budúcnosť"
       },
       "team8": {
-        "name": "Hlavný právny riaditeľ",
-        "position": "CLO",
-        "description": "Riadiť rast. Viesť úspech."
+        "name": "Manažér marketingu",
+        "description": "Propaguje značku a služby agentúry prostredníctvom kampaní a sociálnych médií.",
+        "btnText": "Ukážte svoj talent"
       },
       "team9": {
-        "name": "Hlavný riaditeľ ľudských zdrojov",
-        "position": "CHR",
-        "description": "Riadiť rast. Viesť úspech."
+        "name": "HR manažér",
+        "description": "Riadi interný nábor, školenia a rozvoj zamestnancov.",
+        "btnText": "Získajte svoju rolu"
       },
       "team10": {
-        "name": "Hlavný riaditeľ pre dáta",
-        "position": "CDO",
-        "description": "Riadiť rast. Viesť úspech."
+        "name": "Pracovník podpory po predaji",
+        "description": "Úzko spolupracuje s predajnými tímami a tímami podpory v zdrojových krajinách, aby zabezpečil hladký príchod pracovníkov a podporu klientov.",
+        "btnText": "Radi vás spoznáme"
+      },
+      "teamdetails1": {
+        "title": "Manažér predaja",
+        "subtitle": "Vedúca úloha so strategickým dopadom",
+        "title1": "Prehľad úlohy",
+        "desc1": "V dnešnom rýchlom podnikateľskom prostredí je predaj viac než len uzatváranie obchodov; ide o podporu transformácie, zmocnenie ľudí a budovanie udržateľnej cesty k rastu. Tu sa úloha Manažéra predaja stáva nielen dôležitou, ale aj nevyhnutnou.",
+        "desc2": "Ako Manažér predaja nebudete len riadiť tím, ale povediete ho so stratégiou, víziou a výsledkovo orientovaným prístupom. Táto úloha spája vedenie a priame zapojenie, čím vám poskytuje príležitosť dozerať na vysokovýkonný predajný tím a zároveň priamo riadiť kľúčové účty a veľké obchody.",
+        "desc3": "Budete úzko spolupracovať s vedúcimi pri nábore, aby ste zosúladili predajný prístup s širšími organizačnými cieľmi, čím zabezpečíte, že každý úsilek významne prispieva k úspechu spoločnosti.",
+        "title2": "Čo túto úlohu odlišuje",
+        "desc4": "To, čo túto úlohu odlišuje, je jedinečná kombinácia strategického plánovania a vedenia ľudí. Manažéri predaja sú v popredí generovania príjmov, zodpovední za vývoj a implementáciu inovatívnych stratégií, mentorovanie členov tímu a sledovanie trendov v odvetví.",
+        "desc5": "Váš pohľad na pohyby na trhu a aktivity konkurentov zohrá kľúčovú rolu pri formovaní prístupu spoločnosti. Ideálni kandidáti prinesú overené skúsenosti v predaji alebo rozvoji podnikania, silné komunikačné a vyjednávacie schopnosti a ostré analytické myslenie. Skúsenosti s vedením, najmä v oblasti náboru alebo služieb, budú veľkým plusom.",
+        "title3": "Odměny a výhody",
+        "desc6": "Okrem zodpovedností ponúka úloha Manažéra predaja významné odmeny. Je to kariérne definujúca príležitosť s jasnou cestou k výkonnému rastu, bonusy založené na výkone a šancou ovplyvniť kľúčové obchodné rozhodnutia.",
+        "desc7": "Budete súčasťou živého, spolupracujúceho tímu, kde sú vaše nápady ocenené a váš vplyv viditeľný. Ak ste pripravení viesť s cieľom, iniciovať zmenu a posunúť svoju kariéru na ďalšiu úroveň, toto môže byť dokonalá voľba.",
+        "btnApply": "Prihláste sa. Zažiarte. Uspejte"
       }
     },
 

@@ -397,54 +397,70 @@
     "teamsction": {
       "title": "Spremni za sljedeći nivo? Pridružite nam se",
       "team1": {
-        "name": "Glavni prodajni direktor",
-        "position": "CSO",
-        "description": "Pokrenite rast. Vodite uspjeh."
+        "name": "Menadžer prodaje",
+        "description": "Vodi tim za prodaju, direktno upravlja prodajom, blisko surađuje sa rukovodstvom regrutacije kako bi postavio strategiju.",
+        "btnText": "Napravite prvi korak"
       },
       "team2": {
-        "name": "Izvršni direktor",
-        "position": "CEO",
-        "description": "Pokrenite rast. Vodite uspjeh."
+        "name": "Viši regrutacioni savjetnik",
+        "description": "Iskusan regruter sa višim nivoom odgovornosti, uključujući mentorstvo mlađeg osoblja i rad sa ključnim klijentima.",
+        "btnText": "Pozdravite svoj novi posao"
       },
       "team3": {
-        "name": "Glavni tehnološki direktor",
-        "position": "CTO",
-        "description": "Pokrenite rast. Vodite uspjeh."
+        "name": "Prodajni predstavnik",
+        "description": "Pronalazi i osigurava nove klijente, promovira usluge i pregovara ugovore. Fokusiran je na generisanje potencijalnih klijenata i rast agencije.",
+        "btnText": "Korak ka vašoj budućnosti"
       },
       "team4": {
-        "name": "Glavni marketinški direktor",
-        "position": "CMO",
-        "description": "Pokrenite rast. Vodite uspjeh."
+        "name": "Menadžer operacija",
+        "description": "Upravlja internim procesima, alatima, usklađenošću i efikasnošću radnog toka.",
+        "btnText": "Korak ka vašoj budućnosti"
       },
       "team5": {
-        "name": "Glavni operativni direktor",
-        "position": "COO",
-        "description": "Pokrenite rast. Vodite uspjeh."
+        "name": "Menadžer kancelarije",
+        "position": "Direktor operacija",
+        "description": "Upravlja dnevnim operacijama određene lokacije. Nadgleda prodaju, regrutaciju i administraciju.",
+        "btnText": "Počnite odavde"
       },
       "team6": {
-        "name": "Glavni finansijski direktor",
-        "position": "CFO",
-        "description": "Pokrenite rast. Vodite uspjeh."
+        "name": "Generalni direktor",
+        "description": "Postavlja ukupnu poslovnu strategiju i viziju. Osigurava profitabilnost agencije.",
+        "btnText": "Dodajte ukus svom radnom životu"
       },
       "team7": {
-        "name": "Glavni direktor za ljudske resurse",
-        "position": "CPO",
-        "description": "Pokrenite rast. Vodite uspjeh."
+        "name": "Administrator kancelarije",
+        "description": "Upravlja dokumentacijom, podnošenjem zahtjeva za radne dozvole i odgovoran je za komunikaciju sa klijentima nakon prodaje.",
+        "btnText": "Dizajnirajte svoju budućnost"
       },
       "team8": {
-        "name": "Glavni pravni direktor",
-        "position": "CLO",
-        "description": "Pokrenite rast. Vodite uspjeh."
+        "name": "Menadžer marketinga",
+        "description": "Promovira brend i usluge agencije kroz kampanje i društvene mreže.",
+        "btnText": "Pokažite svoj talenat"
       },
       "team9": {
-        "name": "Glavni direktor za ljudske resurse",
-        "position": "CHR",
-        "description": "Pokrenite rast. Vodite uspjeh."
+        "name": "HR menadžer",
+        "description": "Upravlja internom regrutacijom, obukama u firmi i razvojem osoblja.",
+        "btnText": "Zatražite svoju ulogu"
       },
       "team10": {
-        "name": "Glavni direktor za podatke",
-        "position": "CDO",
-        "description": "Pokrenite rast. Vodite uspjeh."
+        "name": "Službenik podrške nakon prodaje",
+        "description": "Blisko surađuje sa timovima za prodaju i podršku u izvornim zemljama kako bi osigurao glatko dolazak radnika i podršku klijentima.",
+        "btnText": "Rado ćemo vas upoznati"
+      },
+      "teamdetails1": {
+        "title": "Menadžer prodaje",
+        "subtitle": "Liderska uloga sa strateškim uticajem",
+        "title1": "Pregled uloge",
+        "desc1": "U današnjem ubrzanom poslovnom okruženju prodaja je više od samog zaključivanja poslova; radi se o pokretanju transformacije, osnaživanju ljudi i izgradnji održivog puta za rast. Upravo tu uloga Menadžera prodaje postaje ne samo važna, već i ključna.",
+        "desc2": "Kao Menadžer prodaje, nećete samo upravljati timom, već ćete ga voditi strategijom, vizijom i orijentacijom na rezultate. Ova uloga spaja liderstvo sa praktičnim angažmanjem, omogućavajući vam da nadgledate visokoperformansni tim prodaje, dok direktno upravljate ključnim klijentima i velikim ugovorima.",
+        "desc3": "Saradivaćete s rukovodstvom regrutacije kako biste uskladili prodajni pristup sa širim organizacionim ciljevima, osiguravajući da svaki napor značajno doprinosi uspjehu kompanije.",
+        "title2": "Šta ovu ulogu izdvaja",
+        "desc4": "Ono što ovu ulogu izdvaja je jedinstvena kombinacija strateškog planiranja i vođenja ljudi. Menadžeri prodaje su u prvom planu generisanja prihoda, odgovorni za razvoj i sprovođenje inovativnih strategija, mentorstvo članovima tima i praćenje industrijskih trendova.",
+        "desc5": "Vaša uvid u kretanja na tržištu i aktivnosti konkurenata igraće ključnu ulogu u oblikovanju pristupa kompanije. Idealni kandidati imaju dokazano iskustvo u prodaji ili razvoju poslovanja, snažne komunikacione i pregovaračke veštine i oštar analitički um. Iskustvo u vođenju, posebno u industriji zapošljavanja ili usluga, biće veliki plus.",
+        "title3": "Nagrade i beneficije",
+        "desc6": "Pored odgovornosti, uloga Menadžera prodaje nudi značajne nagrade. To je prilika koja definiše karijeru sa jasnim putem ka izvršnom napredovanju, bonusima zasnovanim na učinku i šansom da utičete na ključne poslovne odluke.",
+        "desc7": "Bićete dio živahnog, kolaborativnog tima gde su vaše ideje cijenjene i vaš uticaj vidljiv. Ako ste spremni da vodite s ciljem, pokrenete promjene i odvedete svoju karijeru na naredni nivo, ovo bi mogao biti savršen izbor.",
+        "btnApply": "Prijavite se. Zasijaćete. Uspete"
       }
     },
     "articlesection": {

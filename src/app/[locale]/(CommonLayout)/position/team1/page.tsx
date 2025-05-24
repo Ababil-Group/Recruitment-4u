@@ -2,9 +2,11 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import ApplicationPopup from "@/components/common/ApplicationPopup";
+import { useTranslations } from "next-intl";
 
 export default function SalesManagerPage() {
   const [showPopup, setShowPopup] = useState(false);
+  const t = useTranslations("behindthebrand.teamsction.teamdetails1");
   return (
     <>
       <Head>
@@ -20,10 +22,8 @@ export default function SalesManagerPage() {
           <div className="bg-white shadow-xl rounded-lg overflow-hidden">
             {/* Role Header */}
             <div className="bg-primary px-6 py-8 text-white">
-              <h1 className="text-3xl font-bold">Sales Manager</h1>
-              <p className="mt-2 text-blue-100">
-                Leadership role with strategic impact
-              </p>
+              <h1 className="text-3xl font-bold">{t("title")}</h1>
+              <p className="mt-2 text-blue-100">{t("subtitle")}</p>
             </div>
 
             {/* Main Content */}
@@ -31,66 +31,23 @@ export default function SalesManagerPage() {
               {/* Left Column - Main Description */}
               <div className="md:w-2/3 md:pr-8">
                 <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                  Role Overview
+                  {t("title1")}
                 </h2>
-                <p className="text-gray-600 mb-6">
-                  In today&apos;s fast-paced business landscape, sales is more
-                  than just closing deals; it&apos;s about driving
-                  transformation, empowering people, and building a sustainable
-                  path for growth. This is where the role of a Sales Manager
-                  becomes not just important, but essential.
-                </p>
-                <p className="text-gray-600 mb-6">
-                  As a Sales Manager, you won&apos;t just be managing a team,
-                  you&apos;ll be leading it with strategy, vision, and a
-                  results-driven mindset. This role blends leadership with
-                  hands-on involvement, giving you the opportunity to oversee a
-                  high-performing sales team while also directly managing key
-                  accounts and major deals.
-                </p>
-                <p className="text-gray-600 mb-6">
-                  You&apos;ll work hand-in-hand with recruitment leadership to
-                  align the sales approach with broader organizational goals,
-                  ensuring that every effort contributes meaningfully to the
-                  company&apos;s success.
-                </p>
+                <p className="text-gray-600 mb-6">{t("desc1")}</p>
+                <p className="text-gray-600 mb-6">{t("desc2")}</p>
+                <p className="text-gray-600 mb-6">{t("desc3")}</p>
 
                 <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-                  What Sets This Role Apart
+                  {t("title2")}
                 </h2>
-                <p className="text-gray-600 mb-6">
-                  What sets this role apart is its unique blend of strategic
-                  planning and people leadership. Sales Managers are at the
-                  forefront of revenue generation, responsible for developing
-                  and executing innovative strategies, mentoring team members,
-                  and staying ahead of industry trends.
-                </p>
-                <p className="text-gray-600 mb-6">
-                  Your insight into market movements and competitor activity
-                  will play a key role in shaping the company&apos;s approach.
-                  Ideal candidates will bring proven experience in sales or
-                  business development, strong communication and negotiation
-                  skills, and a sharp, analytical mindset. Leadership
-                  experience, especially in the recruitment or service industry,
-                  will be a major plus.
-                </p>
+                <p className="text-gray-600 mb-6">{t("desc4")}</p>
+                <p className="text-gray-600 mb-6">{t("desc5")}</p>
 
                 <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-                  Rewards & Benefits
+                  {t("title3")}
                 </h2>
-                <p className="text-gray-600 mb-6">
-                  Beyond the responsibilities, the Sales Manager role offers
-                  substantial rewards. It&apos;s a career-defining opportunity
-                  with a clear path to executive growth, performance-based
-                  bonuses, and the chance to influence core business decisions.
-                </p>
-                <p className="text-gray-600">
-                  You&apos;ll be part of a vibrant, collaborative team
-                  environment where your ideas are valued and your impact is
-                  visible. If you&apos;re ready to lead with purpose, drive
-                  change, and take your career to the next level, this could be
-                  the perfect fit.
-                </p>
+                <p className="text-gray-600 mb-6">{t("desc6")}</p>
+                <p className="text-gray-600">{t("desc7")}</p>
               </div>
 
               {/* Right Column - Key Details */}
@@ -315,7 +272,7 @@ export default function SalesManagerPage() {
                   <button
                     onClick={() => setShowPopup(true)}
                     className="w-full bg-primary-secondary text-primary hover:bg-primary hover:text-white font-bold py-3 px-4 rounded-lg transition duration-300">
-                    Apply. Shine. Succeed
+                    {t("btnApply")}
                   </button>
                 </div>
               </div>

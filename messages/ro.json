@@ -396,54 +396,70 @@
     "teamsction": {
       "title": "Ești gata pentru următorul nivel? Alătură-te nouă",
       "team1": {
-        "name": "Director de vânzări",
-        "position": "CSO",
-        "description": "Condu creșterea. Condu succesul."
+        "name": "Manager de vânzări",
+        "description": "Conduce echipa de vânzări, se ocupă direct de vânzări, lucrează îndeaproape cu conducerea recrutării pentru a stabili strategia.",
+        "btnText": "Faceți primul pas"
       },
       "team2": {
-        "name": "Director executiv",
-        "position": "CEO",
-        "description": "Condu creșterea. Condu succesul."
+        "name": "Consultant senior de recrutare",
+        "description": "Recruiter experimentat cu responsabilități de nivel înalt, inclusiv mentoratul personalului junior și gestionarea conturilor cheie.",
+        "btnText": "Salutați-vă noua slujbă"
       },
       "team3": {
-        "name": "Director tehnologic",
-        "position": "CTO",
-        "description": "Condu creșterea. Condu succesul."
+        "name": "Reprezentant de vânzări",
+        "description": "Găsește și asigură clienți noi, promovează serviciile și negociază contracte. Este concentrat pe generarea de potențiali clienți și creșterea agenției.",
+        "btnText": "Faceți un pas spre viitorul dumneavoastră"
       },
       "team4": {
-        "name": "Director de marketing",
-        "position": "CMO",
-        "description": "Condu creșterea. Condu succesul."
+        "name": "Manager de operațiuni",
+        "description": "Se ocupă de procesele interne, instrumentele, conformitatea și eficiența fluxului de lucru.",
+        "btnText": "Faceți un pas spre viitorul dumneavoastră"
       },
       "team5": {
-        "name": "Director operațional",
-        "position": "COO",
-        "description": "Condu creșterea. Condu succesul."
+        "name": "Manager de birou",
+        "position": "Director de operațiuni",
+        "description": "Gestionează operațiunile zilnice ale unei locații specifice. Supraveghează vânzările, recrutarea și administrația.",
+        "btnText": "Începeți de aici"
       },
       "team6": {
-        "name": "Director financiar",
-        "position": "CFO",
-        "description": "Condu creșterea. Condu succesul."
+        "name": "Director general",
+        "description": "Stabilește strategia și viziunea generală a afacerii. Asigură profitabilitatea agenției.",
+        "btnText": "Adăugați aromă vieții dumneavoastră de lucru"
       },
       "team7": {
-        "name": "Director de resurse umane",
-        "position": "CPO",
-        "description": "Condu creșterea. Condu succesul."
+        "name": "Administrator de birou",
+        "description": "Se ocupă de documentație, depunerea cererilor de permise de muncă și este responsabil de comunicarea post-vânzare cu clienții.",
+        "btnText": "Proiectați-vă viitorul"
       },
       "team8": {
-        "name": "Director juridic",
-        "position": "CLO",
-        "description": "Condu creșterea. Condu succesul."
+        "name": "Manager de marketing",
+        "description": "Promovează marca și serviciile agenției prin campanii și rețele sociale.",
+        "btnText": "Demonstrați-vă talentul"
       },
       "team9": {
-        "name": "Director de resurse umane",
-        "position": "CHR",
-        "description": "Condu creșterea. Condu succesul."
+        "name": "Manager HR",
+        "description": "Gestionează recrutarea internă, instruirea internă și dezvoltarea personalului.",
+        "btnText": "Solicitați-vă rolul"
       },
       "team10": {
-        "name": "Director de date",
-        "position": "CDO",
-        "description": "Condu creșterea. Condu succesul."
+        "name": "Agent de suport post-vânzare",
+        "description": "Lucrează îndeaproape cu echipele de vânzări și echipele de suport din țările de origine pentru a asigura sosirea fără probleme a lucrătorilor și oferă suport clienților.",
+        "btnText": "Ne-ar plăcea să vă cunoaștem"
+      },
+      "teamdetails1": {
+        "title": "Manager de vânzări",
+        "subtitle": "Rol de conducere cu impact strategic",
+        "title1": "Prezentare generală a rolului",
+        "desc1": "În peisajul de afaceri rapid de astăzi, vânzările sunt mai mult decât încheierea tranzacțiilor; este vorba de a impulsiona transformarea, de a împuternici oamenii și de a construi un drum durabil pentru creștere. Aici rolul Managerului de vânzări devine nu doar important, ci esențial.",
+        "desc2": "Ca Manager de vânzări, nu veți gestiona doar o echipă, ci o veți conduce cu strategie, viziune și o mentalitate orientată spre rezultate. Acest rol îmbină conducerea cu implicarea directă, oferindu-vă oportunitatea de a supraveghea o echipă de vânzări performantă, precum și de a gestiona direct conturi cheie și tranzacții majore.",
+        "desc3": "Veți colabora strâns cu conducerea de recrutare pentru a alinia abordarea de vânzări cu obiectivele organizaționale mai largi, asigurându-vă că fiecare efort contribuie semnificativ la succesul companiei.",
+        "title2": "Ce diferențiază acest rol",
+        "desc4": "Ceea ce diferențiază acest rol este combinația sa unică de planificare strategică și conducere a echipei. Managerii de vânzări sunt în prima linie a generării de venituri, responsabili pentru dezvoltarea și implementarea de strategii inovatoare, mentoratul membrilor echipei și menținerea la curent cu tendințele din industrie.",
+        "desc5": "Percepția dvs. asupra mișcărilor pieței și activităților concurenților va juca un rol cheie în conturarea abordării companiei. Candidații ideali vor avea experiență demonstrată în vânzări sau dezvoltare de afaceri, abilități puternice de comunicare și negociere și o gândire analitică ascuțită. Experiența în conducere, în special în industria recrutării sau a serviciilor, va reprezenta un avantaj major.",
+        "title3": "Recompense și beneficii",
+        "desc6": "Dincolo de responsabilități, rolul Managerului de vânzări oferă recompense substanțiale. Este o oportunitate care definește cariera, cu un traseu clar către creșterea executivă, bonusuri bazate pe performanță și șansa de a influența deciziile de bază ale afacerii.",
+        "desc7": "Veți face parte dintr-o echipă vibrantă și colaborativă, unde ideile dvs. sunt apreciate și impactul dvs. este vizibil. Dacă sunteți gata să conduceți cu scop, să produceți schimbare și să vă duceți cariera la nivelul următor, acesta ar putea fi rolul perfect pentru dvs.",
+        "btnApply": "Aplică. Strălucește. Reușește"
       }
     },
 

@@ -119,7 +119,7 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8 lg:gap-12">
+          <div className="hidden lg:flex items-center gap-8 lg:gap-12">
             {navItems.map((item) => {
               const isActive = isPathActive(pathname, item.href, locale);
 
@@ -189,12 +189,12 @@ const Navbar = () => {
           </div>
 
           {/* Desktop CTA & Language Switcher */}
-          <div className="hidden md:flex items-center gap-4">
+          <div className="hidden lg:flex items-center gap-4">
             <LanguageSwitcher />
           </div>
 
           {/* Mobile Menu - Fixed with proper z-index */}
-          <div className="md:hidden absolute right-0 top-1/2 -translate-y-1/2 z-[60]">
+          <div className="lg:hidden absolute right-0 top-1/2 -translate-y-1/2 z-[60]">
             <Sheet>
               <SheetTrigger asChild>
                 <Button

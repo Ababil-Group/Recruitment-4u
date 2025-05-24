@@ -396,54 +396,70 @@
     "teamsction": {
       "title": "Spremni za sljedeću razinu? Pridružite nam se",
       "team1": {
-        "name": "Glavni prodajni direktor",
-        "position": "CSO",
-        "description": "Pokrenite rast. Vodite uspjeh."
+        "name": "Voditelj prodaje",
+        "description": "Vodi prodajni tim, upravlja prodajom izravno, blisko surađuje s vodstvom zapošljavanja kako bi postavio strategiju.",
+        "btnText": "Napravite prvi korak"
       },
       "team2": {
-        "name": "Izvršni direktor",
-        "position": "CEO",
-        "description": "Pokrenite rast. Vodite uspjeh."
+        "name": "Viši savjetnik za zapošljavanje",
+        "description": "Iskusan regruter s višom razinom odgovornosti, uključujući mentorstvo mlađeg osoblja i rad s ključnim klijentima.",
+        "btnText": "Pozdravite svoj novi posao"
       },
       "team3": {
-        "name": "Glavni tehnološki direktor",
-        "position": "CTO",
-        "description": "Pokrenite rast. Vodite uspjeh."
+        "name": "Prodajni predstavnik",
+        "description": "Pronalazi i osigurava nove klijente, promovira usluge i pregovara ugovore. Usredotočen je na generiranje potencijalnih klijenata i rast agencije.",
+        "btnText": "Korak prema vašoj budućnosti"
       },
       "team4": {
-        "name": "Glavni marketinški direktor",
-        "position": "CMO",
-        "description": "Pokrenite rast. Vodite uspjeh."
+        "name": "Voditelj operacija",
+        "description": "Upravlja internim procesima, alatima, usklađenošću i učinkovitošću radnog toka.",
+        "btnText": "Korak prema vašoj budućnosti"
       },
       "team5": {
-        "name": "Glavni operativni direktor",
-        "position": "COO",
-        "description": "Pokrenite rast. Vodite uspjeh."
+        "name": "Voditelj ureda",
+        "position": "Direktor operacija",
+        "description": "Upravlja dnevnim operacijama određene lokacije. Nadzire prodaju, zapošljavanje i administraciju.",
+        "btnText": "Počnite odavde"
       },
       "team6": {
-        "name": "Glavni financijski direktor",
-        "position": "CFO",
-        "description": "Pokrenite rast. Vodite uspjeh."
+        "name": "Izvršni direktor",
+        "description": "Postavlja cjelokupnu poslovnu strategiju i viziju. Osigurava profitabilnost agencije.",
+        "btnText": "Dodajte okus svom radnom životu"
       },
       "team7": {
-        "name": "Glavni direktor ljudskih resursa",
-        "position": "CPO",
-        "description": "Pokrenite rast. Vodite uspjeh."
+        "name": "Administrator ureda",
+        "description": "Upravlja dokumentacijom, podnošenjem zahtjeva za radne dozvole i odgovoran je za komunikaciju s klijentima nakon prodaje.",
+        "btnText": "Oblikujte svoju budućnost"
       },
       "team8": {
-        "name": "Glavni pravni direktor",
-        "position": "CLO",
-        "description": "Pokrenite rast. Vodite uspjeh."
+        "name": "Voditelj marketinga",
+        "description": "Promovira brend i usluge agencije putem kampanja i društvenih mreža.",
+        "btnText": "Pokažite svoj talent"
       },
       "team9": {
-        "name": "Glavni direktor ljudskih resursa",
-        "position": "CHR",
-        "description": "Pokrenite rast. Vodite uspjeh."
+        "name": "HR voditelj",
+        "description": "Upravlja internim zapošljavanjem, obukama u tvrtki i razvojem osoblja.",
+        "btnText": "Zatražite svoju ulogu"
       },
       "team10": {
-        "name": "Glavni direktor podataka",
-        "position": "CDO",
-        "description": "Pokrenite rast. Vodite uspjeh."
+        "name": "Službenik podrške nakon prodaje",
+        "description": "Blisko surađuje s prodajnim timovima i timovima za podršku u izvornim zemljama kako bi osigurao glatko dolazak radnika i podršku klijentima.",
+        "btnText": "Rado ćemo vas upoznati"
+      },
+      "teamdetails1": {
+        "title": "Voditelj prodaje",
+        "subtitle": "Liderska uloga sa strateškim utjecajem",
+        "title1": "Pregled uloge",
+        "desc1": "U današnjem brzom poslovnom okruženju, prodaja je više od samog sklapanja poslova; radi se o pokretanju transformacije, osnaživanju ljudi i izgradnji održivog puta za rast. Upravo zato uloga Voditelja prodaje postaje ne samo važna, već i ključna.",
+        "desc2": "Kao Voditelj prodaje, nećete samo upravljati timom, nego ćete ga voditi strategijom, vizijom i rezultatima usmjerenim pristupom. Ova uloga spaja liderstvo s praktičnim angažmanjem, dajući vam priliku nadzirati visokoučinkovit tim prodaje i istovremeno izravno upravljati ključnim klijentima i velikim ugovorima.",
+        "desc3": "Radit ćete u uskoj suradnji sa vodstvom zapošljavanja kako biste uskladili prodajni pristup s širim ciljevima organizacije, osiguravajući da svaki napor značajno doprinosi uspjehu tvrtke.",
+        "title2": "Što ovu ulogu razlikuje",
+        "desc4": "Ono što ovu ulogu razlikuje jest jedinstvena kombinacija strateškog planiranja i vođenja ljudi. Voditelji prodaje su na čelu generiranja prihoda, odgovorni za razvoj i provedbu inovativnih strategija, mentorstvo članovima tima i praćenje trendova u industriji.",
+        "desc5": "Vaše razumijevanje kretanja tržišta i aktivnosti konkurenata imat će ključnu ulogu u oblikovanju pristupa tvrtke. Idealni kandidati donose dokazano iskustvo u prodaji ili razvoju poslovanja, snažne komunikacijske i pregovaračke vještine te oštar analitički um. Iskustvo u vođenju, posebno u industriji zapošljavanja ili usluga, bit će značajan plus.",
+        "title3": "Nagrade i pogodnosti",
+        "desc6": "Osim odgovornosti, uloga Voditelja prodaje nudi značajne nagrade. To je prilika koja definira karijeru s jasnim putem prema izvršnom napredovanju, bonusima temeljenim na učinku i mogućnošću utjecaja na ključne poslovne odluke.",
+        "desc7": "Bit ćete dio dinamičnog, suradničkog tima gdje su vaše ideje cijenjene, a vaš utjecaj vidljiv. Ako ste spremni voditi s ciljem, pokrenuti promjene i podići svoju karijeru na sljedeću razinu, ovo bi mogla biti savršena prilika.",
+        "btnApply": "Prijavite se. Zasjajte. Uspijte"
       }
     },
 

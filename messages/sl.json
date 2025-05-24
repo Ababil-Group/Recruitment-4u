@@ -399,54 +399,70 @@
     "teamsction": {
       "title": "Pripravljeni na naslednjo stopnjo? Pridružite se nam",
       "team1": {
-        "name": "Glavni direktor prodaje",
-        "position": "CSO",
-        "description": "Vodite rast. Vodite uspeh."
+        "name": "Vodja prodaje",
+        "description": "Vodi prodajno ekipo, neposredno upravlja prodajo, tesno sodeluje z vodstvom zaposlovanja pri oblikovanju strategije.",
+        "btnText": "Naredite prvi korak"
       },
       "team2": {
-        "name": "Izvršni direktor",
-        "position": "CEO",
-        "description": "Vodite rast. Vodite uspeh."
+        "name": "Višji svetovalec za zaposlovanje",
+        "description": "Izkušen rekruter z višjo stopnjo odgovornosti, vključno z mentorstvom mlajših sodelavcev in delom s ključnimi strankami.",
+        "btnText": "Pozdravite svojo novo službo"
       },
       "team3": {
-        "name": "Glavni tehnološki direktor",
-        "position": "CTO",
-        "description": "Vodite rast. Vodite uspeh."
+        "name": "Prodajni predstavnik",
+        "description": "Išče in pridobiva nove stranke, promovira storitve in sklepa pogodbe. Osredotoča se na generiranje potencialnih strank in rast agencije.",
+        "btnText": "Korak v vašo prihodnost"
       },
       "team4": {
-        "name": "Glavni marketinški direktor",
-        "position": "CMO",
-        "description": "Vodite rast. Vodite uspeh."
+        "name": "Vodja operacij",
+        "description": "Upravlja notranje procese, orodja, skladnost in učinkovitost delovnih tokov.",
+        "btnText": "Korak v vašo prihodnost"
       },
       "team5": {
-        "name": "Glavni operativni direktor",
-        "position": "COO",
-        "description": "Vodite rast. Vodite uspeh."
+        "name": "Vodja pisarne",
+        "position": "Direktor operacij",
+        "description": "Upravlja vsakodnevne operacije določene lokacije. Nadzira prodajo, zaposlovanje in administracijo.",
+        "btnText": "Začnite tukaj"
       },
       "team6": {
-        "name": "Glavni finančni direktor",
-        "position": "CFO",
-        "description": "Vodite rast. Vodite uspeh."
+        "name": "Generalni direktor",
+        "description": "Določa celotno poslovno strategijo in vizijo. Zagotavlja donosnost agencije.",
+        "btnText": "Dodajte okus svojemu delovnemu življenju"
       },
       "team7": {
-        "name": "Glavni direktor človeških virov",
-        "position": "CPO",
-        "description": "Vodite rast. Vodite uspeh."
+        "name": "Pisarniški administrator",
+        "description": "Upravlja dokumentacijo, vložitev vlog za delovna dovoljenja in skrbi za komunikacijo s strankami po prodaji.",
+        "btnText": "Oblikujte svojo prihodnost"
       },
       "team8": {
-        "name": "Glavni pravni direktor",
-        "position": "CLO",
-        "description": "Vodite rast. Vodite uspeh."
+        "name": "Vodja marketinga",
+        "description": "Promovira blagovno znamko in storitve agencije s kampanjami in družbenimi mediji.",
+        "btnText": "Pokažite svoj talent"
       },
       "team9": {
-        "name": "Glavni direktor človeških virov",
-        "position": "CHR",
-        "description": "Vodite rast. Vodite uspeh."
+        "name": "HR vodja",
+        "description": "Upravlja notranje zaposlovanje, usposabljanja in razvoj zaposlenih.",
+        "btnText": "Zasegnete si svojo vlogo"
       },
       "team10": {
-        "name": "Glavni direktor podatkov",
-        "position": "CDO",
-        "description": "Vodite rast. Vodite uspeh."
+        "name": "Svetovalec za podporo po prodaji",
+        "description": "Tesno sodeluje s prodajnimi ekipami in ekipami za podporo v izvornih državah, da zagotovi nemoten prihod delavcev in podporo strankam.",
+        "btnText": "Radi bi vas spoznali"
+      },
+      "teamdetails1": {
+        "title": "Vodja prodaje",
+        "subtitle": "Vodstvena vloga s strateškim vplivom",
+        "title1": "Pregled vloge",
+        "desc1": "V današnjem hitrem poslovnem okolju je prodaja več kot le sklenitev poslov; gre za spodbujanje preobrazbe, opolnomočenje ljudi in gradnjo trajnostne poti za rast. Tu vloga Vodje prodaje postane ne le pomembna, temveč ključna.",
+        "desc2": "Kot Vodja prodaje ne boste le upravljali ekipe, temveč jo boste vodili s strategijo, vizijo in z usmerjenostjo k rezultatom. Ta vloga združuje vodenje s praktično angažiranostjo, kar vam daje priložnost nadzirati visoko zmogljivo prodajno ekipo ter hkrati neposredno upravljati ključne račune in večje posle.",
+        "desc3": "Tesno boste sodelovali z vodstvom kadrovanja, da boste uskladili prodajni pristop s širšimi organizacijskimi cilji ter zagotovili, da vsak vaš trud pomembno prispeva k uspehu podjetja.",
+        "title2": "Kaj to vlogo loči",
+        "desc4": "To, kar to vlogo loči, je edinstvena kombinacija strateškega načrtovanja in vodenja ljudi. Vodje prodaje so na čelu ustvarjanja prihodkov, odgovorni za razvoj in izvajanje inovativnih strategij, mentorstvo članom ekipe in spremljanje trendov v industriji.",
+        "desc5": "Vaš vpogled v gibanja na trgu in aktivnosti konkurentov bo ključnega pomena pri oblikovanju pristopa podjetja. Idealni kandidati bodo prinesli dokazano izkušnjo v prodaji ali razvoju poslovanja, močne komunikacijske in pogajalske spretnosti ter ostro analitično miselnost. Vodstvene izkušnje, še posebej v panogi zaposlovanja ali storitev, bodo velik plus.",
+        "title3": "Nagrade in ugodnosti",
+        "desc6": "Poleg odgovornosti vloga Vodje prodaje ponuja pomembne nagrade. To je priložnost, ki opredeljuje kariero, z jasnim potekom do izvrstne rasti, bonusi, ki temeljijo na uspešnosti, in možnostjo, da vplivate na ključne poslovne odločitve.",
+        "desc7": "Postali boste del živahnega, sodelovalnega tima, kjer so vaše ideje cenjene in vaš vpliv viden. Če ste pripravljeni voditi z namenom, sprožiti spremembe in svojo kariero popeljati na naslednjo raven, je to lahko popolna priložnost.",
+        "btnApply": "Prijavite se. Sijajte. Uspevajte"
       }
     },
 
