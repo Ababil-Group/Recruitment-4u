@@ -33,10 +33,10 @@ const TeamCard: FC<TeamCardProps> = ({
         </div>
       )}
 
-      <div className="mt-3 text-base font-semibold">
+      <div className="mt-3 bg-primary-secondary rounded-lg py-2 px-4 text-base font-semibold">
         <a
           onClick={onClick}
-          className="inline-flex cursor-pointer items-center gap-1 hover:underline">
+          className="inline-flex text-primary cursor-pointer items-center gap-1 hover:underline">
           {btnText}
         </a>
       </div>

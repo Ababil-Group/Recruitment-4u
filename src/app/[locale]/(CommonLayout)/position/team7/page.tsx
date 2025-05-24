@@ -3,15 +3,15 @@ import React, { useState } from "react";
 import Head from "next/head";
 import ApplicationPopup from "@/components/common/ApplicationPopup";
 
-export default function SalesRepresentativePage() {
+export default function SeniorRecruitmentPage() {
   const [showPopup, setShowPopup] = useState(false);
   return (
     <>
       <Head>
-        <title>Sales Representative | Our Company</title>
+        <title>Senior Recruitment Consultant | Our Company</title>
         <meta
           name="description"
-          content="Learn about the Sales Representative position at our company"
+          content="Learn about the Senior Recruitment Consultant position at our company"
         />
       </Head>
 
@@ -20,9 +20,11 @@ export default function SalesRepresentativePage() {
           <div className="bg-white shadow-xl rounded-lg overflow-hidden">
             {/* Role Header */}
             <div className="bg-primary px-6 py-8 text-white">
-              <h1 className="text-3xl font-bold">Sales Representative</h1>
-              <p className="mt-2 text-blue-100">
-                High-impact role driving business growth
+              <h1 className="text-3xl font-bold">
+                Recruitment Administrator / Office Administrator
+              </h1>
+              <p className="mt-2 text-purple-100">
+                Strategic role in talent acquisition
               </p>
             </div>
 
@@ -34,84 +36,50 @@ export default function SalesRepresentativePage() {
                   Role Overview
                 </h2>
                 <p className="text-gray-600 mb-6">
-                  Are you a go-getter with a passion for people, a hunger for
-                  success, and the confidence to turn a &quot;maybe&quot; into a
-                  &quot;yes&quot;? Then you might be the Sales Representative
-                  we&apos;re looking for! At our recruitment agency, we
-                  don&apos;t just fill positions, we build bridges between
-                  exceptional talent and growing companies. And now, we&apos;re
-                  ready to grow, too, with your help.
+                  Are you organized, detail-oriented, and passionate about
+                  helping others find the right opportunities? We’re looking for
+                  a Recruitment Administrator / Office Administrator to join our
+                  fast-paced, client-focused team.
                 </p>
                 <p className="text-gray-600 mb-6">
-                  In this high-impact role, you&apos;ll be at the forefront of
-                  our expansion efforts. Your core responsibilities will include
-                  finding and securing new clients, promoting our full range of
-                  recruitment and HR solutions, and negotiating contracts that
-                  deliver value for all parties. You&apos;ll focus on lead
-                  generation, cold and warm outreach, market research, and
-                  conversion strategies that elevate our brand and drive
-                  sustainable growth.
+                  In this role, you&apos;ll be the backbone of our recruitment
+                  operations managing crucial documentation, submitting work
+                  permit applications, and ensuring smooth aftersales
+                  communication with our valued clients. You won’t just be
+                  handling paperwork; you’ll be contributing directly to
+                  life-changing job placements and supporting the seamless
+                  experience we promise both employers and candidates.
+                </p>
+                <p className="text-gray-600 mb-6">
+                  From day one, you’ll play a vital role in maintaining
+                  compliance, ensuring timely submissions, and keeping every
+                  file in perfect order. You&apos;ll liaise with clients,
+                  agencies, and government bodies making your mark as the go-to
+                  person who ensures no detail is overlooked. Your efficiency
+                  and reliability will directly influence the speed and success
+                  of our placements.
+                </p>
+                <p className="text-gray-600 mb-6">
+                  We’re not just looking for someone who can follow a checklist.
+                  We want someone who thinks two steps ahead, spots potential
+                  delays before they happen, and brings a solutions-focused
+                  mindset to every challenge. If you’re the kind of person who
+                  gets satisfaction from crossing off to-do lists and thrives in
+                  a structured environment, you’ll love this role.
                 </p>
 
-                <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-                  Strategic Partnership Building
-                </h2>
                 <p className="text-gray-600 mb-6">
-                  But this is more than just sales, it&apos;s about strategy,
-                  innovation, and building long-term partnerships. You&apos;ll
-                  collaborate closely with our internal teams to ensure that
-                  clients receive not just candidates, but solutions that
-                  transform their workforce. Whether it&apos;s a startup looking
-                  for its first hire or an enterprise scaling fast, you&apos;ll
-                  be the one opening doors and creating opportunities.
-                </p>
-                <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-                  {" "}
-                  We’re looking for someone who is:
-                </h2>
-                <ul className=" list-disc ml-6 space-y-2">
-                  <li className="flex items-start">
-                    <p className="text-gray-600">
-                      Results-oriented with a proven track record in B2B sales
-                    </p>
-                  </li>
-                  <li className="flex items-start">
-                    <p className="text-gray-600">
-                      Confident, persuasive, and an excellent communicator
-                    </p>
-                  </li>
-                  <li className="flex items-start">
-                    <p className="text-gray-600">
-                      Strategic in approach and creative in execution
-                    </p>
-                  </li>
-                  <li className="flex items-start">
-                    <p className="text-gray-600">
-                      Comfortable using CRM tools and sales analytics to
-                      optimize performance
-                    </p>
-                  </li>
-                  <li className="flex items-start">
-                    <p className="text-gray-600">
-                      Motivated by targets, KPIs, and the thrill of achieving
-                      goals
-                    </p>
-                  </li>
-                </ul>
-                <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-                  Why Join Us?
-                </h2>
-                <p className="text-gray-600 mb-6">
-                  You&apos;ll be part of a supportive, fast-paced, and
-                  collaborative team that values your voice and ideas. We offer
-                  ongoing training, performance incentives, and the chance to
-                  shape your own success story. If you&apos;re looking for a
-                  career where your contributions matter and your growth
-                  potential is unlimited this is it.
+                  Beyond administrative tasks, your contribution will have real
+                  human impact ensuring candidates get placed smoothly,
+                  employers remain informed and satisfied, and processes run
+                  like clockwork. You’ll be a critical part of a mission-driven
+                  team that values communication, excellence, and
+                  accountability.
                 </p>
                 <p className="text-gray-600">
-                  Ready to sell a service you truly believe in? Ready to join a
-                  team that celebrates your wins?
+                  If you&apos;re ready to take ownership of a meaningful role,
+                  grow in a supportive team, and make a real impact in the
+                  recruitment industry this is your chance.
                 </p>
               </div>
 
@@ -124,7 +92,7 @@ export default function SalesRepresentativePage() {
 
                   <div className="mb-6">
                     <h4 className="font-medium text-gray-700">
-                      We&apos;re Looking For
+                      Responsibilities
                     </h4>
                     <ul className="mt-2 space-y-2 text-gray-600">
                       <li className="flex items-start">
@@ -141,7 +109,7 @@ export default function SalesRepresentativePage() {
                             d="M5 13l4 4L19 7"
                           />
                         </svg>
-                        Results-oriented with B2B sales experience
+                        Manage full recruitment life cycle
                       </li>
                       <li className="flex items-start">
                         <svg
@@ -157,7 +125,7 @@ export default function SalesRepresentativePage() {
                             d="M5 13l4 4L19 7"
                           />
                         </svg>
-                        Confident, persuasive communicator
+                        Mentor junior team members
                       </li>
                       <li className="flex items-start">
                         <svg
@@ -173,7 +141,7 @@ export default function SalesRepresentativePage() {
                             d="M5 13l4 4L19 7"
                           />
                         </svg>
-                        Strategic and creative approach
+                        Handle key client accounts
                       </li>
                       <li className="flex items-start">
                         <svg
@@ -189,14 +157,84 @@ export default function SalesRepresentativePage() {
                             d="M5 13l4 4L19 7"
                           />
                         </svg>
-                        CRM and sales analytics experience
+                        Drive business development
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div className="mb-6">
+                    <h4 className="font-medium text-gray-700">Requirements</h4>
+                    <ul className="mt-2 space-y-2 text-gray-600">
+                      <li className="flex items-start">
+                        <svg
+                          className="h-5 w-5 text-blue-500 mr-2"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                          />
+                        </svg>
+                        Years of recruitment experience
+                      </li>
+                      <li className="flex items-start">
+                        <svg
+                          className="h-5 w-5 text-blue-500 mr-2"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                          />
+                        </svg>
+                        Strategic mindset
+                      </li>
+                      <li className="flex items-start">
+                        <svg
+                          className="h-5 w-5 text-blue-500 mr-2"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                          />
+                        </svg>
+                        Exceptional communication skills
+                      </li>
+                      <li className="flex items-start">
+                        <svg
+                          className="h-5 w-5 text-blue-500 mr-2"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                          />
+                        </svg>
+                        Deep market knowledge
                       </li>
                     </ul>
                   </div>
 
                   <div className="mb-6">
                     <h4 className="font-medium text-gray-700">
-                      Key Responsibilities
+                      Key Attributes
                     </h4>
                     <ul className="mt-2 space-y-2 text-gray-600">
                       <li className="flex items-start">
@@ -210,10 +248,26 @@ export default function SalesRepresentativePage() {
                             strokeLinecap="round"
                             strokeLinejoin="round"
                             strokeWidth={2}
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                            d="M13 10V3L4 14h7v7l9-11h-7z"
                           />
                         </svg>
-                        Find and secure new clients
+                        Emotional intelligence
+                      </li>
+                      <li className="flex items-start">
+                        <svg
+                          className="h-5 w-5 text-blue-500  mr-2"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M13 10V3L4 14h7v7l9-11h-7z"
+                          />
+                        </svg>
+                        Resilience
                       </li>
                       <li className="flex items-start">
                         <svg
@@ -226,14 +280,14 @@ export default function SalesRepresentativePage() {
                             strokeLinecap="round"
                             strokeLinejoin="round"
                             strokeWidth={2}
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                            d="M13 10V3L4 14h7v7l9-11h-7z"
                           />
                         </svg>
-                        Promote recruitment solutions
+                        Leadership ability
                       </li>
                       <li className="flex items-start">
                         <svg
-                          className="h-5 w-5 text-blue-500 mr-2"
+                          className="h-5 w-5 text-blue-500  mr-2"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"
@@ -242,99 +296,20 @@ export default function SalesRepresentativePage() {
                             strokeLinecap="round"
                             strokeLinejoin="round"
                             strokeWidth={2}
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                            d="M13 10V3L4 14h7v7l9-11h-7z"
                           />
                         </svg>
-                        Negotiate contracts
-                      </li>
-                      <li className="flex items-start">
-                        <svg
-                          className="h-5 w-5 text-blue-500 mr-2"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                          />
-                        </svg>
-                        Conduct market research
+                        Business development skills
                       </li>
                     </ul>
                   </div>
 
-                  <div className="mb-6">
-                    <h4 className="font-medium text-gray-700">Benefits</h4>
-                    <ul className="mt-2 space-y-2 text-gray-600">
-                      <li className="flex items-start">
-                        <svg
-                          className="h-5 w-5 text-yellow-500 mr-2"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                          />
-                        </svg>
-                        Supportive team environment
-                      </li>
-                      <li className="flex items-start">
-                        <svg
-                          className="h-5 w-5 text-yellow-500 mr-2"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                          />
-                        </svg>
-                        Ongoing training
-                      </li>
-                      <li className="flex items-start">
-                        <svg
-                          className="h-5 w-5 text-yellow-500 mr-2"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                          />
-                        </svg>
-                        Performance incentives
-                      </li>
-                      <li className="flex items-start">
-                        <svg
-                          className="h-5 w-5 text-yellow-500 mr-2"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                          />
-                        </svg>
-                        Unlimited growth potential
-                      </li>
-                    </ul>
+                  <div className="bg-gray-100  rounded-lg p-4 mb-6">
+                    <h4 className="font-medium text-gray-700 mb-2">
+                      Apply now and let’s build success stories together!
+                    </h4>
                   </div>
+
                   <button
                     onClick={() => setShowPopup(true)}
                     className="w-full bg-primary-secondary text-primary hover:bg-primary hover:text-white font-bold py-3 px-4 rounded-lg transition duration-300">

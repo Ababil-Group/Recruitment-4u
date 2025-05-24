@@ -44,32 +44,38 @@ export default function BehindOurTeam() {
           />
           <TeamCard
             name={t("teamsction.team5.name")}
+            onClick={() => HandileClick("/position/team5")}
             btnText={t("teamsction.team5.btnText")}
             description={t("teamsction.team5.description")}
           />
           <TeamCard
             name={t("teamsction.team6.name")}
+            onClick={() => HandileClick("/position/team6")}
             btnText={t("teamsction.team6.btnText")}
             description={t("teamsction.team6.description")}
           />
           <TeamCard
             name={t("teamsction.team7.name")}
+            onClick={() => HandileClick("/position/team7")}
             btnText={t("teamsction.team7.btnText")}
             description={t("teamsction.team7.description")}
           />
           <TeamCard
             name={t("teamsction.team8.name")}
+            onClick={() => HandileClick("/position/team8")}
             btnText={t("teamsction.team8.btnText")}
             description={t("teamsction.team8.description")}
           />
 
           <TeamCard
             name={t("teamsction.team9.name")}
+            onClick={() => HandileClick("/position/team9")}
             btnText={t("teamsction.team9.btnText")}
             description={t("teamsction.team9.description")}
           />
           <TeamCard
             name={t("teamsction.team10.name")}
+            onClick={() => HandileClick("/position/team10")}
             btnText={t("teamsction.team10.btnText")}
             description={t("teamsction.team10.description")}
           />

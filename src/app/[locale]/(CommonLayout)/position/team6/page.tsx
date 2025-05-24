@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 import ApplicationPopup from "@/components/common/ApplicationPopup";
 
-export default function SeniorRecruitmentPage() {
+export default function ManagingDirectorPage() {
   const [showPopup, setShowPopup] = useState(false);
   return (
     <>
@@ -17,23 +17,6 @@ export default function SeniorRecruitmentPage() {
 
       <div className="min-h-screen bg-gray-50">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-          <button className="mb-8 flex items-center text-blue-600 hover:text-blue-800">
-            <svg
-              className="w-5 h-5 mr-2"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M10 19l-7-7m0 0l7-7m-7 7h18"
-              />
-            </svg>
-            Back to all roles
-          </button>
-
           <div className="bg-white shadow-xl rounded-lg overflow-hidden">
             {/* Role Header */}
             <div className="bg-primary px-6 py-8 text-white">

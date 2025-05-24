@@ -3,12 +3,12 @@ import React, { useState } from "react";
 import Head from "next/head";
 import ApplicationPopup from "@/components/common/ApplicationPopup";
 
-export default function SalesRepresentativePage() {
+export default function MarketingManagerPage() {
   const [showPopup, setShowPopup] = useState(false);
   return (
     <>
       <Head>
-        <title>Sales Representative | Our Company</title>
+        <title>Marketing Manager Role | Our Company</title>
         <meta
           name="description"
           content="Learn about the Sales Representative position at our company"
@@ -20,10 +20,8 @@ export default function SalesRepresentativePage() {
           <div className="bg-white shadow-xl rounded-lg overflow-hidden">
             {/* Role Header */}
             <div className="bg-primary px-6 py-8 text-white">
-              <h1 className="text-3xl font-bold">Sales Representative</h1>
-              <p className="mt-2 text-blue-100">
-                High-impact role driving business growth
-              </p>
+              <h1 className="text-3xl font-bold">Marketing Manager</h1>
+              <p className="mt-2 text-blue-100">Business Development</p>
             </div>
 
             {/* Main Content */}
@@ -34,84 +32,41 @@ export default function SalesRepresentativePage() {
                   Role Overview
                 </h2>
                 <p className="text-gray-600 mb-6">
-                  Are you a go-getter with a passion for people, a hunger for
-                  success, and the confidence to turn a &quot;maybe&quot; into a
-                  &quot;yes&quot;? Then you might be the Sales Representative
-                  we&apos;re looking for! At our recruitment agency, we
-                  don&apos;t just fill positions, we build bridges between
-                  exceptional talent and growing companies. And now, we&apos;re
-                  ready to grow, too, with your help.
+                  Are you a strategic thinker with a flair for creativity and
+                  digital innovation? Do you have a passion for brand
+                  storytelling and know how to craft campaigns that spark
+                  engagement and drive results? If so, we have the perfect
+                  opportunity for you!
+                </p>
+                <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
+                  Why This Role Matters
+                </h2>
+                <p className="text-gray-600 mb-6">
+                  We’re currently on the hunt for a dynamic{" "}
+                  <strong>Marketing Manager</strong> who will be at the heart of
+                  our agency’s growth. This role goes beyond just managing
+                  social media; it&apos;s about championing our brand, shaping
+                  public perception, and leading impactful marketing initiatives
+                  that position our services front and center.
                 </p>
                 <p className="text-gray-600 mb-6">
-                  In this high-impact role, you&apos;ll be at the forefront of
-                  our expansion efforts. Your core responsibilities will include
-                  finding and securing new clients, promoting our full range of
-                  recruitment and HR solutions, and negotiating contracts that
-                  deliver value for all parties. You&apos;ll focus on lead
-                  generation, cold and warm outreach, market research, and
-                  conversion strategies that elevate our brand and drive
-                  sustainable growth.
+                  As our Marketing Manager, you’ll develop and execute
+                  integrated marketing campaigns, oversee content creation
+                  across platforms, collaborate with internal teams, and analyze
+                  performance to refine strategies. Your efforts will directly
+                  influence how the world sees us and more importantly, how our
+                  services reach and resonate with clients and candidates alike.
                 </p>
 
                 <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
                   Strategic Partnership Building
                 </h2>
                 <p className="text-gray-600 mb-6">
-                  But this is more than just sales, it&apos;s about strategy,
-                  innovation, and building long-term partnerships. You&apos;ll
-                  collaborate closely with our internal teams to ensure that
-                  clients receive not just candidates, but solutions that
-                  transform their workforce. Whether it&apos;s a startup looking
-                  for its first hire or an enterprise scaling fast, you&apos;ll
-                  be the one opening doors and creating opportunities.
-                </p>
-                <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-                  {" "}
-                  We’re looking for someone who is:
-                </h2>
-                <ul className=" list-disc ml-6 space-y-2">
-                  <li className="flex items-start">
-                    <p className="text-gray-600">
-                      Results-oriented with a proven track record in B2B sales
-                    </p>
-                  </li>
-                  <li className="flex items-start">
-                    <p className="text-gray-600">
-                      Confident, persuasive, and an excellent communicator
-                    </p>
-                  </li>
-                  <li className="flex items-start">
-                    <p className="text-gray-600">
-                      Strategic in approach and creative in execution
-                    </p>
-                  </li>
-                  <li className="flex items-start">
-                    <p className="text-gray-600">
-                      Comfortable using CRM tools and sales analytics to
-                      optimize performance
-                    </p>
-                  </li>
-                  <li className="flex items-start">
-                    <p className="text-gray-600">
-                      Motivated by targets, KPIs, and the thrill of achieving
-                      goals
-                    </p>
-                  </li>
-                </ul>
-                <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-                  Why Join Us?
-                </h2>
-                <p className="text-gray-600 mb-6">
-                  You&apos;ll be part of a supportive, fast-paced, and
-                  collaborative team that values your voice and ideas. We offer
-                  ongoing training, performance incentives, and the chance to
-                  shape your own success story. If you&apos;re looking for a
-                  career where your contributions matter and your growth
-                  potential is unlimited this is it.
-                </p>
-                <p className="text-gray-600">
-                  Ready to sell a service you truly believe in? Ready to join a
-                  team that celebrates your wins?
+                  This is your chance to bring bold ideas to life in a
+                  fast-paced, supportive environment where innovation is
+                  encouraged, and results are celebrated. If you’re a motivated
+                  professional who thrives on challenge and creativity, we’d
+                  love to hear from you.
                 </p>
               </div>
 
@@ -123,8 +78,8 @@ export default function SalesRepresentativePage() {
                   </h3>
 
                   <div className="mb-6">
-                    <h4 className="font-medium text-gray-700">
-                      We&apos;re Looking For
+                    <h4 className="font-bold text-primary">
+                      Ready to Optimize the Future of Recruitment?
                     </h4>
                     <ul className="mt-2 space-y-2 text-gray-600">
                       <li className="flex items-start">
@@ -335,6 +290,7 @@ export default function SalesRepresentativePage() {
                       </li>
                     </ul>
                   </div>
+
                   <button
                     onClick={() => setShowPopup(true)}
                     className="w-full bg-primary-secondary text-primary hover:bg-primary hover:text-white font-bold py-3 px-4 rounded-lg transition duration-300">

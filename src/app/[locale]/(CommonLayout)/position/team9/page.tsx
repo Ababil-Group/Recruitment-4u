@@ -3,15 +3,15 @@ import React, { useState } from "react";
 import Head from "next/head";
 import ApplicationPopup from "@/components/common/ApplicationPopup";
 
-export default function SalesRepresentativePage() {
+export default function HRManagerPage() {
   const [showPopup, setShowPopup] = useState(false);
   return (
     <>
       <Head>
-        <title>Sales Representative | Our Company</title>
+        <title>HR Manager Role | Our Company</title>
         <meta
           name="description"
-          content="Learn about the Sales Representative position at our company"
+          content="Learn about the HR Manager position at our company"
         />
       </Head>
 
@@ -20,10 +20,8 @@ export default function SalesRepresentativePage() {
           <div className="bg-white shadow-xl rounded-lg overflow-hidden">
             {/* Role Header */}
             <div className="bg-primary px-6 py-8 text-white">
-              <h1 className="text-3xl font-bold">Sales Representative</h1>
-              <p className="mt-2 text-blue-100">
-                High-impact role driving business growth
-              </p>
+              <h1 className="text-3xl font-bold">HR Manager</h1>
+              <p className="mt-2 text-blue-100">Human Resources Manager, HR</p>
             </div>
 
             {/* Main Content */}
@@ -34,84 +32,51 @@ export default function SalesRepresentativePage() {
                   Role Overview
                 </h2>
                 <p className="text-gray-600 mb-6">
-                  Are you a go-getter with a passion for people, a hunger for
-                  success, and the confidence to turn a &quot;maybe&quot; into a
-                  &quot;yes&quot;? Then you might be the Sales Representative
-                  we&apos;re looking for! At our recruitment agency, we
-                  don&apos;t just fill positions, we build bridges between
-                  exceptional talent and growing companies. And now, we&apos;re
-                  ready to grow, too, with your help.
+                  Are you passionate about people, talent development, and
+                  creating a thriving workplace culture? We’re looking for a
+                  proactive and experienced <strong>HR Manager</strong> to join
+                  our team and lead our internal recruitment, in-house training
+                  programs, and overall staff development strategy.
+                </p>
+                <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
+                  Why This Role Matters
+                </h2>
+                <p className="text-gray-600 mb-6">
+                  As the HR Manager, you’ll play a pivotal role in shaping the
+                  future of our workforce. You’ll manage the entire recruitment
+                  lifecycle from identifying staffing needs to onboarding top
+                  talent. Your expertise will help nurture an environment where
+                  employees are motivated, well-trained, and continuously
+                  growing. Whether it’s designing tailored training sessions or
+                  developing career progression pathways, you’ll be at the heart
+                  of building a dynamic and engaged team.
                 </p>
                 <p className="text-gray-600 mb-6">
-                  In this high-impact role, you&apos;ll be at the forefront of
-                  our expansion efforts. Your core responsibilities will include
-                  finding and securing new clients, promoting our full range of
-                  recruitment and HR solutions, and negotiating contracts that
-                  deliver value for all parties. You&apos;ll focus on lead
-                  generation, cold and warm outreach, market research, and
-                  conversion strategies that elevate our brand and drive
-                  sustainable growth.
+                  In this role, you won’t just fill positions, you&apos;ll build
+                  careers. Your ability to connect with people, understand their
+                  strengths, and align them with the right opportunities will be
+                  key to our continued success. You’ll also serve as a trusted
+                  advisor to department heads, ensuring HR strategies align with
+                  our broader business goals.
                 </p>
 
                 <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
                   Strategic Partnership Building
                 </h2>
                 <p className="text-gray-600 mb-6">
-                  But this is more than just sales, it&apos;s about strategy,
-                  innovation, and building long-term partnerships. You&apos;ll
-                  collaborate closely with our internal teams to ensure that
-                  clients receive not just candidates, but solutions that
-                  transform their workforce. Whether it&apos;s a startup looking
-                  for its first hire or an enterprise scaling fast, you&apos;ll
-                  be the one opening doors and creating opportunities.
-                </p>
-                <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-                  {" "}
-                  We’re looking for someone who is:
-                </h2>
-                <ul className=" list-disc ml-6 space-y-2">
-                  <li className="flex items-start">
-                    <p className="text-gray-600">
-                      Results-oriented with a proven track record in B2B sales
-                    </p>
-                  </li>
-                  <li className="flex items-start">
-                    <p className="text-gray-600">
-                      Confident, persuasive, and an excellent communicator
-                    </p>
-                  </li>
-                  <li className="flex items-start">
-                    <p className="text-gray-600">
-                      Strategic in approach and creative in execution
-                    </p>
-                  </li>
-                  <li className="flex items-start">
-                    <p className="text-gray-600">
-                      Comfortable using CRM tools and sales analytics to
-                      optimize performance
-                    </p>
-                  </li>
-                  <li className="flex items-start">
-                    <p className="text-gray-600">
-                      Motivated by targets, KPIs, and the thrill of achieving
-                      goals
-                    </p>
-                  </li>
-                </ul>
-                <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-                  Why Join Us?
-                </h2>
-                <p className="text-gray-600 mb-6">
-                  You&apos;ll be part of a supportive, fast-paced, and
-                  collaborative team that values your voice and ideas. We offer
-                  ongoing training, performance incentives, and the chance to
-                  shape your own success story. If you&apos;re looking for a
-                  career where your contributions matter and your growth
-                  potential is unlimited this is it.
+                  We’re searching for someone who brings both strategic vision
+                  and a hands-on approach. You should be comfortable navigating
+                  employee relations, updating HR policies, and leading
+                  workshops or training sessions. If you enjoy problem-solving,
+                  empowering others, and fostering a positive workplace culture,
+                  you’ll thrive here.
                 </p>
                 <p className="text-gray-600">
-                  Ready to sell a service you truly believe in? Ready to join a
-                  team that celebrates your wins?
+                  This is more than just a job, it&apos;s a leadership
+                  opportunity to shape an organization from the inside out.
+                  You&apos;ll be surrounded by a supportive leadership team, a
+                  collaborative work environment, and the tools you need to
+                  drive meaningful change.
                 </p>
               </div>
 
@@ -123,8 +88,8 @@ export default function SalesRepresentativePage() {
                   </h3>
 
                   <div className="mb-6">
-                    <h4 className="font-medium text-gray-700">
-                      We&apos;re Looking For
+                    <h4 className="font-bold text-primary">
+                      Ready to Optimize the Future of Recruitment?
                     </h4>
                     <ul className="mt-2 space-y-2 text-gray-600">
                       <li className="flex items-start">
@@ -335,6 +300,7 @@ export default function SalesRepresentativePage() {
                       </li>
                     </ul>
                   </div>
+
                   <button
                     onClick={() => setShowPopup(true)}
                     className="w-full bg-primary-secondary text-primary hover:bg-primary hover:text-white font-bold py-3 px-4 rounded-lg transition duration-300">
