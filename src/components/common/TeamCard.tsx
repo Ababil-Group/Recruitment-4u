@@ -4,7 +4,7 @@ interface TeamCardProps {
   name: string;
   // title: string;
   description?: string;
-  emailLink?: string;
+  btnText?: string;
   bgColor?: string;
   onClick?: () => void;
 }
@@ -12,12 +12,14 @@ interface TeamCardProps {
 const TeamCard: FC<TeamCardProps> = ({
   name,
   onClick,
+  btnText,
   description,
   bgColor = "bg-blue-500",
 }) => {
   return (
     <div
-      className={`lg:w-[220px] lg:h-auto md:w-[220px] md:h-[250px] sm:w-full sm:min-h-[250px] w-full min-h-[250px] ${bgColor} text-white rounded-[30px] flex flex-col justify-between  p-5`}>
+      onClick={onClick}
+      className={`lg:w-[220px] cursor-pointer lg:h-auto md:w-[220px] md:h-[250px] sm:w-full sm:min-h-[250px] w-full min-h-[250px] ${bgColor} text-white rounded-[30px] flex flex-col justify-between  p-5`}>
       <div>
         <h3 className="text-xl font-bold leading-tight">{name}</h3>
         {/* <p className="text-md mt-1">({title})</p> */}
@@ -35,7 +37,7 @@ const TeamCard: FC<TeamCardProps> = ({
         <a
           onClick={onClick}
           className="inline-flex cursor-pointer items-center gap-1 hover:underline">
-          Learn more →
+          {btnText}
         </a>
       </div>
     </div>

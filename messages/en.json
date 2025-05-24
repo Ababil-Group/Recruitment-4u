@@ -396,53 +396,54 @@
       "title": "Ready to level up? Join us",
       "team1": {
         "name": "Sales Manager",
-        "position": "CSO",
-        "description": "Drives sales performance by leading the team, managing key accounts directly, and collaborating with recruitment leadership to shape strategic direction."
+        "description": "Leads the sales team, handles sales directly, works closely with recruitment leadership to set the strategy. ",
+        "btnText": "Take the First Step"
       },
       "team2": {
         "name": "Senior Recruitment Consultant",
-        "position": "CEO",
-        "description": "A seasoned recruitment professional with advanced responsibilities, including mentoring junior team members and managing high-value client accounts."
+        "description": "Experienced recruiter with higher-level responsibilities, including mentoring junior staff and handling key accounts.",
+        "btnText": "Say Hello to Your Next Job"
       },
       "team3": {
         "name": "Sales Representative",
-        "position": "CTO",
-        "description": "Finds and secures new clients, promotes services, and negotiates contracts. Targets lead generation and agency growth."
+        "description": "Finds and secures new clients, promotes services, and negotiates contracts. Targets lead generation and agency growth.",
+        "btnText": "Step Into Your Future"
       },
       "team4": {
         "name": "Operations Manager",
-        "position": "CMO",
-        "description": "Handles internal processes, tools, compliance, and workflow efficiency."
+        "description": "Handles internal processes, tools, compliance, and workflow efficiency.",
+        "btnText": "Step Into Your Future"
       },
       "team5": {
         "name": "Office Manager ",
         "position": "COO",
-        "description": "Manages the day-to-day operations of a specific location. Oversee sales, recruitment, and administration."
+        "description": "Manages the day-to-day operations of a specific location. Oversee sales, recruitment, and administration.",
+        "btnText": "It Starts Here"
       },
       "team6": {
         "name": " Managing Director",
-        "position": "CFO",
-        "description": "Sets overall business strategy and vision. Ensures agency profitability."
+        "description": "Sets overall business strategy and vision. Ensures agency profitability.",
+        "btnText": "Add Flavor to Your Work Life"
       },
       "team7": {
         "name": " Office Administrator",
-        "position": "CPO",
-        "description": "Handles documentation, work permit applications submission, and is in charge of aftersales communication with clients."
+        "description": "Handles documentation, work permit applications submission, and is in charge of aftersales communication with clients.",
+        "btnText": "Design Your Future"
       },
       "team8": {
         "name": "Marketing Manager",
-        "position": "CLO",
-        "description": "Promotes the agency's brand and services through campaigns and social media."
+        "description": "Promotes the agency's brand and services through campaigns and social media.",
+        "btnText": "Serve Up Your Talent"
       },
       "team9": {
         "name": "HR Manager ",
-        "position": "CHR",
-        "description": "Manages internal recruitment, in-house training, and staff development."
+        "description": "Manages internal recruitment, in-house training, and staff development.",
+        "btnText": "Claim Your Role"
       },
       "team10": {
         "name": "After Sales Support Officer",
-        "position": "CDO",
-        "description": "Works closely with teams in sales and support teams in source countries to ensure smooth arrival of the workers and provide support to the clients."
+        "description": "Works closely with teams in sales and support teams in source countries to ensure smooth arrival of the workers and provide support to the clients.",
+        "btnText": "We’d Love to Meet You"
       }
     },
     "articlesection": {

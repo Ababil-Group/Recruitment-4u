@@ -22,65 +22,56 @@ export default function BehindOurTeam() {
             onClick={() => HandileClick("/position/team1")}
             // title={t("teamsction.team1.position")}
             description={t("teamsction.team1.description")}
-            emailLink="sales@company.com"
+            btnText={t("teamsction.team1.btnText")}
           />
           <TeamCard
             name={t("teamsction.team2.name")}
             onClick={() => HandileClick("/position/team2")}
-            // title={t("teamsction.team2.position")}
+            btnText={t("teamsction.team2.btnText")}
             description={t("teamsction.team2.description")}
-            emailLink="sales@company.com"
           />
           <TeamCard
             name={t("teamsction.team3.name")}
             onClick={() => HandileClick("/position/team3")}
-            // title={t("teamsction.team3.position")}
+            btnText={t("teamsction.team3.btnText")}
             description={t("teamsction.team3.description")}
-            emailLink="sales@company.com"
           />
           <TeamCard
             name={t("teamsction.team4.name")}
             onClick={() => HandileClick("/position/team4")}
-            // title={t("teamsction.team4.position")}
+            btnText={t("teamsction.team4.btnText")}
             description={t("teamsction.team4.description")}
-            emailLink="sales@company.com"
           />
           <TeamCard
             name={t("teamsction.team5.name")}
-            // title={t("teamsction.team5.position")}
+            btnText={t("teamsction.team5.btnText")}
             description={t("teamsction.team5.description")}
-            emailLink="sales@company.com"
           />
           <TeamCard
             name={t("teamsction.team6.name")}
-            // title={t("teamsction.team6.position")}
+            btnText={t("teamsction.team6.btnText")}
             description={t("teamsction.team6.description")}
-            emailLink="sales@company.com"
           />
           <TeamCard
             name={t("teamsction.team7.name")}
-            // title={t("teamsction.team7.position")}
+            btnText={t("teamsction.team7.btnText")}
             description={t("teamsction.team7.description")}
-            emailLink="sales@company.com"
           />
           <TeamCard
             name={t("teamsction.team8.name")}
-            // title={t("teamsction.team8.position")}
+            btnText={t("teamsction.team8.btnText")}
             description={t("teamsction.team8.description")}
-            emailLink="sales@company.com"
           />
 
           <TeamCard
             name={t("teamsction.team9.name")}
-            // title={t("teamsction.team9.position")}
+            btnText={t("teamsction.team9.btnText")}
             description={t("teamsction.team9.description")}
-            emailLink="sales@company.com"
           />
           <TeamCard
             name={t("teamsction.team10.name")}
-            // title={t("teamsction.team10.position")}
+            btnText={t("teamsction.team10.btnText")}
             description={t("teamsction.team10.description")}
-            emailLink="sales@company.com"
           />
         </div>
       </div>

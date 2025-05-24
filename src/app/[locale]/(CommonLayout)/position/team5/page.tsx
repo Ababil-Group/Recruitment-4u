@@ -3,23 +3,21 @@ import React, { useState } from "react";
 import Head from "next/head";
 import ApplicationPopup from "@/components/common/ApplicationPopup";
 
-export default function SalesManagerPage() {
+export default function SeniorRecruitmentPage() {
   const [showPopup, setShowPopup] = useState(false);
   return (
     <>
       <Head>
-        <title>Sales Manager Role | Our Company</title>
+        <title>Branch Manager / Office Manager | Our Company</title>
         <meta
           name="description"
-          content="Learn about the Sales Manager position at our company"
+          content="Learn about the Branch Manager position at our company"
         />
       </Head>
 
       <div className="min-h-screen bg-gray-50">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-          <button
-            // onClick={() => setIsExpanded(false)}
-            className="mb-8 flex items-center text-blue-600 hover:text-blue-800">
+          <button className="mb-8 flex items-center text-blue-600 hover:text-blue-800">
             <svg
               className="w-5 h-5 mr-2"
               fill="none"
@@ -39,9 +37,11 @@ export default function SalesManagerPage() {
           <div className="bg-white shadow-xl rounded-lg overflow-hidden">
             {/* Role Header */}
             <div className="bg-primary px-6 py-8 text-white">
-              <h1 className="text-3xl font-bold">Sales Manager</h1>
-              <p className="mt-2 text-blue-100">
-                Leadership role with strategic impact
+              <h1 className="text-3xl font-bold">
+                Branch Manager / Office Manager
+              </h1>
+              <p className="mt-2 text-purple-100">
+                Strategic role in talent acquisition
               </p>
             </div>
 
@@ -53,62 +53,26 @@ export default function SalesManagerPage() {
                   Role Overview
                 </h2>
                 <p className="text-gray-600 mb-6">
-                  In today&apos;s fast-paced business landscape, sales is more
-                  than just closing deals; it&apos;s about driving
-                  transformation, empowering people, and building a sustainable
-                  path for growth. This is where the role of a Sales Manager
-                  becomes not just important, but essential.
-                </p>
-                <p className="text-gray-600 mb-6">
-                  As a Sales Manager, you won&apos;t just be managing a team,
-                  you&apos;ll be leading it with strategy, vision, and a
-                  results-driven mindset. This role blends leadership with
-                  hands-on involvement, giving you the opportunity to oversee a
-                  high-performing sales team while also directly managing key
-                  accounts and major deals.
-                </p>
-                <p className="text-gray-600 mb-6">
-                  You&apos;ll work hand-in-hand with recruitment leadership to
-                  align the sales approach with broader organizational goals,
-                  ensuring that every effort contributes meaningfully to the
-                  company&apos;s success.
-                </p>
-
-                <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-                  What Sets This Role Apart
-                </h2>
-                <p className="text-gray-600 mb-6">
-                  What sets this role apart is its unique blend of strategic
-                  planning and people leadership. Sales Managers are at the
-                  forefront of revenue generation, responsible for developing
-                  and executing innovative strategies, mentoring team members,
-                  and staying ahead of industry trends.
-                </p>
-                <p className="text-gray-600 mb-6">
-                  Your insight into market movements and competitor activity
-                  will play a key role in shaping the company&apos;s approach.
-                  Ideal candidates will bring proven experience in sales or
-                  business development, strong communication and negotiation
-                  skills, and a sharp, analytical mindset. Leadership
-                  experience, especially in the recruitment or service industry,
-                  will be a major plus.
-                </p>
-
-                <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-                  Rewards & Benefits
-                </h2>
-                <p className="text-gray-600 mb-6">
-                  Beyond the responsibilities, the Sales Manager role offers
-                  substantial rewards. It&apos;s a career-defining opportunity
-                  with a clear path to executive growth, performance-based
-                  bonuses, and the chance to influence core business decisions.
-                </p>
-                <p className="text-gray-600">
-                  You&apos;ll be part of a vibrant, collaborative team
-                  environment where your ideas are valued and your impact is
-                  visible. If you&apos;re ready to lead with purpose, drive
-                  change, and take your career to the next level, this could be
-                  the perfect fit.
+                  Are you ready to lead with purpose and passion? We’re looking
+                  for a dynamic and experienced{" "}
+                  <strong>Branch Manager / Office Manager</strong>
+                  to join our team and oversee the daily operations of one of
+                  our branch locations. This is a key leadership role that
+                  requires a strategic thinker with a hands-on approach and a
+                  strong drive to deliver results. As the head of the branch,
+                  you’ll be responsible for managing sales targets, overseeing
+                  recruitment efforts, and ensuring the administrative side of
+                  the office runs like clockwork. You’ll be at the center of it
+                  all motivating your team, building client relationships, and
+                  driving performance. We’re seeking someone who thrives in a
+                  fast-paced environment, possesses excellent communication and
+                  organizational skills, and has a proven track record in a
+                  management role ideally within recruitment, staffing, or
+                  sales. In return, we offer a competitive salary,
+                  performance-based bonuses, and a supportive culture that
+                  values your contributions and encourages professional growth.
+                  If you&apos;re someone who wants to lead, grow, and make a
+                  meaningful impact, we want to hear from you.
                 </p>
               </div>
 
@@ -138,7 +102,7 @@ export default function SalesManagerPage() {
                             d="M5 13l4 4L19 7"
                           />
                         </svg>
-                        Lead and manage sales team
+                        Manage full recruitment life cycle
                       </li>
                       <li className="flex items-start">
                         <svg
@@ -154,7 +118,7 @@ export default function SalesManagerPage() {
                             d="M5 13l4 4L19 7"
                           />
                         </svg>
-                        Directly manage key accounts
+                        Mentor junior team members
                       </li>
                       <li className="flex items-start">
                         <svg
@@ -170,7 +134,7 @@ export default function SalesManagerPage() {
                             d="M5 13l4 4L19 7"
                           />
                         </svg>
-                        Develop sales strategies
+                        Handle key client accounts
                       </li>
                       <li className="flex items-start">
                         <svg
@@ -186,7 +150,7 @@ export default function SalesManagerPage() {
                             d="M5 13l4 4L19 7"
                           />
                         </svg>
-                        Collaborate with leadership
+                        Drive business development
                       </li>
                     </ul>
                   </div>
@@ -208,7 +172,7 @@ export default function SalesManagerPage() {
                             d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                           />
                         </svg>
-                        Proven sales experience
+                        Years of recruitment experience
                       </li>
                       <li className="flex items-start">
                         <svg
@@ -224,7 +188,7 @@ export default function SalesManagerPage() {
                             d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                           />
                         </svg>
-                        Leadership skills
+                        Strategic mindset
                       </li>
                       <li className="flex items-start">
                         <svg
@@ -240,7 +204,7 @@ export default function SalesManagerPage() {
                             d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                           />
                         </svg>
-                        Strong communication
+                        Exceptional communication skills
                       </li>
                       <li className="flex items-start">
                         <svg
@@ -256,17 +220,19 @@ export default function SalesManagerPage() {
                             d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                           />
                         </svg>
-                        Analytical mindset
+                        Deep market knowledge
                       </li>
                     </ul>
                   </div>
 
                   <div className="mb-6">
-                    <h4 className="font-medium text-gray-700">Benefits</h4>
+                    <h4 className="font-medium text-gray-700">
+                      Key Attributes
+                    </h4>
                     <ul className="mt-2 space-y-2 text-gray-600">
                       <li className="flex items-start">
                         <svg
-                          className="h-5 w-5 text-yellow-500 mr-2"
+                          className="h-5 w-5 text-blue-500 mr-2"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"
@@ -275,14 +241,14 @@ export default function SalesManagerPage() {
                             strokeLinecap="round"
                             strokeLinejoin="round"
                             strokeWidth={2}
-                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                            d="M13 10V3L4 14h7v7l9-11h-7z"
                           />
                         </svg>
-                        Career growth path
+                        Emotional intelligence
                       </li>
                       <li className="flex items-start">
                         <svg
-                          className="h-5 w-5 text-yellow-500 mr-2"
+                          className="h-5 w-5 text-blue-500  mr-2"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"
@@ -291,14 +257,14 @@ export default function SalesManagerPage() {
                             strokeLinecap="round"
                             strokeLinejoin="round"
                             strokeWidth={2}
-                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                            d="M13 10V3L4 14h7v7l9-11h-7z"
                           />
                         </svg>
-                        Performance bonuses
+                        Resilience
                       </li>
                       <li className="flex items-start">
                         <svg
-                          className="h-5 w-5 text-yellow-500 mr-2"
+                          className="h-5 w-5 text-blue-500 mr-2"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"
@@ -307,14 +273,14 @@ export default function SalesManagerPage() {
                             strokeLinecap="round"
                             strokeLinejoin="round"
                             strokeWidth={2}
-                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                            d="M13 10V3L4 14h7v7l9-11h-7z"
                           />
                         </svg>
-                        Influence business decisions
+                        Leadership ability
                       </li>
                       <li className="flex items-start">
                         <svg
-                          className="h-5 w-5 text-yellow-500 mr-2"
+                          className="h-5 w-5 text-blue-500  mr-2"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"
@@ -323,12 +289,21 @@ export default function SalesManagerPage() {
                             strokeLinecap="round"
                             strokeLinejoin="round"
                             strokeWidth={2}
-                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                            d="M13 10V3L4 14h7v7l9-11h-7z"
                           />
                         </svg>
-                        Collaborative environment
+                        Business development skills
                       </li>
                     </ul>
+                  </div>
+
+                  <div className="bg-gray-100  rounded-lg p-4 mb-6">
+                    <h4 className="font-medium text-gray-700 mb-2">
+                      Ready to take the next step in your career?
+                    </h4>
+                    <p className="text-gray-600  text-sm">
+                      Apply now and let’s build success together.
+                    </p>
                   </div>
 
                   <button

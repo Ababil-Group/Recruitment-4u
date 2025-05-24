@@ -1,8 +1,10 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Head from "next/head";
+import ApplicationPopup from "@/components/common/ApplicationPopup";
 
 export default function SalesRepresentativePage() {
+  const [showPopup, setShowPopup] = useState(false);
   return (
     <>
       <Head>
@@ -350,9 +352,10 @@ export default function SalesRepresentativePage() {
                       </li>
                     </ul>
                   </div>
-
-                  <button className="w-full bg-primary-secondary text-primary hover:bg-primary hover:text-white font-bold py-3 px-4 rounded-lg transition duration-300">
-                    Apply Now
+                  <button
+                    onClick={() => setShowPopup(true)}
+                    className="w-full bg-primary-secondary text-primary hover:bg-primary hover:text-white font-bold py-3 px-4 rounded-lg transition duration-300">
+                    Apply. Shine. Succeed
                   </button>
                 </div>
               </div>
@@ -360,6 +363,7 @@ export default function SalesRepresentativePage() {
           </div>
         </div>
       </div>
+      {showPopup && <ApplicationPopup onClose={() => setShowPopup(false)} />}
     </>
   );
 }
