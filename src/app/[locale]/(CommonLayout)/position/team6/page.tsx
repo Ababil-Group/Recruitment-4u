@@ -2,8 +2,10 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import ApplicationPopup from "@/components/common/ApplicationPopup";
+import { useTranslations } from "next-intl";
 
 export default function ManagingDirectorPage() {
+  const t = useTranslations("behindthebrand.teamsction.teamdetails6");
   const [showPopup, setShowPopup] = useState(false);
   return (
     <>
@@ -21,10 +23,10 @@ export default function ManagingDirectorPage() {
             {/* Role Header */}
             <div className="bg-primary px-6 py-8 text-white">
               <h1 className="text-3xl font-bold">
-                Director / Managing Director Opportunity
+                {t("title")}
               </h1>
               <p className="mt-2 text-purple-100">
-                Strategic role in talent acquisition
+                {t("subtitle")}
               </p>
             </div>
 
@@ -33,32 +35,19 @@ export default function ManagingDirectorPage() {
               {/* Left Column - Main Description */}
               <div className="md:w-2/3 md:pr-8">
                 <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                  Role Overview
+                  {t("title1")}
                 </h2>
                 <p className="text-gray-600 mb-6">
-                  Are you a seasoned leader with a passion for driving growth
-                  and shaping the future of an organization? We are currently
-                  seeking a <strong>Director / Managing Director</strong> to
-                  join a forward-thinking agency where leadership isn’t just
-                  about overseeing operations it’s about inspiring progress.
+                  {t("desc1")}
                 </p>
                 <p className="text-gray-600 mb-6">
-                  In this pivotal role, you will be responsible for setting the
-                  overall business strategy and vision, ensuring the agency not
-                  only thrives today but evolves for tomorrow. You’ll work
-                  closely with key stakeholders to align company goals,
-                  spearhead innovation, and drive profitability. Your strategic
-                  decisions will directly influence the company’s direction,
-                  culture, and market position.
+                  {t("desc2")}
                 </p>
                 <p className="text-gray-600 mb-6">
-                  The ideal candidate will bring a strong background in
-                  executive leadership, operational oversight, and team
-                  development. A proven track record of successfully leading
-                  organizations through growth and transformation is essential.
-                  You should be comfortable navigating complex challenges,
-                  identifying new market opportunities, and fostering a
-                  results-driven environment.
+                  {t("desc3")}
+                </p>
+                <p className="text-gray-600 mb-6">
+                  {t("desc4")}
                 </p>
               </div>
 
@@ -285,23 +274,17 @@ export default function ManagingDirectorPage() {
 
                   <div className="bg-gray-100  rounded-lg p-4 mb-6">
                     <h4 className="font-medium text-gray-700 mb-2">
-                      Ready to take the next step in your career?
+                      {t("title2")}
                     </h4>
                     <p className="text-gray-600  text-sm">
-                      Joining this agency means stepping into a role where your
-                      leadership truly matters. You’ll have the autonomy to make
-                      high-level decisions while being supported by a dynamic
-                      team that shares your vision for excellence. If
-                      you&apos;re motivated by impact, challenge, and the
-                      opportunity to lead from the front this is the role for
-                      you.
+                      {t("desc4")}
                     </p>
                   </div>
 
                   <button
                     onClick={() => setShowPopup(true)}
                     className="w-full bg-primary-secondary text-primary hover:bg-primary hover:text-white font-bold py-3 px-4 rounded-lg transition duration-300">
-                    Apply. Shine. Succeed
+                    {t("btnApply")}
                   </button>
                 </div>
               </div>

@@ -11,10 +11,8 @@ import RecruitmentCenters from "@/components/pages-layout/Home/RecruitmentCenter
 import Process from "@/components/pages-layout/Home/Process";
 
 export default function Home() {
-
-
   return (
-    <main >
+    <main>
       <Hero />
       <CardHome />
       <HomeEmploy />
