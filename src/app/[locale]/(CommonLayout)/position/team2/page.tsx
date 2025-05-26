@@ -2,8 +2,10 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import ApplicationPopup from "@/components/common/ApplicationPopup";
+import { useTranslations } from "next-intl";
 
 export default function SeniorRecruitmentPage() {
+  const t = useTranslations("behindthebrand.teamsction.teamdetails2");
   const [showPopup, setShowPopup] = useState(false);
   return (
     <>
@@ -20,12 +22,8 @@ export default function SeniorRecruitmentPage() {
           <div className="bg-white shadow-xl rounded-lg overflow-hidden">
             {/* Role Header */}
             <div className="bg-primary px-6 py-8 text-white">
-              <h1 className="text-3xl font-bold">
-                Senior Recruitment Consultant
-              </h1>
-              <p className="mt-2 text-purple-100">
-                Strategic role in talent acquisition
-              </p>
+              <h1 className="text-3xl font-bold">{t("title")}</h1>
+              <p className="mt-2 text-purple-100">{t("subtitle")}</p>
             </div>
 
             {/* Main Content */}
@@ -33,59 +31,22 @@ export default function SeniorRecruitmentPage() {
               {/* Left Column - Main Description */}
               <div className="md:w-2/3 md:pr-8">
                 <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                  Role Overview
+                  {t("title1")}
                 </h2>
-                <p className="text-gray-600 mb-6">
-                  In the dynamic world of talent acquisition, the role of a
-                  Senior Recruitment Consultant stands out as a strategic pillar
-                  in any high-performing recruitment team. Unlike junior
-                  recruiters who focus primarily on sourcing and screening,
-                  senior consultants operate on a higher level bringing years of
-                  industry expertise, strategic insight, and leadership to the
-                  table.
-                </p>
-                <p className="text-gray-600 mb-6">
-                  They manage the full recruitment life cycle with precision,
-                  while also mentoring junior staff, handling key client
-                  accounts, and driving business development efforts.
-                </p>
+                <p className="text-gray-600 mb-6">{t("desc1")}</p>
+                <p className="text-gray-600 mb-6">{t("desc2")}</p>
 
                 <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-                  Dual Role of a Senior Consultant
+                  {t("title2")}
                 </h2>
-                <p className="text-gray-600 mb-6">
-                  A Senior Recruitment Consultant plays a dual role: that of a
-                  top-tier recruiter and a trusted advisor. They are
-                  instrumental in shaping hiring strategies, aligning
-                  recruitment efforts with market trends, and ensuring the
-                  agency consistently delivers high-quality talent.
-                </p>
-                <p className="text-gray-600 mb-6">
-                  Their responsibilities go beyond placements - they nurture
-                  long-term relationships with clients, provide guidance to
-                  less-experienced team members, and contribute significantly to
-                  the agency&apos;s growth. From negotiating contracts to
-                  identifying new opportunities for collaboration, their impact
-                  is both immediate and far-reaching.
-                </p>
+                <p className="text-gray-600 mb-6">{t("desc3")}</p>
+                <p className="text-gray-600 mb-6">{t("desc4")}</p>
 
                 <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-                  What Sets This Role Apart
+                  {t("title3")}
                 </h2>
-                <p className="text-gray-600 mb-6">
-                  What truly sets a Senior Recruitment Consultant apart is a
-                  combination of emotional intelligence, resilience, and deep
-                  market knowledge. They possess strong interpersonal and
-                  communication skills, enabling them to build trust with both
-                  candidates and clients.
-                </p>
-                <p className="text-gray-600">
-                  Their ability to anticipate hiring needs and offer tailored
-                  solutions makes them invaluable assets to any organization.
-                  Ultimately, a Senior Recruitment Consultant is more than just
-                  an experienced recruiter; they are a strategic partner who
-                  transforms the hiring process into a competitive advantage.
-                </p>
+                <p className="text-gray-600 mb-6">{t("desc5")}</p>
+                <p className="text-gray-600">{t("desc6")}</p>
               </div>
 
               {/* Right Column - Key Details */}
@@ -311,21 +272,17 @@ export default function SeniorRecruitmentPage() {
 
                   <div className="bg-gray-100  rounded-lg p-4 mb-6">
                     <h4 className="font-medium text-gray-700 mb-2">
-                      Ready to take your recruitment career to the next level?
+                     {t("title4")}
                     </h4>
                     <p className="text-gray-600  text-sm">
-                      We&apos;re looking for experienced, passionate, and
-                      strategic-minded individuals to join our team as Senior
-                      Recruitment Consultants. If you thrive on mentoring
-                      others, managing key accounts, and making an impact this
-                      role is for you.
+                     {t("desc7")}
                     </p>
                   </div>
 
                   <button
                     onClick={() => setShowPopup(true)}
                     className="w-full bg-primary-secondary text-primary hover:bg-primary hover:text-white font-bold py-3 px-4 rounded-lg transition duration-300">
-                    Apply. Shine. Succeed
+                    {t("btnApply")}
                   </button>
                 </div>
               </div>

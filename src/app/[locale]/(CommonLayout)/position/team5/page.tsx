@@ -2,8 +2,10 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import ApplicationPopup from "@/components/common/ApplicationPopup";
+import { useTranslations } from "next-intl";
 
 export default function OfficeManagerPage() {
+  const t = useTranslations("behindthebrand.teamsction.teamdetails5");
   const [showPopup, setShowPopup] = useState(false);
   return (
     <>
@@ -20,12 +22,8 @@ export default function OfficeManagerPage() {
           <div className="bg-white shadow-xl rounded-lg overflow-hidden">
             {/* Role Header */}
             <div className="bg-primary px-6 py-8 text-white">
-              <h1 className="text-3xl font-bold">
-                Branch Manager / Office Manager
-              </h1>
-              <p className="mt-2 text-purple-100">
-                Strategic role in talent acquisition
-              </p>
+              <h1 className="text-3xl font-bold">{t("title")}</h1>
+              <p className="mt-2 text-purple-100">{t("subtitle")}</p>
             </div>
 
             {/* Main Content */}
@@ -33,30 +31,9 @@ export default function OfficeManagerPage() {
               {/* Left Column - Main Description */}
               <div className="md:w-2/3 md:pr-8">
                 <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                  Role Overview
+                  {t("title1")}
                 </h2>
-                <p className="text-gray-600 mb-6">
-                  Are you ready to lead with purpose and passion? We’re looking
-                  for a dynamic and experienced{" "}
-                  <strong>Branch Manager / Office Manager</strong>
-                  to join our team and oversee the daily operations of one of
-                  our branch locations. This is a key leadership role that
-                  requires a strategic thinker with a hands-on approach and a
-                  strong drive to deliver results. As the head of the branch,
-                  you’ll be responsible for managing sales targets, overseeing
-                  recruitment efforts, and ensuring the administrative side of
-                  the office runs like clockwork. You’ll be at the center of it
-                  all motivating your team, building client relationships, and
-                  driving performance. We’re seeking someone who thrives in a
-                  fast-paced environment, possesses excellent communication and
-                  organizational skills, and has a proven track record in a
-                  management role ideally within recruitment, staffing, or
-                  sales. In return, we offer a competitive salary,
-                  performance-based bonuses, and a supportive culture that
-                  values your contributions and encourages professional growth.
-                  If you&apos;re someone who wants to lead, grow, and make a
-                  meaningful impact, we want to hear from you.
-                </p>
+                <p className="text-gray-600 mb-6">{t("desc1")}</p>
               </div>
 
               {/* Right Column - Key Details */}
@@ -282,17 +259,15 @@ export default function OfficeManagerPage() {
 
                   <div className="bg-gray-100  rounded-lg p-4 mb-6">
                     <h4 className="font-medium text-gray-700 mb-2">
-                      Ready to take the next step in your career?
+                      {t("title2")}
                     </h4>
-                    <p className="text-gray-600  text-sm">
-                      Apply now and let’s build success together.
-                    </p>
+                    <p className="text-gray-600  text-sm">{t("desc2")}</p>
                   </div>
 
                   <button
                     onClick={() => setShowPopup(true)}
                     className="w-full bg-primary-secondary text-primary hover:bg-primary hover:text-white font-bold py-3 px-4 rounded-lg transition duration-300">
-                    Apply. Shine. Succeed
+                    {t("btnApply")}
                   </button>
                 </div>
               </div>

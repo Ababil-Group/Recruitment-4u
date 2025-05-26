@@ -2,8 +2,11 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import ApplicationPopup from "@/components/common/ApplicationPopup";
+import { useTranslations } from "next-intl";
 
 export default function SalesRepresentativePage() {
+  const t = useTranslations("behindthebrand.teamsction.teamdetails3");
+  const items = t.raw("desc4.items") as string[];
   const [showPopup, setShowPopup] = useState(false);
   return (
     <>
@@ -20,10 +23,8 @@ export default function SalesRepresentativePage() {
           <div className="bg-white shadow-xl rounded-lg overflow-hidden">
             {/* Role Header */}
             <div className="bg-primary px-6 py-8 text-white">
-              <h1 className="text-3xl font-bold">Sales Representative</h1>
-              <p className="mt-2 text-blue-100">
-                High-impact role driving business growth
-              </p>
+              <h1 className="text-3xl font-bold">{t("title")}</h1>
+              <p className="mt-2 text-blue-100">{t("subtitle")}</p>
             </div>
 
             {/* Main Content */}
@@ -31,88 +32,30 @@ export default function SalesRepresentativePage() {
               {/* Left Column - Main Description */}
               <div className="md:w-2/3 md:pr-8">
                 <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                  Role Overview
+                  {t("title1")}
                 </h2>
-                <p className="text-gray-600 mb-6">
-                  Are you a go-getter with a passion for people, a hunger for
-                  success, and the confidence to turn a &quot;maybe&quot; into a
-                  &quot;yes&quot;? Then you might be the Sales Representative
-                  we&apos;re looking for! At our recruitment agency, we
-                  don&apos;t just fill positions, we build bridges between
-                  exceptional talent and growing companies. And now, we&apos;re
-                  ready to grow, too, with your help.
-                </p>
-                <p className="text-gray-600 mb-6">
-                  In this high-impact role, you&apos;ll be at the forefront of
-                  our expansion efforts. Your core responsibilities will include
-                  finding and securing new clients, promoting our full range of
-                  recruitment and HR solutions, and negotiating contracts that
-                  deliver value for all parties. You&apos;ll focus on lead
-                  generation, cold and warm outreach, market research, and
-                  conversion strategies that elevate our brand and drive
-                  sustainable growth.
-                </p>
+                <p className="text-gray-600 mb-6">{t("desc1")}</p>
+                <p className="text-gray-600 mb-6">{t("desc2")}</p>
 
                 <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-                  Strategic Partnership Building
+                  {t("title2")}
                 </h2>
-                <p className="text-gray-600 mb-6">
-                  But this is more than just sales, it&apos;s about strategy,
-                  innovation, and building long-term partnerships. You&apos;ll
-                  collaborate closely with our internal teams to ensure that
-                  clients receive not just candidates, but solutions that
-                  transform their workforce. Whether it&apos;s a startup looking
-                  for its first hire or an enterprise scaling fast, you&apos;ll
-                  be the one opening doors and creating opportunities.
-                </p>
+                <p className="text-gray-600 mb-6">{t("desc3")}</p>
                 <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
                   {" "}
-                  We’re looking for someone who is:
+                  {t("title3")}
                 </h2>
-                <ul className=" list-disc ml-6 space-y-2">
-                  <li className="flex items-start">
-                    <p className="text-gray-600">
-                      Results-oriented with a proven track record in B2B sales
-                    </p>
-                  </li>
-                  <li className="flex items-start">
-                    <p className="text-gray-600">
-                      Confident, persuasive, and an excellent communicator
-                    </p>
-                  </li>
-                  <li className="flex items-start">
-                    <p className="text-gray-600">
-                      Strategic in approach and creative in execution
-                    </p>
-                  </li>
-                  <li className="flex items-start">
-                    <p className="text-gray-600">
-                      Comfortable using CRM tools and sales analytics to
-                      optimize performance
-                    </p>
-                  </li>
-                  <li className="flex items-start">
-                    <p className="text-gray-600">
-                      Motivated by targets, KPIs, and the thrill of achieving
-                      goals
-                    </p>
-                  </li>
+                <ul className="list-disc ml-6 space-y-2">
+                  {items.map((item, index) => (
+                    <li key={index} className="text-gray-600">
+                      {item}
+                    </li>
+                  ))}
                 </ul>
                 <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-                  Why Join Us?
+                  {t("title4")}
                 </h2>
-                <p className="text-gray-600 mb-6">
-                  You&apos;ll be part of a supportive, fast-paced, and
-                  collaborative team that values your voice and ideas. We offer
-                  ongoing training, performance incentives, and the chance to
-                  shape your own success story. If you&apos;re looking for a
-                  career where your contributions matter and your growth
-                  potential is unlimited this is it.
-                </p>
-                <p className="text-gray-600">
-                  Ready to sell a service you truly believe in? Ready to join a
-                  team that celebrates your wins?
-                </p>
+                <p className="text-gray-600">{t("desc5")}</p>
               </div>
 
               {/* Right Column - Key Details */}
@@ -338,7 +281,7 @@ export default function SalesRepresentativePage() {
                   <button
                     onClick={() => setShowPopup(true)}
                     className="w-full bg-primary-secondary text-primary hover:bg-primary hover:text-white font-bold py-3 px-4 rounded-lg transition duration-300">
-                    Apply. Shine. Succeed
+                    {t("btnApply")}
                   </button>
                 </div>
               </div>

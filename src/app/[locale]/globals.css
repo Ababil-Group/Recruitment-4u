@@ -64,7 +64,7 @@ body {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
     --primary-1: 0 0% 0%; /* #000000 */
-    --primary-2: 171 100% 50%; /* #00FFD9 */
+    --primary-2: 190,96%,69%; /* #63E3FC */
   }
   .dark {
     --background: 240 10% 3.9%;
@@ -92,10 +92,10 @@ body {
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
     --primary-1: 0 0% 0%; /* #000000 */
-    --primary-2: 171 100% 50%; /* #00FFD9 */
+    --primary-2: 190,96%,69%; /* #63E3FC */
   }
 }
-
+/* --primary-2: 171 100% 50%; #00FFD9 */
 @layer base {
   * {
     @apply border-border;
