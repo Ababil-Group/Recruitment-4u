@@ -2,8 +2,10 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import ApplicationPopup from "@/components/common/ApplicationPopup";
+import { useTranslations } from "next-intl";
 
 export default function HRManagerPage() {
+  const t = useTranslations("behindthebrand.teamsction.teamdetails7");
   const [showPopup, setShowPopup] = useState(false);
   return (
     <>
@@ -20,8 +22,8 @@ export default function HRManagerPage() {
           <div className="bg-white shadow-xl rounded-lg overflow-hidden">
             {/* Role Header */}
             <div className="bg-primary px-6 py-8 text-white">
-              <h1 className="text-3xl font-bold">HR Manager</h1>
-              <p className="mt-2 text-blue-100">Human Resources Manager, HR</p>
+              <h1 className="text-3xl font-bold">{t("title")}</h1>
+              <p className="mt-2 text-blue-100">{t("subtitle")}</p>
             </div>
 
             {/* Main Content */}
@@ -29,55 +31,15 @@ export default function HRManagerPage() {
               {/* Left Column - Main Description */}
               <div className="md:w-2/3 md:pr-8">
                 <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                  Role Overview
+                  {t("title1")}
                 </h2>
-                <p className="text-gray-600 mb-6">
-                  Are you passionate about people, talent development, and
-                  creating a thriving workplace culture? We’re looking for a
-                  proactive and experienced <strong>HR Manager</strong> to join
-                  our team and lead our internal recruitment, in-house training
-                  programs, and overall staff development strategy.
-                </p>
-                <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-                  Why This Role Matters
-                </h2>
-                <p className="text-gray-600 mb-6">
-                  As the HR Manager, you’ll play a pivotal role in shaping the
-                  future of our workforce. You’ll manage the entire recruitment
-                  lifecycle from identifying staffing needs to onboarding top
-                  talent. Your expertise will help nurture an environment where
-                  employees are motivated, well-trained, and continuously
-                  growing. Whether it’s designing tailored training sessions or
-                  developing career progression pathways, you’ll be at the heart
-                  of building a dynamic and engaged team.
-                </p>
-                <p className="text-gray-600 mb-6">
-                  In this role, you won’t just fill positions, you&apos;ll build
-                  careers. Your ability to connect with people, understand their
-                  strengths, and align them with the right opportunities will be
-                  key to our continued success. You’ll also serve as a trusted
-                  advisor to department heads, ensuring HR strategies align with
-                  our broader business goals.
-                </p>
+                <p className="text-gray-600 mb-6">{t("desc1")}</p>
 
-                <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-                  Strategic Partnership Building
-                </h2>
-                <p className="text-gray-600 mb-6">
-                  We’re searching for someone who brings both strategic vision
-                  and a hands-on approach. You should be comfortable navigating
-                  employee relations, updating HR policies, and leading
-                  workshops or training sessions. If you enjoy problem-solving,
-                  empowering others, and fostering a positive workplace culture,
-                  you’ll thrive here.
-                </p>
-                <p className="text-gray-600">
-                  This is more than just a job, it&apos;s a leadership
-                  opportunity to shape an organization from the inside out.
-                  You&apos;ll be surrounded by a supportive leadership team, a
-                  collaborative work environment, and the tools you need to
-                  drive meaningful change.
-                </p>
+                <p className="text-gray-600 mb-6">{t("desc2")}</p>
+                <p className="text-gray-600 mb-6">{t("desc3")}</p>
+
+                <p className="text-gray-600 mb-6">{t("desc4")}</p>
+                <p className="text-gray-600">{t("desc5")}</p>
               </div>
 
               {/* Right Column - Key Details */}
@@ -88,9 +50,6 @@ export default function HRManagerPage() {
                   </h3>
 
                   <div className="mb-6">
-                    <h4 className="font-bold text-primary">
-                      Ready to Optimize the Future of Recruitment?
-                    </h4>
                     <ul className="mt-2 space-y-2 text-gray-600">
                       <li className="flex items-start">
                         <svg
@@ -304,7 +263,7 @@ export default function HRManagerPage() {
                   <button
                     onClick={() => setShowPopup(true)}
                     className="w-full bg-primary-secondary text-primary hover:bg-primary hover:text-white font-bold py-3 px-4 rounded-lg transition duration-300">
-                    Apply. Shine. Succeed
+                    {t("btnApply")}
                   </button>
                 </div>
               </div>

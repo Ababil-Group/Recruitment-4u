@@ -552,6 +552,52 @@
         "title2": "Spremni ste za sljedeći korak u svojoj karijeri?",
         "desc4": "Pridruživanje ovoj agenciji znači preuzimanje uloge u kojoj vaše liderstvo zaista ima značaj. Imat ćete autonomiju za donošenje odluka na visokoj razini, uz podršku dinamičnog tima koji dijeli vašu viziju izvrsnosti. Ako vas motivira utjecaj, izazov i prilika da vodite s fronta, ovo je uloga za vas.",
         "btnApply": "Prijavite se. Zasjajte. Uspijte"
+      },
+      "teamdetails7": {
+        "title": "Administrator zapošljavanja / Uredski administrator",
+        "subtitle": "Strateška uloga u zapošljavanju talenata",
+        "title1": "Pregled uloge",
+        "desc1": "Jeste li organizirani, usredotočeni na detalje i strastveni u pomaganju drugima da pronađu prave prilike? Tražimo Administratora zapošljavanja / Uredskog administratora koji će se pridružiti našem brzom timu usredotočenom na klijente.",
+        "desc2": "U ovoj ulozi bit ćete okosnica naših operacija zapošljavanja, upravljajući ključnom dokumentacijom, podnošenjem zahtjeva za radne dozvole i osiguravanjem glatke komunikacije nakon prodaje s našim cijenjenim klijentima. Nećete se samo baviti papirologijom; izravno ćete doprinositi promjenama u životima ljudi kroz zapošljavanje i podržavati besprijekorno iskustvo koje obećavamo i poslodavcima i kandidatima.",
+        "desc3": "Od prvog dana igrat ćete ključnu ulogu u održavanju usklađenosti, osiguravanju pravovremenih podnošenja i održavanju svake datoteke u savršenom redu. Komunicirat ćete s klijentima, agencijama i državnim tijelima, ostavljajući svoj pečat kao osoba koja osigurava da nijedan detalj nije propušten. Vaša učinkovitost i pouzdanost izravno će utjecati na brzinu i uspjeh naših zapošljavanja.",
+        "desc4": "Ne tražimo samo nekoga tko može slijediti kontrolni popis. Želimo nekoga tko razmišlja dva koraka unaprijed, uoči potencijalna kašnjenja prije nego što se dese i donosi fokus na rješenja svakom izazovu. Ako ste tip osobe koja uživa u precrtavanju zadataka s popisa i napreduje u strukturiranom okruženju, svidjet će vam se ova uloga.",
+        "desc5": "Osim administrativnih zadataka, vaš doprinos imat će stvaran ljudski utjecaj, osiguravajući glatko zapošljavanje kandidata, informirane i zadovoljne poslodavce i procese koji rade kao sat. Bit ćete ključni dio tima vođenog misijom koji cijeni komunikaciju, izvrsnost i odgovornost.",
+        "desc6": "Ako ste spremni preuzeti odgovornost za značajnu ulogu, rasti u timu koji pruža podršku i ostvariti stvaran utjecaj u industriji zapošljavanja, ovo je vaša prilika.",
+        "title2": "Prijavite se sada i gradimo uspješne priče zajedno!",
+        "btnApply": "Prijavite se. Zablistajte. Uspijte"
+      },
+      "teamdetails8": {
+        "title": "Marketing menadžer",
+        "subtitle": "Poslovni razvoj",
+        "title1": "Pregled uloge",
+        "desc1": "Jeste li strateški mislilac s kreativnim darom i digitalnim inovacijama? Volite li pričati priče o brandovima i znate li kako kreirati kampanje koje potiču angažman i donose rezultate? Ako je odgovor „da“, imamo savršenu priliku za vas!",
+        "desc2": "Trenutno tražimo dinamičnog Marketing menadžera koji će biti u središtu rasta naše agencije. Ova uloga nije samo upravljanje društvenim mrežama; radi se o promicanju našeg branda, oblikovanju javne percepcije i vođenju utjecajnih marketinških inicijativa koje postavljaju naše usluge u prvi plan.",
+        "desc3": "Kao naš Marketing menadžer, razvijat ćete i provoditi integrirane marketinške kampanje, nadzirati stvaranje sadržaja na različitim platformama, surađivati s internim timovima i analizirati učinak kako biste poboljšali strategije. Vaš trud izravno će utjecati na to kako nas svijet vidi i, što je još važnije, kako naše usluge dopiru i odjekuju kod klijenata i kandidata.",
+        "desc4": "Ovo je vaša prilika da ostvarite smjele ideje u brzom, podržavajućem okruženju gdje se inovacije potiču, a rezultati slave. Ako ste motivirani profesionalac koji napreduje kroz izazove i kreativnost, rado ćemo vas čuti.",
+        "title2": "Spremni li ste optimizirati budućnost zapošljavanja?",
+        "btnApply": "Prijavite se. Zablistajte. Uspijte"
+      },
+      "teamdetails9": {
+        "title": "HR menadžer",
+        "subtitle": "Voditelj ljudskih resursa, HR",
+        "title1": "Pregled uloge",
+        "desc1": "Jeste li strastveni u vezi s ljudima, razvojem talenata i stvaranjem uspješne radne kulture? Tražimo proaktivnog i iskusnog HR menadžera koji će se pridružiti našem timu i voditi interne zapošljavanje, interne programe obuke i cjelokupnu strategiju razvoja osoblja.",
+        "desc2": "Kao HR menadžer igrat ćete ključnu ulogu u oblikovanju budućnosti naše radne snage. Upravljat ćete cijelim procesom zapošljavanja – od identificiranja potreba do uključivanja najboljih talenata. Vaša stručnost pomoći će u stvaranju okruženja u kojem su zaposlenici motivirani, dobro obučeni i kontinuirano se razvijaju. Bilo da se radi o dizajniranju prilagođenih obuka ili razvijanju karijernih putova, vi ćete biti u središtu izgradnje dinamičnog i angažiranog tima.",
+        "desc3": "U ovoj ulozi nećete samo popunjavati pozicije, već graditi karijere. Vaša sposobnost povezivanja s ljudima, razumijevanja njihovih snaga i usklađivanja s pravim prilikama bit će ključna za naš kontinuirani uspjeh. Također ćete biti pouzdani savjetnik voditelja odjela, osiguravajući da su HR strategije usklađene s našim širim poslovnim ciljevima.",
+        "desc4": "Tražimo nekoga tko ima i stratešku viziju i praktičan pristup. Trebali biste biti opušteni u rješavanju pitanja radnih odnosa, ažuriranju HR politika i vođenju radionica ili obuka. Ako uživate u rješavanju problema, osnaživanju drugih i podržavanju pozitivne radne kulture, ovdje ćete uspjeti.",
+        "desc5": "Ovo nije samo posao, već prilika za vodstvo koja će vam omogućiti da oblikujete organizaciju iznutra. Okružit će vas podržavajući tim lidera, suradničko radno okruženje i alati potrebni za ostvarivanje značajnih promjena.",
+        "btnApply": "Prijavite se. Zablistajte. Uspijte"
+      },
+      "teamdetails10": {
+        "title": "Službenik za podršku nakon prodaje",
+        "subtitle": "usluge nakon prodaje koje tvrtka pruža svojim klijentima",
+        "title1": "Pregled uloge",
+        "desc1": "U današnjem brzom svijetu zapošljavanja, uloga Službenika za podršku nakon prodaje ključna je u osiguravanju besprijekornog iskustva kako za radnike tako i za klijente. Kao vitalna veza između prodajnih i podršnih timova u izvornim zemljama, ova pozicija usredotočuje se na koordinaciju glatkog dolaska radnika i pružanje izvrsne kontinuirane podrške našim cijenjenim klijentima. Vaša predanost pomaže u izgradnji povjerenja i zadovoljstva, pretvarajući zapošljavanje u dugoročno partnerstvo, a ne samo transakciju.",
+        "desc2": "Ova uloga zahtijeva izvrsne komunikacijske vještine i kulturnu osjetljivost, budući da ćete biti u vezi s različitim timovima i pojedincima širom različitih zemalja. Upravljat ćete očekivanjima, rješavati izazove i pružati pravovremena ažuriranja kako biste osigurali da svi uključeni osjećaju da su informirani i podržani tijekom cijelog procesa. Vaši napori izravno će utjecati na pozitivno iskustvo radnika koji se nastanjuju u novim okruženjima i klijenata koji dobivaju talent koji im je potreban.",
+        "desc3": "Štoviše, Službenik za podršku nakon prodaje igra stratešku ulogu u identificiranju područja za poboljšanje unutar procesa nakon postavljanja. Prikupljanjem povratnih informacija i suradnjom s internim timovima, pomažete u oblikovanju politika i rješenja koja poboljšavaju učinkovitost i zadovoljstvo. Vaš uvid osigurava da se proces zapošljavanja ne završava postavljanjem, već nastavlja sa snažnim sustavom podrške koji potiče zadržavanje i rast.",
+        "desc4": "Ako ste usmjereni na detalje, proaktivni i strastveni u pogledu brige o klijentima, ovo je savršena prilika za vas da napredujete u dinamičnom okruženju. Bliskim radom s međufunkcionalnim timovima, igrat ćete ključnu ulogu u brzom rješavanju problema, poboljšanju integracije radnika i održavanju jakih odnosa s klijentima.",
+        "desc5": "Ovo nije samo posao, već prilika za vodstvo koja oblikuje organizaciju iznutra. Okružit će vas podrška vodstva, suradničko radno okruženje i alati koji su vam potrebni za postizanje značajnih promjena.",
+        "btnApply": "Prijavite se. Zablistajte. Uspijte"
       }
     },
 

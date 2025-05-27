@@ -2,8 +2,10 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import ApplicationPopup from "@/components/common/ApplicationPopup";
+import { useTranslations } from "next-intl";
 
 export default function MarketingManagerPage() {
+  const t = useTranslations("behindthebrand.teamsction.teamdetails8");
   const [showPopup, setShowPopup] = useState(false);
   return (
     <>
@@ -20,8 +22,8 @@ export default function MarketingManagerPage() {
           <div className="bg-white shadow-xl rounded-lg overflow-hidden">
             {/* Role Header */}
             <div className="bg-primary px-6 py-8 text-white">
-              <h1 className="text-3xl font-bold">Marketing Manager</h1>
-              <p className="mt-2 text-blue-100">Business Development</p>
+              <h1 className="text-3xl font-bold">{t("title")}</h1>
+              <p className="mt-2 text-blue-100">{t("subtitle")}</p>
             </div>
 
             {/* Main Content */}
@@ -29,45 +31,14 @@ export default function MarketingManagerPage() {
               {/* Left Column - Main Description */}
               <div className="md:w-2/3 md:pr-8">
                 <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                  Role Overview
+                  {t("title1")}
                 </h2>
-                <p className="text-gray-600 mb-6">
-                  Are you a strategic thinker with a flair for creativity and
-                  digital innovation? Do you have a passion for brand
-                  storytelling and know how to craft campaigns that spark
-                  engagement and drive results? If so, we have the perfect
-                  opportunity for you!
-                </p>
-                <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-                  Why This Role Matters
-                </h2>
-                <p className="text-gray-600 mb-6">
-                  We’re currently on the hunt for a dynamic{" "}
-                  <strong>Marketing Manager</strong> who will be at the heart of
-                  our agency’s growth. This role goes beyond just managing
-                  social media; it&apos;s about championing our brand, shaping
-                  public perception, and leading impactful marketing initiatives
-                  that position our services front and center.
-                </p>
-                <p className="text-gray-600 mb-6">
-                  As our Marketing Manager, you’ll develop and execute
-                  integrated marketing campaigns, oversee content creation
-                  across platforms, collaborate with internal teams, and analyze
-                  performance to refine strategies. Your efforts will directly
-                  influence how the world sees us and more importantly, how our
-                  services reach and resonate with clients and candidates alike.
-                </p>
+                <p className="text-gray-600 mb-6">{t("desc1")}</p>
 
-                <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-                  Strategic Partnership Building
-                </h2>
-                <p className="text-gray-600 mb-6">
-                  This is your chance to bring bold ideas to life in a
-                  fast-paced, supportive environment where innovation is
-                  encouraged, and results are celebrated. If you’re a motivated
-                  professional who thrives on challenge and creativity, we’d
-                  love to hear from you.
-                </p>
+                <p className="text-gray-600 mb-6">{t("desc2")}</p>
+                <p className="text-gray-600 mb-6">{t("desc3")}</p>
+
+                <p className="text-gray-600 mb-6">{t("desc4")}</p>
               </div>
 
               {/* Right Column - Key Details */}
@@ -79,7 +50,7 @@ export default function MarketingManagerPage() {
 
                   <div className="mb-6">
                     <h4 className="font-bold text-primary">
-                      Ready to Optimize the Future of Recruitment?
+                     {t("title2")}
                     </h4>
                     <ul className="mt-2 space-y-2 text-gray-600">
                       <li className="flex items-start">
@@ -294,7 +265,7 @@ export default function MarketingManagerPage() {
                   <button
                     onClick={() => setShowPopup(true)}
                     className="w-full bg-primary-secondary text-primary hover:bg-primary hover:text-white font-bold py-3 px-4 rounded-lg transition duration-300">
-                    Apply. Shine. Succeed
+                    {t("btnApply")}
                   </button>
                 </div>
               </div>

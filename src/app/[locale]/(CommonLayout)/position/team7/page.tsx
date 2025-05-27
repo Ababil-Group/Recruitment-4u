@@ -2,8 +2,10 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import ApplicationPopup from "@/components/common/ApplicationPopup";
+import { useTranslations } from "next-intl";
 
 export default function SeniorRecruitmentPage() {
+  const t = useTranslations("behindthebrand.teamsction.teamdetails7");
   const [showPopup, setShowPopup] = useState(false);
   return (
     <>
@@ -20,12 +22,8 @@ export default function SeniorRecruitmentPage() {
           <div className="bg-white shadow-xl rounded-lg overflow-hidden">
             {/* Role Header */}
             <div className="bg-primary px-6 py-8 text-white">
-              <h1 className="text-3xl font-bold">
-                Recruitment Administrator / Office Administrator
-              </h1>
-              <p className="mt-2 text-purple-100">
-                Strategic role in talent acquisition
-              </p>
+              <h1 className="text-3xl font-bold">{t("title")}</h1>
+              <p className="mt-2 text-purple-100">{t("subtitle")}</p>
             </div>
 
             {/* Main Content */}
@@ -33,54 +31,15 @@ export default function SeniorRecruitmentPage() {
               {/* Left Column - Main Description */}
               <div className="md:w-2/3 md:pr-8">
                 <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                  Role Overview
+                  {t("title1")}
                 </h2>
-                <p className="text-gray-600 mb-6">
-                  Are you organized, detail-oriented, and passionate about
-                  helping others find the right opportunities? We’re looking for
-                  a Recruitment Administrator / Office Administrator to join our
-                  fast-paced, client-focused team.
-                </p>
-                <p className="text-gray-600 mb-6">
-                  In this role, you&apos;ll be the backbone of our recruitment
-                  operations managing crucial documentation, submitting work
-                  permit applications, and ensuring smooth aftersales
-                  communication with our valued clients. You won’t just be
-                  handling paperwork; you’ll be contributing directly to
-                  life-changing job placements and supporting the seamless
-                  experience we promise both employers and candidates.
-                </p>
-                <p className="text-gray-600 mb-6">
-                  From day one, you’ll play a vital role in maintaining
-                  compliance, ensuring timely submissions, and keeping every
-                  file in perfect order. You&apos;ll liaise with clients,
-                  agencies, and government bodies making your mark as the go-to
-                  person who ensures no detail is overlooked. Your efficiency
-                  and reliability will directly influence the speed and success
-                  of our placements.
-                </p>
-                <p className="text-gray-600 mb-6">
-                  We’re not just looking for someone who can follow a checklist.
-                  We want someone who thinks two steps ahead, spots potential
-                  delays before they happen, and brings a solutions-focused
-                  mindset to every challenge. If you’re the kind of person who
-                  gets satisfaction from crossing off to-do lists and thrives in
-                  a structured environment, you’ll love this role.
-                </p>
+                <p className="text-gray-600 mb-6">{t("desc1")}</p>
+                <p className="text-gray-600 mb-6">{t("desc2")}</p>
+                <p className="text-gray-600 mb-6">{t("desc3")}</p>
+                <p className="text-gray-600 mb-6">{t("desc4")}</p>
 
-                <p className="text-gray-600 mb-6">
-                  Beyond administrative tasks, your contribution will have real
-                  human impact ensuring candidates get placed smoothly,
-                  employers remain informed and satisfied, and processes run
-                  like clockwork. You’ll be a critical part of a mission-driven
-                  team that values communication, excellence, and
-                  accountability.
-                </p>
-                <p className="text-gray-600">
-                  If you&apos;re ready to take ownership of a meaningful role,
-                  grow in a supportive team, and make a real impact in the
-                  recruitment industry this is your chance.
-                </p>
+                <p className="text-gray-600 mb-6">{t("desc5")}</p>
+                <p className="text-gray-600">{t("desc6")}</p>
               </div>
 
               {/* Right Column - Key Details */}
@@ -306,14 +265,14 @@ export default function SeniorRecruitmentPage() {
 
                   <div className="bg-gray-100  rounded-lg p-4 mb-6">
                     <h4 className="font-medium text-gray-700 mb-2">
-                      Apply now and let’s build success stories together!
+                      {t("title2")}
                     </h4>
                   </div>
 
                   <button
                     onClick={() => setShowPopup(true)}
                     className="w-full bg-primary-secondary text-primary hover:bg-primary hover:text-white font-bold py-3 px-4 rounded-lg transition duration-300">
-                    Apply. Shine. Succeed
+                    {t("btnApply")}
                   </button>
                 </div>
               </div>
