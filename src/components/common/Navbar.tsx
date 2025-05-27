@@ -212,7 +212,7 @@ const Navbar = () => {
                   <div className="flex justify-center mt-8 mb-6">
                     <div className="relative w-[120px] h-[40px]">
                       <Image
-                        src="logo/Recruitment4u.svg"
+                        src="/logo/Recruitment4u.svg"
                         alt="Logo"
                         fill
                         className="object-contain"
