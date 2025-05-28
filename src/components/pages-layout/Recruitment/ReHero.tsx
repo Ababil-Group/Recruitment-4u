@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ImageSlider from "@/components/common/ImageSlider";
-import img1 from "../../../../public/images/brand1.png";
+// import img1 from "../../../../public/images/brand1.png";
 import img2 from "../../../../public/images/brand2.png";
 import img3 from "../../../../public/images/brand3.png";
 import img4 from "../../../../public/images/brand4.png";
@@ -13,7 +13,7 @@ import img9 from "../../../../public/images/brand9.png";
 import img10 from "../../../../public/images/brand10.png";
 import { useTranslations } from "next-intl";
 
-const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
+const images = [img2, img3, img4, img5, img6, img7, img8, img9, img10];
 export default function Hero() {
   const t = useTranslations("recruitmentcard");
   return (
