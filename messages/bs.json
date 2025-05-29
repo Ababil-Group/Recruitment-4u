@@ -599,6 +599,14 @@
         "desc4": "Ako ste detaljno orijentirani, proaktivni i strastveni u pogledu brige o klijentima, ovo je savršena prilika za vas da napredujete u dinamičnom okruženju. Bliskim radom s međufunkcionalnim timovima, igrat ćete ključnu ulogu u brzom rješavanju problema, poboljšanju integracije radnika i održavanju jakih odnosa s klijentima.",
         "desc5": "Ovo nije samo posao, već prilika za vodstvo koja oblikuje organizaciju iznutra. Okružit će vas podrška liderstva, suradničko radno okruženje i alati koji su vam potrebni za postizanje značajnih promjena.",
         "btnApply": "Prijavite se. Zablistajte. Uspijte"
+      },
+      "applicationpopup": {
+        "title": "Spremni da impresionirate?",
+        "subtitle1": "Pošaljite svoj CV na",
+        "subtitle2": "sa željenom pozicijom u naslovu e-maila.",
+        "desc1": "Motivaciono pismo nam pomaže da vidimo šta vas izdvaja!",
+        "desc2": "Slanjem prijave pristajete na čuvanje vaših podataka do 24 mjeseca, u skladu sa zakonima EU o zaštiti podataka.",
+        "btn": "Razumijem!"
       }
     },
     "articlesection": {

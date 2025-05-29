@@ -600,6 +600,14 @@
         "desc4": "Ak ste orientovaní na detaily, proaktívni a vášniví v starostlivosti o klientov, je toto pre vás perfektná príležitosť na prosperovanie v dynamickom prostredí. Úzkou spoluprácou s medzifunkčnými tímami budete hrať kľúčovú úlohu pri rýchlom riešení problémov, zlepšovaní integrácie pracovníkov a udržiavaní silných vzťahov s klientmi.",
         "desc5": "Toto nie je len práca, je to príležitosť pre vedenie, ktorá formuje organizáciu zvnútra. Budete obklopení podporným vedúcim tímom, spolupracujúcim pracovným prostredím a nástrojmi, ktoré potrebujete na dosiahnutie zmysluplných zmien.",
         "btnApply": "Prihláste sa. Žiariť. Uspejte"
+      },
+      "applicationpopup": {
+        "title": "Pripravení zapôsobiť?",
+        "subtitle1": "Pošlite svoj životopis na e-mail",
+        "subtitle2": "s požadovanou pozíciou v predmete správy.",
+        "desc1": "Motivačný list nám pomáha pochopiť, čo vás robí výnimočnými!",
+        "desc2": "Odoslaním žiadosti súhlasíte s uchovávaním vašich údajov po dobu až 24 mesiacov v súlade s právnymi predpismi EÚ o ochrane údajov.",
+        "btn": "Rozumiem!"
       }
     },
 

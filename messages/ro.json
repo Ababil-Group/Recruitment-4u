@@ -598,6 +598,15 @@
         "desc4": "Dacă sunteți orientat pe detalii, proactiv și pasionat de îngrijirea clienților, aceasta este oportunitatea perfectă pentru a prospera într-un mediu dinamic. Prin colaborarea strânsă cu echipe multifuncționale, veți juca un rol esențial în rezolvarea rapidă a problemelor, îmbunătățirea integrării lucrătorilor și menținerea unor relații puternice cu clienții.",
         "desc5": "Aceasta nu este doar o slujbă, ci o oportunitate de leadership care modelează o organizație din interior. Veți fi înconjurat de o echipă de conducere de sprijin, un mediu de lucru colaborativ și instrumentele necesare pentru a determina schimbări semnificative.",
         "btnApply": "Aplicați. Străluciți. Reușiți"
+      },
+
+      "applicationpopup": {
+        "title": "Gata să impresionezi?",
+        "subtitle1": "Trimite CV-ul tău pe email la",
+        "subtitle2": "cu poziția dorită în subiect.",
+        "desc1": "O scrisoare de intenție ne ajută să vedem ce te face special!",
+        "desc2": "Prin aplicare, îți dai consimțământul ca datele tale să fie stocate timp de până la 24 de luni, în conformitate cu legile UE privind protecția datelor.",
+        "btn": "Am înțeles!"
       }
     },
 

@@ -597,8 +597,17 @@
         "desc4": "If you are detail-oriented, proactive, and passionate about client care, this is the perfect opportunity for you to thrive in a dynamic environment. By working closely with cross-functional teams, you’ll play an essential role in resolving issues quickly, enhancing worker integration, and maintaining strong client relationships.",
         "desc5": "This is more than just a job, it's a leadership opportunity to shape an organization from the inside out. You'll be surrounded by a supportive leadership team, a collaborative work environment, and the tools you need to drive meaningful change.",
         "btnApply": "Apply. Shine. Succeed"
+      },
+      "applicationpopup": {
+        "title": "Ready to impress?",
+        "subtitle1": "Email your CV to",
+        "subtitle2": "with your desired position in the subject line.",
+        "desc1": "A cover letter helps us see what makes you shine!",
+        "desc2": " By applying, you consent to us storing your details for up to 24 months, in line with EU data protection laws.",
+        "btn": "Got it!"
       }
     },
+
     "articlesection": {
       "title": "Recruitment reads. Refreshed. Refined.",
       "value1": {

@@ -601,6 +601,14 @@
         "desc4": "Če ste natančni, proaktivni in strastni glede skrbi za stranke, je to za vas odlična priložnost za uspeh v dinamičnem okolju. Z tesnim sodelovanjem z medfunkcijskimi ekipami boste igrali ključno vlogo pri hitrem reševanju težav, izboljšanju vključevanja delavcev in ohranjanju močnih odnosov s strankami.",
         "desc5": "To ni le služba, temveč priložnost za vodenje, ki oblikuje organizacijo od znotraj. Okoli vas bo podporno vodstveno ekipo, sodelovalno delovno okolje in orodja, ki jih potrebujete za poganjanje pomembnih sprememb.",
         "btnApply": "Prijavite se. Sijajte. Uspejte"
+      },
+      "applicationpopup": {
+        "title": "Pripravljeni narediti vtis?",
+        "subtitle1": "Pošljite svoj življenjepis na e-naslov",
+        "subtitle2": "z želenim delovnim mestom v zadevi.",
+        "desc1": "Motivacijsko pismo nam pomaga razumeti, zakaj ste posebni!",
+        "desc2": "Z oddajo prijave soglašate z našim shranjevanjem vaših podatkov do 24 mesecev v skladu z zakonodajo EU o varstvu podatkov.",
+        "btn": "Razumem!"
       }
     },
 
