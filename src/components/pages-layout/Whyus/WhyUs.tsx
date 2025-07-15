@@ -1,14 +1,18 @@
 "use client";
-import React from "react";
-import { motion } from "framer-motion";
+import React, { useEffect, useRef } from "react";
 import Image from "next/image";
-import whyUsBanner from "../../../../public/images/why-us-banner.jpg";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useTranslations } from "next-intl";
+import whyUsBanner from "../../../../public/images/why-us-banner.jpg";
 
-const navbarHeight = 80; // adjust to match your navbar
-
-const WhyUs = () => {
+export default function WhyUs() {
   const t = useTranslations("whyus");
+
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const leftContentRef = useRef<HTMLDivElement>(null);
+  const rightContentRef = useRef<HTMLDivElement>(null);
+
   const benefits = [
     {
       title: t("article1.title"),
@@ -27,69 +31,90 @@ const WhyUs = () => {
       description: t("article4.pera"),
     },
   ];
+
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    const mm = gsap.matchMedia();
+
+    mm.add("(min-width: 1024px)", () => {
+      // Animate image slightly upward before pin
+      if (leftContentRef.current) {
+        gsap.to(leftContentRef.current.querySelector(".whyus-image"), {
+          y: -60,
+          ease: "power2.out",
+          scrollTrigger: {
+            trigger: sectionRef.current,
+            start: "top bottom", // Starts before section fully appears
+            end: "top top", // Ends when section reaches top
+            scrub: true,
+          },
+        });
+      }
+
+      // Pin after animation completes
+      ScrollTrigger.create({
+        trigger: sectionRef.current,
+        start: "top top",
+        end: "bottom bottom",
+        pin: leftContentRef.current,
+        pinSpacing: true, // <-- changed
+      });
+
+      return () => {
+        ScrollTrigger.getAll().forEach((t) => t.kill());
+      };
+    });
+
+    return () => {
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+      mm.kill();
+    };
+  }, []);
+
   return (
-    <section className="bg-white">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
-        <div className="flex flex-col lg:flex-row gap-8">
-          {/* Sticky Image Column */}
-          <div className="w-full lg:w-1/2 h-fit">
-            <div
-              className="sticky"
-              style={{
-                top: `${navbarHeight}px`,
-                height: `calc(100vh - ${navbarHeight}px)`,
-              }}>
-              <motion.div
-                initial={{ opacity: 0, x: -50 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8 }}
-                viewport={{ once: true }}
-                className="relative w-full h-full rounded-lg overflow-hidden">
-                <Image
-                  src={whyUsBanner}
-                  alt="why-us-banner"
-                  fill
-                  className="object-cover"
-                  priority
-                />
-              </motion.div>
-            </div>
+    <section
+      ref={sectionRef}
+      className="relative overflow-x-hidden bg-white py-20 min-h-[100vh]">
+      <div className="container max-w-7xl mx-auto px-4 py-20 flex flex-col lg:flex-row">
+        {/* Fixed Left Image */}
+        <div
+          ref={leftContentRef}
+          className="lg:w-1/2 lg:pr-12 mb-12 lg:mb-0 overflow-hidden">
+          <div className="whyus-image relative w-full h-[calc(100vh-80px)] rounded-lg overflow-hidden">
+            <Image
+              src={whyUsBanner}
+              alt="why-us-banner"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
+        </div>
+
+        {/* Scrollable Right Content */}
+        <div ref={rightContentRef} className="lg:w-1/2 space-y-16">
+          <div className="whyus-item">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              {t("title")}
+            </h2>
+            <p className="text-lg text-gray-700">{t("description")}</p>
           </div>
 
-          {/* Scrollable Content Column */}
-          <div className="w-full lg:w-1/2 space-y-12">
-            <motion.div
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              viewport={{ once: true }}>
-              <h1 className="text-[52px] md:text-[52px] font-bold text-black mb-6">
-                {t("title")}
-              </h1>
-              <p className="text-lg text-black">{t("description")}</p>
-            </motion.div>
-
-            <div className="space-y-8">
-              {benefits.map((benefit, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                  viewport={{ once: true }}
-                  className="p-6 bg-gray-100 rounded-lg">
-                  <h2 className="text-[40px] md:text-[40px] font-semibold text-black mb-2">
-                    {index + 1}. {benefit.title}
-                  </h2>
-                  <p className="text-gray-700">{benefit.description}</p>
-                </motion.div>
-              ))}
+          {benefits.map((benefit, index) => (
+            <div key={index} className="whyus-item">
+              <div className="bg-gray-100 p-8 rounded-lg">
+                <h3 className="text-[32px] font-semibold text-black mb-4">
+                  {index + 1}. {benefit.title}
+                </h3>
+                <p className="text-gray-700 text-[15px] leading-relaxed">
+                  {benefit.description}
+                </p>
+              </div>
             </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
   );
-};
-
-export default WhyUs;
+}

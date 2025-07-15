@@ -64,7 +64,7 @@ body {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
     --primary-1: 0 0% 0%; /* #000000 */
-    --primary-2: 190,96%,69%; /* #63E3FC */
+    --primary-2: 190, 96%, 69%; /* #63E3FC */
   }
   .dark {
     --background: 240 10% 3.9%;
@@ -92,7 +92,7 @@ body {
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
     --primary-1: 0 0% 0%; /* #000000 */
-    --primary-2: 190,96%,69%; /* #63E3FC */
+    --primary-2: 190, 96%, 69%; /* #63E3FC */
   }
 }
 /* --primary-2: 171 100% 50%; #00FFD9 */
@@ -106,6 +106,15 @@ body {
   .sheet-content {
     @apply bg-background text-foreground;
   }
+}
+
+/* Optional — if left area has vertical scrollbar */
+.left-scroll-hidden::-webkit-scrollbar {
+  display: none;
+}
+.left-scroll-hidden {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 @layer base {
@@ -180,18 +189,18 @@ body {
     backface-visibility: hidden;
     transform: translateZ(0);
   }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
 
 .bg-hrconsultingcover {
   background-image: url("/images/hrconsultingcover.jpg"); /* Make sure it's in the public folder */
-}
-
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
-}
-.scrollbar-hide {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
 }
 
 @layer base {
