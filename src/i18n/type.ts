@@ -1,5 +1,14 @@
-
-export type AppLocale = "en" | "bg" | "bs" | "sr" | "hr" | "ro" | "sl" | "sk";
+export type AppLocale =
+  | "en"
+  | "bg"
+  | "bs"
+  | "sr"
+  | "hr"
+  | "ro"
+  | "sl"
+  | "sk"
+  | "el"
+  | "la";
 
 export type CountryCode = keyof typeof countryToLocale;
 
@@ -15,4 +24,6 @@ export const countryToLocale = {
   GB: "en",
   DE: "en",
   FR: "en",
+  EL: "el", // Greece
+  VA: "la", // Vatican City (Latin)
 } as const satisfies Record<string, AppLocale>;

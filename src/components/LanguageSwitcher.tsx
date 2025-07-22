@@ -20,6 +20,8 @@ const languages = [
   { code: "ro", name: "Română", flag: "https://flagcdn.com/w20/ro.png" },
   { code: "sl", name: "Slovenščina", flag: "https://flagcdn.com/w20/si.png" },
   { code: "sk", name: "Slovenčina", flag: "https://flagcdn.com/w20/sk.png" },
+  { code: "el", name: "Ελληνικά", flag: "https://flagcdn.com/w20/gr.png" }, // Greek
+  { code: "la", name: "Latina", flag: "https://flagcdn.com/w20/va.png" }, // Latin (Vatican flag as a close symbol)
 ] as const;
 
 const LanguageSwitcher = () => {

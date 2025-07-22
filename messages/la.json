@@ -1,0 +1,494 @@
+{
+  "nav": {
+    "home": "Domus",
+    "forCompanies": "Pro Societatibus",
+    "solutions": "Solutiones",
+    "whyUs": "Cur Nos",
+    "solutionsDropdown": {
+      "immigrationLaws": "Leges Immigrationis",
+      "seasonalWorkers": "Operarii Temporarii",
+      "constructionWorkers": "Operarii Constructionis",
+      "medicalWorkers": "Operarii Medici"
+    },
+    "behindthebrand": "Post Notam",
+    "contact": "Contactus"
+  },
+  "hero": {
+    "title": "Connectimus operarios idoneos cum datoriis idoneis.",
+    "subtitle": "Inveni perfectam convenientiam pro negotiis tuis aut propositis vitae nostra per tabulam completam.",
+    "buttonText1": "Quaerere Operarios Peritos",
+    "buttonText2": "Quaerere Officium"
+  },
+  "cardhome1": {
+    "title": "Conductio",
+    "description": "Praebemus plenam seriem officiorum ad conducendum et HR, ad necessitates negotiatorum aptatam."
+  },
+  "cardhome2": {
+    "title": "Consilium HR",
+    "description": "Adiuvamus societates ut clarum notam efficiant quae in foro emineat et indicem conductionis augeat."
+  },
+  "cardhome3": {
+    "title": "Externus Staff",
+    "description": "Externam staff praebemus societatibus celeriter crescentibus ad auxilium augendi turmas et efficiendi maiorem fructum."
+  },
+  "homepartner": {
+    "partner": "Socius tuus in conductione talentorum",
+    "partnerdesc": "In selectione et conductione operariorum exterorum ex variis regionibus speciales sumus, inter Asiam, Sinum Persicum, Americam Septentrionalem et Meridionalem, atque Africam. Ex officiis nostris centralibus in Dubai, operarios collocamus in regionibus ut Britannia, Croātia, Malta, Bulgaria, Polonia, Romania, et aliis nationibus Europaeis.",
+    "state1": {
+      "no1": "1",
+      "statetitle": "3000 OPERARII CONDUCTI",
+      "statedec": "In praeteritis duobus annis, plus quam 5000 cives ex tertiis nationibus in Europam adduximus. Cum plus quam 10% mercatus totius operariorum externorum, inter praecipuas agimus societates quae mediationem conductionis curant."
+    },
+    "state2": {
+      "no2": "2",
+      "statetitle": "450+ CLIENTES CONTENTI",
+      "statedec": "Gloriamur cooperando cum multis magnis societatibus necnon mediis et parvis negotiis quae magnam necessitatem operarum habuerunt in praesenti incremento oeconomico."
+    },
+    "state3": {
+      "no3": "3",
+      "statetitle": "15 PERITI RERUM HUMANARUM",
+      "statedec": "Turma nostra ex 15 peritis semper prompta est ad opem ferendam dantibus operam, summam qualitatem in omnibus rebus humanarum facultatum praebens."
+    }
+  },
+  "agencysection": {
+    "title": "Modernae Methodi ad Redintegrandam Veterem Claritatem Negotiationis Agentialis",
+    "accordionItems1": {
+      "accordiontitle": "Inveni optimos candidatos.",
+      "contentdec": "Recruitment4u iuvat societates impedimenta geographica vincere—ut optimum hominem in toto orbe conducas, non solum optimum prope te."
+    },
+    "accordionItems2": {
+      "accordiontitle": "Automatiza negotii processus.",
+      "contentdec": "Processus negotiationis automatizare nitimur, ut omnia simplicentur: a collectione applicationum, selectione, colloquiis, documentorum verificatione usque ad contractuum creationem et licentiarum emissionem. Omnes nostri processus plene automatizati sunt."
+    },
+    "accordionItems3": {
+      "accordiontitle": "Innovare processus electionis.",
+      "contentdec": "In conductione operariorum exterorum, considerandae sunt conatus amborum partium: operarii et dantis operam. Ut haec conatus non frustra sit, processum electionis multiphaseum elaboravimus quo candidati pertransire debent ad criteria altissima adimplenda in regionibus sicut Britannia, Croātia, Malta, Bulgaria, Polonia, Romania, et aliis Europaeis nationibus."
+    }
+  },
+  "findsolutions": {
+    "title": "Inveni",
+    "description": "Complures modos negotii evolvimus, qui plene necessitatibus tuis aptantur.",
+    "solution1": {
+      "solutiontitle": "Locatio Operariorum",
+      "solutiondesc": "Praebemus tibi operarios plenae occupationis, a nobis administratos. Sic in tuis propositis negotiis te intendere potes sine cura de rebus administrativis aut iuridicis."
+    },
+    "solution2": {
+      "solutiontitle": "Executio Operum",
+      "solutiondesc": "Prope perfecta solutio in casibus urgentibus, ubi nostri optimi operarii intra paucos dies tibi inserviunt. Celer systema nostram perturbationem minimam praestat, qualitatem tamen conservatam."
+    },
+    "solution3": {
+      "solutiontitle": "Mediatio in Officio",
+      "solutiondesc": "Tu es datori operis, nos autem curamus de delectu candidatorum idoneorum. Nostri processus plenus probationis efficit ut rectos operarios accipias, dum nos curamus omnes difficultates conductionis et legum."
+    },
+    "solution4": {
+      "solutiontitle": "Tempus Occupatio",
+      "solutiondesc": "Invenimus, deligimus et conducimus operarios quos in negotio tuo collocamus. Solutio nostra temporaria flexibilitatem praebet, simul altam qualitatem ac fidem in administratione manuum operarum servans."
+    },
+    "solution5": {
+      "solutiontitle": "Ex Locatione ad Mediationem",
+      "solutiondesc": "Vitare periculum et temporis dispendium potes si nostra societas fit datori operis in probationis tempore. Sic te in negotiis tuis intendere potes sine anxietate de rebus administrativis et legibus."
+    }
+  },
+  "brand": {
+    "title": "Sodalicia Fiducia Progressum Nostrum Alunt",
+    "subtitle": "Habesne Quaestiones?",
+    "brandbutton": "Solvamus Una."
+  },
+  "recruitmentcenter": {
+    "title": "Centra Conductionis",
+    "description": "Electio nationis pendet ex munere desiderato, condicionibus laboris, et voluntate dantis operam.",
+    "center1": {
+      "country": "India",
+      "centerdesc": "India est regio cultu divite et historia insigni, inter alias causas notissima princeps orbis in metallorum productione. Operarii Indici praestantia in hoc campo, necnon in informatica et ingeniaria, noti sunt."
+    },
+    "center2": {
+      "country": "Philippinae",
+      "centerdesc": "Philippinae sunt insularum natio in Asia Australi-Orientali, notae pro pulcherrimis litoribus et exotico turismo. Operarii Philippinenses laudantur pro studio et professionalitate in campo tourismi et medicinae."
+    },
+    "center3": {
+      "country": "Nepalia",
+      "centerdesc": "Nepalia notissima est montibus altis et amoenis locis. Cum operarii Nepali adsueti sint arduis condicionibus altitudinis, sunt idonei ad labores in agricultura, industria, vel horreis."
+    },
+    "center4": {
+      "country": "UAE et Qatar",
+      "centerdesc": "UAE et Qatar sunt nationes progressae ubi plus quam 90% laboris externi est, praesertim ex Nepalia, India, Bangladesh aut Philippinis. Haec loca funguntur velut filtra per quae labor qualificatus peritia, scientia, et artes modernas acquirit."
+    }
+  },
+  "process": {
+    "title": "Processus Conductionis Operariorum Peregrinorum",
+    "subtitle": "Methodus universalis ad conducendos operarios exterae nationis",
+    "processsteps1": {
+      "title": "Aestimatio Propositi",
+      "duration": "Pauci dies",
+      "processdesc": "Per mutuam communicationem necessitatem tuam accurate determinamus et consilium aestimamus. Postquam haec aestimatio confecta est, cooperationem incipimus per exsecutionem ordinis et subscriptionem contractus."
+    },
+    "processsteps2": {
+      "title": "Conductio et Electio",
+      "duration": "usque ad 30 dies",
+      "processdesc": "Post pactum contractus, initium capimus procedendi ad conductionem et electionem. Hoc includit collectionem applicationum, processus selectionis, colloquia cum candidatis, documentorum verificationem, ac probationes in patria operarii."
+    },
+    "processsteps3": {
+      "title": "Permissorum Concessio",
+      "duration": "usque ad 90 dies",
+      "processdesc": "Cum tuae necessitates et idonei operarii clare definiti sint, incipimus processus permissionum ad operandum in Britannia, Croātia, Malta, Bulgaria, Polonia, Romania, et aliis Europae regionibus. Hic processus fit cum cooperatione auctoritatis competentis, sicut Officium Conductionis Croaticum (HZZ), Ministerium Internum Britannicum, Jobsplus Maltae, Agentura Conductionis Bulgarica, Officium Polonicum pro Alienigenis, Inspectio Generalis Migrationis Romaniae, nec non Ministerium Internorum, Ministerium Rerum Externarum et aliae institutiones in patria operarii."
+    },
+    "processsteps4": {
+      "title": "Adventus Operariorum",
+      "duration": "intra 15 dies",
+      "processdesc": "Ultimum gradum complectitur parationem volatus, habitationis, residentiae registrationem, schedulas residentiae, apertionem rationum argentariae, necnon medicas inspectiones et instructionem de tutela laboris."
+    }
+  },
+  "contactform": {
+    "title": "Consule. Para. Vince.",
+    "companyname": "Nomen Societatis",
+    "name&surname": "Nomen et Cognomen",
+    "email": "Email",
+    "phone": "Codex Nationis cum Telephono",
+    "country": "Nomen Terrae",
+    "message": "Nuntius Tuus",
+    "agre": "Velim contactum a procuratore Recruitment 4U ex mea natione",
+    "send": "Mitte"
+  },
+  "forcompanies": {
+    "title": "Capitale collocamus ut in omni industria cognitionem penitus capiamus.",
+    "desc": "Cum experientia in relectione per varias industrias, operarios pro omnibus professionibus quas requiris inveniendi sumus.",
+    "industrie1": {
+      "title": "INDUSTRIA METALLORUM ET CAMPUS TECHNICUS",
+      "content1": "Ferrarii, Metalfactores, Tubulatores, Fusi metalli, CNC moderatores et programmatores, Mechanici et pictoribus autocinetorum, Operarii arenarum, Autoelectrici, Electrici et installatores, Electrici industriales, Lignarii, Thermarum et aeris condiciones installatores, Currus gubernatores fere omnium generum, Operarii traditionis, Programmatarii, Et multa alia."
+    },
+    "industrie2": {
+      "title": "AEDIFICATIO",
+      "content2": "Moderatores machinarum aedificationis, Operarii turrium, Structores, Agricolæ, Laterarii, Tectores, Operarii concreti, Laterculatores, Pictoribus, Insulatores et aquarum repulsores, Operarii frontium."
+    },
+    "industrie3": {
+      "title": "HOSPITALITAS ET MERCATUS",
+      "content3": "Coci (inter eos nationalium coquorum), Baristae et ministri, Cubiculariae, Purgatores, Receptores, Pasticerii, Pistores, Curatores, Subministrantes, Operarii mercatus, Operarii horrei, Tractores onerariorum."
+    },
+    "industrie4": {
+      "title": "FABRICA ET LIGNARIA INDUSTRIA",
+      "content4": "Operarii in industria carnium et ciborum, Operarii textorum (sutores), Operarii serrarum, Operarii supellectilis et ceramicorum, Et multa alia."
+    },
+    "ourservice": {
+      "title": "Nostrae Officia",
+      "desc": "Singulis campis aliter appropinquamus, systemata evolventes pro delectu et collocatione operariorum peregrinorum secundum necessitatem cuiusque ramorum."
+    },
+    "service1": {
+      "title": "RECEPTIO TALENTORUM IT",
+      "desc": "Mercatus domesticus non sufficit ad incrementum IT. Ergo multi conductores alienos operarios conducunt. Contacta nos pro: Officiis remotis, Conductione programmatorum, Mediatione laboris."
+    },
+    "service2": {
+      "title": "CONSUITURA ET OPUS METALLICUM",
+      "desc": "Recruitment4u sola est agentura in UK quae probationes in patriis per se administrat et exitus cum sociis communicat. Omnes processus consuiturae et certificationes operariorum tegimus."
+    },
+    "service3": {
+      "title": "Recruitment4u AGRO",
+      "desc": "Recruitment4u Agro est consilium ad necessitates primae industriae pertinentes. Agricolae, pecuarii et cibus industriae operarii conducuntur."
+    },
+    "service4": {
+      "title": "PROGRAMMA HOSPITALITATIS",
+      "desc": "Specialiter ordinatum systema pro delectu operariorum in hospitalitate et turismis. Hospites cum operariis coniungimus per societates varias."
+    },
+    "service5": {
+      "title": "Recruitment4u CONSTRUCT",
+      "desc": "Aedificatio maximum opus externorum requirit, sed difficultatem habet in inquisitione. Projectum ad operarios idoneos inveniendos."
+    },
+    "service6": {
+      "title": "PRAECEPTIO CUSTOMIZATA",
+      "desc": "Petitionem habes? Contacta nos et repraesentans tuus processum selectionis incipiet."
+    },
+    "faq": {
+      "title": "Quaestiones Frequentes",
+      "faq1": {
+        "qus": "Ex quibus nationibus conducitis operarios?",
+        "ans": "Recruitment4u specialiter in operariis ex Nepal, Philippinis, et India introducendis operatur."
+      },
+      "faq2": {
+        "qus": "Quamdiu durat processus?",
+        "ans": "Inter 90 et 120 dies, secundum officium, centrum delectus, et locum laboris licentiae."
+      },
+      "faq3": {
+        "qus": "Debeo accommodationem providere?",
+        "ans": "Sic, alieni operarii habitationem opus habent. Agentura auxilium praebet cum consensu conductoris."
+      },
+      "faq4": {
+        "qus": "Quid proprium est de operariis externis?",
+        "ans": "Opus habent permissu habitationis et laboris. Integratio includit habitationem, registrationem, chartas biometricas, et rationes argentarias."
+      },
+      "faq5": {
+        "qus": "Quomodo pensionis et sanitatis securitas paratur?",
+        "ans": "Post registrationem, numerus Nationalis emittitur ad pensionem et curam salutis."
+      },
+      "faq6": {
+        "qus": "Quae sunt condiciones ad conductionem?",
+        "ans": "Societas sex menses antea operari debet, saltem unum civem Britannicum conducere, et debita publica non habere."
+      },
+      "faq7": {
+        "qus": "Quam linguam loquuntur operarii?",
+        "ans": "Loquela Anglica rudis aut provecta est, pro officio et optatis conductoris."
+      }
+    }
+  },
+  "solutionsnavigating": {
+    "title": "Navigatio legum immigrationis",
+    "description": "Navigare per leges immigrationis in Europa potest esse difficile propter diversas leges quae occupationem operariorum externorum regunt. Hic intercedimus ut processum totum simplicemus et acceleremus.",
+    "navigatearticale": {
+      "title": "Difficultates cum Legibus Immigrationis Europaeis",
+      "boldtext": "Una ex principalibus difficultatibus quas societates experiuntur in navigatione legum immigrationis Europae est tractatio cum systemate legali multiplici et saepe diviso, quod destinatur ad tuendos mercatus laboris nationales dum simul necessitates oeconomicas regionis latius spectat.",
+      "peragraphs": [
+        "Legibus immigrationis in Europa obtemperare potest esse valde laboriosum pro societatibus quae operarios externos conducere volunt. Conductores debent sequi diversas leges nationales et normas UE, sicut requisita ad licentias laboris et residentiae, officia tributaria et socialia, et conditiones ut ostendant se iam employasse civem localem vel UE per tempus definitum. Processus saepe implicat probationes mercatus laboris, conformitatem documentorum, et cooperationem cum variis magistratibus.",
+        "Agentura specializata in occupatione operariorum externorum potest esse socius pretiosus in hoc processu. Tales agenturae praebent peritiam in legibus, auxilium in applicationibus licentiarum, consilium de documentis necessariis, et curam plenae conformitatis cum legibus laboris nationalibus et Europaeis.",
+        "Si societas tua has difficultates nunc experitur, nostra administratio laboris est hic ut te sustineat per solutones speciales et peritorum auxilium."
+      ]
+    },
+    "navigatedetails": {
+      "title": "Administratio Occupationis",
+      "desc": "Servitium administrationis occupationis pro operariis externis includit tractationem negotiorum administrativorum quae pertinent ad occupationem civium externorum a societatibus quae in Europa operantur. Haec administratio ordinatur ad auxilium societatibus in navigatione legum immigrationis et laboris Europae, ac simpliciorem reddendam tractationem administrativam.",
+      "btn": "Legere Plura"
+    },
+    "content1": {
+      "title": "Accessus ad Peritos",
+      "pera": "Accede ad basin peritorum probatorum paratorum ad tuas necessitates negotii explendas."
+    },
+    "content2": {
+      "title": "Flexibiles Solutiones Operariorum",
+      "pera": "Momentum adaptabilitatis agnoscimus et praebemus solutiones aptas ad tua requisita operationis."
+    },
+    "content3": {
+      "title": "Celer & Sine Molestiis Conductor",
+      "pera": "Accelera processum conductionis nostra ratione expedita in quaerendo, instruendo et administrando talentum."
+    }
+  },
+  "solutionsseasonal": {
+    "title": "Conductio operariorum temporariorum",
+    "description": "Sive ministrum, cauponem, coquum, adiutorem culinae, purgatorem, sive hospitium accipientem quaeris — hic sumus ad te adiuvandum ut idoneum talentum ad omnem munus invenias.",
+    "seasonalarticle": {
+      "title": "Difficultates in inveniendis operariis temporariis",
+      "boldtext": "Difficultas inveniendi operarios temporarios in Croatia, praesertim in industriis ut tourismus, cauponae, agricultura et aedificatio, multipliciter afficitur et saepe magnam difficultatem conductoriis repraesentat.",
+      "peragraphs": [
+        "Industria hospitalitatis imprimis hodie magis fluctuationibus temporariis afficitur quam fortasse ullus alius campus. Plerique nostri clientes laborant ad accurate praedicendum opus suum pro operariis externis tempore altissimae occupationis, praesertim in mensibus initii anni.",
+        "Consequenter multi ludi, deversoria et popinae decisiones conductionis in extremis momentis capiunt, quod ducet ad subitam auctam postulationem operariorum. Infeliciter, mercatus saepe non potest statim ad hanc postulationem respondere. Ex momento quo pactum cum agentura conductionis signatur, uno ad duos menses requiri potest antequam operarii externi ad loca operis perveniant. Hoc tempus includit candidatorum selectionem, qualitatum aestimationem, colloquia, documentorum processum, et alia gradus essentiales.",
+        "Ad hanc quaestionem solvenda, solutionem fidelem praebemus quae pericula morae et temporum longorum minuit: externalizatio laboris."
+      ]
+    },
+    "seasonaldetails": {
+      "title": "Assignatio operariorum",
+      "desc": "Praebemus celerem et facilem conductionem operariorum pro inceptis temporariis vel officiis ad tempus determinatum. Potest accessus dari ad exsistens corpus operariorum per Europam, quod processum conductionis multum accelerat. Nos curamus pacta assignationis perficienda et plenam responsabilitatem pro solutione mercedum et officiis administrativis gerimus. Haec ministerium solutionem practicam praebet pro necessitatibus urgentibus laboris, flexibilem et efficacem operariorum administrationem assecurans.",
+      "btn": "Legere Plura"
+    },
+    "content1": {
+      "title": "Accessus ad Peritos",
+      "pera": "Accede ad corpus qualificatorum, probatorum peritorum paratorum ad necessitates tuae negotiationis explendas."
+    },
+    "content2": {
+      "title": "Flexibiles Solutiones Operariorum",
+      "pera": "Momentum adaptabilitatis agnoscimus et praebemus solutiones administrationis laboris aptas ad tua requisita operationis."
+    },
+    "content3": {
+      "title": "Celer & Sine Molestiis Conductor",
+      "pera": "Accelera processum conductionis nostra ratione expedita in quaerendo, instruendo et administrando talentum."
+    }
+  },
+  "solutionconstruction": {
+    "title": "Απασχόληση εργατών κατασκευής",
+    "description": "Προσφέρουμε μια ευρεία γκάμα εξειδικευμένων επαγγελματιών, όπως οπλουργούς, ξυλουργούς, λιθοδόμους, συναρμοστές μεταλλικών κατασκευών, τεχνίτες σκεπής και χειριστές μηχανημάτων κατασκευής.",
+    "constructionarticle": {
+      "title": "Προκλήσεις στην εύρεση εργατών κατασκευής",
+      "boldtext": "Το τρέχον πρόβλημα στη βιομηχανία κατασκευών σχετικά με την έλλειψη εργατών προκύπτει από σημαντική έλλειψη εργατικού δυναμικού. Αυτή η έλλειψη εμποδίζει την παραγωγικότητα, επεκτείνει τους χρόνους ολοκλήρωσης των έργων και δημιουργεί προκλήσεις στην κάλυψη της ζήτησης για εξειδικευμένους εργάτες κατασκευής.",
+      "peragraphs": [
+        "Η ευρωπαϊκή αγορά βιώνει παρόμοια ανάγκη για εργάτες κατασκευής, όπως φαίνεται σε πολυάριθμες αγγελίες για διαθέσιμες θέσεις εργασίας στον τομέα αυτό. Οι εταιρείες σε όλη την ήπειρο συχνά αντιμετωπίζουν δυσκολίες στην εύρεση αφοσιωμένων και εξειδικευμένων εργατών για να καλύψουν αυτή τη ζήτηση, κάτι που μπορεί να οδηγήσει σε προβλήματα πρόσληψης και πιθανές καθυστερήσεις στην ολοκλήρωση των έργων.",
+        "Ως πρακτορείο πρόσληψης ξένων εργαζομένων, προσφέρουμε πολλούς τρόπους βοήθειας. Αρχικά, αξιοποιούμε το εκτενές μας δίκτυο εξειδικευμένων ξένων εργαζομένων που επιθυμούν να εργαστούν σε όλη την Ευρώπη. Συνδέοντας αυτούς τους εργαζόμενους με εταιρείες που έχουν ανάγκη, γεφυρώνουμε το χάσμα μεταξύ προσφοράς και ζήτησης εργασίας. Επιπλέον, παρέχουμε υποστήριξη στην πλοήγηση των νομικών απαιτήσεων για την πρόσληψη ξένων εργαζομένων, εξασφαλίζοντας μια ομαλή και νόμιμη διαδικασία πρόσληψης για εταιρείες και εργαζομένους.",
+        "Η λύση μας για την αντιμετώπιση αυτών των προκλήσεων είναι η διαμεσολάβηση στην απασχόληση."
+      ]
+    },
+    "constructiondetails": {
+      "title": "Διαμεσολάβηση στην απασχόληση",
+      "desc": "Προσφέροντας υπηρεσία διαμεσολάβησης στην απασχόληση, βοηθάμε τις εταιρείες να έχουν πρόσβαση σε ένα pool εξειδικευμένων εργατών, αντιμετωπίζοντας τις προκλήσεις που αντιμετωπίζετε στην εύρεση κατάλληλου εργατικού δυναμικού. Μέσω της διευκόλυνσης της απασχόλησης ξένων εργαζομένων και της παροχής ολοκληρωμένων υπηρεσιών απασχόλησης, παίζουμε καθοριστικό ρόλο στην κάλυψη των αναγκών εργασίας στον τομέα των κατασκευών σε όλη την Ευρώπη.",
+      "btn": "Μάθετε Περισσότερα"
+    },
+    "content1": {
+      "title": "Πρόσβαση σε Καταρτισμένο Προσωπικό",
+      "pera": "Αποκτήστε πρόσβαση σε μια ομάδα καταρτισμένων, επαληθευμένων επαγγελματιών έτοιμων να καλύψουν τις ανάγκες της επιχείρησής σας."
+    },
+    "content2": {
+      "title": "Ευέλικτες Λύσεις Ανθρώπινου Δυναμικού",
+      "pera": "Αναγνωρίζουμε τη σημασία της προσαρμοστικότητας και προσφέρουμε λύσεις διαχείρισης ανθρώπινου δυναμικού προσαρμοσμένες στις λειτουργικές σας ανάγκες."
+    },
+    "content3": {
+      "title": "Γρήγορη & Απλή Πρόσληψη",
+      "pera": "Επιταχύνετε τη διαδικασία πρόσληψης με την απλοποιημένη προσέγγισή μας στην εύρεση, ένταξη και διαχείριση ταλέντου."
+    }
+  },
+  "solutionmedical": {
+    "title": "Conductio operariorum medicorum",
+    "description": "Medici, nutrices, technici medici, pharmacopolae, et alii professionales sanitatis – hic sumus ut te adiuvemus in conductione pro omnibus muneribus medicis.",
+    "medicalarticle": {
+      "title": "Difficultates in inveniendis operariis medicis",
+      "boldtext": "Difficultas in inveniendis peritis medicis, praesertim in campis specialibus ut curatio sanitaria, est quaestio complexa quam multi instituta sanitatis per Europam experiuntur.",
+      "peragraphs": [
+        "In Europa, sector curatio sanitatis similes difficultates ut plures regiones habet in inveniendis et retinendis peritis medicis. Postulatio pro peritis sanitatis, inter medicos, nutricibus, pharmacopolis, et technicis, continue crescit ob factores ut senescentem populum, progressus in curationibus medicis, et necessitates sanitatis mutantes.",
+        "Postulatio pro professionalibus medicis crescit, impulsu factorum ut incrementum populationis, demographia senescentis, et progressus in technologia medica.",
+        "Systema sanitatis Europae nititur coniunctione institutionum publicarum et privatarum, unaquaeque cum singulis necessitatibus staff. Dum exercitus medicus continentis est altissime peritus, saepe carentiae in certis specialitatibus vel regionibus sunt, ducens ad hiatus in cura patientium et onera crescentia in staff exsistente.",
+        "Instituta sanitatis etiam difficultates habent in accurate praedicendo necessitatibus staff, quod resultare potest in carentiis temporibus criticis. Haec incerta condicio potest perturbare curam patientium et imponere onera addita in staff exsistente."
+      ]
+    },
+    "medicaldetails": {
+      "title": "Media conductio",
+      "desc": "Instituta sanitatis per Europam saepe laborant in accurate praedicendo necessitatibus staff, resultantes in carentiis temporibus criticis. Haec incerta condicio potest perturbare curam patientium et imponere onera addita in staff exsistente.",
+      "btn": "Legere Plura"
+    },
+    "content1": {
+      "title": "Accessus ad Peritos",
+      "pera": "Accede ad corpus qualificatorum, probatorum peritorum paratorum ad necessitates tuae negotiationis explendas."
+    },
+    "content2": {
+      "title": "Flexibiles Solutiones Operariorum",
+      "pera": "Momentum adaptabilitatis agnoscimus et praebemus solutiones administrationis laboris aptas ad tua requisita operationis."
+    },
+    "content3": {
+      "title": "Celer & Sine Molestiis Conductor",
+      "pera": "Accelera processum conductionis nostra ratione expedita in quaerendo, instruendo et administrando talentum."
+    }
+  },
+  "whyus": {
+    "title": "Cur Nos",
+    "description": "Nos sumus agentura conductionis quae specialiter societates cum idoneis talentis connectit.",
+    "article1": {
+      "title": "Via simplicior et celerior ad candidatos qualificatos obtinendos",
+      "pera": "Clientibus plures optiones praebemus ad conductos (exempli gratia, conductio temporaria), eis praebentes modum celerem et flexibilem conductionis."
+    },
+    "article2": {
+      "title": "Via ad tempus et pecuniam servandam",
+      "pera": "Recruitment4U omnes munera administrativa, legalia et oeconomica assumit, tempus tibi et conductis tuis servans."
+    },
+    "article3": {
+      "title": "Amplissima candidate database",
+      "pera": "Celeriter possumus tuas necessitates conductorum explere propter amplam varietatem candidatorum cum diversis profilis et artibus."
+    },
+    "article4": {
+      "title": "Experientia et processus constituti",
+      "pera": "Ex annis operis agenturae, processus bene definitos habemus, experientiam in conductione localium et externorum operariorum, officia per totam Croatiam, et notitiam per regionem."
+    }
+  },
+  "behindthebrand": {
+    "title": "Globalis technologiae conductio et staffing pro celeriter crescendis societatibus",
+    "description": "Clientibus nostris exclusivas conductorum officia praebemus, quae negotiis crescere et florere adiuvant",
+    "btn": " Convoca nunc",
+    "content1": {
+      "title": "Missio Nostra",
+      "pera": "Coniungere magnas societates cum ingenio etiam maiore."
+    },
+    "content2": {
+      "title": "Visio Nostra",
+      "pera": "Esse socium principalem quem clientes et candidati semper eligunt ad connectendum."
+    },
+    "content3": {
+      "title": "Approach Nostra",
+      "pera1": "Sumus turma ad metas orientata, ubi cultura prae formalibus processibus valet.",
+      "pera2": "Sumus turma ad metas orientata, ubi cultura prae formalibus processibus valet.",
+      "pera3": "Ambitum laboris condidimus qui incrementum et veram cooperationem fovet. Nihil est tam satisfaciens quam discere et successus simul celebrare!"
+    },
+    "teamsction": {
+      "title": "Parati ascendere? Nunc nobis adhaere",
+      "team1": {
+        "name": "Director Venditionum",
+        "description": "Ducit turmam venditionum, directe tractat venditiones, close cum ductu conductionis collaborat ad consilium statuendum.",
+        "btnText": "Primum Gradum Fac"
+      },
+      "team2": {
+        "name": "Consultor Conductorum Senior",
+        "description": "Conductio peritus cum maioribus responsabilitatibus, inter quas junioribus consulibus praeest et claves rationes tractat.",
+        "btnText": "Salve Dic Proximo Officio"
+      },
+      "team3": {
+        "name": "Repraesentator Venditionum",
+        "description": "Novos clientes quaerit et assecurat, officia promovet, contractus negotiatur. Generationem ductuum et incrementum agenturae petit.",
+        "btnText": "Ingredere Futurum Tuum"
+      },
+      "team4": {
+        "name": "Rationum Praefectus",
+        "description": "Processus internos, instrumenta, conformitatem et efficientiam fluxus operum administrat.",
+        "btnText": "Ingredere Futurum Tuum"
+      },
+      "team5": {
+        "name": "Praefectus Officii",
+        "position": "COO",
+        "description": "Operas cottidianas loci specifici administrat. Venditiones, conductiones et administrationem curat.",
+        "btnText": "Hic Incipit"
+      },
+      "team6": {
+        "name": "Director Praefectus",
+        "description": "Strategiam generalem negotii et visionem statuit. Lucrum agenturae curat.",
+        "btnText": "Adde Saporem Vitae Laboris Tuae"
+      },
+      "team7": {
+        "name": "Administrator Officii",
+        "description": "Documenta curat, applicationes ad licentias laboris submittit, et communicationem post venditionem cum clientibus administrat.",
+        "btnText": "Designa Futurum Tuum"
+      },
+      "team8": {
+        "name": "Praefectus Mercaturae",
+        "description": "Notam agenturae et officia promovet per expeditiones et media socialia.",
+        "btnText": "Exprime Ingenium Tuum"
+      },
+      "team9": {
+        "name": "Praefectus HR",
+        "description": "Internam conductionem, institutionem domesticam, et progressionem conductorum administrat.",
+        "btnText": "Vindica Munus Tuum"
+      },
+      "team10": {
+        "name": "Officiarius Post-Venditionem Auxilii",
+        "description": "Cum turmis venditionum et subsidiis in terris fontibus arcte cooperatur ut operarii bene perveniant et clientibus subsidium praebeat.",
+        "btnText": "Cupiens Te Conveniremus"
+      }
+    },
+    "teamdetails1": {
+      "title": "Director Venditionum",
+      "subtitle": "Munus ductus cum impetu strategico",
+      "title1": "Visio Muneris",
+      "desc1": "In hodierno, celeriter motu negotiali, venditio est plus quam tantum clausura contractuum; est motus transformationis, homines adfirmandi, et via sustinendae curationis crescendi. Hic munus Directoris Venditionum fit non solum magni momenti sed etiam essentiale.",
+      "desc2": "Ut Director Venditionum, non solum turmam administrabis, sed eam duces cum consilio, visionis sensu et mentis resultatibus orientatae. Hoc munus mixturam ductus et participationis operativae offert, occasionem praebens superintendendi team eximiae venditionum dum etiam clavis rationes et maxima consilia directe tractas.",
+      "desc3": "Collaborabis manum in manu cum ductu conductionis ut approched venditionum cum amplioribus propositis organis alignetur, curans ut omnis conatus significanter successui societatis conferat.",
+      "title2": "Quod hoc Munus Rem Potest Discretum",
+      "desc4": "Quod hoc munus discretum facit est singularis mixtura consilii strategicī et ductus hominum. Directores Venditionum sunt primarii oculorum pro generatione redituum, responsabilitas eorum est strategias innovativas evolvere et exsecutionem curare, mentores esse team, et semper antevestire tendentias mercatus.",
+      "desc5": "Perceptio tua motuum mercatus et actio competitorum partes maximi momenti habet in formanda accessu societatis. Candidati ideales afferent experientiam probatam in venditionibus vel developmentio negotii, validas artes communicandi et negotiarum tractandorum, et acutam mentis analyticae figuram. Experientia ductus, praesertim in agentura conductionis vel industria servitiorum, erit magnum plus.",
+      "title3": "Praemia & Beneficia",
+      "desc6": "Ultra responsibilities, munus Directoris Venditionum praebet substantialia praemia. Est occasio definiendi curriculam cum via clara ad incrementum executivum, bonus per performance fundatus, et opportunitas influendi decisiones negotii centrales.",
+      "desc7": "Eris pars ambitus vibrantis et collaborativi ubi ideae tuae aestimantur et impactus tuus visibilis est. Si paratus es ducere cum proposito, motum efficere, et curriculi gradum suum ad proximam tabulam ferre, hoc munus te aptum esse potest.",
+      "btnApply": "Adhibe. Illustra. Succede"
+    },
+    "teamdetails2": {
+      "title": "Consultor Senior Conductorum",
+      "subtitle": "Munus strategicum in acquisitione talentorum",
+      "title1": "Visio Muneris",
+      "desc1": "In mundo dynamicō acquisitionis talentorum, Consultor Senior Conductorum eminet ut columna strategica in quavis team conductorum summorum perfectorum. Non sicut junior conductores quae primum sourcing et screening curant, consultores seniori afferunt annos experientiae camerei, insight strategicum, et ductum.",
+      "desc2": "Administrant integrum vitae cyclum conductionis cum praecisione, simul junior personalem mentorantes, claves rationes clientium tractantes, et conatus ad negotium crescendum promoventes.",
+      "title2": "Dual Munus Consultoris Senior",
+      "desc3": "Consultor Senior Conductorum agit bifarium munus: recruiter summus generis et fidus advisor. Illustrantur in formandis strategiis conductionis, alignando conatus cum tendentiis mercatus, et curando ut agentura constanter talentum summo qualitate praebeat.",
+      "desc4": "Officia eorum excedunt placementa — colunt relationes diuturnas cum clientibus, praebent consilium minoribus membris team, et significanter contribuunt ad incrementum agenturae. A contractuum negotiatione ad novas opportunitates collaborationis cognoscendas, impactus eorum est immediate ac lata.",
+      "title3": "Quod hoc Munus Rem Discretam Facit",
+      "desc5": "Quod vere distinguit Consultorem Senior Conductorum est combinatio intelligentiae emotionalis, resilientiae, et profundae cognitionis mercatus. Possident robustas artes interpersonales et communicativas, quae eis permittunt fiduciam condere cum candidatis et clientibus.",
+      "desc6": "Eorum clementia anticipandi necessitates conductionis et solutiones aptissimas praebendi eos reddit invaluabilem asset quavis organisationi. Denique, Consultor Senior Conductorum est quia plus quam peritus recruiter—est socius strategicus qui processum conductionis convertit in commodum competitive.",
+      "title4": "Paratus es altiora in curriculo conductionis capere?",
+      "desc7": "Quaerimus personas expertas, passionatas, et strategice mentis apertam ut se ad team nostrum junctae utantur ut Consultores Senior Conductorum. Si florent in mentoring aliorum, tractando rationes fundamentales, et efficaciter faciendi impactum hoc munus est tecum.",
+      "btnApply": "Adhibe. Illustra. Succede"
+    }
+  },
+  "footer": {
+    "title": "De Nobis",
+    "desc": "Recruitment4u adnotationem habet ad mediationem laboris et operariorum ad tempus conductorum.",
+    "title2": "Praesentia Nostra Globalis",
+    "location1": {
+      "title": "Romania",
+      "desc": "Via Sg. Constantin Moise 5 D, SECTOR 6, BUCARESTUM"
+    },
+    "location2": {
+      "title": "UAE [Dubaium]",
+      "desc": "Turris Una, Tabulatum 24, DUBAIUM, UAE"
+    },
+    "location3": {
+      "title": "Qataria",
+      "desc": "Centrum Negotii Globalis, Via Cornish, Doha, Qataria"
+    },
+    "copyright": "Copyright © 2025 Recruitment4u. Omnia iura reservata."
+  }
+}
