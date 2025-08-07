@@ -68,8 +68,6 @@
     }
   },
 
-
-
   "findsolutions": {
     "title": "Find",
     "description": "We have developed several business models that are fully tailored to your needs.",
@@ -121,7 +119,6 @@
     }
   },
 
-
   "process": {
     "title": "The Process of Hiring Foreign Workers",
     "subtitle": " A comprehensive approach to international recruitment",
@@ -157,7 +154,6 @@
     "agre": "I would like to be contacted by a Recruitment 4U representative from my country",
     "send": "Send"
   },
-
 
   "forcompanies": {
     "title": "We invest capital to gain in-depth knowledge of every industry.",
@@ -547,7 +543,7 @@
         "desc6": "This is your chance to shape the future of how we hire not just for today, but for what comes next.",
         "btnApply": "Apply. Shine. Succeed"
       },
-      
+
       "teamdetails5": {
         "title": "Branch Manager / Office Manager",
         "subtitle": "Strategic role in talent acquisition",
@@ -638,14 +634,13 @@
     }
   },
 
-
-
   "recruitmentcard": {
     "title": "Recruitment",
     "desc1": " Optimize your time and resources with our comprehensive recruitment solutions.",
     "desc2": "Find the talent you need to drive business growth.",
     "buttonText": "Book a call",
     "ads": "client",
+
     "whatsdo": {
       "title": "What We Do",
       "card1": {
@@ -663,6 +658,7 @@
         "desc1": "Outsource part or all of your recruitment process to streamline hiring operations."
       }
     },
+
     "benefits": {
       "title": "Benefits",
       "benefit1": {
@@ -690,6 +686,7 @@
         "desc": "Dedicated manager and recruiter for each client."
       }
     },
+
     "ourprocess": {
       "title": "Our Process",
       "desc": " Reduce time to hire. We&apos;ll provide you with the first  candidates within 3-5 days.",
@@ -720,6 +717,7 @@
       "title": "Industries We Work In"
     }
   },
+
   "hrconsulting": {
     "title": "HR consulting",
     "desc1": " We assist businesses in building a distinguished reputation that enhances visibility in the market and improves hiring outcomes.",
@@ -765,6 +763,7 @@
         "desc": "Enhance recruitment strategies and support hiring efforts for superior results."
       }
     },
+
     "ourprocess": {
       "title": "Our Process",
       "desc": "Accelerate hiring timelines—we’ll deliver initial candidate profiles within 3-5 days.",
@@ -841,6 +840,7 @@
     "industries": {
       "title": "Industries We Work In"
     },
+
     "outstack": {
       "title": "Stack / Specialization",
       "box1": {
@@ -905,6 +905,7 @@
       }
     }
   },
+
   "blogone": {
     "category": "Recruiting",
     "title": "Which Nationality Should You Prefer When You Think Outside Europe?",
@@ -948,6 +949,7 @@
           "type": "text",
           "content": "<strong>How Recruitment-4u Finds the Right International Candidates</strong>"
         },
+
         {
           "type": "text",
           "content": "At Recruitment-4u, we use a multi-step approach to source and deliver top talent. First, we dig deep into our global candidate databases, and job boards. We go beyond passive sourcing; we use real-time analytics to identify professionals who match your job description, company culture, and growth goals."
@@ -997,6 +999,7 @@
           "type": "html",
           "content": "<ul class='space-y-2 list-decimal my-4'><li><strong>Check their international reach</strong>– Does the agency have strong candidate pipelines in high-potential regions?</li><li><strong>Assess compliance knowledge</strong>–Can they advise on cross-border hiring, payroll, or visa processes? </li><li><strong>Evaluate communication</strong>– Can they align with your company values and understand your team culture? </li></ul>"
         },
+
         {
           "type": "text",
           "content": "At Recruitment-4u, we tick all the boxes. Our global presence, data-driven methods, and personal approach make us a trusted partner for businesses across Europe."
