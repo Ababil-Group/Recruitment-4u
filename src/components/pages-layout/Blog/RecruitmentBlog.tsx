@@ -16,7 +16,7 @@ export default function RecruimentBlog() {
       <BlogHeaderCard
         category="Recruiting"
         date="July 2, 2023"
-        title="Which Nationality Should You Prefer When You Think Outside Europe?"
+        title={t("title")}
         authorName="Vasco"
         authorImg={Author}
         coverImg={BlogImg}
