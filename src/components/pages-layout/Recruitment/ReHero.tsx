@@ -12,6 +12,7 @@ import img8 from "../../../../public/images/brand8.png";
 import img9 from "../../../../public/images/brand9.png";
 import img10 from "../../../../public/images/brand10.png";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 const images = [img2, img3, img4, img5, img6, img7, img8, img9, img10];
 export default function Hero() {
@@ -47,12 +48,12 @@ export default function Hero() {
               <p className="text-lg md:text-xl text-gray-700 mb-6">
                 {t("desc2")}
               </p>
-              <a
+              <Link
                 className="bg-primary text-[25px] font-bold mt-5 text-white px-8 py-4 rounded-md hover:text-slate-700 transition-all"
                 href="https://calendly.com/recruitment4u-head-office"
                 target="_blank">
                 {t("buttonText")}
-              </a>
+              </Link>
             </motion.div>
           </div>
         </div>

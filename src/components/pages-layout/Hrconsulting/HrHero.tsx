@@ -12,6 +12,7 @@ import img8 from "../../../../public/images/brand8.png";
 import img9 from "../../../../public/images/brand9.png";
 import img10 from "../../../../public/images/brand10.png";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 const images = [img2, img3, img4, img5, img6, img7, img8, img9, img10];
 export default function Hero() {
   const t = useTranslations("hrconsulting");
@@ -27,12 +28,12 @@ export default function Hero() {
           <div className="text-black">
             <h1 className="text-[52px] font-bold mb-6">{t("title")}</h1>
             <p className="text-[25px] mb-6 max-w-lg">{t("desc1")}</p>
-            <a
+            <Link
               className="bg-primary text-[25px] font-bold mt-5 text-white px-8 py-4 rounded-md hover:text-slate-700 transition-all"
               href="https://calendly.com/recruitment4u-head-office"
               target="_blank">
               {t("buttonText")}
-            </a>
+            </Link>
           </div>
           {/* Right image */}
           <div className="hidden md:block">

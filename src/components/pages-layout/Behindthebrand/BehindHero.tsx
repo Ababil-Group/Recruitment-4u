@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function BehindHero() {
   const t = useTranslations("behindthebrand");
@@ -32,12 +33,12 @@ export default function BehindHero() {
             <p className="text-lg md:text-xl text-gray-700 mb-6">
               {t("description")}
             </p>
-            <a
+            <Link
               className="bg-primary text-[25px] font-bold mt-5 text-white px-8 py-4 rounded-md hover:text-slate-700 transition-all"
               href="https://calendly.com/recruitment4u-head-office"
               target="_blank">
               {t("btn")}
-            </a>
+            </Link>
           </motion.div>
         </div>
       </div>
