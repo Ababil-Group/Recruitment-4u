@@ -83,7 +83,8 @@ export default function OutHero() {
                   <h4 className="text-black text-[30px] font-bold">
                     {t("card2.title")}
                   </h4>
-                  <p className="text-[20px] text-black font-normal">
+                  <p className="text-[20px] text-b+
+                  ack font-normal">
                     {t("card2.desc")}
                   </p>
                 </div>

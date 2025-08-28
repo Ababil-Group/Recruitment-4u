@@ -18,6 +18,7 @@ const languages = [
   { code: "sr", name: "Српски", flag: "https://flagcdn.com/w20/rs.png" },
   { code: "hr", name: "Hrvatski", flag: "https://flagcdn.com/w20/hr.png" },
   { code: "ro", name: "Română", flag: "https://flagcdn.com/w20/ro.png" },
+  { code: "ru", name: "Русский", flag: "https://flagcdn.com/w20/ru.png" },
   { code: "sl", name: "Slovenščina", flag: "https://flagcdn.com/w20/si.png" },
   { code: "sk", name: "Slovenčina", flag: "https://flagcdn.com/w20/sk.png" },
   { code: "el", name: "Ελληνικά", flag: "https://flagcdn.com/w20/gr.png" }, // Greek

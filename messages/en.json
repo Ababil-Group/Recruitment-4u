@@ -797,6 +797,8 @@
       "title": "Industries We Work In"
     }
   },
+
+
   "outstaffing": {
     "title": "Outstaffing",
     "desc": "We offer outstaffing solutions for rapidly growing businesses, enabling team expansion and boosting productivity.",
@@ -1028,6 +1030,8 @@
       ]
     }
   },
+
+
   "blogtwo": {
     "category": "Recruiting",
     "title": "Should You Rely on an Agency That Charges a High Amount? Things to Consider Before Choosing a Recruitment Partner to Build a Great Team in Europe",
@@ -1250,12 +1254,14 @@
       ]
     }
   },
+
   "contactus": {
     "text": "CONTACT",
     "title": " Recruitment4u is here for you and all your questions — both for companies and job seekers.",
     "btnText": "Offices",
     "letscontact": "Let’s Connect"
   },
+  
   "footer": {
     "title": "About Us",
     "desc": " Recruitment4u is registered for activities related to employment mediation and temporary employment of workers.",

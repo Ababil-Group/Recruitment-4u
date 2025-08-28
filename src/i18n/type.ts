@@ -5,6 +5,7 @@ export type AppLocale =
   | "sr"
   | "hr"
   | "ro"
+  | "ru"
   | "sl"
   | "sk"
   | "el"
@@ -18,6 +19,7 @@ export const countryToLocale = {
   RS: "sr",
   HR: "hr",
   RO: "ro",
+  RU: "ru",
   SI: "sl",
   SK: "sk",
   US: "en",
