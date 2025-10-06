@@ -41,7 +41,7 @@ const Footer = () => {
     },
     {
       icon: Instagram,
-      href: "https://www.instagram.com/recruitforu25/",
+      href: "https://www.instagram.com/recruitment.4u/",
       label: "Instagram",
     },
     {
