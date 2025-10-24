@@ -1,10 +1,10 @@
 "use client";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import Card from "@/components/common/Card";
 import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
 
-const cardVariants = {
+const cardVariants: Variants = {
   offscreen: {
     y: 50,
     opacity: 0,
@@ -55,7 +55,6 @@ const CardHome = () => {
           <Card
             title={card1("title")}
             description={card1("description")}
-    
             bgColor="bg-[#05123F]"
           />
         </motion.div>
@@ -67,7 +66,6 @@ const CardHome = () => {
           <Card
             title={card2("title")}
             description={card2("description")}
-
             bgColor="bg-[#009AEE]"
           />
         </motion.div>
@@ -79,7 +77,6 @@ const CardHome = () => {
           <Card
             title={card3("title")}
             description={card3("description")}
-  
             bgColor="bg-[#90DA7B]"
           />
         </motion.div>
