@@ -26,6 +26,10 @@ const Footer = () => {
       country: t("location3.title"),
       address: t("location3.desc"),
     },
+    {
+      country: t("location4.title"),
+      address: t("location4.desc"),
+    },
   ];
 
   const socialLinks = [
