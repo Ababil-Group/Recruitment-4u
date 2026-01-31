@@ -63,7 +63,7 @@ export const ContactForm = () => {
   };
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     const { name, value, type, checked } = e.target as HTMLInputElement;
     // Update form data based on input type
@@ -81,7 +81,7 @@ export const ContactForm = () => {
               <h5 className="text-2xl sm:text-3xl font-bold text-black">
                 {t1("letscontact")}
               </h5>
-              {/* <div className="mt-6 sm:mt-8 space-y-4">
+              <div className="mt-6 sm:mt-8 space-y-4">
                 <ContactCard
                   label="Mobile"
                   text="+40 730982342"
@@ -97,13 +97,13 @@ export const ContactForm = () => {
               </div>
               <div className="mt-6 sm:mt-8 space-y-4">
                 <ContactCard
-                  label="WhatsApp"
+                  label="Whats App"
                   text="+40 730982342"
                   icon={
                     <MessageCirclePlus className="w-10 h-10 text-primary" />
                   }
                 />
-              </div> */}
+              </div>
               <div className="mt-6 sm:mt-8 space-y-4">
                 <ContactCard
                   label="E-mail"
@@ -158,7 +158,7 @@ export const ContactForm = () => {
                           id={field.id}
                           name={field.id}
                           value={String(
-                            formData[field.id as keyof typeof formData],
+                            formData[field.id as keyof typeof formData]
                           )}
                           onChange={handleChange}
                           className="w-full px-3 sm:px-4 py-2.5 sm:py-3 rounded-lg border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all duration-200 text-sm sm:text-base text-black"

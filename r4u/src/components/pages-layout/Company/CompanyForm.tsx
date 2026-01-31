@@ -1,126 +1,117 @@
 "use client";
-// import { toast } from "sonner";
-import { useState } from "react";
-import {
-  Mail,
-  Phone,
-  MapPin,
-  MessageCirclePlus,
-  PhoneCall,
-} from "lucide-react";
-import { motion } from "framer-motion";
-import ContactCard from "@/components/common/ContactCard";
+import Image from "next/image";
 import { toast } from "sonner";
+import { cn } from "@/lib/utils";
+import { useState } from "react";
+import { motion } from "framer-motion";
+import ForCompaniImg from "../../../../public/images/forcompanis.jpg";
 import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
-export const ContactForm = () => {
+
+type FormData = {
+  company: string;
+  name: string;
+  email: string;
+  phone: string;
+  message: string;
+  agreeToContact: boolean;
+};
+
+export default function CompanyForm() {
   const t = useTranslations("contactform");
-  const t1 = useTranslations("contactus");
-  const pathname = usePathname(); // e.g. /en/contact
-  const [formData, setFormData] = useState({
+
+  const [formData, setFormData] = useState<FormData>({
     company: "",
     name: "",
     email: "",
     phone: "",
-    country: "",
     message: "",
+    agreeToContact: false,
   });
+  const pathname = usePathname(); // e.g. /en/contact
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     const locale = pathname.split("/")[1]; // 'en'
     e.preventDefault();
-    setIsFormSubmitted(true);
+    setIsFormSubmitted(true); // Set form submission state
     try {
-      const res = await fetch(`/${locale}/api/contact`, {
+      const response = await fetch(`/${locale}/api/contact`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          formType: "contact",
+          formData: formData,
+        }),
       });
 
-      if (res.ok) {
-        toast.success("Message sent successfully");
-
-        setFormData({
-          company: "",
-          name: "",
-          email: "",
-          phone: "",
-          country: "",
-          message: "",
-        });
-      } else {
-        toast.error("Failed to send message");
+      const data = await response.json();
+      if (!response.ok) {
+        setIsFormSubmitted(false); // Reset form submission state on error
+        toast.error(data.error || "Failed to submit form");
+        throw new Error(data.error || "Failed to submit form");
       }
+
+      // Reset form on success
+      setFormData({
+        company: "",
+        email: "",
+        name: "",
+        phone: "",
+        message: "",
+        agreeToContact: false,
+      });
+      setIsFormSubmitted(false); // Reset form submission state
+      toast.success("submitted successfully");
     } catch (error) {
-      console.error("Submit error:", error);
-      toast.error("Failed to send message");
-    } finally {
-      setIsFormSubmitted(false);
+      console.error("Submission error:", error);
+      setIsFormSubmitted(false); // Reset form submission state on error
+      toast.error("Failed to submit form");
     }
   };
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
-    const { name, value, type, checked } = e.target as HTMLInputElement;
-    // Update form data based on input type
-    setFormData((prev) => ({
-      ...prev,
-      [name]: type === "checkbox" ? checked : value,
-    }));
+    const target = e.target as HTMLInputElement;
+    const value = target.type === "checkbox" ? target.checked : target.value;
+    const name = target.name;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
   };
+
   return (
-    <div className="w-full py-6 sm:py-8 lg:py-10 relative">
-      <div className="container mx-auto px-4 sm:px-6 relative">
+    <>
+      <div
+        className={cn(
+          "w-screen bg-primary ",
+          "left-[50%] right-[50%] mx-[-50vw]",
+          "relative -mt-24 px-0",
+          "overflow-hidden"
+        )}>
+        <motion.div
+          className="mx-auto"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}>
+          <Image
+            src={ForCompaniImg}
+            alt="forcompanis"
+            width={0}
+            height={0}
+            sizes="100vw"
+            className="w-full h-auto"
+          />
+        </motion.div>
+      </div>
+
+      <div className="container mx-auto py-12 px-4 sm:px-6 relative">
         <div className="grid grid-cols-12 gap-4">
-          <div className="col-span-5 max-xl:col-span-12">
-            <div className=" border border-gray-200 rounded-lg p-6 sm:p-8 lg:p-10 bg-white ">
-              <h5 className="text-2xl sm:text-3xl font-bold text-black">
-                {t1("letscontact")}
-              </h5>
-              {/* <div className="mt-6 sm:mt-8 space-y-4">
-                <ContactCard
-                  label="Mobile"
-                  text="+40 730982342"
-                  icon={<Phone className="w-10 h-10 text-primary" />}
-                />
-              </div>
-              <div className="mt-6 sm:mt-8 space-y-4">
-                <ContactCard
-                  label="Office Phone"
-                  text="+40 730982342"
-                  icon={<PhoneCall className="w-10 h-10 text-primary" />}
-                />
-              </div>
-              <div className="mt-6 sm:mt-8 space-y-4">
-                <ContactCard
-                  label="WhatsApp"
-                  text="+40 730982342"
-                  icon={
-                    <MessageCirclePlus className="w-10 h-10 text-primary" />
-                  }
-                />
-              </div> */}
-              <div className="mt-6 sm:mt-8 space-y-4">
-                <ContactCard
-                  label="E-mail"
-                  text="HRhub@Recruitment4u.co"
-                  icon={<Mail className="w-10 h-10 text-primary" />}
-                />
-              </div>
-              <div className="mt-6 sm:mt-8 space-y-4">
-                <ContactCard
-                  label="Head Office"
-                  text="Str. Sg. Constantin Moise 5 D BUCURESTI, Loc. SECTORUL 6"
-                  icon={<MapPin className="w-10 h-10 text-primary" />}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="col-span-7 max-xl:col-span-12">
+          <div className="col-span-12 max-xl:col-span-12">
             <motion.div
               className="max-w-4xl mx-auto bg-white rounded-xl border border-gray-200 overflow-hidden "
               initial={{ opacity: 0, y: 20 }}
@@ -143,9 +134,8 @@ export const ContactForm = () => {
                       {
                         id: "phone",
                         label: t("phone"),
-                        type: "text",
+                        type: "tel",
                       },
-                      { id: "country", label: t("country"), type: "text" },
                     ].map((field) => (
                       <div key={field.id}>
                         <label
@@ -158,7 +148,7 @@ export const ContactForm = () => {
                           id={field.id}
                           name={field.id}
                           value={String(
-                            formData[field.id as keyof typeof formData],
+                            formData[field.id as keyof typeof formData]
                           )}
                           onChange={handleChange}
                           className="w-full px-3 sm:px-4 py-2.5 sm:py-3 rounded-lg border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all duration-200 text-sm sm:text-base text-black"
@@ -169,13 +159,13 @@ export const ContactForm = () => {
 
                     <div>
                       <label
-                        htmlFor="message"
+                        htmlFor="note"
                         className="block text-sm font-medium text-black mb-1.5 sm:mb-2">
                         {t("message")}
                       </label>
                       <textarea
-                        id="message"
-                        name="message"
+                        id="note"
+                        name="note"
                         value={formData.message}
                         onChange={handleChange}
                         rows={4}
@@ -183,7 +173,22 @@ export const ContactForm = () => {
                       />
                     </div>
                   </div>
-
+                  <div className="flex items-start gap-3">
+                    <input
+                      type="checkbox"
+                      id="agreeToContact"
+                      name="agreeToContact"
+                      checked={formData.agreeToContact}
+                      onChange={handleChange}
+                      className="mt-1.5 h-4 w-4 rounded border-gray-300 text-primary focus:ring-primary"
+                      required
+                    />
+                    <label
+                      htmlFor="agreeToContact"
+                      className="text-xs mt-1 sm:text-sm leading-relaxed text-black max-w-2xl">
+                      {t("agre")}
+                    </label>
+                  </div>
                   <motion.button
                     type="submit"
                     className="w-full bg-primary text-white py-3 sm:py-4 px-4 sm:px-6 rounded-lg hover:bg-primary/90 transition-all duration-200 font-semibold text-base sm:text-lg shadow-lg hover:shadow-xl"
@@ -197,6 +202,6 @@ export const ContactForm = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
-};
+}
