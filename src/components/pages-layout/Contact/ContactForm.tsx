@@ -1,13 +1,7 @@
 "use client";
 // import { toast } from "sonner";
 import { useState } from "react";
-import {
-  Mail,
-  Phone,
-  MapPin,
-  MessageCirclePlus,
-  PhoneCall,
-} from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
 import ContactCard from "@/components/common/ContactCard";
 import { toast } from "sonner";
