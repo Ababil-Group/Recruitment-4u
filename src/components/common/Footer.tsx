@@ -35,7 +35,7 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Linkedin,
-      href: "https://www.linkedin.com/company/recruitment4u",
+      href: "https://www.linkedin.com/company/recruitment4u.eu/",
       label: "LinkedIn",
     },
     {
