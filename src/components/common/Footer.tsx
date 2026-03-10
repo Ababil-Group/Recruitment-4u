@@ -26,10 +26,10 @@ const Footer = () => {
       country: t("location3.title"),
       address: t("location3.desc"),
     },
-    {
-      country: t("location4.title"),
-      address: t("location4.desc"),
-    },
+    // {
+    //   country: t("location4.title"),
+    //   address: t("location4.desc"),
+    // },
   ];
 
   const socialLinks = [
@@ -103,13 +103,13 @@ const Footer = () => {
                       "bg-transparent hover:bg-primary",
                       "text-primary",
                       "hover:text-primary-secondary",
-                      "flex items-center justify-center"
+                      "flex items-center justify-center",
                     )}
                     aria-label={social.label}>
                     <social.icon
                       className={cn(
                         "w-5 h-5 md:w-6 md:h-6",
-                        "transition-colors duration-300"
+                        "transition-colors duration-300",
                       )}
                     />
                   </Link>
