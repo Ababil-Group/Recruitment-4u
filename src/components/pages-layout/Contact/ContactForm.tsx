@@ -101,7 +101,7 @@ export const ContactForm = () => {
               <div className="mt-6 sm:mt-8 space-y-4">
                 <ContactCard
                   label="E-mail"
-                  text="HRhub@Recruitment4u.co"
+                  text="HRhub@Recruitment4u.online"
                   icon={<Mail className="w-10 h-10 text-primary" />}
                 />
               </div>
