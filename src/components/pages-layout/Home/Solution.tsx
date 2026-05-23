@@ -30,7 +30,6 @@ interface Solution {
 
 const Solution = () => {
   const [titleIndex, setTitleIndex] = useState<number>(0);
-  const titles = useMemo(() => ["Solution", "Support"], []);
   const [api, setApi] = useState<CarouselApi>();
   const autoplayTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const isScrollingRef = useRef(false);
@@ -40,6 +39,10 @@ const Solution = () => {
   const isInView = useInView(sectionRef, { amount: 0.3 });
 
   const t = useTranslations("findsolutions");
+  const titles = useMemo(
+    () => [t("titles.solution"), t("titles.support")],
+    [t],
+  );
 
   const solutions: Solution[] = [
     {
@@ -136,9 +139,9 @@ const Solution = () => {
         "border-none h-full carousel-card",
         "hover:bg-primary hover:text-white transition-all duration-300",
         "cursor-grab active:cursor-grabbing",
-        "transform-gpu will-change-transform"
+        "transform-gpu will-change-transform",
       ),
-    []
+    [],
   );
 
   const renderCard = useCallback(
@@ -173,7 +176,7 @@ const Solution = () => {
         </Card>
       </CarouselItem>
     ),
-    [cardStyles]
+    [cardStyles],
   );
 
   return (
@@ -233,7 +236,7 @@ const Solution = () => {
                   "transform -translate-y-1/2",
                   "shadow-sm",
                   "opacity-100",
-                  "!flex !items-center !justify-center"
+                  "!flex !items-center !justify-center",
                 )}
               />
               <CarouselNext
@@ -247,7 +250,7 @@ const Solution = () => {
                   "transform -translate-y-1/2",
                   "shadow-sm",
                   "opacity-100",
-                  "!flex !items-center !justify-center"
+                  "!flex !items-center !justify-center",
                 )}
               />
             </div>

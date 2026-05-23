@@ -31,7 +31,6 @@
     "title": "Outstaffing",
     "description": "Pružamo usluge outstaffinga za brzorastuće kompanije i pomažemo u povećanju timske produktivnosti."
   },
-
   "homepartner": {
     "partner": "Vaš partner u regrutaciji talenata",
     "partnerdesc": "Specijalizirani smo za regrutaciju i odabir stranih radnika iz različitih regija, uključujući Aziju, Zaljev, Sjevernu i Južnu Ameriku i Afriku. Radeći iz naših centralnih ureda u Dubaiju, zapošljavamo radnike u zemljama kao što su UK, Hrvatska, Malta, Bugarska, Poljska, Rumunija i druge evropske zemlje.",
@@ -51,7 +50,6 @@
       "statedec": "Naš tim od 15 stručnjaka stalno je na raspolaganju poslodavcima, pružajući maksimalno kvalitetnu uslugu za svako područje ljudskih resursa."
     }
   },
-
   "agencysection": {
     "title": "Moderne metode za vraćanje nekadašnjeg sjaja poslovanja agencije",
     "accordionItems1": {
@@ -89,9 +87,12 @@
     "solution5": {
       "solutiontitle": "Od lizinga do posredovanja",
       "solutiondesc": "Izbjegnite rizik i uštedite vrijeme tako što će agencija biti vaš poslodavac tokom probnog roka. Na taj način možete se fokusirati na svoje poslovne ciljeve bez brige o administrativnim detaljima i pravnim složenostima."
+    },
+    "titles": {
+      "solution": "Rješenje",
+      "support": "Podrška"
     }
   },
-
   "brand": {
     "title": "Pouzdana partnerstva pokreću naš napredak",
     "subtitle": "Imate pitanja?",
@@ -152,7 +153,6 @@
     "agre": "Želim da me kontaktira predstavnik Recruitment 4U iz moje zemlje",
     "send": "Pošalji"
   },
-
   "forcompanies": {
     "title": "Ulažemo kapital kako bismo dubinski upoznali svaku industriju.",
     "desc": "S iskustvom u regrutaciji kroz brojne industrije, pronalazimo radnike za sva zanimanja koja su vam potrebna.",
@@ -232,7 +232,6 @@
       }
     }
   },
-
   "solutionsnavigating": {
     "title": "Navigacija kroz imigracione zakone",
     "description": "Navigacija kroz imigracione zakone u Evropi može biti izazovna zbog različitih pravnih okvira koji regulišu zapošljavanje stranih radnika. Tu mi stupamo na scenu kako bismo pojednostavili i ubrzali cijeli proces.",
@@ -323,7 +322,6 @@
       "pera": "Ubrzajte svoj proces zapošljavanja sa našim pojednostavljenim pristupom pronalaženja, uključivanja i upravljanja talentima."
     }
   },
-
   "solutionmedical": {
     "title": "Zapošljavanje medicinskih radnika",
     "description": "Doktori, medicinske sestre, medicinski tehničari, farmaceuti i drugi zdravstveni radnici – tu smo da vam pomognemo u zapošljavanju za sve medicinske pozicije.",
@@ -375,7 +373,6 @@
       "pera": "Kao rezultat godina rada u agenciji, imamo dobro definisane procese, iskustvo u zapošljavanju lokalnih i stranih radnika, kancelarije širom Hrvatske i vidljivost u regionu."
     }
   },
-
   "behindthebrand": {
     "title": "Globalna IT regrutacija i zapošljavanje za kompanije koje brzo rastu",
     "description": "Pružamo našim klijentima ekskluzivne usluge regrutacije koje pomažu kompanijama da se šire i napreduju",
@@ -622,7 +619,6 @@
       }
     }
   },
-
   "recruitmentcard": {
     "title": "Regrutacija",
     "desc1": "Optimizirajte svoje vrijeme i resurse sa našim sveobuhvatnim rešenjima za regrutaciju.",
@@ -711,7 +707,6 @@
       "title": "Industrije u kojima radimo"
     }
   },
-
   "hrconsulting": {
     "title": "HR savjetovanje",
     "desc1": "Pomažemo kompanijama da izgrade istaknutu reputaciju koja povećava vidljivost na tržištu i poboljšava rezultate zapošljavanja.",
@@ -897,7 +892,6 @@
       }
     }
   },
-
   "blogone": {
     "category": "Zapošljavanje",
     "title": "Koju nacionalnost odabrati prilikom zapošljavanja van Evrope?",
@@ -1129,7 +1123,6 @@
       ]
     }
   },
-
   "blogthree": {
     "category": "Zapošljavanje",
     "title": "Koju nacionalnost trebate preferirati kada razmišljate izvan Evrope?",
@@ -1239,7 +1232,6 @@
       ]
     }
   },
-
   "contactus": {
     "text": "KONTAKT",
     "title": "Recruitment4u je tu za vas i sva vaša pitanja — kako za kompanije tako i za tražioce posla.",
@@ -1266,7 +1258,6 @@
       "title": "Ukrajina",
       "desc": "Viking Business Center, Zelena ul. 151, Lavov, Lavovska oblast, Ukrajina, 79000"
     },
-
     "copyright": "Autorska prava © 2025 Recruitment4u. Sva prava zadržana."
   }
 }

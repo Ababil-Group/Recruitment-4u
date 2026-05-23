@@ -31,7 +31,6 @@
     "title": "Outstaffing",
     "description": "Zabezpečujeme outstaffing pre rýchlo rastúce spoločnosti, čím pomáhame rozširovať tímy a zvyšovať produktivitu."
   },
-
   "homepartner": {
     "partner": "Váš partner pri nábore talentov",
     "partnerdesc": "Špecializujeme sa na nábor a výber zahraničných pracovníkov z rôznych regiónov, vrátane Ázie, Perzského zálivu, Severnej a Južnej Ameriky a Afriky. Pôsobiac z našich centrálnych kancelárií v Dubaji, umiestňujeme pracovníkov v krajinách ako je Spojené kráľovstvo, Chorvátsko, Malta, Bulharsko, Poľsko, Rumunsko a ďalšie európske krajiny.",
@@ -51,7 +50,6 @@
       "statedec": "Náš tím 15 odborníkov je neustále k dispozícii zamestnávateľom, poskytujúc maximálne kvalitné služby pre každú oblasť ľudských zdrojov."
     }
   },
-
   "agencysection": {
     "title": "Moderné metódy na obnovenie bývalej slávy agentúrneho podnikania",
     "accordionItems1": {
@@ -67,7 +65,6 @@
       "contentdec": "Pri zamestnávaní zahraničných pracovníkov je dôležité zohľadniť úsilie oboch zúčastnených strán: pracovníka aj zamestnávateľa. Aby sme zaistili, že toto úsilie nebude márne, vyvinuli sme viacfázový výberový proces, ktorým musia kandidáti prejsť, aby splnili najvyššie kritériá pre prácu v krajinách ako Spojené kráľovstvo, Chorvátsko, Malta, Bulharsko, Poľsko, Rumunsko a ďalšie európske krajiny."
     }
   },
-
   "findsolutions": {
     "title": "Nájdite",
     "description": "Vyvinuli sme niekoľko obchodných modelov, ktoré sú plne prispôsobené vašim potrebám.",
@@ -90,9 +87,12 @@
     "solution5": {
       "solutiontitle": "Od leasingu k zprostredkovaniu",
       "solutiondesc": "Vyhnite sa riziku a ušetrite cenný čas tým, že agentúra bude vaším zamestnávateľom počas skúšobnej doby. Týmto spôsobom sa môžete sústrediť na svoje obchodné ciele bez obáv z administratívnych detailov a právnych komplikácií."
+    },
+    "titles": {
+      "solution": "Riešenie",
+      "support": "Podpora"
     }
   },
-
   "brand": {
     "title": "Dôveryhodné partnerstvá poháňajú náš pokrok",
     "subtitle": "Máte otázky?",
@@ -118,7 +118,6 @@
       "centerdesc": "Spojené arabské emiráty a Katar sú rozvinuté krajiny, kde viac ako 90 % pracovnej sily tvoria zahraniční pracovníci, najčastejšie z Nepálu, Indie, Bangladéša alebo Filipín. Slúžia ako dobrý filter pre kvalifikovanú pracovnú silu, ktorá získava skúsenosti, vedomosti a zručnosti z najmodernejších technológií a postupov."
     }
   },
-
   "process": {
     "title": "Proces náboru zahraničných pracovníkov",
     "subtitle": "Komplexný prístup k medzinárodnému náboru",
@@ -233,7 +232,6 @@
       }
     }
   },
-
   "solutionsnavigating": {
     "title": "Navigácia imigračnými zákonmi",
     "description": "Navigácia imigračnými zákonmi v Európe môže byť náročná kvôli rôznym právnym rámcom, ktoré upravujú zamestnávanie zahraničných pracovníkov. Tu prichádzame my, aby sme zjednodušili a urýchlili celý proces.",
@@ -324,7 +322,6 @@
       "pera": "Zrýchlite svoj náborový proces s našim zjednodušeným prístupom k hľadaniu, začleňovaniu a riadeniu talentov."
     }
   },
-
   "solutionmedical": {
     "title": "Zamestnávanie zdravotníckych pracovníkov",
     "description": "Lekári, zdravotné sestry, technici, farmaceuti a ďalší zdravotnícki odborníci – pomôžeme vám s náborom pre všetky zdravotnícke pozície.",
@@ -376,7 +373,6 @@
       "pera": "Vďaka rokom práce v agentúre máme dobre definované procesy, skúsenosti s náborom miestnych a zahraničných pracovníkov, kancelárie po celej Chorvátsku a viditeľnosť v regióne."
     }
   },
-
   "behindthebrand": {
     "title": "Globálna IT nábor a personálne zabezpečenie pre rýchlo rastúce spoločnosti",
     "description": "Poskytujeme našim klientom exkluzívne náborové služby, ktoré pomáhajú podnikom rásť a prosperovať",
@@ -610,7 +606,6 @@
         "btn": "Rozumiem!"
       }
     },
-
     "articlesection": {
       "title": "Čítanie o nábore. Obnovené. Spresnené.",
       "value1": {
@@ -624,7 +619,6 @@
       }
     }
   },
-
   "recruitmentcard": {
     "title": "Nábor",
     "desc1": "Optimalizujte svoj čas a zdroje s našimi komplexnými náborovými riešeniami.",
@@ -682,13 +676,21 @@
         "title": "Krok 1: Odoslanie požiadaviek",
         "time": "(1-3 dni)",
         "desc": "Poskytnite nám popis práce a požiadavky.",
-        "task": ["Prehľad spoločnosti", "Detaily pozície", "Podpísanie zmluvy"]
+        "task": [
+          "Prehľad spoločnosti",
+          "Detaily pozície",
+          "Podpísanie zmluvy"
+        ]
       },
       "card2": {
         "title": "Kompletný náborový cyklus",
         "time": "(1-4 týždne)",
         "desc": "Budeme vyberať kandidátov podľa vašich požiadaviek.",
-        "task": ["Vyhľadávanie", "Predvýber, Pohovory", "Týždenné aktualizácie"]
+        "task": [
+          "Vyhľadávanie",
+          "Predvýber, Pohovory",
+          "Týždenné aktualizácie"
+        ]
       },
       "card3": {
         "title": "Dokončenie náboru",
@@ -705,7 +707,6 @@
       "title": "Odvetvia, v ktorých pôsobíme"
     }
   },
-
   "hrconsulting": {
     "title": "HR poradenstvo",
     "desc1": "Pomáhame firmám budovať výnimočnú reputáciu, ktorá zvyšuje viditeľnosť na trhu a zlepšuje výsledky náboru.",
@@ -783,7 +784,6 @@
       "title": "Odvetvia, v ktorých pôsobíme"
     }
   },
-
   "outstaffing": {
     "title": "Outstaffing",
     "desc": "Ponúkame outstaffingové riešenia pre rýchlo rastúce podniky, ktoré umožňujú rozšírenie tímu a zvýšenie produktivity.",
@@ -1123,7 +1123,6 @@
       ]
     }
   },
-
   "blogthree": {
     "category": "Nábor",
     "title": "Ktorú národnosť by ste mali preferovať, keď myslíte mimo Európy?",
@@ -1233,7 +1232,6 @@
       ]
     }
   },
-
   "contactus": {
     "text": "KONTAKT",
     "title": "Recruitment4u je tu pre vás a vaše otázky — pre firmy aj uchádzačov o zamestnanie.",

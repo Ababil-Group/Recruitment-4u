@@ -31,7 +31,6 @@
     "title": "Outstaffing",
     "description": "Pomažemo brzo rastućim tvrtkama da prošire timove i povećaju produktivnost putem outstaffinga."
   },
-
   "homepartner": {
     "partner": "Vaš partner u zapošljavanju talenata",
     "partnerdesc": "Specijalizirani smo za zapošljavanje i odabir stranih radnika iz različitih regija, uključujući Aziju, Zaljev, Sjevernu i Južnu Ameriku i Afriku. Djelujući iz naših središnjih ureda u Dubaiju, zapošljavamo radnike u zemljama poput Ujedinjenog Kraljevstva, Hrvatske, Malte, Bugarske, Poljske, Rumunjske i drugih europskih zemalja.",
@@ -66,7 +65,6 @@
       "contentdec": "Prilikom zapošljavanja stranih radnika važno je uzeti u obzir napore obje uključene strane: i radnika i poslodavca. Kako bismo osigurali da ovaj trud ne bude uzaludan, razvili smo višefazni proces odabira kroz koji kandidati moraju proći kako bi zadovoljili najviše kriterije za rad u zemljama poput Ujedinjenog Kraljevstva, Hrvatske, Malte, Bugarske, Poljske, Rumunjske i drugih europskih zemalja."
     }
   },
-
   "findsolutions": {
     "title": "Pronađite",
     "description": "Razvili smo nekoliko poslovnih modela koji su u potpunosti prilagođeni vašim potrebama.",
@@ -89,9 +87,12 @@
     "solution5": {
       "solutiontitle": "Od lizinga do posredovanja",
       "solutiondesc": "Izbjegnite rizik i uštedite vrijeme tako što će agencija biti vaš poslodavac tijekom probnog roka. Na taj način možete se usredotočiti na svoje poslovne ciljeve bez brige o administrativnim detaljima i pravnim složenostima."
+    },
+    "titles": {
+      "solution": "Rješenje",
+      "support": "Podrška"
     }
   },
-
   "brand": {
     "title": "Pouzdana partnerstva pokreću naš napredak",
     "subtitle": "Imate pitanja?",
@@ -117,7 +118,6 @@
       "centerdesc": "UAE i Katar su razvijene zemlje gdje preko 90% radne snage čine strani radnici, najčešće iz Nepala, Indije, Bangladeša ili Filipina. Oni služe kao dobar filter za kvalificiranu radnu snagu koja stječe iskustvo, znanje i vještine iz najsuvremenijih tehnologija i praksi."
     }
   },
-
   "process": {
     "title": "Proces zapošljavanja stranih radnika",
     "subtitle": "Sveobuhvatan pristup međunarodnom zapošljavanju",
@@ -232,7 +232,6 @@
       }
     }
   },
-
   "solutionsnavigating": {
     "title": "Navigacija kroz imigracijske zakone",
     "description": "Navigacija kroz imigracijske zakone u Europi može biti izazovna zbog različitih pravnih okvira koji reguliraju zapošljavanje stranih radnika. Tu mi stupamo na scenu kako bismo pojednostavili i ubrzali cijeli proces.",
@@ -323,7 +322,6 @@
       "pera": "Ubrzajte svoj proces zapošljavanja s našim pojednostavljenim pristupom pronalaženja, uključivanja i upravljanja talentima."
     }
   },
-
   "solutionmedical": {
     "title": "Zapošljavanje medicinskih radnika",
     "description": "Liječnici, medicinske sestre, tehničari, farmaceuti i ostali zdravstveni radnici – ovdje smo da vam pomognemo u zapošljavanju za sve medicinske pozicije.",
@@ -608,7 +606,6 @@
         "btn": "Razumijem!"
       }
     },
-
     "articlesection": {
       "title": "Čitanje o regrutaciji. Osvježeno. Precizirano.",
       "value1": {
@@ -622,7 +619,6 @@
       }
     }
   },
-
   "recruitmentcard": {
     "title": "Zapošljavanje",
     "desc1": "Optimizirajte svoje vrijeme i resurse s našim sveobuhvatnim rješenjima za zapošljavanje.",
@@ -690,7 +686,11 @@
         "title": "Zapošljavanje punog ciklusa",
         "time": "(1-4 tjedna)",
         "desc": "Pregledat ćemo kandidate na temelju vaših zahtjeva.",
-        "task": ["Pronalaženje", "Predodabir, Intervjui", "Tjedna ažuriranja"]
+        "task": [
+          "Pronalaženje",
+          "Predodabir, Intervjui",
+          "Tjedna ažuriranja"
+        ]
       },
       "card3": {
         "title": "Finaliziranje zapošljavanja",
@@ -707,7 +707,6 @@
       "title": "Industrije u kojima radimo"
     }
   },
-
   "hrconsulting": {
     "title": "HR savjetovanje",
     "desc1": "Pomažemo tvrtkama u izgradnji istaknute reputacije koja povećava vidljivost na tržištu i poboljšava rezultate zapošljavanja.",
@@ -893,7 +892,6 @@
       }
     }
   },
-
   "blogone": {
     "category": "Zapošljavanje",
     "title": "Koju nacionalnost odabrati prilikom zapošljavanja izvan Europe?",
@@ -1125,7 +1123,6 @@
       ]
     }
   },
-
   "blogthree": {
     "category": "Zapošljavanje",
     "title": "Koju nacionalnost trebate preferirati kada razmišljate izvan Europe?",
@@ -1235,7 +1232,6 @@
       ]
     }
   },
-
   "contactus": {
     "text": "KONTAKT",
     "title": "Recruitment4u je ovdje za vas i vaša pitanja — kako za tvrtke tako i za tražitelje posla.",

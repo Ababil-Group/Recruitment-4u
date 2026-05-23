@@ -31,7 +31,6 @@
     "title": "Outstaffing",
     "description": "Oferim servicii de outstaffing pentru companiile în creștere rapidă, ajutând la extinderea echipelor și creșterea productivității."
   },
-
   "homepartner": {
     "partner": "Partenerul dvs. în recrutarea de talente",
     "partnerdesc": "Suntem specializați în recrutarea și selecția lucrătorilor străini din diverse regiuni, inclusiv Asia, Golful, America de Nord și de Sud și Africa. Operând din birourile noastre centrale din Dubai, plasăm lucrători în țări precum Marea Britanie, Croația, Malta, Bulgaria, Polonia, România și alte țări europene.",
@@ -51,7 +50,6 @@
       "statedec": "Echipa noastră de 15 experți este permanent disponibilă pentru angajatori, oferind servicii de calitate maximă pentru fiecare domeniu al resurselor umane."
     }
   },
-
   "agencysection": {
     "title": "Metode moderne pentru restaurarea gloriei anterioare a afacerii agenției",
     "accordionItems1": {
@@ -89,9 +87,12 @@
     "solution5": {
       "solutiontitle": "De la leasing la intermediere",
       "solutiondesc": "Evitați riscul și economisiți timp prețios lăsând agenția să fie angajatorul dumneavoastră în perioada de probă. În acest fel, vă puteți concentra pe obiectivele de afaceri fără a vă face griji cu privire la detaliile administrative și complexitățile legale."
+    },
+    "titles": {
+      "solution": "Soluție",
+      "support": "Suport"
     }
   },
-
   "brand": {
     "title": "Parteneriatele de încredere susțin progresul nostru",
     "subtitle": "Aveți întrebări?",
@@ -117,7 +118,6 @@
       "centerdesc": "UAE și Qatar sunt țări dezvoltate în care peste 90% din populația activă este formată din lucrători străini, cel mai adesea din Nepal, India, Bangladesh sau Filipine. Ele servesc ca un bun filtru pentru forța de muncă calificată care dobândește experiență, cunoștințe și abilități din tehnologii și practici de ultimă oră."
     }
   },
-
   "process": {
     "title": "Procesul de angajare a lucrătorilor străini",
     "subtitle": "O abordare cuprinzătoare a recrutării internaționale",
@@ -232,7 +232,6 @@
       }
     }
   },
-
   "solutionsnavigating": {
     "title": "Navigarea prin legile imigrației",
     "description": "Navigarea prin legile imigrației din Europa poate fi o provocare datorită cadrelor juridice variate care guvernează angajarea muncitorilor străini. Aici intervenim noi pentru a simplifica și accelera întregul proces.",
@@ -323,7 +322,6 @@
       "pera": "Accelerați procesul de angajare cu abordarea noastră simplificată de găsire, onboarding și gestionare a talentelor."
     }
   },
-
   "solutionmedical": {
     "title": "Angajarea lucrătorilor medicali",
     "description": "Medici, asistente, tehnicieni medicali, farmaciști și alți profesioniști din domeniul sănătății – suntem aici pentru a vă sprijini în recrutarea pentru toate posturile medicale.",
@@ -599,7 +597,6 @@
         "desc5": "Aceasta nu este doar o slujbă, ci o oportunitate de leadership care modelează o organizație din interior. Veți fi înconjurat de o echipă de conducere de sprijin, un mediu de lucru colaborativ și instrumentele necesare pentru a determina schimbări semnificative.",
         "btnApply": "Aplicați. Străluciți. Reușiți"
       },
-
       "applicationpopup": {
         "title": "Gata să impresionezi?",
         "subtitle1": "Trimite CV-ul tău pe email la",
@@ -609,7 +606,6 @@
         "btn": "Am înțeles!"
       }
     },
-
     "articlesection": {
       "title": "Lecturi despre recrutare. Reîmprospătat. Rafinat.",
       "value1": {
@@ -623,7 +619,6 @@
       }
     }
   },
-
   "recruitmentcard": {
     "title": "Recrutare",
     "desc1": "Optimizați-vă timpul și resursele cu soluțiile noastre complete de recrutare.",
@@ -897,7 +892,6 @@
       }
     }
   },
-
   "blogone": {
     "category": "Recrutare",
     "title": "Ce Naționalitate Să Preferi Când Gândești în Afara Europei?",
@@ -1129,7 +1123,6 @@
       ]
     }
   },
-
   "blogthree": {
     "category": "Recrutare",
     "title": "Ce naționalitate ar trebui să preferați când vă gândiți în afara Europei?",
@@ -1239,7 +1232,6 @@
       ]
     }
   },
-
   "contactus": {
     "text": "CONTACT",
     "title": "Recruitment4u este aici pentru tine și pentru toate întrebările tale — atât pentru companii, cât și pentru candidați.",

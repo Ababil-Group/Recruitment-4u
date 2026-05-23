@@ -31,7 +31,6 @@
     "title": "Outstaffing",
     "description": "Pružamo outstaffing za brzorastuće kompanije kako bi proširile timove i povećale produktivnost."
   },
-
   "homepartner": {
     "partner": "Ваш партнер у регрутацији талената",
     "partnerdesc": "Специјализовани смо за регрутацију и избор страних радника из различитих региона, укључујући Азију, Залив, Северну и Јужну Америку и Африку. Радећи из наших централних уреда у Дубаију, запосљавамо раднике у земљама као што су УК, Хрватска, Малта, Бугарска, Пољска, Румунија и друге европске земље.",
@@ -51,7 +50,6 @@
       "statedec": "Наш тим од 15 стручњака стално је на располагању послодавцима, пружајући максимално квалитетну услугу за сваку област људских ресурса."
     }
   },
-
   "agencysection": {
     "title": "Модерне методе за враћање некадашњег сјаја пословања агенције",
     "accordionItems1": {
@@ -67,7 +65,6 @@
       "contentdec": "Приликом запослења страних радника важно је узети у обзир напоре обе укључене стране: и радника и послодавца. Да бисмо осигурали да овај труд не буде узалудан, развили смо вишефазни процес селекције кроз који кандидати морају проћи да би задовољили највише критеријуме за рад у земљама као што су УК, Хрватска, Малта, Бугарска, Пољска, Румунија и друге европске земље."
     }
   },
-
   "findsolutions": {
     "title": "Пронађите",
     "description": "Развили смо неколико пословних модела који су у потпуности прилагођени вашим потребама.",
@@ -90,9 +87,12 @@
     "solution5": {
       "solutiontitle": "Од лизинга до посредовања",
       "solutiondesc": "Избегните ризик и уштедите време тако што ће агенција бити ваш послодавац током пробног периода. На тај начин можете се фокусирати на своје пословне циљеве без бриге о административним детаљима и правним сложеностима."
+    },
+    "titles": {
+      "solution": "Rešenje",
+      "support": "Podrška"
     }
   },
-
   "brand": {
     "title": "Поуздана партнерства покрећу наш напредак",
     "subtitle": "Имате питања?",
@@ -118,7 +118,6 @@
       "centerdesc": "УАЕ и Катар су развијене земље где преко 90% радне снаге чине страни радници, најчешће из Непала, Индије, Бангладеша или Филипина. Они служе као добар филтер за квалификовану радну снагу која стиче искуство, знање и вештине из најсавременијих технологија и пракси."
     }
   },
-
   "process": {
     "title": "Процес запошљавања страних радника",
     "subtitle": "Свеобухватан приступ међународном запошљавању",
@@ -233,7 +232,6 @@
       }
     }
   },
-
   "solutionsnavigating": {
     "title": "Навигација кроз имиграционе законе",
     "description": "Навигација кроз имиграционе законе у Европи може бити изазовна због различитих правних оквира који регулишу запошљавање страних радника. Ту ми улазимо у игру да поједноставимо и убрзамо цео процес.",
@@ -294,7 +292,6 @@
       "pera": "Убрзајте свој процес запошљавања са нашим поједностављеним приступом проналажењу, укључивања и управљања талентима."
     }
   },
-
   "solutionconstruction": {
     "title": "Zapošljavanje građevinskih radnika",
     "description": "Nudimo širok spektar kvalifikovanih profesionalaca, uključujući armirače, tesare, zidare, montere metalnih konstrukcija, krovopokrivače i operatere građevinskih mašina.",
@@ -325,7 +322,6 @@
       "pera": "Ubrzajte proces zapošljavanja uz naš efikasan pristup pronalaženju, uvođenju i upravljanju radnicima."
     }
   },
-
   "solutionmedical": {
     "title": "Zapošljavanje medicinskih radnika",
     "description": "Lekari, medicinske sestre, medicinski tehničari, farmaceuti i drugi zdravstveni profesionalci – tu smo da vam pomognemo u zapošljavanju za sve medicinske pozicije.",
@@ -377,7 +373,6 @@
       "pera": "Kao rezultat godina rada u agenciji, imamo dobro definisane procese, iskustvo u zapošljavanju lokalnih i stranih radnika, kancelarije širom Hrvatske i prepoznatljivost u regionu."
     }
   },
-
   "behindthebrand": {
     "title": "Globalna IT regrutacija i zapošljavanje za kompanije koje brzo rastu",
     "description": "Pružamo našim klijentima ekskluzivne usluge regrutacije koje pomažu kompanijama da se šire i napreduju",
@@ -624,7 +619,6 @@
       }
     }
   },
-
   "recruitmentcard": {
     "title": "Regrutacija",
     "desc1": "Optimizirajte svoje vreme i resurse sa našim sveobuhvatnim rešenjima za regrutaciju.",
@@ -713,7 +707,6 @@
       "title": "Industrije u kojima radimo"
     }
   },
-
   "hrconsulting": {
     "title": "HR savetovanje",
     "desc1": "Pomažemo kompanijama da izgrade istaknutu reputaciju koja povećava vidljivost na tržištu i poboljšava rezultate zapošljavanja.",
@@ -791,7 +784,6 @@
       "title": "Industrije u kojima radimo"
     }
   },
-
   "outstaffing": {
     "title": "Аутстафинг",
     "desc": "Нудимо аутстафинг решења за предузећа која брзо расту, омогућавајући проширење тима и повећање продуктивности.",
@@ -900,7 +892,6 @@
       }
     }
   },
-
   "blogone": {
     "category": "Zapošljavanje",
     "title": "Koju nacionalnost odabrati prilikom zapošljavanja van Evrope?",
@@ -1132,7 +1123,6 @@
       ]
     }
   },
-
   "blogthree": {
     "category": "Zapošljavanje",
     "title": "Koju nacionalnost treba preferirati kada razmišljate izvan Evrope?",
@@ -1242,7 +1232,6 @@
       ]
     }
   },
-
   "contactus": {
     "text": "KONTAKT",
     "title": "Recruitment4u je tu za vas i sva vaša pitanja — i za kompanije i za tražioce posla.",

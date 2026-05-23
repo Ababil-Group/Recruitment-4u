@@ -87,6 +87,10 @@
     "solution5": {
       "solutiontitle": "Ex Locatione ad Mediationem",
       "solutiondesc": "Vitare periculum et temporis dispendium potes si nostra societas fit datori operis in probationis tempore. Sic te in negotiis tuis intendere potes sine anxietate de rebus administrativis et legibus."
+    },
+    "titles": {
+      "solution": "Solutio",
+      "support": "Auxilium"
     }
   },
   "brand": {
@@ -615,14 +619,12 @@
       }
     }
   },
-
   "recruitmentcard": {
     "title": "Conductio",
     "desc1": "Tempus et opes tuas optimize per solutiones nostras conductio integras.",
     "desc2": "Inveni ingenia quae negotium tuum crescere iuvant.",
     "buttonText": "Conventum reserva",
     "ads": "clientis",
-
     "whatsdo": {
       "title": "Quid Facimus",
       "card1": {
@@ -640,7 +642,6 @@
         "desc1": "Processum conductionis totum vel partem delega ut operationes emendes."
       }
     },
-
     "benefits": {
       "title": "Beneficia",
       "benefit1": {

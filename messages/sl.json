@@ -31,7 +31,6 @@
     "title": "Outstaffing",
     "description": "Nudimo outstaffing za hitro rastoča podjetja za povečanje timske produktivnosti."
   },
-
   "homepartner": {
     "partner": "Vaš partner pri zaposlovanju talentov",
     "partnerdesc": "Specializirani smo za zaposlovanje in izbor tujih delavcev iz različnih regij, vključno z Azijo, Zalivom, Severno in Južno Ameriko ter Afriko. Delujemo iz naših centralnih pisarn v Dubaju in zaposlujemo delavce v državah, kot so Združeno kraljestvo, Hrvaška, Malta, Bolgarija, Poljska, Romunija in druge evropske države.",
@@ -51,7 +50,6 @@
       "statedec": "Naša ekipa 15 strokovnjakov je nenehno na voljo delodajalcem in zagotavlja maksimalno kakovostne storitve za vsako področje človeških virov."
     }
   },
-
   "agencysection": {
     "title": "Moderne metode za obnovitev nekdanjega sijaja agencijskega poslovanja",
     "accordionItems1": {
@@ -67,7 +65,6 @@
       "contentdec": "Pri zaposlovanju tujih delavcev je pomembno upoštevati prizadevanja obeh vključenih strani: tako delavca kot delodajalca. Da zagotovimo, da ta prizadevanja niso zaman, smo razvili večfazni izbirni proces, skozi katerega morajo kandidati opraviti, da izpolnijo najvišje kriterije za delo v državah, kot so Združeno kraljestvo, Hrvaška, Malta, Bolgarija, Poljska, Romunija in druge evropske države."
     }
   },
-
   "findsolutions": {
     "title": "Poiščite",
     "description": "Razvili smo več poslovnih modelov, ki so popolnoma prilagojeni vašim potrebam.",
@@ -90,9 +87,12 @@
     "solution5": {
       "solutiontitle": "Od lizinga do posredovanja",
       "solutiondesc": "Izognite se tveganju in prihranite dragocen čas tako, da agencija postane vaš delodajalec v preskusnem obdobju. Na ta način se lahko osredotočite na svoje poslovne cilje brez skrbi za administrativne podrobnosti in pravne zaplete."
+    },
+    "titles": {
+      "solution": "Rešitev",
+      "support": "Podpora"
     }
   },
-
   "brand": {
     "title": "Zaupanja vredna partnerstva poganjajo naš napredek",
     "subtitle": "Imate vprašanja?",
@@ -118,7 +118,6 @@
       "centerdesc": "Združeni arabski emirati in Katar sta razviti državi, kjer več kot 90 % delovne sile sestavljajo tuji delavci, najpogosteje iz Nepala, Indije, Bangladeša ali Filipinov. Služita kot dober filter za kvalificirano delovno silo, ki pridobiva izkušnje, znanje in veščine iz najsodobnejših tehnologij in praks."
     }
   },
-
   "process": {
     "title": "Postopek zaposlovanja tujih delavcev",
     "subtitle": "Celovit pristop k mednarodnemu zaposlovanju",
@@ -154,7 +153,6 @@
     "agre": "Želim, da me kontaktira predstavnik Recruitment 4U iz moje države",
     "send": "Pošlji"
   },
-
   "forcompanies": {
     "title": "Vlagamo kapital, da pridobimo poglobljeno znanje o vsaki industriji.",
     "desc": "Z izkušnjami pri zaposlovanju v številnih panogah najdemo delavce za vse poklice, ki jih potrebujete.",
@@ -234,7 +232,6 @@
       }
     }
   },
-
   "solutionsnavigating": {
     "title": "Navigacija po priseljevalskih zakonih",
     "description": "Navigacija po priseljevalskih zakonih po Evropi je lahko zahtevna zaradi različnih pravnih okvirov, ki urejajo zaposlovanje tujih delavcev. Tu nastopimo mi, da poenostavimo in pospešimo celoten proces.",
@@ -325,7 +322,6 @@
       "pera": "Pospešite svoj postopek zaposlovanja z našim poenostavljenim pristopom k iskanju, vključevanju in upravljanju talentov."
     }
   },
-
   "solutionmedical": {
     "title": "Zaposlovanje zdravstvenih delavcev",
     "description": "Zdravniki, medicinske sestre, tehniki, farmacevti in drugi zdravstveni strokovnjaki – tukaj smo, da vam pomagamo pri zaposlovanju na vseh zdravstvenih področjih.",
@@ -377,7 +373,6 @@
       "pera": "Zaradi let dela v agenciji imamo dobro definirane procese, izkušnje pri zaposlovanju domačih in tujih delavcev, pisarne po vsej Hrvaški in prepoznavnost v regiji."
     }
   },
-
   "behindthebrand": {
     "title": "Globalno IT zaposlovanje in kadrovske rešitve za hitro rastoča podjetja",
     "description": "Svojim strankam nudimo ekskluzivne storitve zaposlovanja, ki podjetjem pomagajo rasti in uspevati",
@@ -611,7 +606,6 @@
         "btn": "Razumem!"
       }
     },
-
     "articlesection": {
       "title": "Branje o zaposlovanju. Osveženo. Izpopolnjeno.",
       "value1": {
@@ -625,7 +619,6 @@
       }
     }
   },
-
   "recruitmentcard": {
     "title": "Zaposlovanje",
     "desc1": "Optimizirajte svoj čas in vire z našimi celovitimi rešitvami za zaposlovanje.",
@@ -714,7 +707,6 @@
       "title": "Panoge, v katerih delujemo"
     }
   },
-
   "hrconsulting": {
     "title": "HR svetovanje",
     "desc1": "Pomagamo podjetjem zgraditi izjemno ugled, ki poveča vidnost na trgu in izboljša rezultate zaposlovanja.",
@@ -900,7 +892,6 @@
       }
     }
   },
-
   "blogone": {
     "category": "Zaposlovanje",
     "title": "Katero narodnost izbrati pri zaposlovanju zunaj Evrope?",
@@ -1241,7 +1232,6 @@
       ]
     }
   },
-
   "contactus": {
     "text": "KONTAKT",
     "title": "Recruitment4u je tukaj za vas in vsa vaša vprašanja — za podjetja in iskalce zaposlitve.",

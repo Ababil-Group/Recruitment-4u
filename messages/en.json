@@ -13,7 +13,6 @@
     "behindthebrand": "Behind the Brand",
     "contact": "Contact"
   },
-
   "hero": {
     "title": "We connect the right workers with the right employers.",
     "subtitle": "Find the perfect match for your business needs or career goals with our comprehensive platform.",
@@ -32,7 +31,6 @@
     "title": "Outstaffing",
     "description": "We provide outstaffing for fast-growing companies, help to grow companies' teams and increase their productivity."
   },
-
   "homepartner": {
     "partner": "Your partner in talent recruitment",
     "partnerdesc": "We specialize in recruiting and selecting foreign workers from various regions, including Asia, the Gulf, North and South America, and Africa. Operating from our central offices in Dubai, we place workers in countries such as the UK, Croatia, Malta, Bulgaria, Poland, Romania, and other European nations.",
@@ -67,7 +65,6 @@
       "contentdec": "When hiring foreign workers, it is important to consider the efforts of both parties involved: both the worker and the employer. To ensure that this effort is not in vain, we have developed a multi-phase selection process through which candidates must pass to meet the highest criteria for work in such countries as the UK, Croatia, Malta, Bulgaria, Poland, Romania, and other European Countries"
     }
   },
-
   "findsolutions": {
     "title": "Find",
     "description": "We have developed several business models that are fully tailored to your needs.",
@@ -90,9 +87,12 @@
     "solution5": {
       "solutiontitle": "From Leasing to Mediation",
       "solutiondesc": "Avoid risk and save valuable time by having the agency become your employer during the probation period. This way you can focus on your business goals without worrying about administrative details and legal complexities."
+    },
+    "titles": {
+      "solution": "Solution",
+      "support": "Support"
     }
   },
-
   "brand": {
     "title": "Trusted Partnerships Power Our Progress",
     "subtitle": " Got Questions?",
@@ -118,7 +118,6 @@
       "centerdesc": "The UAE and Qatar are developed countries where over 90% of the working population consists of foreign workers, most often from Nepal, India, Bangladesh or the Philippines. They serve as a good filter for qualified labor that gains experience, knowledge, and skills from cutting-edge technologies and practices."
     }
   },
-
   "process": {
     "title": "The Process of Hiring Foreign Workers",
     "subtitle": " A comprehensive approach to international recruitment",
@@ -154,7 +153,6 @@
     "agre": "I would like to be contacted by a Recruitment 4U representative from my country",
     "send": "Send"
   },
-
   "forcompanies": {
     "title": "We invest capital to gain in-depth knowledge of every industry.",
     "desc": " With experience in recruitment across numerous industries, we find workers for all the professions you need.",
@@ -234,7 +232,6 @@
       }
     }
   },
-
   "solutionsnavigating": {
     "title": "Navigating immigration laws",
     "description": "Navigating immigration laws across Europe can be challenging due to the varying legal frameworks governing the employment of foreign workers. That’s where we come into simplify and accelerate the entire process.",
@@ -296,7 +293,6 @@
       "pera": "Accelerate your hiring process with our streamlined approach to sourcing, onboarding, and managing talent."
     }
   },
-
   "solutionconstruction": {
     "title": "Employment of construction workers",
     "description": "We offer a wide range of skilled professionals, including armourers, carpenters, masons, metal structure fitters, roofers, and construction machinery operators.",
@@ -327,7 +323,6 @@
       "pera": "Accelerate your hiring process with our streamlined approach to sourcing, onboarding, and managing talent."
     }
   },
-
   "solutionmedical": {
     "title": "Employment of medical workers",
     "description": "Doctors, nurses, medical technicians, pharmacists, and other healthcare professionals – we are here to assist you with recruiting for all medical roles..",
@@ -336,9 +331,7 @@
       "boldtext": "The challenge of finding qualified medical personnel, particularly in specialized fields such as healthcare, is a complex issue facing many healthcare facilities across Europe.",
       "peragraphs": [
         "In Europe, the healthcare sector faces similar challenges as many other regions in finding and retaining qualified medical personnel. The demand for skilled healthcare professionals, including doctors, nurses, pharmacists, and technicians, continues to grow due to factors such as an aging population, advances in medical treatments, and evolving healthcare needs.",
-
         "The demand for medical professionals continues to increase, driven by factors like population growth, an aging demographic, and advancements in medical technology.",
-
         "Europe's healthcare system relies on a combination of public and private institutions, each with unique staffing needs. While the continent’s medical workforce is highly skilled, there are often shortages in certain specialties or regions, leading to gaps in patient care and increased workloads on existing staff.",
         "Healthcare facilities also face difficulties in accurately forecasting their staffing needs, resulting in shortages during critical periods. This unpredictability can disrupt patient care and strain the workload of existing staff."
       ]
@@ -361,7 +354,6 @@
       "pera": "Accelerate your hiring process with our streamlined approach to sourcing, onboarding, and managing talent."
     }
   },
-
   "whyus": {
     "title": " Why Us",
     "description": " We are a recruitment agency that specializes in connecting companies with the right talent.",
@@ -382,7 +374,6 @@
       "pera": "As a result of years of agency work, we have well-defined processes, experience in hiring local and foreign workers, office all across Croatia, and visibility across the region."
     }
   },
-
   "behindthebrand": {
     "title": "Global tech recruitment & staffing for fast-growing companies",
     "description": "We supply our clients with exclusive recruitment services helping businesses scale and prosper",
@@ -413,7 +404,6 @@
         "description": "Experienced recruiter with higher-level responsibilities, including mentoring junior staff and handling key accounts.",
         "btnText": "Say Hello to Your Next Job"
       },
-
       "team3": {
         "name": "Sales Representative",
         "description": "Finds and secures new clients, promotes services, and negotiates contracts. Targets lead generation and agency growth.",
@@ -455,7 +445,6 @@
         "description": "Works closely with teams in sales and support teams in source countries to ensure smooth arrival of the workers and provide support to the clients.",
         "btnText": "We’d Love to Meet You"
       },
-
       "teamdetails1": {
         "title": "Sales Manager",
         "subtitle": "Leadership role with strategic impact",
@@ -487,7 +476,6 @@
         "desc7": "We're looking for experienced, passionate, and strategic-minded individuals to join our team as Senior Recruitment Consultants. If you thrive on mentoring others, managing key accounts, and making an impact this role is for you.",
         "btnApply": "Apply. Shine. Succeed"
       },
-
       "teamdetails3": {
         "title": "Sales Representative",
         "subtitle": "High-impact role driving business growth",
@@ -544,7 +532,6 @@
         "desc6": "This is your chance to shape the future of how we hire not just for today, but for what comes next.",
         "btnApply": "Apply. Shine. Succeed"
       },
-
       "teamdetails5": {
         "title": "Branch Manager / Office Manager",
         "subtitle": "Strategic role in talent acquisition",
@@ -620,7 +607,6 @@
         "btn": "Got it!"
       }
     },
-
     "articlesection": {
       "title": "Recruitment reads. Refreshed. Refined.",
       "value1": {
@@ -634,14 +620,12 @@
       }
     }
   },
-
   "recruitmentcard": {
     "title": "Recruitment",
     "desc1": " Optimize your time and resources with our comprehensive recruitment solutions.",
     "desc2": "Find the talent you need to drive business growth.",
     "buttonText": "Book a call",
     "ads": "client",
-
     "whatsdo": {
       "title": "What We Do",
       "card1": {
@@ -659,7 +643,6 @@
         "desc1": "Outsource part or all of your recruitment process to streamline hiring operations."
       }
     },
-
     "benefits": {
       "title": "Benefits",
       "benefit1": {
@@ -687,7 +670,6 @@
         "desc": "Dedicated manager and recruiter for each client."
       }
     },
-
     "ourprocess": {
       "title": "Our Process",
       "desc": " Reduce time to hire. We&apos;ll provide you with the first  candidates within 3-5 days.",
@@ -695,13 +677,21 @@
         "title": "Step 1: Submit Your Requirements",
         "time": "(1-3 days)",
         "desc": "Provide us with your job description and requirements.",
-        "task": [" Company Overview", " Vacancy Details", " Contract Signing"]
+        "task": [
+          " Company Overview",
+          " Vacancy Details",
+          " Contract Signing"
+        ]
       },
       "card2": {
         "title": "Full-Cycle Recruiting",
         "time": "(1-4 weeks)",
         "desc": "We will screen candidates based on your requirements.",
-        "task": [" Sourcing", " Pre-screening, Interviews", " Weekly Updates"]
+        "task": [
+          " Sourcing",
+          " Pre-screening, Interviews",
+          " Weekly Updates"
+        ]
       },
       "card3": {
         "title": "Finalizing the Hire",
@@ -718,7 +708,6 @@
       "title": "Industries We Work In"
     }
   },
-
   "hrconsulting": {
     "title": "HR consulting",
     "desc1": " We assist businesses in building a distinguished reputation that enhances visibility in the market and improves hiring outcomes.",
@@ -764,7 +753,6 @@
         "desc": "Enhance recruitment strategies and support hiring efforts for superior results."
       }
     },
-
     "ourprocess": {
       "title": "Our Process",
       "desc": "Accelerate hiring timelines—we’ll deliver initial candidate profiles within 3-5 days.",
@@ -797,7 +785,6 @@
       "title": "Industries We Work In"
     }
   },
-
   "outstaffing": {
     "title": "Outstaffing",
     "desc": "We offer outstaffing solutions for rapidly growing businesses, enabling team expansion and boosting productivity.",
@@ -842,7 +829,6 @@
     "industries": {
       "title": "Industries We Work In"
     },
-
     "outstack": {
       "title": "Stack / Specialization",
       "box1": {
@@ -907,7 +893,6 @@
       }
     }
   },
-
   "blogone": {
     "category": "Recruiting",
     "title": "Which Nationality Should You Prefer When You Think Outside Europe?",
@@ -951,7 +936,6 @@
           "type": "text",
           "content": "<strong>How Recruitment-4u Finds the Right International Candidates</strong>"
         },
-
         {
           "type": "text",
           "content": "At Recruitment-4u, we use a multi-step approach to source and deliver top talent. First, we dig deep into our global candidate databases, and job boards. We go beyond passive sourcing; we use real-time analytics to identify professionals who match your job description, company culture, and growth goals."
@@ -980,7 +964,6 @@
           "type": "text",
           "content": "<strong>why clients across Europe trust us with their international hiring:</strong>"
         },
-
         {
           "type": "html",
           "content": "<ul class='space-y-2 list-disc my-4'><p class='text-lg mb-10 text-primary leading-relaxed'>why clients across Europe trust us with their international hiring:</p><li><span class='mr-3'>✅</span><span class='font-black'>Access to English-speaking professionals...</span></li><li><span class='mr-3'>✅</span><span class='font-black'>End-to-end recruitment support...</span></li><li><span class='mr-3'>✅</span><span class='font-black'>Compliance knowledge...</span></li><li><span class='mr-3'>✅</span><span class='font-black'>Cost-effective and time-saving hiring processes</span></li></ul>"
@@ -1001,7 +984,6 @@
           "type": "html",
           "content": "<ul class='space-y-2 list-decimal my-4'><li><strong>Check their international reach</strong>– Does the agency have strong candidate pipelines in high-potential regions?</li><li><strong>Assess compliance knowledge</strong>–Can they advise on cross-border hiring, payroll, or visa processes? </li><li><strong>Evaluate communication</strong>– Can they align with your company values and understand your team culture? </li></ul>"
         },
-
         {
           "type": "text",
           "content": "At Recruitment-4u, we tick all the boxes. Our global presence, data-driven methods, and personal approach make us a trusted partner for businesses across Europe."
@@ -1029,7 +1011,6 @@
       ]
     }
   },
-
   "blogtwo": {
     "category": "Recruiting",
     "title": "Should You Rely on an Agency That Charges a High Amount? Things to Consider Before Choosing a Recruitment Partner to Build a Great Team in Europe",
@@ -1252,14 +1233,12 @@
       ]
     }
   },
-
   "contactus": {
     "text": "CONTACT",
     "title": " Recruitment4u is here for you and all your questions — both for companies and job seekers.",
     "btnText": "Offices",
     "letscontact": "Let’s Connect"
   },
-
   "footer": {
     "title": "About Us",
     "desc": " Recruitment4u is registered for activities related to employment mediation and temporary employment of workers.",
