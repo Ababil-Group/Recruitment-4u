@@ -1,7 +1,7 @@
 "use client";
 // import { toast } from "sonner";
 import { useState } from "react";
-import { Mail, MapPin } from "lucide-react";
+import { Mail } from "lucide-react";
 import { motion } from "framer-motion";
 import ContactCard from "@/components/common/ContactCard";
 import { toast } from "sonner";
@@ -105,13 +105,13 @@ export const ContactForm = () => {
                   icon={<Mail className="w-10 h-10 text-primary" />}
                 />
               </div>
-              <div className="mt-6 sm:mt-8 space-y-4">
+              {/* <div className="mt-6 sm:mt-8 space-y-4">
                 <ContactCard
                   label="Head Office"
                   text="Str. Sg. Constantin Moise 5 D BUCURESTI, Loc. SECTORUL 6"
                   icon={<MapPin className="w-10 h-10 text-primary" />}
                 />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-span-7 max-xl:col-span-12">

@@ -4,7 +4,7 @@ export default function ContactMap() {
   const t = useTranslations("footer");
   return (
     <div id="offices">
-      <ContactMapCard
+      {/* <ContactMapCard
         title={t("location1.title")}
         address={t("location1.desc")}
         // phone="+385 1 6064 420"
@@ -12,7 +12,7 @@ export default function ContactMap() {
         hours="Workdays 08:30 – 16:30"
         mapEmbedUrl="https://maps.google.com/maps?width=600&height=400&hl=en&q=Str.%20Sg.%20Constantin%20Moise%205%20D%20BUCURESTI%2C%20Loc.%20SECTORUL%206&t=&z=14&ie=UTF8&iwloc=B&output=embed" // Use the correct embed link
         mapLink="https://www.google.com/maps/search/Str.+Sg.+Constantin+Moise+5+D+BUCURESTI,+Loc.+SECTORUL+6/@44.4294868,26.0369059,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D" // Optional
-      />
+      /> */}
       <ContactMapCard
         title={t("location2.title")}
         address={t("location2.desc")}

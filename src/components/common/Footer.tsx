@@ -14,10 +14,10 @@ import { useTranslations } from "next-intl";
 const Footer = () => {
   const t = useTranslations("footer");
   const locations = [
-    {
-      country: t("location1.title"),
-      address: t("location1.desc"),
-    },
+    // {
+    //   country: t("location1.title"),
+    //   address: t("location1.desc"),
+    // },
     {
       country: t("location2.title"),
       address: t("location2.desc"),
